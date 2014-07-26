@@ -30,3 +30,4 @@ item2_mv:
 
 clean:
 	rm -f plot_genes_ManyDiseasesdist*
+	rm -f $(DAT)/genes_ManyDiseases_NCBI_sorted_distLT*.txt

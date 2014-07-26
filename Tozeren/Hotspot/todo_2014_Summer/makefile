@@ -2,19 +2,19 @@ SCR := ../../../PyBiocode/hotspot/
 DAT := ../data/
 DIS := $(DAT)/genes_ManyDiseases_NCBI_sorted.txt
 
-item2: item2_pltscr item2_chmod item2_plt
+item2: item2_mktxt
 
-item2_pltscr:
+item2_mktxt:
 	$(SCR)/clu_NCBI_genes.py $(DIS)  20000
 	$(SCR)/clu_NCBI_genes.py $(DIS)  50000
 	$(SCR)/clu_NCBI_genes.py $(DIS) 100000
 
-item2_chmod:
-	chmod 755 $(DAT)/genes_ManyDiseases_NCBI_sorted_distLT20000.txt
-	chmod 755 $(DAT)/genes_ManyDiseases_NCBI_sorted_distLT50000.txt
-	chmod 755 $(DAT)/genes_ManyDiseases_NCBI_sorted_distLT100000.txt
+item2_pltscr:
+	$(SCR)/plt_NCBI_genes.py $(DAT)/genes_ManyDiseases_NCBI_sorted_distLT20000.txt
+	$(SCR)/plt_NCBI_genes.py $(DAT)/genes_ManyDiseases_NCBI_sorted_distLT50000.txt
+	$(SCR)/plt_NCBI_genes.py $(DAT)/genes_ManyDiseases_NCBI_sorted_distLT100000.txt
 
 item2_plt:
-	$(DAT)/genes_ManyDiseases_NCBI_sorted_distLT20000.txt
-	$(DAT)/genes_ManyDiseases_NCBI_sorted_distLT50000.txt
-	$(DAT)/genes_ManyDiseases_NCBI_sorted_distLT100000.txt
+	plot_genes_ManyDiseasesdistLT20000.py
+	plot_genes_ManyDiseasesdistLT50000.py
+	plot_genes_ManyDiseasesdistLT100000.py

@@ -1,1 +1,0 @@
-# Initialize the hotspot subpackage.

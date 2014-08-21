@@ -4,7 +4,7 @@ biodownloads
 Downloads from biological databases
 
 
-./UCSC/hsa/cytoBandIdeo.txt:
+[./UCSC/hsa/cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt):
 Human Genome: Dec 2013 hg38, GRCh38
 From: http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz
 

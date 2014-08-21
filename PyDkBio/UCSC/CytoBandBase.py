@@ -28,7 +28,7 @@
 
 # To cite this script, please use: 
 #
-# Klopfenstein D.V. (2014) Storage and Python Access to UCSC's Cytoband Data In A Species-Independent Manner (Version 2.0) [Computer program]. Available at https://github.com/dklopfenstein/biocode/tree/master/ (Accessed [NN Month 20NN])
+# Klopfenstein D.V. (2014) Storage and Python Access to UCSC's Cytoband Data In A Species-Independent Manner (Version 2.0) [Computer program]. Available at https://github.com/dklopfenstein/biocode/blob/master/PyDkBio/UCSC/CytoBandBase.py (Accessed [NN Month 20NN])
 
 class CytoBandBase:
   """Python Interface to UCSC cytoBandIdeo.txt information."""

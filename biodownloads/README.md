@@ -13,9 +13,9 @@ etc.) are the name of the banc in accordance with the standatds defined by the I
 stalk: refers to the short arm of acrocentric chromosomes ch13, 14, 15, 21, 22
 etc.) refer to the coloring seen in the UCSC Browser graphic
 
-gneg: is a light stain
-gpos: is a dark stain ([dark] gpos25, gpos50, gpos75, and gpos100 [darkest])
-acen: short for acrocentric; bands adjacent to centromere.
-gvar: variable heterochromatic regions; either pericentric or telomeric
-stalk: regions on the short arms of the acrocentric chromosomes ch13, 14, 15, 21, 22 that have a "stalk-like" appearance.
+* gneg: is a light stain
+* gpos: is a dark stain ([dark] gpos25, gpos50, gpos75, and gpos100 [darkest])
+* acen: short for acrocentric; bands adjacent to centromere.
+* gvar: variable heterochromatic regions; either pericentric or telomeric
+* stalk: regions on the short arms of the acrocentric chromosomes ch13, 14, 15, 21, 22 that have a "stalk-like" appearance.
 

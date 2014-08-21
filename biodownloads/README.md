@@ -4,8 +4,8 @@
 
 # Biodownloads Details
 
-## <a name="cytoBandIdeo"></a>[cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt) from UCSC's Human Genome released [Dec 2013 hg38, GRCh38] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)
-Human Genome: Dec 2013 hg38, GRCh38
+## <a name="cytoBandIdeo"></a>[cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt) 
+From UCSC's Human Genome released: Dec 2013 hg38, GRCh38
 From: http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz
 
 The *Ideo* file underlies the graphic display of the cytoband data in the small ideogram graphic above the main UCSC Browser display. Items in the last column (e.g. gneg, gpos, gvar, stalk, acen, etc.) are the names of the band in accordance with the standards defined by the ISCN 1995 manual and are used to the coloring seen in the UCSC Browser graphic.

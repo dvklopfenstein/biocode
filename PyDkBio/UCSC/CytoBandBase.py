@@ -54,34 +54,38 @@ class CytoBandBase:
     """Return dictionary with list index as the key and value as commonly known Chromosome name."""
     return [sChr for sChr in self.chr_i2s]
 
-  def get_gvarL(self, idx):
+  def get_gvarL(self, chr_idx):
     """Return the length of the gvar areas on a chromosome, if they exist."""
-    if self.gvars[idx] is not None:
+    if self.gvars[chr_idx] is not None:
       L = 0
-      for E in self.gvars[idx]:
+      for E in self.gvars[chr_idx]:
         L += E[2] # Add lengths of each gvar on a chromosome
       return L # return total gvar length
     else:
       return None
 
-  def get_stalkL(self, idx):
+  def get_stalkL(self, chr_idx):
     """Return the length of the stalk areas on a chromosome, if they exist."""
-    if self.stalks[idx] is not None:
+    if self.stalks[chr_idx] is not None:
       L = 0
-      for E in self.stalks[idx]:
+      for E in self.stalks[chr_idx]:
         L += E[2] # Add lengths of each gvar on a chromosome
       return L # return total gvar length
     else:
       return None
 
-  def get_lens(self, idx): 
+  def get_lens(self, chr_idx): 
     """Return a list containing the length of each chromosome."""
     return self.lengths
 
-  def get_len(self, idx):
+  def get_len(self, chr_idx):
     """Get the length of one particular chromosome."""
-    if idx < self.num_chr:
-      return self.lengths[idx]
+    if chr_idx < self.num_chr:
+      return self.lengths[chr_idx]
+
+  def get_len_genome(self):
+    """Returns the sum of the length of all chromosomes."""
+    return sum( self.lengths )
     
   def get_iChr(self, sChr):
     """Given the commonly known chromosome name, return the chr list index used by this class."""
@@ -89,11 +93,24 @@ class CytoBandBase:
       return self.chr_s2i[sChr]
     return None
 
-  def get_sChr(self, idx):
+  def get_max_bp(self, chr_idx):
+    """Returns the largest base pair in the UCSC file for a given chromosome.""" 
+    # TBD
+    
+  def get_map_loc(self, chr_idx, bp, gtMax=None):
+    """Given a chromosome and a base pair value, return a cyto map location.
+       
+    gtMax = None:  If 'bp' > the max_bp, return the map location for the largest bp value.
+    gtMax = Value: If 'bp' >
+    """
+    # TBD
+    return None
+
+  def get_sChr(self, chr_idx):
     """Given a chromosome list index, return the commonly known chromosome name."""
-    if idx is not None and idx < self.num_chr:
-      return self.chr_i2s[idx]
-    raise Exception("\n**\n** FATAL: CANNOT DETERMINE CHR NAME WITH ({})\n**\n".format(idx))
+    if chr_idx is not None and chr_idx < self.num_chr:
+      return self.chr_i2s[chr_idx]
+    raise Exception("\n**\n** FATAL: CANNOT DETERMINE CHR NAME WITH ({})\n**\n".format(chr_idx))
 
   def cen_get_len(self, iChr): 
     """Return the length of the centromere, given a chromosome list index."""

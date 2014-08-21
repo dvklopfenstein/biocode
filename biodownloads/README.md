@@ -1,8 +1,8 @@
-# biodownloads Summary
+# Biodownloads Summary
 
-* [cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt) from UCSC
+* [cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt) from UCSC's Human Genome released [Dec 2013 hg38, GRCh38] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)
 
-# biodownloads Details
+# Biodownloads Details
 
 ## [./UCSC/hsa/cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt):
 Human Genome: Dec 2013 hg38, GRCh38

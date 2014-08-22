@@ -47,8 +47,9 @@ class CytoBandBase:
     self.lengths = data['lengths']
     # Data
     self.centromeres = data['centromeres']
-    self.gvars   = data['gvars']
-    self.stalks  = data['stalks']
+    self.gvars    = data['gvars']
+    self.stalks   = data['stalks']
+    self.map2info = data['map2info']
 
   def get_sChr_list(self):
     """Return dictionary with list index as the key and value as commonly known Chromosome name."""
@@ -95,15 +96,25 @@ class CytoBandBase:
 
   def get_max_bp(self, chr_idx):
     """Returns the largest base pair in the UCSC file for a given chromosome.""" 
-    # TBD
+    return self.get_len(chr_idx)
     
-  def get_map_loc(self, chr_idx, bp, gtMax=None):
+  def get_map_loc(self, chr_idx, bp, ret_max=None):
     """Given a chromosome and a base pair value, return a cyto map location.
        
     gtMax = None:  If 'bp' > the max_bp, return the map location for the largest bp value.
     gtMax = Value: If 'bp' >
     """
-    # TBD
+    # Search for bp in UCSC's data and return the UCSC cytomap
+    for cmap in self.map2info[chr_idx]:
+      elem = self.map2info[chr_idx][cmap]
+      if bp >= elem[0] and bp <= elem[1]:
+        return cmap
+
+    # If there is no cytomap found for the user's 'bp' value...
+
+    # Return cytomap at the highest bp value, if the user specifies ret_max=True
+    if ret_max is True and bp > self.get_max_bp(chr_idx):
+      return self.map2info[chr_idx][-1]
     return None
 
   def get_sChr(self, chr_idx):

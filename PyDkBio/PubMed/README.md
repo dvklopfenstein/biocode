@@ -1,4 +1,13 @@
+# Quick-Start Information
 
-http://www.ncbi.nlm.nih.gov/books/NBK25498/#chapter3.ESearch__ESummaryEFetch
+TBD
 
-http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch (See Table 1 for values for: rettype, retmode)
+
+# Handy Entrez Documentation
+* [ESearch] (http://www.ncbi.nlm.nih.gov/books/NBK25499/#_chapter4_ESearch_)
+* [EFetch] (http://www.ncbi.nlm.nih.gov/books/NBK25498/#chapter3.ESearch__ESummaryEFetch)
+
+
+## Handy Entrez Tables:
+* [Table for Valid values of &retmode and &rettype for EFetch] (http://www.ncbi.nlm.nih.gov/books/NBK25499/table/chapter4.chapter4_table1/?report=objectonly)
+* [Table for Entrez Unique Identifiers (UIDs)] (http://www.ncbi.nlm.nih.gov/books/NBK25497/#chapter2.chapter2_table1) for selected databases

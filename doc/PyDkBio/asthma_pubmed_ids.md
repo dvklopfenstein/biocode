@@ -2,7 +2,7 @@
 * Query: `asthma[mesh] AND leukotrienes[mesh] AND "last 6 months" [DP]`
 * Date: 2014-08-24
 
-# Table of (6 PubMed IDs) [https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids_IDs.tsv] returned with query
+# Table of [6 PubMed IDs] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids_IDs.tsv) returned with query
 
 | PMID        | Pub           | Title |
 | ----------- |:-------------:|:----- |

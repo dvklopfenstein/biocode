@@ -1,12 +1,11 @@
-# <a name=top></a>For tasks using NCBI's EUtils that I do frequently, like:
+# <a name=top></a>Scripts for frequently done lab tasks:
 
-* [Getting NCBI PubMed abstracts] (#abstracts):
-* [Getting NCBI Gene Lists] (#gene_lists):
-
-
+* [**Searching for and downloading NCBI PubMed abstracts**] (#abstracts)
+* [**Searching for and downloading NCBI Gene Lists**] (#gene_lists)
 
 
-## <a name=abstracts></a>[Getting PubMed abstracts] (#top):
+
+## Task: <a name=abstracts></a>[**Searching for and downloading NCBI PubMed abstracts**] (#top):
 
 1. Get PMIDs through the GUI at http://www.ncbi.nlm.nih.gov/pubmed:
 
@@ -20,6 +19,6 @@ get_abstracts(
   query  = 'asthma[mesh] AND leukotrienes[mesh] AND "last 6 months" [DP]')
 ```
 
-Writes the markdown text file, [asthma_pubmed_ids.md] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids.md)
+Writes the abstracts into the markdown text file, [asthma_pubmed_ids.md] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids.md)
 
-## <a name=gene_lists></a>[Getting NCBI Gene Lists] (#top):
+## Task: <a name=gene_lists></a>[**Searching for and downloading NCBI Gene Lists**] (#top):

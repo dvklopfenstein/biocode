@@ -1,7 +1,7 @@
 # <a name=top></a>Scripts for frequently done lab tasks:
 
-* [Original] (#abstracts_gui), [Faster] (#abstracts_scripts): **Searching for and downloading NCBI PubMed abstracts**
-* [Original] (#gene_lists_gui), [Faster] (#gene_lists_scripts): **Searching for and downloading NCBI Gene Lists**
+* [Original] (#abstracts_gui) and [Faster] (#abstracts_scripts): **Searching for and downloading NCBI PubMed abstracts**
+* [Original] (#gene_lists_gui) and [Faster] (#gene_lists_scripts): **Searching for and downloading NCBI Gene Lists**
  
 
 

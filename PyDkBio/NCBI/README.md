@@ -7,11 +7,13 @@
 
 ## Task: <a name=abstracts></a>[**Searching for and downloading NCBI PubMed abstracts**] (#top):
 
-1. Get PMIDs through the GUI at http://www.ncbi.nlm.nih.gov/pubmed:
+1. Get PMIDs through the **GUI** at http://www.ncbi.nlm.nih.gov/pubmed:
 
 (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/PubMed_search.png)
 
-2. Get PMIDs through the NCBI eutils using biopython and the function:
+2. Get PMIDs through **scripts** accessing NCBI eutils using biopython:
+
+This:
 ```
 get_abstracts(
   'asthma_pubmed_ids.md',    # Markdown text File written and filled with PubMed Abstracts

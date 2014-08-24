@@ -16,7 +16,7 @@
 This:
 ```
 get_abstracts(
-  'asthma_pubmed_ids.md',    # Markdown text File written and filled with PubMed Abstracts
+  'asthma_pubmed_ids.md', 
   email  = 'myemail@gmail.com',
   query  = 'asthma[mesh] AND leukotrienes[mesh] AND "last 6 months" [DP]')
 ```

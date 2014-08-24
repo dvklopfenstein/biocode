@@ -21,8 +21,8 @@ get_abstracts(
   query  = 'asthma[mesh] AND leukotrienes[mesh] AND "last 6 months" [DP]')
 ```
 
-Writes selected abstracts into a markdown text file, [**asthma_pubmed_ids.md**] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids.md)
+Writes selected abstracts into a markdown text file: [**asthma_pubmed_ids.md**] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids.md)
 
 ## Task: <a name=gene_lists></a>[**Searching for and downloading NCBI Gene Lists**] (#top):
-1. <a name=gene_lists_gui></a>**Original**: Get Gene Lists through the **GUI** at http://www.ncbi.nlm.nih.gov/gene:
-2. <a name=gene_lists_scripts></a>**Faster**: Get Gene Lists through **scripts** accessing NCBI eutils using biopython:
+1. <a name=gene_lists_gui></a>**Original**: Get Gene Lists through the **GUI** at http://www.ncbi.nlm.nih.gov/gene (TBD)
+2. <a name=gene_lists_scripts></a>**Faster**: Get Gene Lists through **scripts** accessing NCBI eutils using biopython (TBD)

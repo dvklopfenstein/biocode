@@ -2,16 +2,16 @@
 
 * [GUI] (#abstracts_gui) [scripts] (#abstracts_scripts) [**Searching for and downloading NCBI PubMed abstracts**] (#abstracts)
 * [GUI] (#gene_lists_gui) [scripts] (#gene_lists_scripts) [**Searching for and downloading NCBI Gene Lists**] (#gene_lists)
-
+ 
 
 
 ## Task: <a name=abstracts></a>[**Searching for and downloading NCBI PubMed abstracts**] (#top):
 
-1. <a name=abstracts_gui></a>Original: Get PMIDs through the **GUI** at http://www.ncbi.nlm.nih.gov/pubmed:
+**1**. <a name=abstracts_gui></a>Original: Get PMIDs through the **GUI** at http://www.ncbi.nlm.nih.gov/pubmed:
 
-  ![NCBI Pubmed](https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/PubMed_search.png)
+  ![NCBI Pubmed](https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_GUI.png)
 
-2. <a name=abstracts_scripts></a>Get PMIDs through **scripts** accessing NCBI eutils using biopython:
+**2**. <a name=abstracts_scripts></a>Faster: Get PMIDs through **scripts** accessing NCBI eutils using biopython:
 
 This:
 ```
@@ -25,4 +25,4 @@ Writes the abstracts into the markdown text file, [asthma_pubmed_ids.md] (https:
 
 ## Task: <a name=gene_lists></a>[**Searching for and downloading NCBI Gene Lists**] (#top):
 1. <a name=gene_lists_gui></a>Original: Get PMIDs through the **GUI** at http://www.ncbi.nlm.nih.gov/pubmed:
-2. <a name=gene_lists_scripts></a>Get PMIDs through **scripts** accessing NCBI eutils using biopython:
+2. <a name=gene_lists_scripts></a>Faster: Get PMIDs through **scripts** accessing NCBI eutils using biopython:

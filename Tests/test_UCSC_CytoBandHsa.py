@@ -21,8 +21,8 @@ class CytoBandHsa_Tests(unittest.TestCase):
       sys.stdout.write('{:>2} {:>2} {:9}=L centromere({:7}=L {:9}=start {:9}=end)\n'.format(
         iChr,
         O.get_sChr(iChr),
-        O.get_len(iChr),
         chrL,
+        O.cen_get_len(iChr),
         O.cen_get_start(iChr),
         O.cen_get_end(iChr)))
 
@@ -32,6 +32,7 @@ class CytoBandHsa_Tests(unittest.TestCase):
     # Get the length of this chromosome
     L = O.get_len(iChr) 
     # Choose 10 bp numbers randomly less than the length of the Chromosome
+    sys.stdout.write('\nchr       bp cytomap\n')
     for i in range(10):
       bp = randrange(L)
       self.prt_bp_map(sys.stdout, iChr, bp, O.get_map_loc(iChr, bp))
@@ -39,7 +40,7 @@ class CytoBandHsa_Tests(unittest.TestCase):
     self.prt_bp_map(sys.stdout, iChr, L, O.get_map_loc(iChr, L+10))
     
   def prt_bp_map(self, PRT, iChr, bp, cmap):
-    PRT.write('chr={:2} {:9}=bp {:10}=cytomap\n'.format(
+    PRT.write('{:>2} {:9} {:10}\n'.format(
       O.get_sChr(iChr), bp, O.get_map_loc(iChr, bp)))
 
 

@@ -13,7 +13,7 @@
 
 **2**. <a name=abstracts_scripts></a>**Faster**: Get PMIDs through **scripts** accessing NCBI eutils using biopython:
 
-This:
+This function call in a Python script:
 ```
 get_abstracts(
   'asthma_pubmed_ids.md', 
@@ -21,7 +21,7 @@ get_abstracts(
   query  = 'asthma[mesh] AND leukotrienes[mesh] AND "last 6 months" [DP]')
 ```
 
-**Script Output**: Writes the abstracts into the markdown text file, [**asthma_pubmed_ids.md**] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids.md)
+**Script Output:** Writes the abstracts into the markdown text file, [**asthma_pubmed_ids.md**] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids.md)
 
 ## Task: <a name=gene_lists></a>[**Searching for and downloading NCBI Gene Lists**] (#top):
 1. <a name=gene_lists_gui></a>**Original**: Get Gene Lists through the **GUI** at http://www.ncbi.nlm.nih.gov/gene:

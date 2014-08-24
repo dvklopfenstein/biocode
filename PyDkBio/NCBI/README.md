@@ -1,4 +1,4 @@
-<a name=top></a># For tasks using NCBI's EUtils that I do frequently, like:
+# <a name=top></a>For tasks using NCBI's EUtils that I do frequently, like:
 
 * [Getting NCBI PubMed abstracts] (#abstracts):
 * [Getting NCBI Gene Lists] (#gene_lists):
@@ -6,7 +6,7 @@
 
 
 
-<a name=abstracts></a>## [Getting PubMed abstracts] (#top):
+## <a name=abstracts></a>[Getting PubMed abstracts] (#top):
 
 1. Get PMIDs through the GUI at http://www.ncbi.nlm.nih.gov/pubmed:
 
@@ -22,4 +22,4 @@ get_abstracts(
 
 Writes the markdown text file, [asthma_pubmed_ids.md] (https://github.com/dklopfenstein/biocode/blob/master/doc/PyDkBio/asthma_pubmed_ids.md)
 
-<a name=gene_lists></a>## [Getting NCBI Gene Lists] (#top):
+## <a name=gene_lists></a>[Getting NCBI Gene Lists] (#top):

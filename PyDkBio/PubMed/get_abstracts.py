@@ -4,14 +4,6 @@
    Requires the biopython package.
 """
 
-import sys
-import os
-import datetime
-
-from Bio import Entrez
-from Bio import Medline
-
-import PyDkBio.NCBI.ESearch_Action_Helpers as FT
 import PyBiocode.NCBI.EUtils_Apps as EA
 
 

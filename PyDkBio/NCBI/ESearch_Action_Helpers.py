@@ -41,8 +41,7 @@ def EFetch_and_write(db, retmax, fout, typemode, record):
   """
   tsv, log = get_log_names(fout)
   TSV = open(tsv, 'w')
-  LOG = open(log, 'w')
-  chk_num_IDs(LOG, record)
+  chk_num_IDs(sys.stdout, record)
   for ID in record['IdList']:
     TSV.write('{}\n'.format(ID))
 
@@ -67,8 +66,7 @@ def EFetch_and_write(db, retmax, fout, typemode, record):
   # Close files
   N = len(record['IdList'])
   FOUT.close(); sys.stdout.write("  WROTE: {}\n".format(fout))
-  TSV.close();  sys.stdout.write("  WROTE: {}  Returned # {} IDs\n".format(tsv, N))
-  LOG.close();  sys.stdout.write("  WROTE: {}\n".format(log))
+  TSV.close();  sys.stdout.write("  WROTE: {}  ESearch Returned # {} IDs\n".format(tsv, N))
   
 
 # -------------------------------------------------------
@@ -86,7 +84,7 @@ def chk_num_IDs(PRT, record):
 def get_log_names(fout):
   """NCBI IDs are stored in a ".tsv" file.  Runtime notes written into ".log" file"""
   basename = os.path.basename(os.path.splitext(fout)[0])
-  tsv = ''.join([basename, '_IDs.tsv'])
+  tsv = ''.join([basename, '_ESearch_IDs.tsv'])
   log = ''.join([basename, '.log'])
   return tsv, log
 

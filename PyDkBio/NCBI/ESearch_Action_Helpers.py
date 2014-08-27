@@ -6,7 +6,8 @@
 
 import sys
 import os
-from httplib import HTTPException
+import shutil
+import re
 
 from Bio import Entrez
 
@@ -62,22 +63,29 @@ def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
         retmode   = typemode[1],
         webenv    = WE,
         query_key = QK)
-      # Read the downloaded data from the socket handle
-      downloaded_data = socket_handle.read()
-      socket_handle.close()
-      FOUT.write(downloaded_data)
-    #except HTTPException, e:
     except IOError, e:
       print "*FATAL: NETWORK OR MEMORY PROBLEM: {}".format(e)
       if socket_handle is not None:
         socket_handle.close()
         socket_handle = None
 
+    if socket_handle is not None:
+      try:
+        # Read the downloaded data from the socket handle
+        downloaded_data = socket_handle.read()
+        socket_handle.close()
+        FOUT.write(downloaded_data)
+      except Exception:
+        print "*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}"
+    else:
+      print "*FATAL: NO SOCKET HANDLE TO READ FROM"
+      
+
   # Close files
   FOUT.close(); 
   sys.stdout.write("  WROTE: {}\n".format(fout))
   
-  if N < batch_size and typemode[1] == "xml":
+  if N > batch_size and typemode[1] == "xml":
     Entrez_strip_extra_eSummaryResult(fout)
 
 
@@ -89,10 +97,38 @@ def Entrez_strip_extra_eSummaryResult(Entrez_datafile):
 
   """
   trash = '_'.join([Entrez_datafile, 'trash'])
-  print 'FIX:', Entrez_datafile
-  print 'FIX:', trash
-  # TBD
-
+  # Moved the poorly formatted XML file to <filename>_trash
+  shutil.move(Entrez_datafile, trash)
+  # Write newly formatted XML file into original filename
+  FOUT = open(Entrez_datafile, 'w')
+  xml_version  = None
+  DOCTYPE      = None
+  eResult      = None
+  S = re.compile(r'DOCTYPE\s+(\S+)\s+')
+  """Only write the xml_version|DOCTYPE|eSummaryResult once."""
+  with open(trash) as FIN:
+    for line in FIN:
+      if   'xml version' in line:
+        if xml_version is None:
+          FOUT.write(line) # Write line once, the first time it is seen
+          xml_version = True
+      elif 'DOCTYPE' in line:
+        if DOCTYPE is None:
+          M = S.search(line)
+          if M:
+            FOUT.write(line) # Write line once, the first time it is seen
+            DOCTYPE = M.group(1)
+          else:
+            print "*FATAL: ERROR STRIPPING XML({})".format(Entrez_datafile)
+      elif DOCTYPE is not None and re.search(r'^</?{}>\s*$'.format(DOCTYPE), line):
+        if eResult is None:
+          FOUT.write(line) # Write line once, the first time it is seen
+          eResult = True
+      else:
+        FOUT.write(line)
+  FOUT.write('</{}>\n'.format(DOCTYPE))
+  FOUT.close()
+  FIN.close()
 
 
 # -------------------------------------------------------

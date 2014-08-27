@@ -77,7 +77,7 @@ def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
   FOUT.close(); 
   sys.stdout.write("  WROTE: {}\n".format(fout))
   
-  if N < batch_size:
+  if N < batch_size and typemode[1] == "xml":
     Entrez_strip_extra_eSummaryResult(fout)
 
 

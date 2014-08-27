@@ -77,6 +77,23 @@ def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
   FOUT.close(); 
   sys.stdout.write("  WROTE: {}\n".format(fout))
   
+  if N < batch_size:
+    Entrez_strip_extra_eSummaryResult(fout)
+
+
+# -------------------------------------------------------
+def Entrez_strip_extra_eSummaryResult(Entrez_datafile):
+  """For an XML file EFetched in multiple batches, strip extra eSummaryResult lines.
+
+  The first </eSummaryResult> will cause Entrez.parse to prematurely stop parsing.
+
+  """
+  trash = '_'.join([Entrez_datafile, 'trash'])
+  print 'FIX:', Entrez_datafile
+  print 'FIX:', trash
+  # TBD
+
+
 
 # -------------------------------------------------------
 def wr_IDs(tsv, record):

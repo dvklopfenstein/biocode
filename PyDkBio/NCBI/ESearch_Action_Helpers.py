@@ -6,6 +6,7 @@
 
 import sys
 import os
+from httplib import HTTPException
 
 from Bio import Entrez
 
@@ -33,41 +34,59 @@ def find_IDs_with_ESearch(db, retmax, email, query):
 
 
 # -------------------------------------------------------
-def EFetch_and_write(db, retmax, fout, typemode, record):
+def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
   """Fetches NCBI records returned from last search.
 
   For NCBI's online documentation of efetch:
     http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch 
   """
-  tsv, log = get_log_names(fout)
+  tsv = get_tsv_filename(fout)
+  wr_IDs(tsv, record)
+
+  # EFetch records found for IDs returned in ESearch...
+  # Search for IDs returned using ID of the above Web Search
+  FOUT = open(fout, 'w')
+  N  = len(record['IdList'])
+  WE = record['WebEnv']
+  QK = record['QueryKey']
+  for start in range(0, N, batch_size):
+    socket_handle = None
+    sys.stdout.write('  EFetching up to {:5} records, starting at {}\n'.format(
+      batch_size,start))
+    try:
+      socket_handle = Entrez.efetch(
+        db        = db,
+        retstart  = start,
+        retmax    = batch_size, 
+        rettype   = typemode[0],
+        retmode   = typemode[1],
+        webenv    = WE,
+        query_key = QK)
+      # Read the downloaded data from the socket handle
+      downloaded_data = socket_handle.read()
+      socket_handle.close()
+      FOUT.write(downloaded_data)
+    #except HTTPException, e:
+    except IOError, e:
+      print "*FATAL: NETWORK OR MEMORY PROBLEM: {}".format(e)
+      if socket_handle is not None:
+        socket_handle.close()
+        socket_handle = None
+
+  # Close files
+  FOUT.close(); 
+  sys.stdout.write("  WROTE: {}\n".format(fout))
+  
+
+# -------------------------------------------------------
+def wr_IDs(tsv, record):
   TSV = open(tsv, 'w')
   chk_num_IDs(sys.stdout, record)
   for ID in record['IdList']:
     TSV.write('{}\n'.format(ID))
-
-  # EFetch records found for IDs returned in ESearch...
-  # Search for IDs returned using ID of the above Web Search
-  socket_handle = Entrez.efetch(
-    db        = db,
-    retmax    = retmax, 
-    rettype   = typemode[0],
-    retmode   = typemode[1],
-    webenv    = record['WebEnv'],
-    query_key = record['QueryKey'])
-
-  # Read the downloaded data from the socket handle
-  downloaded_data = socket_handle.read()
-  socket_handle.close()
-
-  # Write record data into a file
-  FOUT = open(fout, 'w')
-  FOUT.write(downloaded_data)
-
-  # Close files
-  N = len(record['IdList'])
-  FOUT.close(); sys.stdout.write("  WROTE: {}\n".format(fout))
-  TSV.close();  sys.stdout.write("  WROTE: {}  ESearch Returned # {} IDs\n".format(tsv, N))
-  
+  TSV.close();  
+  sys.stdout.write("  WROTE: {}  ESearch Returned # {} IDs\n".format(
+    tsv, len(record['IdList'])))
 
 # -------------------------------------------------------
 def chk_num_IDs(PRT, record):
@@ -79,14 +98,12 @@ def chk_num_IDs(PRT, record):
     PRT.write(txt)
     sys.stdout.write(txt)
 
-
 # -------------------------------------------------------
-def get_log_names(fout):
+def get_tsv_filename(fout):
   """NCBI IDs are stored in a ".tsv" file.  Runtime notes written into ".log" file"""
   basename = os.path.basename(os.path.splitext(fout)[0])
   tsv = ''.join([basename, '_ESearch_IDs.tsv'])
-  log = ''.join([basename, '.log'])
-  return tsv, log
+  return tsv
 
 # -------------------------------------------------------
 def get_fetch_fout(filename):

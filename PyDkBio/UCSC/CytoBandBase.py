@@ -31,6 +31,7 @@
 # Klopfenstein D.V. (2014) Storage and Python Access to UCSC's Cytoband Data In A Species-Independent Manner (Version 2.0) 
 # [Computer program]. Available at https://github.com/dklopfenstein/biocode/blob/master/PyDkBio/UCSC/CytoBandBase.py (Accessed [NN Month 20NN])
 
+__author__  = 'DV Klopfenstein'
 __version__ = '2.0'
 
 class CytoBandBase:

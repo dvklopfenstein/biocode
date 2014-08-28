@@ -6,6 +6,8 @@
 
 import PyBiocode.NCBI.EUtils_Apps as EA
 
+__author__ = "DV Klopfenstein"
+
 
 # -------------------------------------------------------
 def run_example():

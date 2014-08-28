@@ -6,6 +6,8 @@ from random import randrange
 
 from PyBiocode.UCSC.CytoBandHsa import *
 
+__author__ = "DV Klopfenstein"
+
 O = CytoBand()
 
 class CytoBandHsa_Tests(unittest.TestCase):

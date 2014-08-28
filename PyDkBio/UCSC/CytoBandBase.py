@@ -52,6 +52,9 @@ class CytoBandBase:
     self.stalks   = data['stalks']
     self.map2info = data['map2info']
 
+  def isChr(self, sChr):
+    return True if sChr in self.chr_s2i else False
+
   def get_sChr_list(self):
     """Return dictionary with list index as the key and value as commonly known Chromosome name."""
     return [sChr for sChr in self.chr_i2s]

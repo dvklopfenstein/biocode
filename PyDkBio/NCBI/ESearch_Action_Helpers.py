@@ -37,6 +37,8 @@ import re
 
 from Bio import Entrez
 
+__author__ = "DV Klopfenstein"
+
 # -------------------------------------------------------
 def find_IDs_with_ESearch(db, retmax, email, query):
   """Searches an NCBI database for a user search term, returns NCBI records."""

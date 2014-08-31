@@ -80,7 +80,7 @@ class CytoBandBase:
     else:
       return None
 
-  def get_lens(self, chr_idx): 
+  def get_lens(self): 
     """Return a list containing the length of each chromosome."""
     return self.lengths
 

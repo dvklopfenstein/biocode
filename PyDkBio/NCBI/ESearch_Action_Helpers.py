@@ -92,6 +92,13 @@ def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
         webenv    = WE,
         query_key = QK)
     except IOError, e:
+      print "db:", db
+      print "retstart:", start
+      print "retmax:", batch_size
+      print "rettype:", typemode[0]
+      print "retmode:", typemode[1]
+      print "WebEnv:", WE
+      print "QueryKey:", QK
       print "*FATAL: NETWORK OR MEMORY PROBLEM: {}".format(e)
       if socket_handle is not None:
         socket_handle.close()

@@ -54,6 +54,7 @@ class CytoBandBase:
     self.map2info = data['map2info']
 
   def isChr(self, sChr):
+    """Returns True if the name of the chromosome is recognized."""
     return True if sChr in self.chr_s2i else False
 
   def get_sChr_list(self):

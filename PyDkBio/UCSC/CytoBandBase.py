@@ -57,6 +57,16 @@ class CytoBandBase:
     """Returns True if the name of the chromosome is recognized."""
     return True if sChr in self.chr_s2i else False
 
+  def getCytobandRange(self, sChr, start, end):
+    iChr = self.get_iChr(sChr)
+    bp0 = self.get_map_loc(iChr, start)
+    bpN = self.get_map_loc(iChr, end)
+    return ''.join([sChr, bp0, '-', bpN]) if bp0 != bpN else ''.join([sChr, bp0])
+
+  def getCytoband(self, sChr, bp):
+    iChr = self.get_iChr(sChr)
+    return ''.join([sChr, self.get_map_loc(iChr, bp)])
+
   def get_sChr_list(self):
     """Return dictionary with list index as the key and value as commonly known Chromosome name."""
     return [sChr for sChr in self.chr_i2s]
@@ -104,24 +114,40 @@ class CytoBandBase:
     """Returns the largest base pair in the UCSC file for a given chromosome.""" 
     return self.get_len(chr_idx)
     
-  def get_map_loc(self, chr_idx, bp, ret_max=None):
+  def get_map_loc(self, iChr, bp, ret_max=None):
     """Given a chromosome and a base pair value, return a cyto map location.
-       
-    gtMax = None:  If 'bp' > the max_bp, return the map location for the largest bp value.
-    gtMax = Value: If 'bp' >
+      
+    Return the cytomap for the bp location if it is found
+    If bp > max_bp for that chromosome:
+      Return cytomap at the highest bp value if the user specifies ret_max=True
+      Return cytomap at the highest bp value if the bp is within a user-specified range
+      Otherwise return None
+    If bp < max_bp and the map was not found, raise an exception
     """
     # Search for bp in UCSC's data and return the UCSC cytomap
-    for cmap in self.map2info[chr_idx]:
-      elem = self.map2info[chr_idx][cmap]
+    info = self.map2info[iChr]
+    for cmap in info:
+      elem = info[cmap]
       if bp >= elem[0] and bp <= elem[1]:
         return cmap
 
-    # If there is no cytomap found for the user's 'bp' value...
+    max_bp = self.get_max_bp(iChr)
+    # If the bp > max_bp for that chromosome
+    if bp > max_bp:
+      # Return cytomap at the highest bp value if the user specifies ret_max=True
+      if ret_max is True:
+        return self.map2info[iChr][-1]
+      # Return cytomap at the highest bp value if the bp is within a user-specified range
+      elif isinstance(int, ret_max) and bp <= (max_bp + ret_max):
+        return self.map2info[iChr][-1]
+      # Else return None
+      else:
+        return None
+    else:
+    # Raise an Exception if there is no cytomap found for the user's 'bp' value
+      raise Exception('*FATAL: get_map_loc(chr({}), bp({})): NO map VALUE AVAILABLE'.format(
+        self.get_sChr(iChr), bp))
 
-    # Return cytomap at the highest bp value, if the user specifies ret_max=True
-    if ret_max is True and bp > self.get_max_bp(chr_idx):
-      return self.map2info[chr_idx][-1]
-    return None
 
   def get_sChr(self, chr_idx):
     """Given a chromosome list index, return the commonly known chromosome name."""

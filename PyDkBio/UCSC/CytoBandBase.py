@@ -154,5 +154,17 @@ class CytoBandBase:
       return self.centromeres[iChr]['p'][1]
     return None
 
+  def get_centromere_midpoint(self, iChr):
+    """Return the center base pair of the centromere, given a chromosome list index."""
+    if iChr < self.num_chr and \
+      self.centromeres[iChr] is not None and \
+      self.centromeres[iChr]['q'] is not None: 
+      return self.centromeres[iChr]['q'][1]
+    return None
+
+  def get_centromere_midpoints(self):
+    """Return the center base pair of all centromeres in the genome."""
+    # [ unicode(x.strip()) if x is not None else '' for x in row ]
+    return [ E['q'][1] if E is not None else None for E in self.centromeres]
 
  

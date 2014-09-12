@@ -100,6 +100,10 @@ class CytoBandBase:
     if chr_idx < self.num_chr:
       return self.lengths[chr_idx]
 
+  def get_len_max(self):
+    """Get the length of the largest Chromosome in the genome."""
+    return max(L for L in self.lengths)
+
   def get_len_genome(self):
     """Returns the sum of the length of all chromosomes."""
     return sum( self.lengths )

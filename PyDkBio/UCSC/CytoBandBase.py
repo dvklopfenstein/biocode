@@ -206,7 +206,7 @@ class CytoBandBase:
       for mapname in chr_data:
         D = chr_data[mapname]
         Start = D[0]
-        Len   = D[1]
+        Len   = D[1] - D[0]
         Key   = D[2]
         if Key not in range_data:
           range_data[Key] = cx.defaultdict(list)

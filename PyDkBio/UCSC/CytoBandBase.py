@@ -31,6 +31,8 @@
 # Klopfenstein D.V. (2014) Storage and Python Access to UCSC's Cytoband Data In A Species-Independent Manner (Version 2.0) 
 # [Computer program]. Available at https://github.com/dklopfenstein/biocode/blob/master/PyDkBio/UCSC/CytoBandBase.py (Accessed [NN Month 20NN])
 
+import collections as cx
+
 __author__  = 'DV Klopfenstein'
 __version__ = '2.0'
 
@@ -196,5 +198,22 @@ class CytoBandBase:
     """Return the center base pair of all centromeres in the genome."""
     # [ unicode(x.strip()) if x is not None else '' for x in row ]
     return [ E['q'][1] if E is not None else None for E in self.centromeres]
+
+  def get_prtdata_cytoband(self, Keys):
+    """Get cytoband data in a format amenable to plotting broken bars."""
+    range_data = {}
+    for iChr, chr_data in enumerate(self.map2info):
+      for mapname in chr_data:
+        D = chr_data[mapname]
+        Start = D[0]
+        Len   = D[1]
+        Key   = D[2]
+        if Key not in range_data:
+          range_data[Key] = cx.defaultdict(list)
+        if Key in Keys: 
+          range_data[Key][iChr].append([ Start, Len])
+        else:
+          raise Exception('\n**\n** FATAL: NO COLOR ASSIGNED TO MAP TYPE: "{}"\n**\n'.format(Key))
+    return cx.OrderedDict(sorted(range_data.items()))
 
  

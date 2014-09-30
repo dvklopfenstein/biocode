@@ -211,7 +211,7 @@ class CytoBandBase:
         if Key not in range_data:
           range_data[Key] = cx.defaultdict(list)
         if Key in Keys: 
-          range_data[Key][iChr].append([ Start, Len])
+          range_data[Key][iChr].append([ Start, Len, mapname])
         else:
           raise Exception('\n**\n** FATAL: NO COLOR ASSIGNED TO MAP TYPE: "{}"\n**\n'.format(Key))
     return cx.OrderedDict(sorted(range_data.items()))

@@ -139,7 +139,7 @@ class CytoBandBase:
 
     max_bp = self.get_max_bp(iChr)
     # If the bp > max_bp for that chromosome
-    if bp > max_bp:
+    if ret_max is not None and bp > max_bp:
       # Return cytomap at the highest bp value if the user specifies ret_max=True
       if ret_max is True:
         return self.map2info[iChr][-1]
@@ -151,8 +151,8 @@ class CytoBandBase:
         return None
     else:
     # Raise an Exception if there is no cytomap found for the user's 'bp' value
-      raise Exception('*FATAL: get_map_loc(chr({}), bp({})): NO map VALUE AVAILABLE'.format(
-        self.get_sChr(iChr), bp))
+      raise Exception('*FATAL: get_map_loc(chr({}), bp({})): NO map VALUE AVAILABLE; MAX_BP({}) DELTA({})'.format(
+        self.get_sChr(iChr), bp, self.get_max_bp(iChr), bp - self.get_max_bp(iChr) ))
 
 
   def get_sChr(self, chr_idx):

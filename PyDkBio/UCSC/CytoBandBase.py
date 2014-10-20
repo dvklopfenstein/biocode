@@ -59,15 +59,15 @@ class CytoBandBase:
     """Returns True if the name of the chromosome is recognized."""
     return True if sChr in self.chr_s2i else False
 
-  def getCytobandRange(self, sChr, start, end):
+  def getCytobandRange(self, sChr, start, end, ret_max=None):
     iChr = self.get_iChr(sChr)
-    bp0 = self.get_map_loc(iChr, start)
-    bpN = self.get_map_loc(iChr, end)
+    bp0 = self.get_map_loc(iChr, start, ret_max)
+    bpN = self.get_map_loc(iChr, end,   ret_max)
     return ''.join([sChr, bp0, '-', bpN]) if bp0 != bpN else ''.join([sChr, bp0])
 
-  def getCytoband(self, sChr, bp):
+  def getCytoband(self, sChr, bp, ret_max=None):
     iChr = self.get_iChr(sChr)
-    return ''.join([sChr, self.get_map_loc(iChr, bp)])
+    return ''.join([sChr, self.get_map_loc(iChr, bp, ret_max)])
 
   def get_sChr_list(self):
     """Return dictionary with list index as the key and value as commonly known Chromosome name."""
@@ -142,10 +142,10 @@ class CytoBandBase:
     if ret_max is not None and bp > max_bp:
       # Return cytomap at the highest bp value if the user specifies ret_max=True
       if ret_max is True:
-        return self.map2info[iChr][-1]
+        return next(reversed(self.map2info[iChr])) 
       # Return cytomap at the highest bp value if the bp is within a user-specified range
       elif isinstance(int, ret_max) and bp <= (max_bp + ret_max):
-        return self.map2info[iChr][-1]
+        return next(reversed(self.map2info[iChr]))
       # Else return None
       else:
         return None

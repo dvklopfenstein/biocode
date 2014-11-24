@@ -32,9 +32,13 @@
 # [Computer program]. Available at https://github.com/dklopfenstein/biocode/blob/master/PyDkBio/UCSC/CytoBandBase.py (Accessed [NN Month 20NN])
 
 import collections as cx
+import re
 
 __author__  = 'DV Klopfenstein'
 __version__ = '2.0'
+__copyright__ = "Copyright 2015, DV Klopfenstein"
+__license__ = "GPL"
+__maintainer__ = "DV Klopfenstein"
 
 class CytoBandBase:
   """Python Interface to Species-Independent UCSC cytoBandIdeo.txt information."""
@@ -115,6 +119,11 @@ class CytoBandBase:
     if sChr in self.chr_s2i:
       return self.chr_s2i[sChr]
     return None
+
+  def get_iChr_from_maploc(self, maploc):
+    """Given the commonly known chromosome name, return the chr list index used by this class."""
+    M = re.search(r'(\S+)(p|q)', maploc)
+    return self.get_iChr(M.group(1) if M else maploc)
 
   def get_max_bp(self, chr_idx):
     """Returns the largest base pair in the UCSC file for a given chromosome.""" 

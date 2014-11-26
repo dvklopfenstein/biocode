@@ -116,8 +116,9 @@ class CytoBandBase:
     
   def get_iChr(self, sChr):
     """Given the commonly known chromosome name, return the chr list index used by this class."""
-    if sChr in self.chr_s2i:
-      return self.chr_s2i[sChr]
+    schr = sChr.strip()
+    if schr in self.chr_s2i:
+      return self.chr_s2i[schr]
     return None
 
   def get_iChr_from_maploc(self, maploc):

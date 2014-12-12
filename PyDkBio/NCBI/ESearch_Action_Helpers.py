@@ -52,7 +52,7 @@ def find_IDs_with_ESearch(db, retmax, email, query):
     db=db,
     retmax=retmax, 
     term=query,
-    usehistory="y")
+    usehistory="y") # NCBI prefers we use history(QueryKey, WebEnv) for next acess
   record = Entrez.read(socket_handle)
   socket_handle.close()
   
@@ -61,6 +61,28 @@ def find_IDs_with_ESearch(db, retmax, email, query):
   else:
     raise Exception("NO IDS FOUND FOR '{}' SEARCH({})\n".format(db, query))
 
+# -------------------------------------------------------
+# einfo: http://www.ncbi.nlm.nih.gov/books/NBK25499/
+def get_DbList():
+  """Gets a list of valid Entrez databases."""
+  socket_handle = Entrez.einfo()
+  record = Entrez.read(socket_handle)
+  socket_handle.close()
+  return record['DbList']
+
+def get_DbStats(db, version='2.0', retmode='xml'):
+  """Return stats about an Entrez database.
+
+     db:      Use get_DbList to get valid entries
+     retmode: 'xml' or 'json'
+  """
+  socket_handle = Entrez.einfo(
+    db=db, 
+    version=version, 
+    retmode=retmode)
+  record = Entrez.read(socket_handle)
+  socket_handle.close()
+  return record
 
 # -------------------------------------------------------
 def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
@@ -69,6 +91,7 @@ def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
   For NCBI's online documentation of efetch:
     http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch 
   """
+  downloaded_data = None 
   tsv = get_tsv_filename(fout)
   wr_IDs(tsv, record)
 
@@ -122,6 +145,8 @@ def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
   
   if N > batch_size and typemode[1] == "xml":
     Entrez_strip_extra_eSummaryResult(fout)
+
+  return downloaded_data
 
 
 # -------------------------------------------------------

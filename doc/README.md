@@ -1,2 +1,2 @@
 
-![pedigree reference](pedigree_reference.jpg)
+![pedigree reference](pedigree_reference.png)

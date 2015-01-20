@@ -19,9 +19,6 @@
 #   https://www.gnu.org/licenses/gpl-2.0.txt
 #
 #
-# Drexel University., hereby disclaims all copyright interest in the program
-# `CytoBandBase' written by DV Klopfenstein.
-#
 # Aydin Tozeren, Distinguished Professor
 # August 2014
 

@@ -40,7 +40,7 @@ class MplColorHelper:
 
 
 
-def MplColorHelper_example1():
+def example1_MplColorHelper():
   import numpy as np
   # setup the plot
   fig, ax = plt.subplots(1,1, figsize=(6,6))
@@ -61,7 +61,42 @@ def MplColorHelper_example1():
   plt.show()
 
 
+def example2_named_colors():
+  """ Plots all the named colors in matplotlib.
+
+      From: http://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
+  """
+  import math
+  import matplotlib.patches as patches
+  import matplotlib.colors as colors
+
+  fig = plt.figure()
+  ax = fig.add_subplot(111)
+  
+  ratio = 1.0 / 3.0
+  count = math.ceil(math.sqrt(len(colors.cnames)))
+  x_count = count * ratio
+  y_count = count / ratio
+  x = 0
+  y = 0
+  w = 1 / x_count
+  h = 1 / y_count
+  
+  for c in colors.cnames:
+      pos = (x / x_count, y / y_count)
+      ax.add_patch(patches.Rectangle(pos, w, h, color=c))
+      ax.annotate(c, xy=pos)
+      if y >= y_count-1:
+          x += 1
+          y = 0
+      else:
+          y += 1
+  
+  plt.show()
+
+
 if __name__ == '__main__':
-  MplColorHelper_example1()
+  #example1_MplColorHelper()
+  example2_named_colors()
  
 

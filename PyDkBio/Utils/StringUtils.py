@@ -51,12 +51,21 @@ def prt_or_string_list(
     chr2zeros_lst = ['.', '_'],
     zeros2chr = '.'
   ):
-  """Prints input and output."""
+  """Prints input string list and output string, which is an OR of the input strings."""
   for cur_string in lst_of_strings:
     print "INPUT: ", cur_string
   ored_str = or_string_list(lst_of_strings, chr2zeros_lst, zeros2chr)
   print "OUTPUT:", ored_str
   return ored_str
+
+def get_str_summary(str_in, str_elem_lst, dflt_char):
+  """Reduces a long string to a short summary string."""
+  oStr = [dflt_char]*len(str_elem_lst)
+  for idx, character in enumerate(str_elem_lst):
+    if character in str_in:
+      oStr[idx] = character
+  return oStr
+    
 
 
 if __name__ == '__main__':

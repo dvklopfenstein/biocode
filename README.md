@@ -19,7 +19,7 @@
 
 ## Acknowledgements
 
-No success in this repository could have been acheived without the generosity of information and sharing of ideas from these organizations. Almost all code in this repository uses data/code from all:
+This repository uses data/code from:
 * [NCBI] (http://www.ncbi.nlm.nih.gov/)
 * [OMIM] (http://www.omim.org/) Online Mendelian Inheritance in Man(R)
 * [UCSC] (https://genome.ucsc.edu/)

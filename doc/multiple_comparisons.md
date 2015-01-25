@@ -4,9 +4,9 @@ From Geoffrey Brent, Melbourne, Victoria, Australia
 
 Be careful what you ask for ;-)
 
-The key concept here is that "probability of X being true,
-given the information that Y is true" is not the same as
-"probability of Y being true, given that X is true".
+The key concept here is that **"probability of X being true,
+given the information that Y is true"** is not the same as
+**"probability of Y being true, given that X is true"**.
 
 For example: let's suppose I have a pile of 10000 coins in
 front of me. I know that 9999 of them are normal, unbiased

@@ -28,11 +28,11 @@ identify it as a trick coin.
 But if I test a normal coin, what is the probability that
 I'll mistakenly identify it as the trick coin? Well, for an
 unbiased coin, the chance of coming up HHHHH is 1/2 x 1/2 x
-1/2 x 1/2 x 1/2 = 1/32, or about 3%. This is the
-"significance level" for the test I'm using: the probability
+1/2 x 1/2 x 1/2 = 1/32, or about **3%**. This is the
+**"significance level"** for the test I'm using: the **probability
 for any one normal coin that I'll mistakenly ID it as
-double-headed. It's also known as the "false positive rate"
-or "p-value". 
+double-headed**. It's also known as the **"false positive rate"**
+or **"p-value"**. 
 
 So let's say I test all 10000 of those coins. I will
 correctly flag the trick coin. But when I test the normal
@@ -51,8 +51,8 @@ good!
 
 But, given that a coin passes my "trick coin" test, the
 chance that it's a normal coin (i.e. my test has made a
-mistake) is 312/313, or 99.7%. (This measure is the "false
-discovery rate".) An error rate of 99.7% doesn't sound so
+mistake) is 312/313, or 99.7%. (This measure is the **"false
+discovery rate"**.) An error rate of 99.7% doesn't sound so
 good!
 
 The surveysystem.com explanation confuses these two measures

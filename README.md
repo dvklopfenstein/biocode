@@ -3,7 +3,7 @@
 ## For reference
 
   * [Pedigree reference](./doc/pedigree_reference.png) and [ABO Punnett Squares](./doc/ABO_punnett_square.png)
-  * [Excellent Explanation of Multiple Comparisons issue](./doc/multiple_comparisons.md)
+  * [Excellent Explanation of Multiple Comparisons issue](./doc/multiple_comparisons.md) by Geoffrey Brent
  
 
 ## Code used to ask and answer biological questions, and to form and test hypothesis.

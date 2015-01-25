@@ -1,6 +1,8 @@
 # Multiple Comparison Issue Explained
 
-From Geoffrey Brent· Be careful what you ask for ;-)
+From Geoffrey Brent, Melbourne, Victoria, Australia
+
+Be careful what you ask for ;-)
 
 The key concept here is that "probability of X being true,
 given the information that Y is true" is not the same as

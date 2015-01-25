@@ -1,9 +1,9 @@
 # biocode repository
 
-## For reference
+## For Reference:
 
-  * [Pedigree reference](./doc/pedigree_reference.png) and [ABO Punnett Squares](./doc/ABO_punnett_square.png)
-  * [Excellent Explanation of Multiple Comparisons issue](./doc/multiple_comparisons.md) by Geoffrey Brent
+  * [Pedigree reference](./doc/pedigree_reference.png) and [Punnett Squares for Bloodtype](./doc/ABO_punnett_square.png)
+  * [An Excellent Explanation of the Multiple Comparisons Issue](./doc/multiple_comparisons.md) by Geoffrey Brent
  
 
 ## Code used to ask and answer biological questions, and to form and test hypothesis.

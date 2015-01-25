@@ -87,7 +87,7 @@ then very often they misinterpret what it actually means.
 More info:
 https://en.wikipedia.org/wiki/Sensitivity_and_specificity
 
-***Sensitivity***: ***True Positive Rate*** (complementary to the ***False Negative rate***)
+***Sensitivity***: ***True Positive Rate*** (complementary to the ***False Negative rate***)    
 ***Specificity***: ***True Negative Rate*** (complementart to the ***False Positive rate***)
 
 

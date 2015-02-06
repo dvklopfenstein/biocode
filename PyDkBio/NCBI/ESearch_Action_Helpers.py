@@ -36,6 +36,7 @@ import shutil
 import re
 
 from Bio import Entrez
+import requests
 
 __author__ = "DV Klopfenstein"
 
@@ -62,6 +63,32 @@ def find_IDs_with_ESearch(db, retmax, email, query):
     raise Exception("NO IDS FOUND FOR '{}' SEARCH({})\n".format(db, query))
 
 # -------------------------------------------------------
+def EPost(db, IDs, email, step=10):
+  """Perfoms basic uploading of UIDs of any size."""
+  ## http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc112
+  Entrez.email = email
+  # Load the first 1...(step-1) UIDs to Entrez using epost. Get WebEnv to finish post."""
+  socket_handle = Entrez.epost(db, id=','.join(IDs[:step]))
+  record = Entrez.read(socket_handle)
+  socket_handle.close()
+  if 'WebEnv' in record:
+    WebEnv = record['WebEnv']
+    num_IDs = len(IDs)
+    # Load the remainder of the UIDs using epost
+    for idx in range(step, num_IDs, step):
+      end_pt = idx+step
+      if num_IDs < end_pt:
+        end_pt = num_IDs
+      #print '{:3} {:3} {:3}'.format(num_IDs, idx, end_pt)
+      socket_handle = Entrez.epost(db, id=','.join(IDs[idx:end_pt]), WebEnv=WebEnv)
+      record = Entrez.read(socket_handle)
+      socket_handle.close()
+  else:
+    raise Exception("NO WebEnv RETURNED FROM FIRST EPOST")
+  return record
+  
+
+# -------------------------------------------------------
 # einfo: http://www.ncbi.nlm.nih.gov/books/NBK25499/
 def get_DbList():
   """Gets a list of valid Entrez databases."""
@@ -69,6 +96,11 @@ def get_DbList():
   record = Entrez.read(socket_handle)
   socket_handle.close()
   return record['DbList']
+
+def prt_DbList(PRT=sys.stdout):
+  dblist = get_DbList()
+  for db in dblist:
+    PRT.write('{}\n'.format(db)) 
 
 def get_DbStats(db, version='2.0', retmode='xml'):
   """Return stats about an Entrez database.

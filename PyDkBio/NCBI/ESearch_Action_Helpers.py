@@ -63,13 +63,18 @@ def find_IDs_with_ESearch(db, retmax, email, query):
     raise Exception("NO IDS FOUND FOR '{}' SEARCH({})\n".format(db, query))
 
 # -------------------------------------------------------
-def EPost(db, IDs, email, step=10):
-  """Perfoms basic uploading of UIDs of any size."""
+def EPost(db, IDs, email, LOG=sys.stdout, step=10):
+  """Perfoms basic uploading of any number of UIDs."""
   ## http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc112
   Entrez.email = email
   # Load the first 1...(step-1) UIDs to Entrez using epost. Get WebEnv to finish post."""
-  socket_handle = Entrez.epost(db, id=','.join(IDs[:step]))
+  id_str = ','.join(IDs[:step])
+  # epost produces WebEnv value ($web1) and QueryKey value ($key1) 
+  socket_handle = Entrez.epost(db, id=id_str)
   record = Entrez.read(socket_handle)
+  if LOG is not None:
+    LOG.write('FIRST EPOST RESULT: {}\n'.format(record))
+    LOG.write("QueryKey({:>6})  IDs={}\n".format(record['QueryKey'], id_str))
   socket_handle.close()
   if 'WebEnv' in record:
     WebEnv = record['WebEnv']
@@ -80,13 +85,27 @@ def EPost(db, IDs, email, step=10):
       if num_IDs < end_pt:
         end_pt = num_IDs
       #print '{:3} {:3} {:3}'.format(num_IDs, idx, end_pt)
-      socket_handle = Entrez.epost(db, id=','.join(IDs[idx:end_pt]), WebEnv=WebEnv)
+      id_str = ','.join(IDs[idx:end_pt])
+      socket_handle = Entrez.epost(db, id=id_str, WebEnv=WebEnv)
       record = Entrez.read(socket_handle)
+      WebEnv = record['WebEnv']
+      LOG.write("QueryKey({:>6})  IDs={}\n".format(record['QueryKey'], id_str))
       socket_handle.close()
   else:
     raise Exception("NO WebEnv RETURNED FROM FIRST EPOST")
+  if LOG is not None: LOG.write('LAST  EPOST RESULT: {}\n'.format(record))
   return record
   
+
+# -------------------------------------------------------
+def ESummary_from_Post(db, QueryKey, WebEnv, email):
+  """Give a post reoord. Get an esummary ."""
+  Entrez.email = email
+  socket_handle = Entrez.esummary(db=db, query_key=QueryKey, WebEnv=WebEnv)
+  record = Entrez.read(socket_handle) 
+  socket_handle.close()
+  return record
+
 
 # -------------------------------------------------------
 # einfo: http://www.ncbi.nlm.nih.gov/books/NBK25499/
@@ -101,6 +120,7 @@ def prt_DbList(PRT=sys.stdout):
   dblist = get_DbList()
   for db in dblist:
     PRT.write('{}\n'.format(db)) 
+
 
 def get_DbStats(db, version='2.0', retmode='xml'):
   """Return stats about an Entrez database.
@@ -117,13 +137,14 @@ def get_DbStats(db, version='2.0', retmode='xml'):
   return record
 
 # -------------------------------------------------------
-def EFetch_and_write(db, retmax, fout, typemode, record, batch_size=100):
+def EFetch_and_write(db, fout, typemode, record, batch_size=100):
   """Fetches NCBI records returned from last search.
 
   For NCBI's online documentation of efetch:
     http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch 
   """
   downloaded_data = None 
+  # Write the list of UIDs in the record
   tsv = get_tsv_filename(fout)
   wr_IDs(tsv, record)
 
@@ -225,18 +246,19 @@ def Entrez_strip_extra_eSummaryResult(Entrez_datafile):
 
 # -------------------------------------------------------
 def wr_IDs(tsv, record):
-  TSV = open(tsv, 'w')
-  chk_num_IDs(sys.stdout, record)
-  for ID in record['IdList']:
-    TSV.write('{}\n'.format(ID))
-  TSV.close();  
-  sys.stdout.write("  WROTE: {}  ESearch Returned # {} IDs\n".format(
-    tsv, len(record['IdList'])))
+  if 'IdList' in record:
+    TSV = open(tsv, 'w')
+    chk_num_IDs(sys.stdout, record)
+    for ID in record['IdList']:
+      TSV.write('{}\n'.format(ID))
+    TSV.close();  
+    sys.stdout.write("  WROTE: {}  ESearch Returned # {} IDs\n".format(
+      tsv, len(record['IdList'])))
 
 # -------------------------------------------------------
 def chk_num_IDs(PRT, record):
   """ALerts the User to increase retmax if not all records are returned."""
-  if record['Count'] != record['RetMax']:
+  if 'Count' in record and 'RetMax' in record and record['Count'] != record['RetMax']:
     txt = '**Note: {} PubMed IDs returned out of {} total found.\n'.format(
       record['RetMax'],
       record['Count'])

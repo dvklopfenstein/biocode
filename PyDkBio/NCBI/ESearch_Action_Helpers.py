@@ -137,7 +137,7 @@ def get_DbStats(db, version='2.0', retmode='xml'):
   return record
 
 # -------------------------------------------------------
-def EFetch_and_write(db, fout, typemode, record, batch_size=100):
+def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout):
   """Fetches NCBI records returned from last search.
 
   For NCBI's online documentation of efetch:
@@ -156,7 +156,7 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100):
   QK = record['QueryKey']
   for start in range(0, N, batch_size):
     socket_handle = None
-    sys.stdout.write('  EFetching up to {:5} records, starting at {}\n'.format(
+    PRT.write('  EFetching up to {:5} records, starting at {}\n'.format(
       batch_size,start))
     try:
       socket_handle = Entrez.efetch(
@@ -175,7 +175,9 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100):
       print "retmode:", typemode[1]
       print "WebEnv:", WE
       print "QueryKey:", QK
-      print "*FATAL: NETWORK OR MEMORY PROBLEM: {}".format(e)
+      msg = "*FATAL: NETWORK OR MEMORY PROBLEM: {}".format(e)
+      PRT.write(msg)
+      sys.stdout.write(msg)
       if socket_handle is not None:
         socket_handle.close()
         socket_handle = None
@@ -194,7 +196,7 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100):
 
   # Close files
   FOUT.close(); 
-  sys.stdout.write("  WROTE: {}\n".format(fout))
+  PRT.write("  WROTE: {}\n".format(fout))
   
   if N > batch_size and typemode[1] == "xml":
     Entrez_strip_extra_eSummaryResult(fout)

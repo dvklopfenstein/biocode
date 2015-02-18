@@ -1,8 +1,8 @@
 # Biodownloads Summary
 
-* <a name="top"></a>[cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt) from **UCSC**'s Human Genome released [Dec 2013 hg38, GRCh38] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)
+* <a name="top"></a>[cytoBandIdeo.txt] (./hg38/cytoBandIdeo.txt) from **UCSC**'s Human Genome released [Dec 2013 hg38, GRCh38] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)
+* <a name="top"></a>[cytoBandIdeo.txt] (./mm10/cytoBandIdeo.txt) from **UCSC**'s Mouse Genome released [Dec 2011 mm10] (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
 
-* <a name="top"></a>[cytoBandIdeo.txt] (https://github.com/dklopfenstein/biocode/blob/master/biodownloads/UCSC/hsa/cytoBandIdeo.txt) from **UCSC**'s Mouse Genome released [Dec 2011 mm10] (http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
 # Biodownloads Details
 
 ## <a name="cytoBandIdeo"></a>cytoBandIdeo.txt

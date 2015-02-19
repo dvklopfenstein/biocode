@@ -8,7 +8,7 @@
 ## Matplotlib colors:
   * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and
     [**more colormaps**](http://matplotlib.org/examples/color/colormaps_reference.html)
-  * 
+  * [**Named Colors**](http://matplotlib.org/examples/color/named_colors.html)
  
 
 ## Code used to ask and answer biological questions, and to form and test hypothesis.

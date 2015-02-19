@@ -35,9 +35,10 @@ class MplColorHelper:
 
   def get_rgb(self, val):
     return self.scalarMap.to_rgba(val)
-    
-
-
+   
+  def get_hexstr(self, val):
+    r, g, b, a  = self.get_rgb(val)
+    return '#{:02x}{:02x}{:02x}'.format(int(r*256), int(g*256), int(b*256))
 
 
 def example1_MplColorHelper():

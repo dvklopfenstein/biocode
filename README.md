@@ -4,6 +4,11 @@
 
   * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
   * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
+
+## Matplotlib colors:
+  * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and
+    [**more colormaps**](http://matplotlib.org/examples/color/colormaps_reference.html)
+  * 
  
 
 ## Code used to ask and answer biological questions, and to form and test hypothesis.

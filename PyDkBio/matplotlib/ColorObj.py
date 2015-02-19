@@ -30,6 +30,8 @@ class MplColorHelper:
   def __init__(self, cmap_name, start_val, stop_val):
     self.cmap_name = cmap_name
     self.cmap = plt.get_cmap(cmap_name)
+    self.start_val = start_val
+    self.stop_val  =  stop_val
     self.norm = mpl.colors.Normalize(vmin=start_val, vmax=stop_val)
     self.scalarMap = cm.ScalarMappable(norm=self.norm, cmap=self.cmap)
 
@@ -38,7 +40,10 @@ class MplColorHelper:
    
   def get_hexstr(self, val):
     r, g, b, a  = self.get_rgb(val)
-    return '#{:02x}{:02x}{:02x}'.format(int(r*256), int(g*256), int(b*256))
+    return '#{:02x}{:02x}{:02x}'.format(int(r*255), int(g*255), int(b*255))
+
+  def get_color_list(self):
+    return [self.get_hexstr(i) for i in range(self.start_val, self.stop_val+1)]
 
 
 def example1_MplColorHelper():

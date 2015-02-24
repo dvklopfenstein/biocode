@@ -64,11 +64,12 @@ def find_IDs_with_ESearch(db, retmax, email, query):
 
 # -------------------------------------------------------
 def EPost(db, IDs, email, LOG=sys.stdout, step=10):
-  """Perfoms basic uploading of any number of UIDs."""
+  """Posts to NCBI WebServer of any number of UIDs."""
   ## http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc112
   Entrez.email = email
   # Load the first 1...(step-1) UIDs to Entrez using epost. Get WebEnv to finish post."""
-  id_str = ','.join(IDs[:step])
+  strIDs = map(str, IDs)
+  id_str = ','.join(strIDs[:step])
   # epost produces WebEnv value ($web1) and QueryKey value ($key1) 
   socket_handle = Entrez.epost(db, id=id_str)
   record = Entrez.read(socket_handle)
@@ -78,18 +79,18 @@ def EPost(db, IDs, email, LOG=sys.stdout, step=10):
   socket_handle.close()
   if 'WebEnv' in record:
     WebEnv = record['WebEnv']
-    num_IDs = len(IDs)
+    num_IDs = len(strIDs)
     # Load the remainder of the UIDs using epost
     for idx in range(step, num_IDs, step):
       end_pt = idx+step
       if num_IDs < end_pt:
         end_pt = num_IDs
       #print '{:3} {:3} {:3}'.format(num_IDs, idx, end_pt)
-      id_str = ','.join(IDs[idx:end_pt])
+      id_str = ','.join(strIDs[idx:end_pt])
       socket_handle = Entrez.epost(db, id=id_str, WebEnv=WebEnv)
       record = Entrez.read(socket_handle)
       WebEnv = record['WebEnv']
-      LOG.write("QueryKey({:>6})  IDs={}\n".format(record['QueryKey'], id_str))
+      LOG.write("QueryKey({:>6})  strIDs={}\n".format(record['QueryKey'], id_str))
       socket_handle.close()
   else:
     raise Exception("NO WebEnv RETURNED FROM FIRST EPOST")

@@ -157,8 +157,9 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
   QK = record['QueryKey']
   for start in range(0, N, batch_size):
     socket_handle = None
-    PRT.write('  EFetching up to {:5} records, starting at {}\n'.format(
-      batch_size,start))
+    msg = '  EFetching up to {:5} records, starting at {}\n'.format(batch_size,start)
+    PRT.write(msg); PRT.flush()
+    sys.stdout.write(msg)
     try:
       socket_handle = Entrez.efetch(
         db        = db,

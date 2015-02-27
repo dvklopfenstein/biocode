@@ -33,7 +33,7 @@ import re
 
 __author__  = 'DV Klopfenstein'
 __version__ = '2.0'
-__copyright__ = "Copyright 2015, DV Klopfenstein"
+__copyright__ = "Copyright 2014-2015, DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 __maintainer__ = "DV Klopfenstein"
 

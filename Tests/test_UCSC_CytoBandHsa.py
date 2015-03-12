@@ -11,10 +11,10 @@ __author__ = "DV Klopfenstein"
 
 O = CytoBand()
 
-class CytoBandHsa_Tests(unittest.TestCase):
+class CytoBandHg38_Tests(unittest.TestCase):
 
   def test_1(self):
-    """Test functions in the CytoBandHsa class."""
+    """Test functions in the CytoBandHg38 class."""
     print "\ntest_1"
     O = CytoBand()
     L = O.get_len_genome()

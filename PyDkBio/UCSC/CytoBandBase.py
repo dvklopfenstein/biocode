@@ -55,6 +55,7 @@ class CytoBandBase:
     self.gvars    = data['gvars']
     self.stalks   = data['stalks']
     self.map2info = data['map2info']
+    self.coarse   = data['coarse']
 
   def isChr(self, sChr):
     """Returns True if the name of the chromosome is recognized."""

@@ -59,7 +59,7 @@ class CytoBandBase:
 
   def isChr(self, sChr):
     """Returns True if the name of the chromosome is recognized."""
-    return True if sChr in self.chr_s2i else False
+    return True if sChr.strip() in self.chr_s2i else False
 
   def getCytobandRange(self, sChr, start, end, ret_max=None):
     iChr = self.get_iChr(sChr)

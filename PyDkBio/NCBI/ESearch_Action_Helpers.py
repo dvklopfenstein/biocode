@@ -199,9 +199,12 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
   # Close files
   FOUT.close(); 
   PRT.write("  WROTE: {}\n".format(fout))
-  
-  if N > batch_size and typemode[1] == "xml":
-    Entrez_strip_extra_eSummaryResult(fout)
+ 
+  sys.stdout.write("""
+    Need to revisit reading XML reading another way. 
+    Biopython XML no longer working for XML files from NCBI Gene.""")
+  if N > batch_size and typemode[1] == "xml": # DVK Biopython XML not working
+    Entrez_strip_extra_eSummaryResult(fout)   # DVK Biopython XML not working
 
   return downloaded_data
 

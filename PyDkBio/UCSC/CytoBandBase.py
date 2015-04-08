@@ -66,7 +66,7 @@ class CytoBandBase:
     iChr = self.get_iChr(sChr)
     bp0 = self.get_map_loc(iChr, start, ret_max)
     bpN = self.get_map_loc(iChr, end,   ret_max)
-    return self._getCytobandRange(sChr, bp0, bpN, shorten)
+    return self._get_CytobandRange(sChr, bp0, bpN, shorten)
 
   def _get_CytobandRange(self, sChr, bp0, bpN, shorten):
     """Shortern the print of the range if possible."""
@@ -76,9 +76,6 @@ class CytoBandBase:
     if shorten:
       pq_0, coarse_0, detailed_0 = self.split_cytomap(bp0)
       pq_N, coarse_N, detailed_N = self.split_cytomap(bpN)
-      print self.split_cytomap(bp0)
-      print self.split_cytomap(bpN)
-
       # No shortening; Cytomap ends are on different chromosome arms
       if pq_0 != pq_N: 
         return ''.join([ sChr, bp0, '-', bpN ])
@@ -87,6 +84,8 @@ class CytoBandBase:
         return ''.join([ sChr, pq_0, bp0[1:], '-', bpN[1:]])
       # Shorten 'pq' and 'coarse':
       return ''.join([ sChr, pq_0, coarse_0, '.', detailed_0, '-', detailed_N ])
+    else:
+      return ''.join([sChr, bp0, '-', bpN])
 
   def split_cytomap(self, pRA_rb):
     """Splits cytomap into "p or q", coarse "Region A", and detailed "region b"."""
@@ -103,7 +102,6 @@ class CytoBandBase:
       if len(fields) == 2:
         return pq, fields[0], fields[1]
     return (pq, None, None)
-    
     
 
   def getCytoband(self, sChr, bp, ret_max=None):

@@ -30,6 +30,7 @@
 
 import collections as cx
 import re
+import numpy as np
 
 __author__  = 'DV Klopfenstein'
 __version__ = '2.0'
@@ -61,14 +62,49 @@ class CytoBandBase:
     """Returns True if the name of the chromosome is recognized."""
     return True if sChr.strip() in self.chr_s2i else False
 
-  def getCytobandRange(self, sChr, start, end, ret_max=None):
+  def getCytobandRange(self, sChr, start, end, ret_max=None, shorten=True):
     iChr = self.get_iChr(sChr)
     bp0 = self.get_map_loc(iChr, start, ret_max)
     bpN = self.get_map_loc(iChr, end,   ret_max)
-    return self.shorten_CytobandRange(sChr, bp0, bpN) if bp0 != bpN else ''.join([sChr, bp0])
+    return self._getCytobandRange(sChr, bp0, bpN, shorten)
 
-  def shorten_CytobandRange(self, sChr, bp0, bp1):
-    return ''.join([sChr, bp0, '-', bpN]) if bp0 != bpN else ''.join([sChr, bp0])
+  def _get_CytobandRange(self, sChr, bp0, bpN, shorten):
+    """Shortern the print of the range if possible."""
+    # No shortening; This is a single cytomap location, not a range.
+    if bp0 == bpN: 
+      return ''.join([sChr, bp0])
+    if shorten:
+      pq_0, coarse_0, detailed_0 = self.split_cytomap(bp0)
+      pq_N, coarse_N, detailed_N = self.split_cytomap(bpN)
+      print self.split_cytomap(bp0)
+      print self.split_cytomap(bpN)
+
+      # No shortening; Cytomap ends are on different chromosome arms
+      if pq_0 != pq_N: 
+        return ''.join([ sChr, bp0, '-', bpN ])
+      # Shorten 'pq' only; coarse regions are different
+      if coarse_0 != coarse_N:
+        return ''.join([ sChr, pq_0, bp0[1:], '-', bpN[1:]])
+      # Shorten 'pq' and 'coarse':
+      return ''.join([ sChr, pq_0, coarse_0, '.', detailed_0, '-', detailed_N ])
+
+  def split_cytomap(self, pRA_rb):
+    """Splits cytomap into "p or q", coarse "Region A", and detailed "region b"."""
+    pq = None
+    word = pRA_rb
+    arm  = word[0]
+    if arm == 'p' or arm == 'q':
+      pq = arm
+      word = word[1:]
+    if "." not in word:
+      return pq, word, None
+    else:
+      fields = word.split(r".")
+      if len(fields) == 2:
+        return pq, fields[0], fields[1]
+    return (pq, None, None)
+    
+    
 
   def getCytoband(self, sChr, bp, ret_max=None):
     iChr = self.get_iChr(sChr)

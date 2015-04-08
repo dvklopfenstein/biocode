@@ -65,6 +65,9 @@ class CytoBandBase:
     iChr = self.get_iChr(sChr)
     bp0 = self.get_map_loc(iChr, start, ret_max)
     bpN = self.get_map_loc(iChr, end,   ret_max)
+    return self.shorten_CytobandRange(sChr, bp0, bpN) if bp0 != bpN else ''.join([sChr, bp0])
+
+  def shorten_CytobandRange(self, sChr, bp0, bp1):
     return ''.join([sChr, bp0, '-', bpN]) if bp0 != bpN else ''.join([sChr, bp0])
 
   def getCytoband(self, sChr, bp, ret_max=None):

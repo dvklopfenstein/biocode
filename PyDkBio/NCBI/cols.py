@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved.
+__author__ = "DV Klopfenstein"
+
 import sys
 import os
 import re

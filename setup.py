@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="PyDkBio",
     packages=['PyDkBio'],
-    version='0.2',
+    version='0.25',
     description='Python scripts used in my biology/bioinformatics research',
     author='DV Klopfenstein',
     author_email='music_pupil@yahoo.com',
@@ -11,7 +11,7 @@ setup(
     license='BSD',
     url='http://github.com/dvklopfenstein/biocode',
     download_url='http://github.com/dvklopfenstein/biocode/tarball/0.1',
-    keywords=['NCBI'],
+    keywords=['NCBI', 'biology', 'bioinformatics'],
     classifiers = [
         'Development Status :: 4 - Beta',
         'Intended Audience :: Science/Research',

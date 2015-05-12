@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
+# Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved.
+#
 # CytoBandBase.py stores CytoBandIdeo data downloaded from UCSC and
 # Allows easy access to the CytoBand information from a Python script
 # in a species-independent manner.
-# Copyright (C) 2014 DV Klopfenstein;
 # note2debra at gmail dot com
 #
 # This program is free software; you can redistribute it and/or modify

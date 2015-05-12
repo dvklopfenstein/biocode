@@ -6,6 +6,8 @@
 
 import PyBiocode.NCBI.EUtils_Apps as EA
 
+# Copyright (C) 2014-2015 DV Klopfenstein.  All rights reserved.
+
 __author__ = "DV Klopfenstein"
 
 

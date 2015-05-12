@@ -4,10 +4,11 @@
    Requires the biopython package.
 """
 
+# Copyright (C) 2014-2015 DV Klopfenstein.  All rights reserved.
+#
 # http://www.gnu.org/licenses/gpl-2.0.html#SEC1
 #
 # Helpers for using the NCBI's EUtils through biopython as used in my research.
-# Copyright (C) 2014  D Klopfenstein
 #
 # This program is free software; you can redistribute it and/or
 # modify it under the terms of the GNU General Public License

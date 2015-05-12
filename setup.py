@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="PyDkBio",
     packages=['PyDkBio'],
-    version='0.1',
+    version='0.2',
     description='Python scripts used in my biology/bioinformatics research',
     author='DV Klopfenstein',
     author_email='music_pupil@yahoo.com',

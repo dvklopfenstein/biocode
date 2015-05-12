@@ -8,6 +8,14 @@ import sys
 import collections as cx
 
 #------------------------------------------------------------------
+# Users call these functions to read a tsv or csv file and load
+# the file contents into:
+#   1. A list of lists(1 list per line)
+#   2. A list containing only one column in the file
+#   3. A list of lists(1 list contains only some fields in the line)
+#   4. A dictionary.  Can be used to return a GeneID-to-Symbol or vice versa
+#   ...
+#------------------------------------------------------------------
 def tbl2hdrs(fin, sep=r'\t+', hdr_ex=None, log=sys.stdout):
   """Read tsv/csv and return header information.
      h2i = tbl2hdrs(fin)
@@ -72,6 +80,9 @@ def tbl2dicts(fin, key_hdr, val_hdrs,
       ret[key][hdr] = val
   return ret
 
+
+#------------------------------------------------------------------
+# Non-user code.  This code is accessed by the user code.
 #------------------------------------------------------------------
 def get_sep(fin):
   """Uses extension(.tsv, .csv) to determine separator."""

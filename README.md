@@ -2,10 +2,15 @@
 
 ## For Reference:
 
+### Biology
+
   * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
   * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
 
-## Matplotlib colors:
+### Bio Downloads
+  * [Downloads] (https://github.com/dklopfenstein/biocode/tree/master/biodownloads/README.md) from Biological databases used by the scripts in this repository.
+
+### Matplotlib colors:
   * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and
     [**more colormaps**](http://matplotlib.org/examples/color/colormaps_reference.html)
   * [**Named Colors**](http://matplotlib.org/examples/color/named_colors.html)
@@ -18,9 +23,6 @@
   * Scripts for clustering DNA elements. (Stay tuned ...)
   * Scripts for creating images DNA elements with the genome as a backdrop. (Stay tuned ...)
   * Scripts for analyzing Kegg Pathway results (Stay tuned ...)
-
-* **Downloads**
-  * [Downloads] (https://github.com/dklopfenstein/biocode/tree/master/biodownloads/README.md) from Biological databases used by the scripts in this repository.
 
 ## Acknowledgements
 

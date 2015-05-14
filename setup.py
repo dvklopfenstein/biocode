@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name="pydvkbiology",
     packages=find_packages(),
-    version='0.27',
+    version='0.28',
     description='Python scripts used in my biology/bioinformatics research',
     author='DV Klopfenstein',
     author_email='music_pupil@yahoo.com',

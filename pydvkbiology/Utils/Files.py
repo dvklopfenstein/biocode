@@ -7,6 +7,9 @@ import re
 import sys
 import collections as cx
 
+# I work on a small screen, so use 2 spaces instead of 4:
+# pylint: disable=W0311
+
 #------------------------------------------------------------------
 # Users call these functions to read a tsv or csv file and load
 # the file contents into:
@@ -32,6 +35,15 @@ def tbl2lists(fin,
   sep = get_sep(fin)
   file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
   return file_hndl.run(file_hndl.tbl2lists, fin, None)
+
+def tbl2namedtuple(fin, tuplename,
+                   sep=r'\t', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+  """Read tsv/csv and store data in list of named tuples.
+     data = tbl2namedtuple(fin, 'NCBI_Gene')
+  """
+  sep = get_sep(fin)
+  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
+  return file_hndl.run_namedtuple(fin, tuplename)
 
 def tbl2list(fin, hdr,
              sep=r'\s*\t\s*', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
@@ -170,6 +182,40 @@ class FileHelperObj(object):
       if self.log is not None:
         self.log.write("  {:9} data READ:  {}\n".format(len(self.ret_list), fin))
     return self.ret_list, self.hdr2idx
+
+  def run_namedtuple(self, fin, tuplename):
+    """Read csv/tsv file and return specified data in a list of lists."""
+    self.fin = fin
+    data = []
+    obj = None
+    with open(fin) as fin_stream:
+      for line in fin_stream:
+        line = line.rstrip('\r\n') # chomp
+        # Obtain Data if headers have been collected from the first line
+        if obj is not None:
+          data.append(obj._make(re.split(self.sep, line)))
+        # Obtain the header
+        else:
+          line = line.replace('.', '_')
+          hdrs = re.split(self.sep, line)
+          if '' in hdrs:
+            hdrs = FileHelperObj.replace_nulls(hdrs)
+          obj = cx.namedtuple(tuplename, ' '.join(hdrs))
+      if self.log is not None:
+        self.log.write("  {:9} obj READ:  {}\n".format(len(self.ret_list), fin))
+    return data
+
+  @staticmethod
+  def replace_nulls(hdrs):
+    """Replace '' in hdrs."""
+    ret = []
+    idx = 0
+    for hdr in hdrs:
+      if hdr == '':
+        ret.append("no_hdr{}".format(idx))
+      else:
+        ret.append(hdr)
+    return ret
 
   def _init_data_line(self, fnc, fin, lnum, line):
     """Process Data line."""

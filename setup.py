@@ -18,5 +18,13 @@ setup(
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
-        'Topic :: Scientific/Engineering :: Bio-Informatics']
+        'Topic :: Scientific/Engineering :: Bio-Informatics'],
+    install_requires=['sys', 're', 'os', 'collections'] 
+    # Potential other requires:
+    #   Entrez
+    #   math
+    #   matplotlib
+    #   numpy 
+    #   requests
+    #   shutil
     )

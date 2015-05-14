@@ -13,7 +13,7 @@ setup(
     download_url='http://github.com/dvklopfenstein/biocode/tarball/0.1',
     keywords=['NCBI', 'biology', 'bioinformatics'],
     classifiers = [
-        'Development Status :: 4 - Beta',
+        'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Science/Research',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python',

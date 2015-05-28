@@ -9,11 +9,11 @@
     [Dec 2011 mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
 * **NCBI Gene** Downloaded **May 28, 2015**
   * [genes_NCBI_All_Homo_sapiens.tsv](./NCBI/genes_NCBI_All_Homo_sapiens.tsv) using this
-    [**NCBI Gene search for All DNA Items**]
+    [**Search for All DNA Items**]
     (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
     (56352 items downloaded)
   * [genes_NCBI_ProteinCoding.tsv](./NCBI/genes_NCBI_ProteinCoding.tsv) using this
-    [**NCBI Gene search for Protein-Coding Genes**]
+    [**Search for Protein-Coding Genes**]
     (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
     (20946 items downloaded)
 

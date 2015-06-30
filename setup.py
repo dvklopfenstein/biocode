@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(
+    version='0.30',
     name="pydvkbiology",
     packages=find_packages(),
-    version='0.28',
     description='Python scripts used in my biology/bioinformatics research',
     author='DV Klopfenstein',
     author_email='music_pupil@yahoo.com',
@@ -19,7 +19,7 @@ setup(
         'Programming Language :: Python',
         'Programming Language :: Python :: 2',
         'Topic :: Scientific/Engineering :: Bio-Informatics'],
-    install_requires=['sys', 're', 'os', 'collections'] 
+    #install_requires=['sys', 're', 'os', 'collections'] 
     # Potential other requires:
     #   Entrez
     #   math

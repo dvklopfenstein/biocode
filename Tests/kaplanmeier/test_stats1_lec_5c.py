@@ -3,7 +3,7 @@
 import sys
 
 # Use beta version for testing
-sys.path.insert(0, '../../')
+#sys.path.insert(0, '../../')
 import pydvkbiology.kaplanmeier.KaplanMeier as KM
 
 def run():

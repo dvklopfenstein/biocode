@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 
+import sys
+
+# Use beta version for testing
+sys.path.insert(0, '../../')
 import pydvkbiology.kaplanmeier.KaplanMeier as KM
 
-def run():
+def run(prt=sys.stdout):
   # Statistical Reasoning for Public Health 1: Estimation, Inference, & Interpretation
   # by John McGready, PhD, MS
   #
@@ -20,9 +24,11 @@ def run():
   # respectively.
   ret = [3, 7, 9, 11, 14, 21]
   cen = [-4, -8, -16, -24, -24]
-  km = KM.KaplanMeier(ret + cen)
+  data = KM.KaplanMeier.get_sorted(ret + cen)
+  prt.write('{}\n'.format(data))
+  km = KM.KaplanMeier(data)
   # 3, -4, 7, -8, 9, 11, 14, -16, 21, -24, -24
-  km.prt_data_sorted()
+  km.get_cumulative_survival(prt)
          
 
 if __name__ == '__main__':

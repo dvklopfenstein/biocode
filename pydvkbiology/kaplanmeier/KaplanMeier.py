@@ -76,10 +76,14 @@ class KaplanMeier():
       return 1
     E = data_queue.count(t) # # who had event at time t
     N = len(data_queue)     # # at risj of having event at time t
-    S = float(N - E)/N * S_prev
+    C = float(N - E)/N 
+    S = C * S_prev
     if PRT is not None:
-      PRT.write("{:>3}=t A({:>2}=N {:>2}=E) * {:6.2f} = {:6.2f} {}\n".format(
-      t, N, E, S_prev, S, data_queue))
+      PRT.write("{t:>3}=t S({S:4.2f}) = ([N({N})-E({E})/N({N})] = {C:4.2f}) * S_prev({Sp:4.2f}) {D}\n".format(
+      t=t, N=N, E=E, Sp=S_prev, S=S, 
+      #D=' '.join(map(str,data_queue)), 
+      D="",
+      C=C))
     for i in range(E):
       data_queue.popleft()
     return S
@@ -90,7 +94,7 @@ class KaplanMeier():
     for i in range(E):
       data_queue.popleft()
     if PRT is not None:
-      PRT.write("{:>3}=t   {:>2}=N after censoring\n".format(t, len(data_queue)))
+      PRT.write("{:>3}=t             N({}) after censoring\n".format(t, len(data_queue)))
 
   def get_events(self):
     """Return events."""

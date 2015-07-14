@@ -57,7 +57,7 @@ def tbl2list(fin, hdr,
 def tbl2sublist(fin, hdrs,
                 sep=r'\s*\t\s*', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
   """Read tsv/csv and store data in list of sub-lists.
-     data = tbl2sublist(fin)
+     data = tbl2sublist(fin, ['chromosome', 'start_bp', 'stop_bp', Symbol'])
   """
   sep = get_sep(fin)
   file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)

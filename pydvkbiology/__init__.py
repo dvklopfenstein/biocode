@@ -1,12 +1,12 @@
-"""Initialize the PyDkBio Top-Level package, which contains multiple python modules (files)."""
+"""Initialize the pydvkbiology Top-Level package, which contains multiple python modules (files)."""
 
 #from pkg_resources import get_distribution, DistributionNotFound
 #
-#__project__ = 'PyDkBio'
+#__project__ = 'pydvkbiology'
 #__version__ = None # required for initial installation
 
 #try:
-#  __version__ = get_distribution('PyDkBio').version
+#  __version__ = get_distribution('pydvkbiology').version
 #except DistributionNotFound:
 #  VERSION = __project__ + '-' + '(local)'
 #else:

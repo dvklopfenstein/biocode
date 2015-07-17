@@ -1,3 +1,7 @@
+version 1.34
+Moved pydvkbiology.Utils.Files.py to pydvkbiology.utils.tsvread so module name
+follows Python PEP naming conventions.
+
 version 1.29
 Files.py can now return list of namedtuples loaded with info from a tsv or csv file.
 

@@ -56,3 +56,9 @@ class ChrAB(object):
     """return start and stop bp."""
     return self.schr is not None and self.start_bp is not None and self.stop_bp is not None
 
+  def get_start_stop(self):
+    if self.is_start_stop():
+      return typ([self.schr, self.start_bp, self.stop_bp, self.ichr])
+    else:
+      return None
+

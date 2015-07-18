@@ -15,3 +15,6 @@ upload_PyPI_test:
 	python setup.py register -r pypitest
 	python setup.py sdist upload -r pypitest
 
+FILE := pydvkbiology/util/chr_ab.py
+p:
+	pylint --rcfile=.pylintrc $(FILE)

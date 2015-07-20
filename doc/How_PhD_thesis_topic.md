@@ -1,11 +1,9 @@
 # How PhD Thesis Topics are chosen
-Yasha Berchenko-Kogan describes it best when he answered 
+[Yasha Berchenko-Kogan](http://math.mit.edu/~yashabk/) describes the 
+PhD student's experience best when he answered 
 **What do grad students in math do all day?**
 
 ## What do grad students in math do all day?
-**Or how PhD Thesis topics are chosen**
-
-
 A lot of math grad school is reading books and papers and trying to understand what's going on. The difficulty is that reading math is not like reading a mystery thriller, and it's not even like
 reading a history book or a New York Times article. 
 
@@ -14,7 +12,7 @@ cleaner to someone who has never seen one, except you're only allowed to use wor
 
 What can you say?
 
-"It is a tool that does suck up dust to make what you walk on in a home tidy."
+```It is a tool that does suck up dust to make what you walk on in a home tidy.```
 
 That's certainly better than nothing, but it doesn't tell you everything you might want to know about a vacuum cleaner. Can you use a vacuum cleaner to clean bookshelves? Can you use a vacuum cleaner
 to clean a cat? Can you use a vacuum cleaner to clean the outdoors?

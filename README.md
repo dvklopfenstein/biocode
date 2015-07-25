@@ -16,6 +16,9 @@
   * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and
     [**more colormaps**](http://matplotlib.org/examples/color/colormaps_reference.html)
   * [**Named Colors**](http://matplotlib.org/examples/color/named_colors.html)
+  * [**xkcd color picker**](http://xkcdcp.martinblech.com/)
+  * [**Map Colors**](http://colorbrewer2.org/)
+
  
 
 ## Code used to ask and answer biological questions, and to form and test hypothesis.

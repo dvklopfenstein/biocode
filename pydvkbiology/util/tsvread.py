@@ -197,6 +197,8 @@ class FileHelperObj(object):
         # Obtain the header
         else:
           line = line.replace('.', '_')
+          line = line.replace(' ', '_')
+          line = line.replace('#', 'N')
           hdrs = re.split(self.sep, line)
           if '' in hdrs:
             hdrs = FileHelperObj.replace_nulls(hdrs)

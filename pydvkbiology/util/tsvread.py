@@ -18,72 +18,57 @@ import collections as cx
 #   3. A list of lists(1 list contains only some fields in the line)
 #   4. A dictionary.  Can be used to return a GeneID-to-Symbol or vice versa
 #   ...
+# kwargs are:
+#   ints=None, floats=None, hdr_ex=None, log=sys.stdout
 #------------------------------------------------------------------
-def tbl2hdrs(fin, sep=r'\t+', hdr_ex=None, log=sys.stdout):
+def tbl2hdrs(fin, sep=r'\t+', **kwargs):
   """Read tsv/csv and return header information.
      h2i = tbl2hdrs(fin)
   """
-  sep = get_sep(fin)
-  file_hndl = FileHelperObj(sep, None, None, hdr_ex, log)
-  return file_hndl.get_h2i(fin, None)
+  return FileHelperObj(fin, sep, kwargs).get_h2i(None)
 
-def tbl2lists(fin,
-              sep=r'\t', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+def tbl2lists(fin, sep=r'\t', **kwargs):
   """Read tsv/csv and store data in list of lists.
      data, h2i = tbl2lists(fin)
   """
-  sep = get_sep(fin)
-  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
-  return file_hndl.run(file_hndl.tbl2lists, fin, None)
+  file_hndl = FileHelperObj(fin, sep, kwargs)
+  return file_hndl.run(file_hndl.tbl2lists, None)
 
-def tbl2namedtuple(fin, tuplename,
-                   sep=r'\t', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+def tbl2namedtuple(fin, tuplename, sep=r'\t', **kwargs):
   """Read tsv/csv and store data in list of named tuples.
      data = tbl2namedtuple(fin, 'NCBI_Gene')
   """
-  sep = get_sep(fin)
-  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
-  return file_hndl.run_namedtuple(fin, tuplename)
+  return FileHelperObj(fin, sep, kwargs).run_namedtuple(tuplename)
 
-def tbl2list(fin, hdr,
-             sep=r'\s*\t\s*', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+def tbl2list(fin, hdr, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a list."""
-  sep = get_sep(fin)
-  if hdr_ex is None:
-    hdr_ex = hdr
-  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
-  return file_hndl.run(file_hndl.tbl2list, fin, [hdr])[0]
+  if 'hdr_ex' not in kwargs:
+    kwargs['hdr_ex'] = hdr
+  file_hndl = FileHelperObj(fin, sep, kwargs)
+  return file_hndl.run(file_hndl.tbl2list, [hdr])[0]
 
-def tbl2sublist(fin, hdrs,
-                sep=r'\s*\t\s*', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+def tbl2sublist(fin, hdrs, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in list of sub-lists.
      data = tbl2sublist(fin, ['chromosome', 'start_bp', 'stop_bp', Symbol'])
   """
-  sep = get_sep(fin)
-  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
-  return file_hndl.run(file_hndl.tbl2sublist, fin, hdrs)[0]
+  file_hndl = FileHelperObj(fin, sep, kwargs)
+  return file_hndl.run(file_hndl.tbl2sublist, hdrs)[0]
 
-def tbl2dict(fin, hdr, val,
-             sep=r'\s*\t\s*', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+def tbl2dict(fin, hdr, val, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a dictionary: d[key]=val."""
-  sep = get_sep(fin)
-  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
-  return dict(file_hndl.run(file_hndl.tbl2sublist, fin, [hdr, val])[0])
+  file_hndl = FileHelperObj(fin, sep, kwargs)
+  return dict(file_hndl.run(file_hndl.tbl2sublist, [hdr, val])[0])
 
-def tbl2dict2lst(fin, key_hdr, val_hdrs,
-                 sep=r'\s*\t\s*', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+def tbl2dict2lst(fin, key_hdr, val_hdrs, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a dictionary. d[key]=[val, val, ...]."""
-  sep = get_sep(fin)
-  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
-  data_h2i = file_hndl.run(file_hndl.tbl2sublist, fin, [key_hdr] + val_hdrs)
+  file_hndl = FileHelperObj(fin, sep, kwargs)
+  data_h2i = file_hndl.run(file_hndl.tbl2sublist, [key_hdr] + val_hdrs)
   return {elem[0]:elem[1:] for elem in data_h2i[0]}
 
-def tbl2dicts(fin, key_hdr, val_hdrs,
-              sep=r'\s*\t\s*', ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+def tbl2dicts(fin, key_hdr, val_hdrs, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a dictionary. d[key]={hdr0:val0, hdr1:val1, ...}."""
-  sep = get_sep(fin)
-  file_hndl = FileHelperObj(sep, ints, floats, hdr_ex, log)
-  data_h2i = file_hndl.run(file_hndl.tbl2sublist, fin, [key_hdr] + val_hdrs)
+  file_hndl = FileHelperObj(fin, sep, kwargs)
+  data_h2i = file_hndl.run(file_hndl.tbl2sublist, [key_hdr] + val_hdrs)
   ret = {}
   for elem in data_h2i[0]:
     key = elem[0]
@@ -109,8 +94,10 @@ def get_sep(fin):
 class FileHelperObj(object):
   """Helps read files and write data structures."""
 
-  def __init__(self, sep, ints, floats, hdr_ex, log):
-    self.log = log
+  # ints=None, floats=None, hdr_ex=None, log=sys.stdout):
+  #def __init__(self, sep, ints, floats, hdr_ex, log):
+  def __init__(self, fin, sep, kwargs_dict):
+    self.log = kwargs_dict.get('log', sys.stdout)
     self.int_hdrs = [
         'tax_id', 'GeneID', 'CurrentID',  # NCBI Gene
         'start_position_on_the_genomic_accession', # NCBI Gene
@@ -120,7 +107,8 @@ class FileHelperObj(object):
         'Start', 'start', 'End', 'end',   # Cluster
         'Len', 'len', 'Length', 'length', # cluster
         'Qty', 'qty', '# Genes']          # Cluster
-    if ints is not None:
+    if 'ints' in kwargs_dict:
+      ints = kwargs_dict['ints']
       if len(ints) != 0:
         self.int_hdrs.extend(ints)
       else:
@@ -128,26 +116,35 @@ class FileHelperObj(object):
     self.float_hdrs = ['Density', 'density', 'MinDensity']  # Cluster
     # These are formated for expected sorting: eg. Chr "09", "10"
     self.strpat_hdrs = {'Chr':'{:>2}', 'chromosome':'{:>2}'}
-    if floats is not None:
-      self.float_hdrs.extend(floats)
+    if 'floats' in kwargs_dict:
+      self.float_hdrs.extend(kwargs_dict['floats'])
     self.idxs_float = []  # run() inits proper values
     self.idxs_int = []    # run() inits proper values
     self.idxs_strpat = [] # run() inits proper values
     # Data Members used by all functions
-    self.fin = None
+    self.fin = fin
     self.hdr2idx = None
     self.len = 0
-    self.sep = sep
-    self.hdr_ex = hdr_ex
+    self.sep = get_sep(fin)
+    self.hdr_ex = kwargs_dict.get('hdr_ex', None)
     # Data Members used by various functions
     self.ret_list = [] #             tbl2list
     self.hdrs_usr = []     # tbl2sublist tbl2list
     self.usr_max_idx = None
 
-  def get_h2i(self, fin, hdrs_usr):
+    # list:    Return the one item (a list of items) of interest to the user.
+    # sublist: Return the items (a list of lists) of interest to the user.
+    # lists:   Return all items (a list of lists) read from the tsv/csv file.
+    self.fncs = {
+      'list'   : lambda fld: self.ret_list.extend([fld[hdr_i[1]] for hdr_i in self.hdrs_usr]),
+      'sublist': lambda fld: self.ret_list.append([fld[hdr_i[1]] for hdr_i in self.hdrs_usr]),
+      'lists'  : lambda fld: self.ret_list.append(fld)
+    }
+
+
+  def get_h2i(self, hdrs_usr):
     """Read csv/tsv file and return specified data in a list of lists."""
-    self.fin = fin
-    with open(fin) as fin_stream:
+    with open(self.fin) as fin_stream:
       for line in fin_stream:
         line = line.rstrip('\r\n') # chomp
         if not self.hdr2idx:
@@ -167,28 +164,26 @@ class FileHelperObj(object):
       return True
     return False
 
-  def run(self, fnc, fin, hdrs_usr):
+  def run(self, fnc, hdrs_usr):
     """Read csv/tsv file and return specified data in a list of lists."""
-    self.fin = fin
-    with open(fin) as fin_stream:
+    with open(self.fin) as fin_stream:
       for lnum, line in enumerate(fin_stream):
         line = line.rstrip('\r\n') # chomp
         # Obtain Data if headers have been collected from the first line
         if self.hdr2idx:
-          self._init_data_line(fnc, fin, lnum, line)
+          self._init_data_line(fnc, lnum, line)
         # Obtain the header
         else:
           self.do_hdr(line, hdrs_usr)
       if self.log is not None:
-        self.log.write("  {:9} data READ:  {}\n".format(len(self.ret_list), fin))
+        self.log.write("  {:9} data READ:  {}\n".format(len(self.ret_list), self.fin))
     return self.ret_list, self.hdr2idx
 
-  def run_namedtuple(self, fin, tuplename):
+  def run_namedtuple(self, tuplename):
     """Read csv/tsv file and return specified data in a list of lists."""
-    self.fin = fin
     data = []
     obj = None
-    with open(fin) as fin_stream:
+    with open(self.fin) as fin_stream:
       for line in fin_stream:
         line = line.rstrip('\r\n') # chomp
         # Obtain Data if headers have been collected from the first line
@@ -204,7 +199,7 @@ class FileHelperObj(object):
             hdrs = FileHelperObj.replace_nulls(hdrs)
           obj = cx.namedtuple(tuplename, ' '.join(hdrs))
       if self.log is not None:
-        self.log.write("  {:9} obj READ:  {}\n".format(len(self.ret_list), fin))
+        self.log.write("  {:9} obj READ:  {}\n".format(len(self.ret_list), self.fin))
     return data
 
   @staticmethod
@@ -219,7 +214,7 @@ class FileHelperObj(object):
         ret.append(hdr)
     return ret
 
-  def _init_data_line(self, fnc, fin, lnum, line):
+  def _init_data_line(self, fnc, lnum, line):
     """Process Data line."""
     fld = re.split(self.sep, line)
     # Lines may contain different numbers of items.
@@ -234,7 +229,7 @@ class FileHelperObj(object):
         print hdr
       print '# ITEMS ON A LINE:', len(fld)
       print 'MAX USR IDX:', self.usr_max_idx
-      raise Exception("ERROR ON LINE {} IN {}".format(lnum+1, fin))
+      raise Exception("ERROR ON LINE {} IN {}".format(lnum+1, self.fin))
 
   def convert_ints_floats(self, fld):
     """Convert strings to ints and floats, if so specified."""
@@ -285,6 +280,7 @@ class FileHelperObj(object):
     strpat = self.strpat_hdrs.keys()
     self.idxs_strpat = [
         Idx for Hdr, Idx in self.hdr2idx.items() if Hdr in usr_hdrs and Hdr in strpat]
+
 
 
   def tbl2list(self, field):

@@ -31,8 +31,7 @@ def tbl2lists(fin, sep=r'\t', **kwargs):
   """Read tsv/csv and store data in list of lists.
      data, h2i = tbl2lists(fin)
   """
-  file_hndl = FileHelperObj(fin, sep, kwargs)
-  return file_hndl.run(file_hndl.tbl2lists, None)
+  return FileHelperObj(fin, sep, kwargs).run("lists", None)
 
 def tbl2namedtuple(fin, tuplename, sep=r'\t', **kwargs):
   """Read tsv/csv and store data in list of named tuples.
@@ -44,31 +43,26 @@ def tbl2list(fin, hdr, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a list."""
   if 'hdr_ex' not in kwargs:
     kwargs['hdr_ex'] = hdr
-  file_hndl = FileHelperObj(fin, sep, kwargs)
-  return file_hndl.run(file_hndl.tbl2list, [hdr])[0]
+  return FileHelperObj(fin, sep, kwargs).run("list", [hdr])[0]
 
 def tbl2sublist(fin, hdrs, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in list of sub-lists.
      data = tbl2sublist(fin, ['chromosome', 'start_bp', 'stop_bp', Symbol'])
   """
-  file_hndl = FileHelperObj(fin, sep, kwargs)
-  return file_hndl.run(file_hndl.tbl2sublist, hdrs)[0]
+  return FileHelperObj(fin, sep, kwargs).run("sublist", hdrs)[0]
 
 def tbl2dict(fin, hdr, val, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a dictionary: d[key]=val."""
-  file_hndl = FileHelperObj(fin, sep, kwargs)
-  return dict(file_hndl.run(file_hndl.tbl2sublist, [hdr, val])[0])
+  return dict(FileHelperObj(fin, sep, kwargs).run("sublist", [hdr, val])[0])
 
 def tbl2dict2lst(fin, key_hdr, val_hdrs, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a dictionary. d[key]=[val, val, ...]."""
-  file_hndl = FileHelperObj(fin, sep, kwargs)
-  data_h2i = file_hndl.run(file_hndl.tbl2sublist, [key_hdr] + val_hdrs)
+  data_h2i = FileHelperObj(fin, sep, kwargs).run("sublist", [key_hdr] + val_hdrs)
   return {elem[0]:elem[1:] for elem in data_h2i[0]}
 
 def tbl2dicts(fin, key_hdr, val_hdrs, sep=r'\s*\t\s*', **kwargs):
   """Read tsv/csv and store data in a dictionary. d[key]={hdr0:val0, hdr1:val1, ...}."""
-  file_hndl = FileHelperObj(fin, sep, kwargs)
-  data_h2i = file_hndl.run(file_hndl.tbl2sublist, [key_hdr] + val_hdrs)
+  data_h2i = FileHelperObj(fin, sep, kwargs).run("sublist", [key_hdr] + val_hdrs)
   ret = {}
   for elem in data_h2i[0]:
     key = elem[0]
@@ -81,14 +75,14 @@ def tbl2dicts(fin, key_hdr, val_hdrs, sep=r'\s*\t\s*', **kwargs):
 #------------------------------------------------------------------
 # Non-user code.  This code is accessed by the user code.
 #------------------------------------------------------------------
-def get_sep(fin):
+def get_sep(fin, sep):
   """Uses extension(.tsv, .csv) to determine separator."""
   if '.tsv' in fin:
     return r'\t'
   elif '.csv' in fin:
     return r','
   else:
-    return r'\t'
+    return sep
 
 #------------------------------------------------------------------
 class FileHelperObj(object):
@@ -125,7 +119,7 @@ class FileHelperObj(object):
     self.fin = fin
     self.hdr2idx = None
     self.len = 0
-    self.sep = get_sep(fin)
+    self.sep = get_sep(fin, sep)
     self.hdr_ex = kwargs_dict.get('hdr_ex', None)
     # Data Members used by various functions
     self.ret_list = [] #             tbl2list
@@ -136,9 +130,9 @@ class FileHelperObj(object):
     # sublist: Return the items (a list of lists) of interest to the user.
     # lists:   Return all items (a list of lists) read from the tsv/csv file.
     self.fncs = {
-      'list'   : lambda fld: self.ret_list.extend([fld[hdr_i[1]] for hdr_i in self.hdrs_usr]),
-      'sublist': lambda fld: self.ret_list.append([fld[hdr_i[1]] for hdr_i in self.hdrs_usr]),
-      'lists'  : lambda fld: self.ret_list.append(fld)
+        'list': lambda fld: self.ret_list.extend([fld[hdr_i[1]] for hdr_i in self.hdrs_usr]),
+        'sublist': lambda fld: self.ret_list.append([fld[hdr_i[1]] for hdr_i in self.hdrs_usr]),
+        'lists': lambda fld: self.ret_list.append(fld)
     }
 
 
@@ -164,8 +158,9 @@ class FileHelperObj(object):
       return True
     return False
 
-  def run(self, fnc, hdrs_usr):
+  def run(self, fnc_name, hdrs_usr):
     """Read csv/tsv file and return specified data in a list of lists."""
+    fnc = self.fncs[fnc_name]
     with open(self.fin) as fin_stream:
       for lnum, line in enumerate(fin_stream):
         line = line.rstrip('\r\n') # chomp
@@ -280,19 +275,5 @@ class FileHelperObj(object):
     strpat = self.strpat_hdrs.keys()
     self.idxs_strpat = [
         Idx for Hdr, Idx in self.hdr2idx.items() if Hdr in usr_hdrs and Hdr in strpat]
-
-
-
-  def tbl2list(self, field):
-    """Return the one item (a list of items) of interest to the user."""
-    self.ret_list.extend([field[Hdr_Idx[1]] for Hdr_Idx in self.hdrs_usr])
-
-  def tbl2sublist(self, field):
-    """Return the items (a list of lists) of interest to the user."""
-    self.ret_list.append([field[Hdr_Idx[1]] for Hdr_Idx in self.hdrs_usr])
-
-  def tbl2lists(self, field):
-    """Return all items (a list of lists) read from the tsv/csv file."""
-    self.ret_list.append(field)
 
 

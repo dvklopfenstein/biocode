@@ -58,6 +58,7 @@ class ChrAB(object):
     return self.schr is not None and self.start_bp is not None and self.stop_bp is not None
 
   def get_start_stop(self):
+    """Get start and stop base pair values."""
     if self.is_start_stop():
       # ChrAB: chr start_bp stop_bp fwd_strand ichr
       return ChrAB.typ([self.schr, self.start_bp, self.stop_bp, self.ichr])

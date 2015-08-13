@@ -1,5 +1,6 @@
 # Biodownloads Summary
 
+## Downloads in original source format
 * **UCSC**
   * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/hg38/cytoBandIdeo.txt) from **UCSC**'s 
     [Human Genome](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/) released 
@@ -19,6 +20,11 @@
 * **GENCODE lncRNA** [v22 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_22/) July 6, 2015 [GRCh38](http://www.gencodegenes.org/releases/)
   * tsv extracted for all lines where feature=gene from gencode.v22.long_noncoding_RNAs.gtf:
     [genes_GENCODE_lncRNA.tsv](./GENCODE/genes_GENCODE_lncRNA.tsv)
+
+## Downloads translated to Python format
+* **UniProt**     
+  * UniProt Accession numbers to Entrez GeneIDs (and vice versa) for Homo sapiens:    
+  ```import pydvkbiology.dnld.uniprot_sprot_AC_GeneID_hsa```
 
 # Biodownloads Details
 

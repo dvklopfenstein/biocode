@@ -22,7 +22,7 @@
     [genes_GENCODE_lncRNA.tsv](./GENCODE/genes_GENCODE_lncRNA.tsv)
 
 ## Downloads translated to Python format
-* **UniProt**     
+* **UniProt** Downloaded August 13, 2015
   * UniProt Accession numbers to Entrez GeneIDs (and vice versa) for Homo sapiens:    
   ```import pydvkbiology.dnld.uniprot_sprot_AC_GeneID_hsa```
 

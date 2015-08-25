@@ -4,6 +4,22 @@ import os
 import sys
 
 import weblogolib as WL
+import corebio as CB
+from corebio.seq import Seq, SeqList, Alphabet
+
+class BcSeqList(SeqList):
+  """Accepts list of sequences from a script, rather from a file (i.e. fasta file)."""
+
+  def __init__(self, seq_list, alphabet, name=None, description=None):
+    abc_obj = Alphabet(alphabet)
+    # Convert user list of characters into list of corebio.seq Seq objects
+    seqs = [Seq(seq_line, abc_obj) for seq_line in seq_list]
+    super(SeqList, self).__init__(seqs)
+    self.alphabet = abc_obj
+    self.name = name
+    self.description = description
+   
+ 
 
 def wr_image(fout_image, logo_data, logo_options):
   """Wrapper around weblogo's formatter wr_imager."""

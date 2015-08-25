@@ -9,8 +9,9 @@ class ChrAB(object):
   rev = ['minus']
   typ = cx.namedtuple("ChrAB", "chr start_bp stop_bp fwd_strand ichr")
 
-  def __init__(self, schr, start_bp, stop_bp, orientation=None, orgn=None):
+  def __init__(self, schr, start_bp, stop_bp, orientation=None, orgn=None, name=None):
     """Initialize data members."""
+    self.name = name
     self.schr = schr
     self.ichr = None
     self.start_bp = start_bp if isinstance(start_bp, int) else None

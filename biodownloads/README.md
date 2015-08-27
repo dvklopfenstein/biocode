@@ -8,15 +8,15 @@
   * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/mm10/cytoBandIdeo.txt) from **UCSC**'s 
     [Mouse Genome](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/) released 
     [Dec 2011 mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
-* **NCBI Gene** Downloaded **July 14, 2015**
+* **NCBI Gene** Downloaded **August 27, 2015**
   * [genes_NCBI_All_Homo_sapiens.tsv](./NCBI/genes_NCBI_All_Homo_sapiens.tsv) using this
     [**Search for All DNA Items**]
     (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-    (56348 items downloaded)
+    (56409 items downloaded)
   * [genes_NCBI_ProteinCoding.tsv](./NCBI/genes_NCBI_ProteinCoding.tsv) using this
     [**Search for Protein-Coding Genes**]
     (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-    (20940 items downloaded)
+    (20930 items downloaded)
 * **GENCODE lncRNA** [v22 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_22/) July 6, 2015 [GRCh38](http://www.gencodegenes.org/releases/)
   * tsv extracted for all lines where feature=gene from gencode.v22.long_noncoding_RNAs.gtf:
     [genes_GENCODE_lncRNA.tsv](./GENCODE/genes_GENCODE_lncRNA.tsv)

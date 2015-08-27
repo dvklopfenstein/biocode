@@ -33,9 +33,12 @@
 
 This repository uses data/code from:
 * [NCBI] (http://www.ncbi.nlm.nih.gov/)
+* [UniProt] (http://www.uniprot.org/)
 * [OMIM] (http://www.omim.org/) Online Mendelian Inheritance in Man(R)
 * [UCSC] (https://genome.ucsc.edu/)
-* [biopython] (http://biopython.org/wiki/Main_Page)
 * [Kegg] (http://www.genome.jp/kegg/kegg2.html)
+* [HGNC] (http://www.genenames.org/) HUGO Gene Nomenclature Committee
+* [GOATOOLS] (https://github.com/tanghaibao/goatools/blob/master/README.rst) for
+  Gene Ontology Analysis
 
 Copyright (C) 2015 DV Klopfenstein. All rights reserved.

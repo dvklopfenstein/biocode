@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    version='0.37',
+    version='0.38',
     name="pydvkbiology",
     packages=find_packages(),
     description='Python scripts used in my biology/bioinformatics research',

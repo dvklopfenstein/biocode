@@ -189,6 +189,7 @@ class FileHelperObj(object):
           line = line.replace('.', '_')
           line = line.replace(' ', '_')
           line = line.replace('#', 'N')
+          line = line.replace('-', '_')
           hdrs = re.split(self.sep, line)
           if '' in hdrs:
             hdrs = FileHelperObj.replace_nulls(hdrs)

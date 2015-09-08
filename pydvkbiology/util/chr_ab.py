@@ -20,7 +20,7 @@ class ChrAB(object):
 
   def _init(self, orientation, orgn):
     """Set:  Fwd: Start < Stop;   Rev: Start > Stop."""
-    # Use orientation if available (Forward/Reverse strand.
+    # Use orientation if available (Forward/Reverse) strand.
     if orientation is not None:
       self._init_orientation(orientation)
     if orgn is not None:
@@ -36,6 +36,12 @@ class ChrAB(object):
       pass
     else:
       raise Exception("UNKNOWN ORIENTATION({})".format(orientation))
+
+  def is_fwd(self):
+    """Return True if this is forward-stranded data."""
+    if self.valid_start_stop():
+      return self.start_bp < self.stop_bp
+    return None
 
   def in_range(self, rng_start_bp, rng_stop_bp):
     """Determine if gene is in the range(start_rng, stop_rng)."""
@@ -64,4 +70,13 @@ class ChrAB(object):
       return ChrAB.typ([self.schr, self.start_bp, self.stop_bp, self.ichr])
     else:
       return None
+
+  def valid_start_stop(self):
+    return self.start_bp is not None and self.stop_bp is not None
+
+  def get_plotXs(self):
+    """Returns start_bp and stop_bp such that startbp < stop_bp, no matter the orientation."""
+    if self.valid_start_stop():
+      return sorted([self.start_bp, self.stop_bp])
+    return None
 

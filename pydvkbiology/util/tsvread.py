@@ -179,23 +179,28 @@ class FileHelperObj(object):
     data = []
     obj = None
     with open(self.fin) as fin_stream:
-      for line in fin_stream:
-        line = line.rstrip('\r\n') # chomp
-        # Obtain Data if headers have been collected from the first line
-        if obj is not None:
-          data.append(obj._make(re.split(self.sep, line)))
-        # Obtain the header
-        else:
-          line = line.replace('.', '_')
-          line = line.replace(' ', '_')
-          line = line.replace('#', 'N')
-          line = line.replace('-', '_')
-          hdrs = re.split(self.sep, line)
-          if '' in hdrs:
-            hdrs = FileHelperObj.replace_nulls(hdrs)
-          obj = cx.namedtuple(tuplename, ' '.join(hdrs))
+      for lnum, line in enumerate(fin_stream, 1):
+        try:
+          line = line.rstrip('\r\n') # chomp
+          # Obtain Data if headers have been collected from the first line
+          if obj is not None:
+            data.append(obj._make(re.split(self.sep, line)))
+          # Obtain the header
+          else:
+            line = line.replace('.', '_')
+            line = line.replace(' ', '_')
+            line = line.replace('#', 'N')
+            line = line.replace('-', '_')
+            line = line.replace('"', '')
+            #line = re.sub(r"_$", r"", line)
+            hdrs = re.split(self.sep, line)
+            if '' in hdrs:
+              hdrs = FileHelperObj.replace_nulls(hdrs)
+            obj = cx.namedtuple(tuplename, ' '.join(hdrs))
+        except:
+          raise Exception("{FIN}({LNUM}): {LINE}\n".format(FIN=self.fin, LNUM=lnum, LINE=line))
       if self.log is not None:
-        self.log.write("  {:9} obj READ:  {}\n".format(len(self.ret_list), self.fin))
+        self.log.write("  {:9} obj READ:  {}\n".format(len(data), self.fin))
     return data
 
   @staticmethod

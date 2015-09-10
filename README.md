@@ -26,7 +26,7 @@
   * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/NCBI/README.md) to search for and download data from the NCBI databases.
   * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/UCSC/README.md) to return UCSC Cytoband information.
 
-## Acknowledgements
+## Links
 
 This repository uses data/code from:
 * [NCBI] (http://www.ncbi.nlm.nih.gov/)

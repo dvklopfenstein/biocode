@@ -4,6 +4,8 @@ import collections as cx
 
 class ChrAB(object):
   """Class to hold the chromosome name, and the start and end base pair values."""
+  # Uses convention that rev. strand start_bp > stop_bp
+  # so that this class may be used without an orientation arg.
 
   fwd = ['plus']
   rev = ['minus']

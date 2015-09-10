@@ -25,9 +25,6 @@
 * **Scripts**
   * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/NCBI/README.md) to search for and download data from the NCBI databases.
   * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/UCSC/README.md) to return UCSC Cytoband information.
-  * Scripts for clustering DNA elements. (Stay tuned ...)
-  * Scripts for creating images DNA elements with the genome as a backdrop. (Stay tuned ...)
-  * Scripts for analyzing Kegg Pathway results (Stay tuned ...)
 
 ## Acknowledgements
 

@@ -82,3 +82,8 @@ class ChrAB(object):
       return sorted([self.start_bp, self.stop_bp])
     return None
 
+  def get_min_bp(self):
+    """Returns the smallest base pair value."""
+    if self.valid_start_stop():
+      return min(self.start_bp, self.stop_bp)
+    return None

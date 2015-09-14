@@ -21,7 +21,7 @@
 
  
 
-## Code used to ask and answer biological questions, and to form and test hypothesis.
+## Public scripts
 * **Scripts**
   * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/NCBI/README.md) to search for and download data from the NCBI databases.
   * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/UCSC/README.md) to return UCSC Cytoband information.

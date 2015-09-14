@@ -198,6 +198,8 @@ class FileHelperObj(object):
               hdrs = FileHelperObj.replace_nulls(hdrs)
             obj = cx.namedtuple(tuplename, ' '.join(hdrs))
         except:
+          print obj._fields
+          print re.split(self.sep, line)
           raise Exception("{FIN}({LNUM}): {LINE}\n".format(FIN=self.fin, LNUM=lnum, LINE=line))
       if self.log is not None:
         self.log.write("  {:9} obj READ:  {}\n".format(len(data), self.fin))

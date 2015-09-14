@@ -177,33 +177,43 @@ class FileHelperObj(object):
   def run_namedtuple(self, tuplename):
     """Read csv/tsv file and return specified data in a list of lists."""
     data = []
-    obj = None
+    nt_obj = None
     with open(self.fin) as fin_stream:
       for lnum, line in enumerate(fin_stream, 1):
         try:
           line = line.rstrip('\r\n') # chomp
           # Obtain Data if headers have been collected from the first line
-          if obj is not None:
-            data.append(obj._make(re.split(self.sep, line)))
+          if nt_obj is not None:
+            flds = re.split(self.sep, line)
+            self.convert_ints_floats(flds)
+            data.append(nt_obj._make(flds))
           # Obtain the header
           else:
-            line = line.replace('.', '_')
-            line = line.replace(' ', '_')
-            line = line.replace('#', 'N')
-            line = line.replace('-', '_')
-            line = line.replace('"', '')
-            #line = re.sub(r"_$", r"", line)
-            hdrs = re.split(self.sep, line)
-            if '' in hdrs:
-              hdrs = FileHelperObj.replace_nulls(hdrs)
-            obj = cx.namedtuple(tuplename, ' '.join(hdrs))
+            nt_obj = self._init_nt_hdr(tuplename, line)
         except:
-          print obj._fields
+          if nt_obj is not None:
+            sys.stdout.write("{HDRS}\n".format(HDRS=' '.join(nt_obj._fields)))
           print re.split(self.sep, line)
           raise Exception("{FIN}({LNUM}): {LINE}\n".format(FIN=self.fin, LNUM=lnum, LINE=line))
       if self.log is not None:
-        self.log.write("  {:9} obj READ:  {}\n".format(len(data), self.fin))
+        self.log.write("  {:9} nt_obj READ:  {}\n".format(len(data), self.fin))
     return data
+
+  def _init_nt_hdr(self, tuplename, line):
+    """Convert headers into valid namedtuple fields."""
+    line = line.replace('.', '_')
+    line = line.replace(' ', '_')
+    line = line.replace('#', 'N')
+    line = line.replace('-', '_')
+    line = line.replace('"', '')
+    #line = re.sub(r"_$", r"", line)
+    hdrs = re.split(self.sep, line)
+    if '' in hdrs:
+      hdrs = FileHelperObj.replace_nulls(hdrs)
+    # Init indexes which will be converted to int or float
+    self.idxs_int   = [idx for idx, hdr in enumerate(hdrs) if hdr in self.int_hdrs]
+    self.idxs_float = [idx for idx, hdr in enumerate(hdrs) if hdr in self.float_hdrs]
+    return cx.namedtuple(tuplename, ' '.join(hdrs))
 
   @staticmethod
   def replace_nulls(hdrs):
@@ -234,18 +244,18 @@ class FileHelperObj(object):
       print 'MAX USR IDX:', self.usr_max_idx
       raise Exception("ERROR ON LINE {} IN {}".format(lnum+1, self.fin))
 
-  def convert_ints_floats(self, fld):
+  def convert_ints_floats(self, flds):
     """Convert strings to ints and floats, if so specified."""
     for idx in self.idxs_float:
-      fld[idx] = float(fld[idx])
+      flds[idx] = float(flds[idx])
     for idx in self.idxs_int:
-      dig = fld[idx]
-      #print 'idx={} ({}) {}'.format(idx, fld[idx], fld) # DVK
-      fld[idx] = int(fld[idx]) if dig.isdigit() else dig
+      dig = flds[idx]
+      #print 'idx={} ({}) {}'.format(idx, flds[idx], flds) # DVK
+      flds[idx] = int(flds[idx]) if dig.isdigit() else dig
     for idx in self.idxs_strpat:
       hdr = self.hdr2idx.items()[idx][0]
       pat = self.strpat_hdrs[hdr]
-      fld[idx] = pat.format(fld[idx])
+      flds[idx] = pat.format(flds[idx])
 
   def _init_hdr(self, line, hdrs_usr):
     """Initialize self.hdr2idx, self.len, self.idxs_float, and self.idxs_int"""

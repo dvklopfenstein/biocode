@@ -1,4 +1,12 @@
-# Multiple Comparison Issue Explained
+# Multiple Comparison Issue 
+
+* [Multiple Comparison Issue in Pictures](#Multiple Comparison Issue in Pictures)
+* [Multiple Comparison Issue Explained](#Multiple Comparison Issue Explained)
+
+## Multiple Comparison Issue in Pictures
+![XKCD Jelly Beans](doc/significant.png)
+
+## Multiple Comparison Issue Explained
 
 From Geoffrey Brent, Melbourne, Victoria, Australia
 

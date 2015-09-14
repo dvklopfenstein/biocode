@@ -1,9 +1,11 @@
 # Multiple Comparison Issue 
 
-* [Multiple Comparison Issue in Pictures](#Multiple Comparison Issue in Pictures)
-* [Multiple Comparison Issue Explained](#Multiple Comparison Issue Explained)
+* [Multiple Comparison Issue explained using pictures]
+  (#Multiple Comparison Issue explained using pictures)
+* [Multiple Comparison Issue Explained]
+  (#Multiple Comparison Issue Explained)
 
-## Multiple Comparison Issue in Pictures
+## Multiple Comparison Issue explained using pictures
 ![XKCD Jelly Beans](significant.png)
 
 ## Multiple Comparison Issue Explained

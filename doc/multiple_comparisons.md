@@ -4,7 +4,7 @@
 * [Multiple Comparison Issue Explained](#Multiple Comparison Issue Explained)
 
 ## Multiple Comparison Issue in Pictures
-![XKCD Jelly Beans](doc/significant.png)
+![XKCD Jelly Beans](significant.png)
 
 ## Multiple Comparison Issue Explained
 

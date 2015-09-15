@@ -77,7 +77,7 @@ class ChrAB(object):
     return self.start_bp is not None and self.stop_bp is not None
 
   def get_plotXs(self):
-    """Returns start_bp and stop_bp such that startbp < stop_bp, no matter the orientation."""
+    """Returns start_bp and stop_bp such that startbp < stop_bp, no matter the gene orientation."""
     if self.valid_start_stop():
       return sorted([self.start_bp, self.stop_bp])
     return None

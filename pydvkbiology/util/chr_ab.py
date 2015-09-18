@@ -87,3 +87,40 @@ class ChrAB(object):
     if self.valid_start_stop():
       return min(self.start_bp, self.stop_bp)
     return None
+
+  def __eq__(self, rhs):
+    bp_eq = self.start_bp == rhs.start_bp and self.stop_bp == rhs.stop_bp
+    if self.ichr is not None and rhs.ichr is not None: 
+      return self.ichr == rhs.ichr and bp_eq
+    return self.schr == rhs.schr and bp_eq
+
+  def __lt__(self, rhs):
+    if self.ichr is not None and rhs.ichr is not None: 
+      if self.ichr < rhs.ichr:
+        return True
+      elif self.ichr > rhs.ichr:
+        return False
+      else:
+        return self._lt_bps(rhs)
+    else:
+      if self.schr < rhs.schr:
+        return True
+      elif self.schr > rhs.schr:
+        return False
+      else:
+        return self._lt_bps(rhs)
+
+  def _lt_bps(self, rhs):
+    # TBD: Use PlotXs?
+    if self.start_bp < rhs.start_bp:
+      return True
+    elif self.start_bp > rhs.start_bp:
+      return False
+    else:
+      if self.stop_bp < rhs.stop_bp:
+        return True
+      elif self.stop_bp > rhs.stop_bp:
+        return False
+      else:
+        return False
+    

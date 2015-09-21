@@ -8,21 +8,21 @@
   * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/mm10/cytoBandIdeo.txt) from **UCSC**'s 
     [Mouse Genome](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/) released 
     [Dec 2011 mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
-* **NCBI Gene** Downloaded **September 8, 2015**
+* **NCBI Gene** Downloaded **September 21, 2015**
   * Homo sapiens
     * [genes_NCBI_All_Homo_sapiens.tsv](./NCBI/genes_NCBI_All_Homo_sapiens.tsv) using this
       [**Search for All Human DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (56410 items)
+      (59483 items)
     * [genes_NCBI_ProteinCoding.tsv](./NCBI/genes_NCBI_ProteinCoding.tsv) using this
       [**Search for Human Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (20930 items)
+      (20929 items)
   * Mus musculus (house mouse)
     * [genes_NCBI_All_mus.tsv](./NCBI/genes_NCBI_All_mus.tsv) using this
       [**Search for All Mouse DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (73343 items)
+      (73344 items)
     * [genes_NCBI_PC_mus.tsv](./NCBI/genes_NCBI_PC_mus.tsv) using this
       [**Search for Mouse Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)

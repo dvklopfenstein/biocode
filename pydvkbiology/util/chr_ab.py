@@ -82,6 +82,32 @@ class ChrAB(object):
       return sorted([self.start_bp, self.stop_bp])
     return None
 
+  def get_dist(self, rhs_chrab):
+    """Return intergenic distance between two genes. Return 0 if overlapping or 'kissing'."""
+    if self.schr == rhs_chrab.schr:
+      # Put gene coords in list and sort genes by smallest coord. eg [[0, 5], [6, 10]]
+      genes_ab = sorted([self.get_plotXs(), rhs_chrab.get_plotXs()], key=lambda t: t[0])
+      if genes_ab[0][1] < genes_ab[1][0]: # Not 'kissing'
+        return genes_ab[1][0] - genes_ab[0][1]
+      #if genes_ab[0][1] != genes_ab[1][0]: # Not 'kissing'
+        #coords = sorted(set(genes_ab[0] + genes_ab[1])) # List of ALL coords, e.g. each genes a & b
+        #L = len(coords)
+        #if L == 4 and coords[1] == genes_ab[0][1]: # Separated
+        #  return coords[2] - coords[1] # GGGG<---->GGGG
+        #elif L == 2 and coords[0] == genes_ab[0][1] and coords[1] == genes_ab[1][0]:
+        #  return coords[1] - coords[0] # G<---->G
+        #elif L == 3:
+        #  if coords[0] == genes_ab[0][1] and coords[1] == genes_ab[1][0]:
+        #    return coords[1] - coords[0] # G<---->GGGGGG
+        #  elif coords[1] == genes_ab[0][1] and coords[2] == genes_ab[1][1]:
+        #    return coords[2] - coords[1] # GGGGGG<---->G
+      # No intergenic distance between these 2 DNA items:
+      #   1. Genes are on top off each other or 'kissing'
+      #   2. Genes have no distance between them
+      #   3. Genes may be overlapping: coords[1] == genes_ab[1][0]
+      return 0 
+    return None # genes are on separate chromosomes
+
   def get_min_bp(self):
     """Returns the smallest base pair value."""
     if self.valid_start_stop():

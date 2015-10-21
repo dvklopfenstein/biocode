@@ -13,6 +13,9 @@ def test_dist(prt=sys.stdout):
   assert ChrAB("1", 6, 10).get_dist(ChrAB("1", 0,  5)) == 1
   assert ChrAB("1", 9,  7).get_dist(ChrAB("1", 0,  1)) == 6
   assert ChrAB("1", 7,  7).get_dist(ChrAB("1", 1,  1)) == 6
+  assert ChrAB("1", 7,  7).get_dist(ChrAB("1", 0,  5)) == 2
+  assert ChrAB("1", 7,  7).get_dist(ChrAB("1", 0,  5)) == 2
+  assert ChrAB("1", 1,  1).get_dist(ChrAB("1", 7,  5)) == 4
   assert ChrAB("2", 9,  7).get_dist(ChrAB("1", 0,  1)) is None # Different chromosomes
   assert ChrAB("1", 0,  6).get_dist(ChrAB("1", 4, 10)) == 0 # Parital overlap
   assert ChrAB("1", 4, 10).get_dist(ChrAB("1", 0,  6)) == 0 # Partial overlap

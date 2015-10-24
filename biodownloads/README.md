@@ -30,11 +30,11 @@
     * [genes_NCBI_PC_mus.tsv](./NCBI/genes_NCBI_PC_mus.tsv) using this
       [**Search for Mouse Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (29415 items)
+      (29414 items)
     * [genes_NCBI_microRNA.tsv](./NCBI/genes_NCBI_microRNA.tsv) using this
       [**Search for Mouse microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
-      (??? items)
+      (1202 items)
 * **GENCODE lncRNA** [v22 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_22/) July 6, 2015 [GRCh38](http://www.gencodegenes.org/releases/)
   * tsv extracted for all lines where feature=gene from gencode.v22.long_noncoding_RNAs.gtf:
     [genes_GENCODE_lncRNA.tsv](./GENCODE/genes_GENCODE_lncRNA.tsv)

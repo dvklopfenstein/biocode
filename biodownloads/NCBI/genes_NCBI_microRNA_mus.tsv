@@ -1,0 +1,1203 @@
+tax_id	Org_name	GeneID	CurrentID	Status	Symbol	Aliases	description	other_designations	map_location	chromosome	genomic_nucleotide_accession.version	start_position_on_the_genomic_accession	end_position_on_the_genomic_accession	orientation	exon_count	OMIM	
+10090	Mus musculus	387173	0	live	Mir155	Mirn155, mir-155, mmu-mir-155	microRNA 155		16	16	NC_000082.6	84714140	84714204	plus	1		
+10090	Mus musculus	387140	0	live	Mir21a	Mir21, Mirn21, mmu-mir-21, mmu-mir-21a	microRNA 21a	microRNA 21	11	11	NC_000077.6	86584067	86584158	minus	1		
+10090	Mus musculus	387164	0	live	Mir146	Mirn146, miR-146a, mmu-mir-146	microRNA 146	mmu-mir-146a	11	11	NC_000077.6	43374397	43374461	minus	1		
+10090	Mus musculus	723848	0	live	Mir34a	Mirn34a, mir-34a, mmu-mir-34a	microRNA 34a	mir 34a	4	4	NC_000070.6	150068454	150068555	plus	1		
+10090	Mus musculus	387231	0	live	Mir122	Mir122a, Mirn122a, mir-122, mmu-mir-122	microRNA 122	microRNA 122a|mmu-mir-122a	18	18	NC_000084.6	65248861	65248926	plus	1		
+10090	Mus musculus	387163	0	live	Mir145a	Mir145, Mirn145, mir-145a, mmu-mir-145, mmu-mir-145a	microRNA 145a	microRNA 145	18	18	NC_000084.6	61647825	61647894	minus	1		
+10090	Mus musculus	723814	0	live	Mir223	Mirn223, miR-223, mmu-mir-223	microRNA 223		X	X	NC_000086.7	96242817	96242926	plus	1		
+10090	Mus musculus	387222	0	live	Mir29a	Mirn29a, mir-29a, mmu-mir-29a	microRNA 29a		6	6	NC_000072.6	31062660	31062747	minus	1		
+10090	Mus musculus	387136	0	live	Mir1a-1	Mir1-1, Mirn1-1, Mirn1b, Mirn1c, Mirn1d, mir-1a-1, mmu-mir-1-1, mmu-mir-1a-1	microRNA 1a-1	microRNA 1-1|microRNA 1b|microRNA 1c|microRNA 1d	2	2	NC_000068.7	180389048	180389124	plus	1		
+10090	Mus musculus	723905	0	live	Mir17	Mirn17, mir-17, mmu-mir-17	microRNA 17	mir 17	14	14	NC_000080.6	115043671	115043754	plus	1		
+10090	Mus musculus	387223	0	live	Mir29b-1	Mirn29b, Mirn29b-1, mir-29b-1	microRNA 29b-1	mmu-mir-29b-1	6	6	NC_000072.6	31063023	31063093	minus	1		
+10090	Mus musculus	387151	0	live	Mir133a-1	Mirn133, Mirn133a-1, mir-133a-1	microRNA 133a-1	mmu-mir-133a-1	18	18	NC_000084.6	10782909	10782976	minus	1		
+10090	Mus musculus	387150	0	live	Mir132	Mirn132, mir-132, mmu-mir-132	microRNA 132		11	11	NC_000077.6	75173682	75173747	plus	1		
+10090	Mus musculus	387244	0	live	Mirlet7a-1	Let-7a, Mirnlet7a, Mirnlet7a-1, let-7a-1	microRNA let7a-1	mmu-let-7a-1	13	13	NC_000079.6	48538179	48538272	minus	1		
+10090	Mus musculus	387161	0	live	Mir143	Mirn143, mir-143, mmu-mir-143	microRNA 143		18	18	NC_000084.6	61649196	61649258	minus	1		
+10090	Mus musculus	723950	0	live	Mir124a-2	Mirn124a-2, mir-124-2, mir-124a-2	microRNA 124a-2	mmu-mir-124-2|mmu-mir-124a-2	3	3	NC_000069.6	17795662	17795770	plus	1		
+10090	Mus musculus	387202	0	live	Mir206	Mirn206, mmu-mir-206	microRNA 206	miR-206	1	1	NC_000067.6	20679010	20679082	plus	1		
+10090	Mus musculus	387236	0	live	Mir125b-1	Mirn125b, Mirn125b-1, mir-125b-1	microRNA 125b-1	mmu-mir-125b-1	9	9	NC_000075.6	41581926	41582002	plus	1		
+10090	Mus musculus	387233	0	live	Mir124a-1	Mirn124a, Mirn124a-1	microRNA 124a-1	mmu-mir-124-1|mmu-mir-124a-1	14	14	NC_000080.6	64590657	64590741	plus	1		
+10090	Mus musculus	387142	0	live	Mir24-1	Mirn189, Mirn24, Mirn24-1, miR-189, miR-24, miR-24-1	microRNA 24-1	microRNA 189|mmu-mir-24-1	13	13	NC_000079.6	63301208	63301275	plus	1		
+10090	Mus musculus	387145	0	live	Mir126a	Mir126, Mirn126, mir-126a, mmu-mir-126, mmu-mir-126a	microRNA 126a	microRNA 126	2	2	NC_000068.7	26591357	26591429	plus	1		
+10090	Mus musculus	387220	0	live	Mir27a	Mirn27a, mir-27a, mmu-mir-27a	microRNA 27a		8	8	NC_000074.6	84208672	84208758	plus	1		
+10090	Mus musculus	387216	0	live	Mir23a	Mirn23a, mir-23a, mmu-mir-23a	microRNA 23a		8	8	NC_000074.6	84208518	84208592	plus	1		
+10090	Mus musculus	723951	0	live	Mir124a-3	Mirn124a-3, mir-124-3, mir-124a-3	microRNA 124a-3	mmu-mir-124-3|mmu-mir-124a-3	2	2	NC_000068.7	180894040	180894107	plus	1		
+10090	Mus musculus	387210	0	live	Mir214	Mirn214, mir-214, mmu-mir-214	microRNA 214		1	1	NC_000067.6	162223368	162223477	plus	1		
+10090	Mus musculus	387139	0	live	Mir20a	Mir-20, Mirn20, Mirn20a, mir-20a, mmu-mir-20a	microRNA 20a		14	14	NC_000080.6	115044157	115044263	plus	1		
+10090	Mus musculus	387176	0	live	Mir181a-2	Mirn181, Mirn181a, Mirn181a-2, miR-181, mir-181a, mir-181a-2	microRNA 181a-2	microRNA mir-181a-2|mmu-mir-181a|mmu-mir-181a-2	2	2	NC_000068.7	38852735	38852810	plus	1		
+10090	Mus musculus	387133	0	live	Mir9-1	Mirn9, Mirn9-1, mir-9-1, mmu-mir-9-1	microRNA 9-1		3	3	NC_000069.6	88215598	88215686	plus	1		
+10090	Mus musculus	387218	0	live	Mir26a-1	Mirn26a, Mirn26a-1, miR-26a, mir-26a-1	microRNA 26a-1	mmu-mir-26a-1	9	9	NC_000075.6	119031796	119031885	plus	1		
+10090	Mus musculus	387160	0	live	Mir142	Mirn142, miR-142, mir-142a, mmu-mir-142, mmu-mir-142a	microRNA 142		11	11	NC_000077.6	87756864	87756927	plus	1		
+10090	Mus musculus	387206	0	live	Mir210	Mirn210, mir-210, mmu-mir-210	microRNA 210		7	7	NC_000073.6	141221384	141221493	minus	1		
+10090	Mus musculus	723959	0	live	Mir1a-2	Mir1-2, Mirn1-2, mir-1a-2, mmu-mir-1-2, mmu-mir-1a-2	microRNA 1a-2	microRNA 1-2|mir 1-2	18	18	NC_000084.6	10785481	10785552	minus	1		
+10090	Mus musculus	723932	0	live	Mir34c	Mirn34c, mir-34c, mmu-mir-34c	microRNA 34c	mir 34c	9	9	NC_000075.6	51103034	51103110	minus	1		
+10090	Mus musculus	387242	0	live	Mir200a	Mirn200a, mir-200a	microRNA 200a	mmu-mir-200a	4	4	NC_000070.6	156054896	156054985	minus	1		
+10090	Mus musculus	387243	0	live	Mir200b	Mirn200b, mir-200b	microRNA 200b	mmu-mir-200b	4	4	NC_000070.6	156055681	156055750	minus	1		
+10090	Mus musculus	387134	0	live	Mir16-1	Mirn16, Mirn16-1, miR-16, mir-16-1	microRNA 16-1	mmu-mir-16-1	14	14	NC_000080.6	61631880	61631972	minus	1		
+10090	Mus musculus	387221	0	live	Mir27b	Mirn27b, mmu-mir-27b	microRNA 27b		13	13	NC_000079.6	63300712	63300784	plus	1		
+10090	Mus musculus	723897	0	live	Mir33	Mirn33, mir-33, mmu-mir-33	microRNA 33	mir 33	15	15	NC_000081.6	82198122	82198190	plus	1		
+10090	Mus musculus	387168	0	live	Mir150	Mirn150, mir-150, mmu-mir-150	microRNA 150		7	7	NC_000073.6	45121757	45121821	plus	1		
+10090	Mus musculus	387141	0	live	Mir22	Mirn22, mmu-mir-22	microRNA 22		11	11	NC_000077.6	75463716	75463810	plus	1		
+10090	Mus musculus	387177	0	live	Mir182	Mirn182, mir-182, mmu-mir-182	microRNA 182		6	6	NC_000072.6	30165918	30165992	minus	1		
+10090	Mus musculus	723827	0	live	Mir221	Mirn221, mir-221, mmu-mir-221	microRNA 221	mir 221	X	X	NC_000086.7	19146294	19146388	minus	1		
+10090	Mus musculus	723895	0	live	Mir31	Mirn31, miR-31, mmu-mir-31	microRNA 31	mir 31	4	4	NC_000070.6	88910557	88910662	minus	1		
+10090	Mus musculus	723902	0	live	Mir7-1	Mir7a1, Mirn7-1, miR-7a1, mir-7a-1, mmu-miR-7a1, mmu-mir-7-1	microRNA 7-1	mir 7-1|mmu-mir-7a-1	13	13	NC_000079.6	58392779	58392886	minus	1		
+10090	Mus musculus	723900	0	live	Mir375	Mirn375, mir-375, mmu-mir-375	microRNA 375	mir 375	1	1	NC_000067.6	74900658	74900721	minus	1		
+10090	Mus musculus	751549	0	live	Mir92-1	Mirn92-1, mir-92a-1	microRNA 92-1	mir 92-1|mmu-mir-92-1|mmu-mir-92a-1	14	14	NC_000080.6	115044427	115044506	plus	1		
+10090	Mus musculus	723952	0	live	Mir125b-2	Mirn125b-2, mir-125b-2	microRNA 125b-2	mmu-mir-125b-2	16	16	NC_000082.6	77646273	77646343	plus	1		
+10090	Mus musculus	387245	0	live	Mirlet7b	Mirnlet7b, let-7b, mmu-let-7b	microRNA let7b		15	15	NC_000081.6	85707319	85707403	plus	1		
+10090	Mus musculus	723870	0	live	Mir451a	Mir451, Mirn451, mir-451a, mmu-mir-451, mmu-mir-451a	microRNA 451a	microRNA 451|mir 451	11	11	NC_000077.6	78073170	78073241	plus	1		
+10090	Mus musculus	723828	0	live	Mir222	Mirn222, mir-222, mmu-mir-222	microRNA 222	mir 222	X	X	NC_000086.7	19146893	19146971	minus	1		
+10090	Mus musculus	723954	0	live	Mir133a-2	Mirn133a-2, mir-133a-2	microRNA 133a-2	mir 133a-2|mmu-mir-133a-2	2	2	NC_000068.7	180398379	180398482	plus	1		
+10090	Mus musculus	387199	0	live	Mir203	Mirn203, mir-203, mmu-mir-203	microRNA 203		12	12	NC_000078.6	112130880	112130955	plus	1		
+10090	Mus musculus	387174	0	live	Mir15a	Mirn15a, mir-15a, mmu-mir-15a	microRNA 15a		14	14	NC_000080.6	61632027	61632110	minus	1		
+10090	Mus musculus	723960	0	live	Mir24-2	Mirn24-2, mir-24-2	microRNA 24-2	mir 24-2|mmu-mir-24-2	8	8	NC_000074.6	84208815	84208921	plus	1		
+10090	Mus musculus	723965	0	live	Mirlet7a-2	Mirnlet7a-2, let-7a-2	microRNA let7a-2	let 7a-2|mmu-let-7a-2	9	9	NC_000075.6	41536716	41536811	plus	1		
+10090	Mus musculus	723889	0	live	Mir378a	Mir378, Mirn378, mmu-mir-378, mmu-mir-378a	microRNA 378a	microRNA 378	18	18	NC_000084.6	61397835	61397900	minus	1		
+10090	Mus musculus	387195	0	live	Mir19b-2	Mirn19b, Mirn19b-2, miR-19b, mir-19b-2	microRNA 19b-2	mmu-mir-19b-2	X	X	NC_000086.7	52741983	52742066	minus	1		
+10090	Mus musculus	387149	0	live	Mir130a	Mirn130, Mirn130a, mir-130a	microRNA 130a	mmu-mir-130a	2	2	NC_000068.7	84741115	84741178	minus	1		
+10090	Mus musculus	723963	0	live	Mir29b-2	Mirn29b-2, mir-29b-2	microRNA 29b-2	mir 29b-2|mmu-mir-29b-2	1	1	NC_000067.6	195037040	195037120	plus	1		
+10090	Mus musculus	387158	0	live	Mir140	Mirn140, mir-140, mmu-mir-140	microRNA 140		8	8	NC_000074.6	107551244	107551313	plus	1		
+10090	Mus musculus	723967	0	live	Mir9-2	Mirn9-2, mir-9-2, mmu-mir-9-2	microRNA 9-2	mir 9-2	13	13	NC_000079.6	83738814	83738885	plus	1		
+10090	Mus musculus	387235	0	live	Mir125a	Mirn125a	microRNA 125a	mmu-mir-125a	17	17	NC_000083.6	17830812	17830879	plus	1		
+10090	Mus musculus	723925	0	live	Mir106b	Mirn106b, mir-106b	microRNA 106b	mir 106b|mmu-mir-106b	5	5	NC_000071.6	138165737	138165818	minus	1		
+10090	Mus musculus	387194	0	live	Mir199a-1	Mirn199, Mirn199a-1, mir-199a-1	microRNA 199a-1	mmu-mir-199a-1	9	9	NC_000075.6	21496495	21496564	minus	1		
+10090	Mus musculus	387201	0	live	Mir205	Mirn205, mir-205, mmu-mir-205	microRNA 205		1	1	NC_000067.6	193507463	193507530	minus	1		
+10090	Mus musculus	723886	0	live	Mir96	Mirn96, mir-96, mmu-mir-96	microRNA 96	mir 96	6	6	NC_000072.6	30169446	30169551	minus	1		
+10090	Mus musculus	723949	0	live	Mir16-2	Mirn16-2, mir-16-2	microRNA 16-2	mmu-mir-16-2	3	3	NC_000069.6	69009902	69009996	plus	1		
+10090	Mus musculus	387200	0	live	Mir204	Mirn204, mir-204, mmu-mir-204	microRNA 204		19	19	NC_000085.6	22750605	22750672	plus	1		
+10090	Mus musculus	387179	0	live	Mir184	Mirn184, mir-184, mmu-mir-184	microRNA 184		9	9	NC_000075.6	89802260	89802328	minus	1		
+10090	Mus musculus	723968	0	live	Mir9-3	Mirn9-3, mir-9-3, mmu-mir-9-3	microRNA 9-3	mir 9-3	7	7	NC_000073.6	79505264	79505353	plus	1		
+10090	Mus musculus	387246	0	live	Mirlet7c-1	Mirnlet7c, Mirnlet7c-1, let-7c-1	microRNA let7c-1	mmu-let-7c-1	16	16	NC_000082.6	77599657	77599750	plus	1		
+10090	Mus musculus	723893	0	live	Mir10a	Mirn10a, miR-10a, mmu-mir-10a	microRNA 10a	MicroRNA-10a|mir 10a	11	11	NC_000077.6	96317165	96317274	plus	1		
+10090	Mus musculus	387146	0	live	Mir127	Mirn127, mir-127, mmu-mir-127	microRNA 127		12	12	NC_000078.6	109592846	109592915	plus	1		
+10090	Mus musculus	723826	0	live	Mir107	Mirn107, mir-107, mmu-mir-107	microRNA 107	mir 107	19	19	NC_000085.6	34820687	34820773	minus	1		
+10090	Mus musculus	387178	0	live	Mir183	Mirn183, mir-183, mmu-mir-183	microRNA 183		6	6	NC_000072.6	30169668	30169737	minus	1		
+10090	Mus musculus	723884	0	live	Mir7-2	Mir7a2, Mirn7-2, mir-7a-2, mir-7a2, mmu-mir-7-2, mmu-mir-7a2	microRNA 7-2	mir 7-2|mmu-mir-7a-2	7	7	NC_000073.6	78888277	78888373	plus	1		
+10090	Mus musculus	723944	0	live	Mir200c	Mirn200c, mir-200c	microRNA 200c	mir 200c|mmu-mir-200c	6	6	NC_000072.6	124718322	124718390	minus	1		
+10090	Mus musculus	387190	0	live	Mir195a	Mir195, Mirn195, mir-195a, mmu-mir-195, mmu-mir-195a	microRNA 195a	microRNA 195	11	11	NC_000077.6	70235042	70235135	plus	1		
+10090	Mus musculus	723920	0	live	Mir302a	Mirn302, Mirn302a, mir-302a, mmu-mir-302	microRNA 302a	microRNA 302|mir 302|mmu-mir-302a	3	3	NC_000069.6	127545496	127545564	plus	1		
+10090	Mus musculus	387162	0	live	Mir144	Mirn144, mir-144, mmu-mir-144	microRNA 144		11	11	NC_000077.6	78073005	78073070	plus	1		
+10090	Mus musculus	751527	0	live	Mir19b-1	Mirn19b-1, mir-19b-1	microRNA 19b-1	mir 19b-1|mmu-mir-19b-1	14	14	NC_000080.6	115044305	115044391	plus	1		
+10090	Mus musculus	723891	0	live	Mir19a	Mirn19a, mir-19a, mmu-mir-19a	microRNA 19a	mir 19a	14	14	NC_000080.6	115044000	115044081	plus	1		
+10090	Mus musculus	723930	0	live	Mir335	Mirn335, mir-335, mmu-mir-335	microRNA 335	mir 335	6	6	NC_000072.6	30741299	30741396	plus	1		
+10090	Mus musculus	387135	0	live	Mir18	Mirn18, mir-18a, mmu-mir-18, mmu-mir-18a	microRNA 18		14	14	NC_000080.6	115043851	115043946	plus	1		
+10090	Mus musculus	723817	0	live	Mir133b	Mirn133b, mir-133b	microRNA 133b	mir 133b|mmu-mir-133b	1	1	NC_000067.6	20682769	20682887	plus	1		
+10090	Mus musculus	723821	0	live	Mir199a-2	Mirn199a-2, mir-199a-2	microRNA 199a-2	mir 199a-2|mmu-mir-199a-2	1	1	NC_000067.6	162217814	162217923	plus	1		
+10090	Mus musculus	723885	0	live	Mir93	Mirn93, mir-93, mmu-mir-93	microRNA 93	mir 93	5	5	NC_000071.6	138165523	138165610	minus	1		
+10090	Mus musculus	387224	0	live	Mir29c	Mirn29c, mir-29c, mmu-mir-29c	microRNA 29c		1	1	NC_000067.6	195037547	195037634	plus	1		
+10090	Mus musculus	723838	0	live	Mir320	Mirn320, mir-320, mmu-mir-320	microRNA 320	mir 320	14	14	NC_000080.6	70443510	70443591	plus	1		
+10090	Mus musculus	387155	0	live	Mir137	Mirn137, mir-137, mmu-mir-137	microRNA 137		3	3	NC_000069.6	118433857	118433929	plus	1		
+10090	Mus musculus	735252	0	live	Mir181a-1	Mirn181a-1, Mirn213, miR-213, mir-181a-1, mmu-mir-213	microRNA 181a-1	microRNA 213|mir 181a-1|mmu-mir-181a-1	1	1	NC_000067.6	137966455	137966541	plus	1		
+10090	Mus musculus	387143	0	live	Mir101a	Mirn101, Mirn101a, miR-101, mir-101a	microRNA 101a	mmu-mir-101a	4	4	NC_000070.6	101346945	101347027	minus	1		
+10090	Mus musculus	387217	0	live	Mir23b	Mirn23b, mmu-mir-23b	microRNA 23b		13	13	NC_000079.6	63300484	63300557	plus	1		
+10090	Mus musculus	387159	0	live	Mir141	Mirn141, mir-141, mmu-mir-141	microRNA 141		6	6	NC_000072.6	124717914	124717985	minus	1		
+10090	Mus musculus	387152	0	live	Mir134	Mirn134, mir-134, mmu-mir-134	microRNA 134		12	12	NC_000078.6	109734139	109734209	plus	1		
+10090	Mus musculus	723966	0	live	Mirlet7c-2	Mirnlet7c-2, let-7c-2	microRNA let7c-2	let 7c-2|mmu-let-7c-2	15	15	NC_000081.6	85706603	85706697	plus	1		
+10090	Mus musculus	387188	0	live	Mir193a	Mir193, Mirn193, mir-193a, mmu-mir-193, mmu-mir-193a	microRNA 193a	microRNA 193	11	11	NC_000077.6	79711969	79712034	plus	1		
+10090	Mus musculus	387147	0	live	Mir128-1	Mirn128, Mirn128-1, Mirn128a, mir-128-1	microRNA 128-1	microRNA 128a|mmu-mir-128-1|mmu-mir-128a	1	1	NC_000067.6	128202361	128202430	plus	1		
+10090	Mus musculus	387226	0	live	Mir30b	Mirn30b, mir-30b, mmu-mir-30b	microRNA 30b		15	15	NC_000081.6	68337415	68337510	minus	1		
+10090	Mus musculus	723849	0	live	Mir34b	Mirn34b, mir-34b, mmu-mir-34b	microRNA 34b	mir 34b	9	9	NC_000075.6	51103562	51103645	minus	1		
+10090	Mus musculus	723874	0	live	Mir483	Mirn483, mir-483, mmu-mir-483	microRNA 483	mir 483	7	7	NC_000073.6	142654924	142654996	minus	1		
+10090	Mus musculus	387248	0	live	Mirlet7e	Mirnlet7e, mmu-let-7e	microRNA let7e		17	17	NC_000083.6	17830352	17830444	plus	1		
+10090	Mus musculus	723894	0	live	Mir224	Mirn224, mir-224, mmu-mir-224	microRNA 224	mir 224	X	X	NC_000086.7	72261031	72261112	minus	1		
+10090	Mus musculus	387175	0	live	Mir15b	Mirn15b, mir-15b, mmu-mir-15b	microRNA 15b		3	3	NC_000069.6	69009772	69009835	plus	1		
+10090	Mus musculus	723926	0	live	Mir25	Mirn25, mir-25, mmu-mir-25	microRNA 25	mir 25	5	5	NC_000071.6	138165321	138165404	minus	1		
+10090	Mus musculus	100049710	0	live	Mir290a	Mir290, Mirn290, mir-290a, mmu-miR-290, mmu-mir-290a	microRNA 290a	microRNA 290|microRNA mir-290	7	7	NC_000073.6	3218626	3218708	plus	1		
+10090	Mus musculus	723834	0	live	Mir301	Mirn301, mir-301a, mmu-mir-301	microRNA 301	mir 301|mmu-mir-301a	11	11	NC_000077.6	87113004	87113089	plus	1		
+10090	Mus musculus	387189	0	live	Mir194-1	Mirn194, Mirn194-1, miR-194, mir-194-1	microRNA 194-1	mmu-mir-194-1	1	1	NC_000067.6	185313319	185313385	plus	1		
+10090	Mus musculus	387225	0	live	Mir30a	Mirn30a, mir-30a, mmu-mir-30a	microRNA 30a		1	1	NC_000067.6	23272269	23272339	plus	1		
+10090	Mus musculus	387166	0	live	Mir148a	Mirn148, Mirn148a, mir-148a	microRNA 148a	mmu-mir-148a	6	6	NC_000072.6	51269812	51269910	minus	1		
+10090	Mus musculus	723942	0	live	Mir92-2	Mirn92-2, mir-92a-2	microRNA 92-2	mir 92-2|mmu-mir-92-2|mmu-mir-92a-2	X	X	NC_000086.7	52741838	52741928	minus	1		
+10090	Mus musculus	387187	0	live	Mir192	Mirn192, mir-192, mmu-mir-192	microRNA 192		19	19	NC_000085.6	6264844	6264932	plus	1		
+10090	Mus musculus	387191	0	live	Mir196a-1	Mirn196, Mirn196a-1, miR-196, mir-196a-1	microRNA 196a-1	mmu-mir-196a-1	11	11	NC_000077.6	96265164	96265265	plus	1		
+10090	Mus musculus	723829	0	live	Mir106a	Mirn106a, mir-106a	microRNA 106a	mir 106a|mmu-mir-106a	X	X	NC_000086.7	52742503	52742567	minus	1		
+10090	Mus musculus	387208	0	live	Mir212	Mirn212, mir-212, mmu-mir-212	microRNA 212		11	11	NC_000077.6	75173388	75173478	plus	1		
+10090	Mus musculus	723878	0	live	Mir494	Mirn494, mir-494, mmu-mir-494	microRNA 494	mir 494	12	12	NC_000078.6	109715318	109715402	plus	1		
+10090	Mus musculus	387214	0	live	Mir218	Mirn218	microRNA 218										
+10090	Mus musculus	387144	0	live	Mir10b	Mirn10b, mir-10b, mmu-mir-10b	microRNA 10b		2	2	NC_000068.7	74726070	74726137	plus	1		
+10090	Mus musculus	387169	0	live	Mir151	Mirn151, mir-151, mmu-mir-151	microRNA 151		15	15	NC_000081.6	73254815	73254882	minus	1		
+10090	Mus musculus	387247	0	live	Mirlet7d	Mirnlet7d, let-7d, mmu-let-7d	microRNA let7d		13	13	NC_000079.6	48536012	48536114	minus	1		
+10090	Mus musculus	387249	0	live	Mirlet7g	Mirnlet7g, let-7g, mmu-let-7g	microRNA let7g		9	9	NC_000075.6	106178840	106178927	plus	1		
+10090	Mus musculus	723962	0	live	Mir26a-2	Mirn26a-2, mir-26a-2	microRNA 26a-2	mir 26a-2|mmu-mir-26a-2	10	10	NC_000076.6	126995530	126995613	plus	1		
+10090	Mus musculus	387180	0	live	Mir185	Mirn185, mir-185, mmu-mir-185	microRNA 185		16	16	NC_000082.6	18327401	18327465	minus	1		
+10090	Mus musculus	723825	0	live	Mir103-2	Mirn103-2, mir-103-2	microRNA 103-2	mir 103-2|mmu-mir-103-2	2	2	NC_000068.7	131288052	131288137	plus	1		
+10090	Mus musculus	751550	0	live	Mir146b	Mirn146b, mir-146b	microRNA 146b	mir 146b|mmu-mir-146b	19	19	NC_000085.6	46342762	46342870	plus	1		
+10090	Mus musculus	723824	0	live	Mir103-1	Mirn103-1, mir-103-1	microRNA 103-1	mir 103-1|mmu-mir-103-1	11	11	NC_000077.6	35782396	35782481	plus	1		
+10090	Mus musculus	387228	0	live	Mir30d	Mirn30d, mir-30d, mmu-mir-30d	microRNA 30d		15	15	NC_000081.6	68341208	68341289	minus	1		
+10090	Mus musculus	723879	0	live	Mir503	Mirn503, mmu-mir-503	microRNA 503	mir 503	X	X	NC_000086.7	53053984	53054054	minus	1		
+10090	Mus musculus	723836	0	live	Mir30e	Mirn30e, mir-30e, mmu-mir-30e	microRNA 30e	mir 30e	4	4	NC_000070.6	120772606	120772697	minus	1		
+10090	Mus musculus	387227	0	live	Mir30c-1	Mirn30c, Mirn30c-1, mir-30c-1	microRNA 30c-1	mmu-mir-30c-1	4	4	NC_000070.6	120769534	120769622	minus	1		
+10090	Mus musculus	723923	0	live	Mir20b	Mirn20b, mir-20b, mmu-mir-20b	microRNA 20b	mir 20b	X	X	NC_000086.7	52742113	52742192	minus	1		
+10090	Mus musculus	723890	0	live	Mir181b-1	Mirn181b-1, mir-181b-1	microRNA 181b-1	mir 181b-1|mmu-mir-181b-1	1	1	NC_000067.6	137966639	137966718	plus	1		
+10090	Mus musculus	387219	0	live	Mir26b	Mirn26b, mir-26b, mmu-mir-26b	microRNA 26b		1	1	NC_000067.6	74394310	74394394	plus	1		
+10090	Mus musculus	723892	0	live	Mir100	Mirn100, mir-100, mmu-mir-100	microRNA 100	mir 100	9	9	NC_000075.6	41531425	41531504	plus	1		
+10090	Mus musculus	387156	0	live	Mir138-1	Mirn138, Mirn138-1, mir-138-1	microRNA 138-1	mmu-mir-138-1	9	9	NC_000075.6	122682876	122682974	plus	1		
+10090	Mus musculus	723868	0	live	Mir449a	Mirn449, Mirn449a, mir-449a, mmu-mir-449	microRNA 449a	microRNA 449|mir 449|mmu-mir-449a	13	13	NC_000079.6	113037534	113037624	plus	1		
+10090	Mus musculus	387204	0	live	Mir208a	Mirn208, Mirn208a, mir-208, mir-208a, mmu-mir-208	microRNA 208a	microRNA 208|mmu-mir-208a	14	14	NC_000080.6	54949060	54949142	minus	1		
+10090	Mus musculus	387229	0	live	Mir99a	Mirn99a, mir-99a, mmu-mir-99a	microRNA 99a		16	16	NC_000082.6	77598936	77599000	plus	1		
+10090	Mus musculus	723955	0	live	Mir135a-2	Mirn135a-2, mir-135a-2	microRNA 135a-2	mir 135a-2|mmu-mir-135a-2	10	10	NC_000076.6	92072086	92072185	minus	1		
+10090	Mus musculus	387153	0	live	Mir135a-1	Mir135a01, Mirn135, Mirn135a-1, mir-135a-1	microRNA 135a-1	mmu-mir-135a-1	9	9	NC_000075.6	106154124	106154213	plus	1		
+10090	Mus musculus	735275	0	live	Mir499	Mirn499, mir-499, mmu-mir-499	microRNA 499	mir 499	2	2	NC_000068.7	155622880	155622958	plus	1		
+10090	Mus musculus	723937	0	live	Mir433	Mirn433, mir-433, mmu-mir-433	microRNA 433	mir 433	12	12	NC_000078.6	109591715	109591838	plus	1		
+10090	Mus musculus	723957	0	live	Mir194-2	Mirn194-2, mir-194-2	microRNA 194-2	mir 194-2|mmu-mir-194-2	19	19	NC_000085.6	6264643	6264728	plus	1		
+10090	Mus musculus	723958	0	live	Mir196a-2	Mirn196a-2, mir-196a-2	microRNA 196a-2	mir 196a-2|mmu-mir-196a-2	15	15	NC_000081.6	102973350	102973434	plus	1		
+10090	Mus musculus	723922	0	live	Mir466	Mirn466, mmu-mir-466	microRNA 466	mir 466|mmu-mir-466a	2	2	NC_000068.7	10507918	10507990	plus	1		
+10090	Mus musculus	723815	0	live	Mir128-2	Mirn128-2, Mirn128b, mir-128-2, mir-128b	microRNA 128-2	microRNA 128b|mir 128b|mmu-mir-128-2|mmu-mir-128b	9	9	NC_000075.6	112118636	112118711	minus	1		
+10090	Mus musculus	387213	0	live	Mir217	Mirn217, mir-217, mmu-mir-217	microRNA 217		11	11	NC_000077.6	28763728	28763835	plus	1		
+10090	Mus musculus	387234	0	live	Mir124b	Mirn124b	microRNA 124b										
+10090	Mus musculus	723909	0	live	Mir342	Mirn342, mmu-mir-342	microRNA 342	mir 342	12	12	NC_000078.6	108658620	108658718	plus	1		
+10090	Mus musculus	723956	0	live	Mir138-2	Mirn138-2, mir-138-2	microRNA 138-2	mir 138-2|mircoRNA 138-2|mmu-mir-138-2	8	8	NC_000074.6	94324311	94324381	plus	1		
+10090	Mus musculus	723855	0	live	Mir376a	Mirn376a, mir-376a	microRNA 376a	mir 376a|mmu-mir-376a	12	12	NC_000078.6	109723781	109723848	plus	1		
+10090	Mus musculus	724062	0	live	Mir101b	Mirn101b, mir-101b	microRNA 101b	mmu-mir-101b	19	19	NC_000085.6	29135279	29135375	plus	1		
+10090	Mus musculus	723865	0	live	Mir429	Mirn429, mir-429, mmu-mir-429	microRNA 429	mir 429	4	4	NC_000070.6	156053905	156053987	minus	1		
+10090	Mus musculus	723841	0	live	Mir328	Mirn328, miR-328, mmu-mir-328	microRNA 328	mir 328	8	8	NC_000074.6	105308364	105308460	minus	1		
+10090	Mus musculus	723964	0	live	Mir30c-2	Mirn30c-2, mir-30c-2	microRNA 30c-2	mir 30c-2|mmu-mir-30c-2	1	1	NC_000067.6	23291701	23291784	plus	1		
+10090	Mus musculus	735271	0	live	Mir709	Mirn709, mir-709, mmu-mir-709	microRNA 709	MIR 709	8	8	NC_000074.6	84086099	84086186	plus	1		
+10090	Mus musculus	723854	0	live	Mir370	Mirn370, mir-370, mmu-mir-370	microRNA 370	mir 370	12	12	NC_000078.6	109618258	109618336	plus	1		
+10090	Mus musculus	723907	0	live	Mir322	Mirn322, mmu-mir-322	microRNA 322	mir 322	X	X	NC_000086.7	53054255	53054349	minus	1		
+10090	Mus musculus	723910	0	live	Mir351	Mirn351, mmu-mir-351	microRNA 351	mir 351	X	X	NC_000086.7	53053255	53053353	minus	1		
+10090	Mus musculus	723876	0	live	Mir486	Mirn486, mir-486a, mmu-mir-486, mmu-mir-486a	microRNA 486	mir 486	8	8	NC_000074.6	23142555	23142682	plus	1		
+10090	Mus musculus	387252	0	live	Mirlet7f-1	Mirlet7f1, Mirnlet7f1, let-7f-1	microRNA let7f-1	microRNA let7f1|mmu-let-7f-1	13	13	NC_000079.6	48537829	48537917	minus	1		
+10090	Mus musculus	723819	0	live	Mir181c	Mirn181c, mir-181c	microRNA 181c	mir 181c|mmu-mir-181c	8	8	NC_000074.6	84178873	84178961	minus	1		
+10090	Mus musculus	723903	0	live	Mir181b-2	Mirn181b-2, mir-181b-2	microRNA 181b-2	mir 181b-2|mmu-mir-181b-2	2	2	NC_000068.7	38853830	38853918	plus	1		
+10090	Mus musculus	723883	0	live	Mir7b	Mirn7b, mir-7b, mmu-mir-7b	microRNA 7b	mir 7b	17	17	NC_000083.6	56242988	56243098	plus	1		
+10090	Mus musculus	723947	0	live	Mir98	Mirn98, mir-98, mmu-mir-98	microRNA 98	mir 98	X	X	NC_000086.7	151913214	151913321	plus	1		
+10090	Mus musculus	723818	0	live	Mir135b	Mirn135b, mir-135b	microRNA 135b	mir 135b|mmu-mir-135b	1	1	NC_000067.6	132198088	132198184	plus	1		
+10090	Mus musculus	100049713	0	live	Mir295	Mirn295, mir-295, mmu-miR-295	microRNA 295	microRNA mir-295	7	7	NC_000073.6	3220773	3220841	plus	1		
+10090	Mus musculus	100124432	0	live	Mir193b	Mir193, Mirn193b, mir-193b	microRNA 193b	microRNA mir-193b|mmu-mir-193b	16	16	NC_000082.6	13449523	13449601	plus	1		
+10090	Mus musculus	387253	0	live	Mirlet7f-2	Mirlet7f2, Mirnlet7f2, let-7f-2	microRNA let7f-2	microRNA let7f2|mmu-let-7f-2	X	X	NC_000086.7	151912346	151912428	plus	1		
+10090	Mus musculus	723839	0	live	Mir323	Mirn323, mir-323, mmu-mir-323	microRNA 323	mir 323	12	12	NC_000078.6	109712508	109712593	plus	1		
+10090	Mus musculus	723899	0	live	Mir365-1	Mirn365-1, mir-365-1	microRNA 365-1	mir 365-1|mmu-mir-365-1	16	16	NC_000082.6	13453840	13453926	plus	1		
+10090	Mus musculus	723863	0	live	Mir410	Mirn410, mmu-mir-410	microRNA 410	mir 410	12	12	NC_000078.6	109743715	109743795	plus	1		
+10090	Mus musculus	387186	0	live	Mir191	Mirn191, mir-191, mmu-mir-191	microRNA 191		9	9	NC_000075.6	108568319	108568392	plus	1		
+10090	Mus musculus	723816	0	live	Mir130b	Mirn130b, mir-130b	microRNA 130b	mir 130b|mmu-mir-130b	16	16	NC_000082.6	17124061	17124142	minus	1		
+10090	Mus musculus	100049712	0	live	Mir294	Mirn294, mir-294, mmu-miR-294	microRNA 294	microRNA mir-294	7	7	NC_000073.6	3220641	3220724	plus	1		
+10090	Mus musculus	387211	0	live	Mir215	Mirn215, mir-215, mmu-mir-215	microRNA 215		1	1	NC_000067.6	185313581	185313692	plus	1		
+10090	Mus musculus	100316783	0	live	Mir1b	Mir1-2-as, Mir1-2as, Mirn1-2as, mir-1b, mmu-mir-1-2-as, mmu-mir-1b	microRNA 1b	microRNA 1-2, antisense|microRNA mir-1-2-as	18 5.4 cM	18	NC_000084.6	10785446	10785567	plus	1		
+10090	Mus musculus	387154	0	live	Mir136	Mirn136, mir-136, mmu-mir-136	microRNA 136		12	12	NC_000078.6	109595327	109595388	plus	1		
+10090	Mus musculus	735262	0	live	Mir455	Mirn455, mir-455, mmu-mir-455	microRNA 455	mir 455	4	4	NC_000070.6	63256851	63256932	plus	1		
+10090	Mus musculus	723858	0	live	Mir379	Mirn379, mir-379, mmu-mir-379	microRNA 379	mir 379	12	12	NC_000078.6	109709060	109709125	plus	1		
+10090	Mus musculus	387167	0	live	Mir149	Mirn149, mir-149, mmu-mir-149	microRNA 149		1	1	NC_000067.6	92850378	92850443	plus	1		
+10090	Mus musculus	387170	0	live	Mir152	Mirn152, mir-152, mmu-mir-152	microRNA 152		11	11	NC_000077.6	96850393	96850465	plus	1		
+10090	Mus musculus	751537	0	live	Mir497	Mir, Mirn497, mir-497a, mmu-mir-497, mmu-mir-497a	microRNA 497		11	11	NC_000077.6	70234717	70234800	plus	1		
+10090	Mus musculus	723847	0	live	Mir346	Mirn346, mir-346, mmu-mir-346	microRNA 346	mir 346	14	14	NC_000080.6	34894609	34894706	plus	1		
+10090	Mus musculus	723860	0	live	Mir383	Mirn383, mir-383, mmu-mir-383	microRNA 383	mir 383	8	8	NC_000074.6	38252133	38252202	minus	1		
+10090	Mus musculus	751522	0	live	Mir495	Mirn495, mir-495, mmu-mir-495	microRNA 495	mir 495	12	12	NC_000078.6	109718754	109718816	plus	1		
+10090	Mus musculus	723844	0	live	Mir338	Mirn338, mir-338, mmu-mir-338	microRNA 338	mir 338	11	11	NC_000077.6	120014765	120014862	minus	1		
+10090	Mus musculus	387230	0	live	Mir99b	Mirn99b, mmu-mir-99b	microRNA 99b		17	17	NC_000083.6	17830188	17830257	plus	1		
+10090	Mus musculus	75957	0	live	Mir17hg	5033413D16Rik, Mirhg1, OTTMUSG00000033261, mir-17-92	Mir17 host gene (non-protein coding)	Mir17 host gene 1 (non-protein coding)|microRNA host gene 1 (non-protein coding)	14	14	NC_000080.6	115044390	115046728	plus	1		
+10090	Mus musculus	387198	0	live	Mir202	Mirn202, mir-202, mmu-mir-202	microRNA 202		7	7	NC_000073.6	139957689	139957760	minus	1		
+10090	Mus musculus	723837	0	live	Mir32	Mirn32, mir-32, mmu-mir-32	microRNA 32	mir 32	4	4	NC_000070.6	56895229	56895298	minus	1		
+10090	Mus musculus	723906	0	live	Mir296	Mirn296, mir-296, mmu-mir-296	microRNA 296	mir 296	2	2	NC_000068.7	174267047	174267125	minus	1		
+10090	Mus musculus	387251	0	live	Mirlet7i	Mirnlet7i, let-7i, mmu-let-7i	microRNA let7i		10	10	NC_000076.6	122985640	122985724	minus	1		
+10090	Mus musculus	387157	0	live	Mir139	Mirn139, mir-139, mmu-mir-139	microRNA 139		7	7	NC_000073.6	101475376	101475443	plus	1		
+10090	Mus musculus	100049711	0	live	Mir292	Mirn292, mir-292a, mmu-mir-292, mmu-mir-292a	microRNA 292	microRNA mir-292	7	7	NC_000073.6	3219189	3219270	plus	1		
+10090	Mus musculus	723928	0	live	Mir302d	Mirn302d, mir-302d	microRNA 302d	mir 302d|mmu-mir-302d	3	3	NC_000069.6	127545624	127545689	plus	1		
+10090	Mus musculus	723924	0	live	Mir218-2	Mirn218-2, mir-218-2	microRNA 218-2	mir 218-2|mmu-mir-218-2	11	11	NC_000077.6	35616816	35616925	plus	1		
+10090	Mus musculus	723822	0	live	Mir218-1	Mirn218-1, mir-218-1	microRNA 218-1	mir 218-1|mmu-mir-218-1	5	5	NC_000071.6	48223942	48224051	plus	1		
+10090	Mus musculus	723912	0	live	Mir382	Mirn382, mir-382, mmu-mir-382	microRNA 382	mir 382	12	12	NC_000078.6	109733771	109733846	plus	1		
+10090	Mus musculus	723866	0	live	Mir431	Mirn431, mir-431, mmu-mir-431	microRNA 431	mir 431	12	12	NC_000078.6	109590447	109590537	plus	1		
+10090	Mus musculus	387212	0	live	Mir216a	Mirn216, Mirn216a, mir-216a, mmu-mir-216	microRNA 216a	mmu-mir-216a	11	11	NC_000077.6	28757012	28757083	plus	1		
+10090	Mus musculus	723953	0	live	Mir129-2	Mirn129-2, mir-129-2	microRNA 129-2	mmu-mir-129-2	2	2	NC_000068.7	94241364	94241453	minus	1		
+10090	Mus musculus	387207	0	live	Mir211	Mirn211, mir-211, mmu-mir-211	microRNA 211		7	7	NC_000073.6	64205806	64205911	plus	1		
+10090	Mus musculus	723901	0	live	Mir542	Mirn542, mir-542, mmu-mir-542	microRNA 542	mir 542	X	X	NC_000086.7	53049403	53049487	minus	1		
+10090	Mus musculus	100124433	0	live	Mir208b	Mirn208b, mir-208b	microRNA 208b	microRNA mir-208b|mmu-mir-208b	14	14	NC_000080.6	54975700	54975776	minus	1		
+10090	Mus musculus	723820	0	live	Mir196b	Mirn196b, mir-196b	microRNA 196b	mir 196b|mmu-mir-196b	6	6	NC_000072.6	52230081	52230165	minus	1		
+10090	Mus musculus	387171	0	live	Mir153	Mirn153, mir-153, mmu-mir-153	microRNA 153		12	12	NC_000078.6	117250817	117250885	plus	1		
+10090	Mus musculus	735280	0	live	Mir675	Mirn675, mir-675, mmu-mir-675	microRNA 675	mir 675	7	7	NC_000073.6	142577064	142577147	minus	1		
+10090	Mus musculus	735257	0	live	Mir467b	Mirn467b, mir-467b	microRNA 467b	microRNA mir-467b|mir 467b|mmu-mir-467b	2	2	NC_000068.7	10481248	10481320	plus	1		
+10090	Mus musculus	100049549	0	live	Mir181d	Mirn181d, mir-181d	microRNA 181d	mmu-mir-181d	8	8	NC_000074.6	84178716	84178787	minus	1		
+10090	Mus musculus	723934	0	live	Mir376b	Mirn376b, mir-376b	microRNA 376b	mir 376b|mmu-mir-376b	12	12	NC_000078.6	109723458	109723539	plus	1		
+10090	Mus musculus	387185	0	live	Mir190a	Mir190, Mirn190, mir-190, mir-190a, mmu-mir-190, mmu-mir-190a	microRNA 190a	microRNA 190	9	9	NC_000075.6	67236660	67236726	minus	1		
+10090	Mus musculus	723896	0	live	Mir324	Mirn324, mir-324, mmu-mir-324	microRNA 324	mir 324	11	11	NC_000077.6	70012043	70012131	plus	1		
+10090	Mus musculus	723898	0	live	Mir339	Mirn339, mir-339, mmu-mir-339	microRNA 339	mir 339	5	5	NC_000071.6	139369650	139369745	minus	1		
+10090	Mus musculus	387172	0	live	Mir154	Mirn154, mir-154, mmu-mir-154	microRNA 154		12	12	NC_000078.6	109738433	109738498	plus	1		
+10090	Mus musculus	723852	0	live	Mir363	Mirn363, mir-363, mmu-mir-363	microRNA 363	mir 363	X	X	NC_000086.7	52741693	52741767	minus	1		
+10090	Mus musculus	735286	0	live	Mir467a-1	Mir467a, Mirn467, Mirn467a, Mirn467a-1, mir-467a-1, mmu-mir-467, mmu-mir-467a, mmu-mir-467a-1	microRNA 467a-1	microRNA 467|microRNA 467a|microRNA mir-467a|mir 467|mir 467a	2	2	NC_000068.7	10476346	10476418	plus	1		
+10090	Mus musculus	723842	0	live	Mir329	Mirn329, mir-329, mmu-mir-329	microRNA 329	microRNA mir-329|mir 329	12	12	NC_000078.6	109713481	109713577	plus	1		
+10090	Mus musculus	751546	0	live	Mir374b	Mir374, Mirn374, mir-374b, mmu-mir-374, mmu-mir-374b	microRNA 374b	microRNA 374|mir 374	X	X	NC_000086.7	103573060	103573154	minus	1		
+10090	Mus musculus	387182	0	live	Mir187	Mirn187, mir-187, mmu-mir-187	microRNA 187		18	18	NC_000084.6	24429110	24429170	minus	1		
+10090	Mus musculus	723941	0	live	Mir541	Mirn541, mir-541, mmu-mir-541	microRNA 541	mir 541	12	12	NC_000078.6	109742409	109742498	plus	1		
+10090	Mus musculus	387232	0	live	Mir122b	Mirn122b	microRNA 122b										
+10090	Mus musculus	723904	0	live	Mir219a-2	Mir219-2, Mirn219-2, mir-219a-2, mmu-mir-219a-2	microRNA 219a-2	microRNA 219-2|mir 219-2|mmu-mir-219-2	2	2	NC_000068.7	29845631	29845727	minus	1		
+10090	Mus musculus	723830	0	live	Mir28a	Mir28, Mirn28, mmu-mir-28, mmu-mir-28a	microRNA 28a	microRNA 28|mir 28	16	16	NC_000082.6	24827855	24827940	plus	1		
+10090	Mus musculus	723856	0	live	Mir376c	Mirn376c, mir-376c	microRNA 376c	mir 376c|mmu-mir-376c	12	12	NC_000078.6	109722718	109722803	plus	1		
+10090	Mus musculus	723976	0	live	Mir652	Mirn652, miRX, mmu-mir-652	microRNA 652	mir 652	X	X	NC_000086.7	142739000	142739097	plus	1		
+10090	Mus musculus	723908	0	live	Mir331	Mirn331, mmu-mir-331	microRNA 331	mir 331	10	10	NC_000076.6	93963768	93963863	minus	1		
+10090	Mus musculus	723913	0	live	Mir412	Mirn412, mir-412, mmu-mir-412	microRNA 412	mir 412	12	12	NC_000078.6	109743289	109743368	plus	1		
+10090	Mus musculus	723823	0	live	Mir219a-1	Mir219-1, Mirn219-1, mir-219a-1, mmu-mir-219a-1	microRNA 219a-1	microRNA 219-1|mir 219-1|mmu-mir-219-1	17	17	NC_000083.6	34024983	34025092	minus	1		
+10090	Mus musculus	100124490	0	live	Mir712	Mirn712, mmu-mir-712	microRNA 712	microRNA Mirn712|microRNA mir-712									
+10090	Mus musculus	723877	0	live	Mir489	Mirn489, mir-489, mmu-mir-489	microRNA 489	mir 489	6	6	NC_000072.6	3721897	3722003	minus	1		
+10090	Mus musculus	723921	0	live	Mir350	Mirn350, mir-350, mmu-mir-350	microRNA 350	mir 350	1	1	NC_000067.6	176772325	176772423	minus	1		
+10090	Mus musculus	723917	0	live	Mir539	Mirn539, mir-539, mmu-mir-539	microRNA 539	mir 539	12	12	NC_000078.6	109728129	109728202	plus	1		
+10090	Mus musculus	387181	0	live	Mir186	Mirn186, mir-186, mmu-mir-186	microRNA 186		3	3	NC_000069.6	157544279	157544349	plus	1		
+10090	Mus musculus	387237	0	live	Mir129-1	Mirn129-1, Mirn129b, miR-129b, mir-129-1	microRNA 129-1	microRNA 129b|mmu-mir-129-1	6	6	NC_000072.6	29022619	29022691	plus	1		
+10090	Mus musculus	791070	0	live	Mir744	Mirn744, mir-744, mmu-mir-744	microRNA 744		11	11	NC_000077.6	65734733	65734832	minus	1		
+10090	Mus musculus	100316739	0	live	Mir1224	Mirn1224, mir-1224, mmu-mir-1224	microRNA 1224	microRNA mir-1224	16 12.48 cM	16	NC_000082.6	20604452	20604536	plus	1		
+10090	Mus musculus	387203	0	live	Mir207	Mirn207, mmu-mir-207	microRNA 207		4	4	NC_000070.6	40722917	40722995	plus	1		
+10090	Mus musculus	387165	0	live	Mir147	Mirn147, mmu-mir-147	microRNA 147	microRNA mir-147	2	2	NC_000068.7	122640803	122640881	plus	1		
+10090	Mus musculus	387183	0	live	Mir188	Mirn188, mir-188, mmu-mir-188	microRNA 188		X	X	NC_000086.7	7247989	7248056	minus	1		
+10090	Mus musculus	723911	0	live	Mir367	Mirn367, mir-367, mmu-mir-367	microRNA 367	mir 367	3	3	NC_000069.6	127545733	127545807	plus	1		
+10090	Mus musculus	100049714	0	live	Mir293	Mirn293, mir-293, mmu-mir-293	microRNA 293	microRNA mir-293	7	7	NC_000073.6	3220343	3220422	plus	1		
+10090	Mus musculus	723948	0	live	Mir302b	Mirn302b, mir-302b	microRNA 302b	mir 302b|mmu-mir-302b	3	3	NC_000069.6	127545228	127545301	plus	1		
+10090	Mus musculus	100049715	0	live	Mir291a	Mirn291a, mir-291a	microRNA 291a	microRNA mir-291a|mmu-miR-291a	7	7	NC_000073.6	3218919	3219000	plus	1		
+10090	Mus musculus	723867	0	live	Mir434	Mirn434, mir-434, mmu-mir-434	microRNA 434	mir 434	12	12	NC_000078.6	109594506	109594599	plus	1		
+10090	Mus musculus	723840	0	live	Mir326	Mirn326, mir-326, mmu-mir-326	microRNA 326	mir 326	7	7	NC_000073.6	99552269	99552363	plus	1		
+10090	Mus musculus	723933	0	live	Mir369	Mirn369, mir-369, mmu-mir-369	microRNA 369	mir 369	12	12	NC_000078.6	109743418	109743496	plus	1		
+10090	Mus musculus	791073	0	live	Mir762	Mirn762, mir-762, mmu-mir-762	microRNA 762		7	7	NC_000073.6	127708487	127708562	plus	1		
+10090	Mus musculus	751557	0	live	Mir615	Mir, Mirn615, mir-615, mmu-mir-615	microRNA 615		15	15	NC_000081.6	103014910	103015001	plus	1		
+10090	Mus musculus	100124491	0	live	Mir874	Mirn874, mir-874, mmu-mir-874	microRNA 874	microRNA Mirn874|microRNA mir-874	13	13	NC_000079.6	58023125	58023200	minus	1		
+10090	Mus musculus	732489	0	live	Mir674	Mirn674, mir-674, mmu-mir-674	microRNA 674	mir 674	2	2	NC_000068.7	117185127	117185226	plus	1		
+10090	Mus musculus	723853	0	live	Mir365-2	Mirn365-2, mir-365-2	microRNA 365-2	mir 365-2|mmu-mir-365-2	11	11	NC_000077.6	79726400	79726511	plus	1		
+10090	Mus musculus	100124470	0	live	Mir92b	Mirn92b, mir-92b, mmu-mir-92b	microRNA 92b	microRNA Mirn92b|microRNA mir-92b	3	3	NC_000069.6	89227116	89227198	minus	1		
+10090	Mus musculus	735283	0	live	Mir702	Mirn702, mir-702, mmu-mir-702	microRNA 702	mir 702	5	5	NC_000071.6	136991433	136991541	plus	1		
+10090	Mus musculus	723832	0	live	Mir298	Mirn298, mir-298, mmu-mir-298	microRNA 298	mir 298	2	2	NC_000068.7	174267504	174267585	minus	1		
+10090	Mus musculus	723843	0	live	Mir337	Mirn337, mir-337, mmu-mir-337	microRNA 337	mir 337	12	12	NC_000078.6	109585789	109585885	plus	1		
+10090	Mus musculus	723916	0	live	Mir484	Mirn484, mir-484, mmu-mir-484	microRNA 484	mir 484	16	16	NC_000082.6	14159626	14159692	plus	1		
+10090	Mus musculus	723881	0	live	Mir543	Mirn543, mir-543, mmu-mir-543	microRNA 543	mir 543	12	12	NC_000078.6	109717258	109717333	plus	1		
+10090	Mus musculus	735284	0	live	Mir708	Mirn708, mmu-mir-708	microRNA 708	mir 708	7	7	NC_000073.6	96249424	96249532	plus	1		
+10090	Mus musculus	387239	0	live	Mir199b	Mirn199b, mir-199b	microRNA 199b	mmu-mir-199b	2	2	NC_000068.7	32318460	32318569	plus	1		
+10090	Mus musculus	100124451	0	live	Mir574	Mirn574, mir-574, mmu-mir-574	microRNA 574	microRNA Mirn574|microRNA mir-574	5	5	NC_000071.6	64970318	64970395	plus	1		
+10090	Mus musculus	723850	0	live	Mir361	Mirn361, mir-361, mmu-mir-361	microRNA 361	mir 361	X	X	NC_000086.7	113074824	113074893	minus	1		
+10090	Mus musculus	723931	0	live	Mir344	Mirn344, mir-344-1, mmu-mir-344	microRNA 344	mir 344|mmu-mir-344-1	7	7	NC_000073.6	61877770	61877864	minus	1		
+10090	Mus musculus	100124466	0	live	Mir493	Mirn493, mmu-mir-493	microRNA 493	microRNA Mirn493|microRNA mir-493	12	12	NC_000078.6	109580233	109580315	plus	1		
+10090	Mus musculus	723929	0	live	Mir325	Mirn325, mmu-mir-325	microRNA 325	mir 325	X	X	NC_000086.7	105379082	105379179	minus	1		
+10090	Mus musculus	751532	0	live	Mir450b	Mirn450b, mir-450b	microRNA 450b	mir 450b|mmu-mir-450b	X	X	NC_000086.7	53047997	53048078	minus	1		
+10090	Mus musculus	723946	0	live	Mir345	Mirn345, mir-345, mmu-mir-345	microRNA 345	mir 345	12	12	NC_000078.6	108836973	108837068	plus	1		
+10090	Mus musculus	723857	0	live	Mir377	Mirn377, mir-377, mmu-mir-377	microRNA 377	mir 377	12	12	NC_000078.6	109740510	109740577	plus	1		
+10090	Mus musculus	100316814	0	live	Mir1306	mmu-mir-1306	microRNA 1306	microRNA mir-1306	16 11.33 cM	16	NC_000082.6	18284239	18284317	minus	1		
+10090	Mus musculus	100499513	0	live	Mir3099	mir-3099, mmu-mir-3099	microRNA 3099	microRNA mir-3099	7 3.95 cM	7	NC_000073.6	6803587	6803670	plus	1		
+10090	Mus musculus	723974	0	live	Mir500	Mirn500, mir-500, mmu-mir-500	microRNA 500	mir 500	X	X	NC_000086.7	7237683	7237774	minus	1		
+10090	Mus musculus	723927	0	live	Mir299a	Mir299, Mirn299, mir-299a, mmu-mir-298, mmu-mir-299, mmu-mir-299a	microRNA 299a	microRNA 299|mir 299	12	12	NC_000078.6	109710638	109710700	plus	1		
+10090	Mus musculus	100316769	0	live	Mir466l	Mirn466l, mmu-mir-466l	microRNA 466l	microRNA mir-466l	2 8.22 cM	2	NC_000068.7	10516097	10516217	plus	1		
+10090	Mus musculus	723864	0	live	Mir425	Mirn425, mmu-mir-425	microRNA 425	mir 425	9	9	NC_000075.6	108568777	108568861	plus	1		
+10090	Mus musculus	723851	0	live	Mir362	Mirn362, mir-362, mmu-mir-362	microRNA 362	mir 362	X	X	NC_000086.7	7241982	7242046	minus	1		
+10090	Mus musculus	723835	0	live	Mir302c	Mirn302c, mir-302c	microRNA 302c	mir 302c|mmu-mir-302c	3	3	NC_000069.6	127545363	127545430	plus	1		
+10090	Mus musculus	723914	0	live	Mir448	Mirn448, mir-448, mmu-mir-448	microRNA 448	mir 448	X	X	NC_000086.7	147158210	147158321	plus	1		
+10090	Mus musculus	791074	0	live	Mir802	Mirn802, mir-802, mmu-mir-802	microRNA 802		16	16	NC_000082.6	93369720	93369816	plus	1		
+10090	Mus musculus	751547	0	live	Mir673	Mirn673, mir-673, mmu-mir-673	microRNA 673	mir 673	12	12	NC_000078.6	109571990	109572080	plus	1		
+10090	Mus musculus	735308	0	live	Mir216b	Mirn216b, mir-216b	microRNA 216b	mmu-mir-216b	11	11	NC_000077.6	28746191	28746276	plus	1		
+10090	Mus musculus	791071	0	live	Mir758	Mirn758, mir-758, mmu-mir-758	microRNA 758		12	12	NC_000078.6	109712810	109712890	plus	1		
+10090	Mus musculus	723935	0	live	Mir381	Mirn381, mir-381, mmu-mir-381	microRNA 381	mir 381	12	12	NC_000078.6	109726822	109726896	plus	1		
+10090	Mus musculus	100124488	0	live	Mir511	Mirn511, mir-511, mmu-mir-511	microRNA 511	microRNA Mirn511|microRNA mir-511	2	2	NC_000068.7	14261003	14261081	plus	1		
+10090	Mus musculus	723873	0	live	Mir470	Mirn470, mir-470, mmu-mir-470	microRNA 470	mir 470	X	X	NC_000086.7	66813951	66814025	minus	1		
+10090	Mus musculus	751535	0	live	Mir672	Mirn672, mir-672, mmu-mir-672	microRNA 672	mir 672	X	X	NC_000086.7	104116175	104116274	minus	1		
+10090	Mus musculus	735279	0	live	Mir490	Mirn490, mir-490, mmu-mir-490	microRNA 490	mir 490	6	6	NC_000072.6	36421742	36421825	plus	1		
+10090	Mus musculus	100124465	0	live	Mir466d	Mirn466d	microRNA 466d	microRNA Mirn466d|microRNA mir-466d|mmu-mir-466d		2	NC_000068.7	10511967	10512062	plus	1		
+10090	Mus musculus	723862	0	live	Mir409	Mirn409, mir-409, mmu-mir-409	microRNA 409	mir 409	12	12	NC_000078.6	109743158	109743236	plus	1		
+10090	Mus musculus	791081	0	live	Mir764	Mirn764, mir-764, mmu-mir-764	microRNA 764		X	X	NC_000086.7	147002259	147002366	plus	1		
+10090	Mus musculus	100124493	0	live	Mir883b	Mirn883b, mir-883b	microRNA 883b	microRNA Mirn883b|microRNA mir-883b|mmu-mir-883b	X	X	NC_000086.7	66789890	66789967	minus	1		
+10090	Mus musculus	100124446	0	live	Mir466h	Mirn466h	microRNA 466h	microRNA Mirn466h|microRNA mir-466h|mmu-mir-466h		2	NC_000068.7	10514891	10514971	plus	1		
+10090	Mus musculus	751556	0	live	Mir682	Mirn682, mir-682, mmu-mir-682	microRNA 682		13	13	NC_000079.6	75645046	75645141	plus	1		
+10090	Mus musculus	751534	0	live	Mir676	Mirn676, mir-676, mmu-mir-676	microRNA 676	mir 676	X	X	NC_000086.7	100381097	100381185	plus	1		
+10090	Mus musculus	723859	0	live	Mir380	Mirn380, mir-380, mmu-mir-380	microRNA 380	mir 380	12	12	NC_000078.6	109711803	109711863	plus	1		
+10090	Mus musculus	723936	0	live	Mir411	Mirn411, mir-411, mmu-mir-411	microRNA 411	mir 411	12	12	NC_000078.6	109710175	109710256	plus	1		
+10090	Mus musculus	100124457	0	live	Mir873a	Mir873, Mirn873, mir-873a, mmu-mir-873, mmu-mir-873a	microRNA 873a	microRNA 873|microRNA Mirn873|microRNA mir-873	4	4	NC_000070.6	36668510	36668586	minus	1		
+10090	Mus musculus	735267	0	live	Mir705	Mirn705, mmu-mir-705	microRNA 705	mir 705	6	6	NC_000072.6	85336292	85336373	minus	1		
+10090	Mus musculus	735266	0	live	Mir592	Mirn592, mir-592, mmu-mir-592	microRNA 592	mir 592	6	6	NC_000072.6	27936655	27936750	minus	1		
+10090	Mus musculus	100316665	0	live	Mir466i	Mirn466i, mmu-mir-466i	microRNA 466i	microRNA mir-466i	13 6.05 cM	13	NC_000079.6	17747473	17747593	plus	1		
+10090	Mus musculus	387197	0	live	Mir201	Mirn201, mir-201, mmu-mir-201	microRNA 201		X	X	NC_000086.7	67988096	67988161	minus	1		
+10090	Mus musculus	791069	0	live	Mir301b	Mirn301b, mir-301b	microRNA 301b	mmu-mir-301b	16	16	NC_000082.6	17124400	17124496	minus	1		
+10090	Mus musculus	723861	0	live	Mir384	Mirn384, mir-384, mmu-mir-384	microRNA 384	mir 384	X	X	NC_000086.7	105344282	105344369	minus	1		
+10090	Mus musculus	387148	0	live	Mir129	Mirn129	microRNA 129										
+10090	Mus musculus	723888	0	live	Mir465	Mirn465, mir-465a, mmu-mir-465	microRNA 465	mir 465|mmu-mir-465a	X	X	NC_000086.7	66839052	66839125	minus	1		
+10090	Mus musculus	723875	0	live	Mir485	Mirn485, mir-485, mmu-mir-485	microRNA 485	mir 485	12	12	NC_000078.6	109734902	109734974	plus	1		
+10090	Mus musculus	100124476	0	live	Mir504	Mirn504, mir-504, mmu-mir-504	microRNA 504	microRNA Mirn504|microRNA mir-504	X	X	NC_000086.7	59097658	59097736	minus	1		
+10090	Mus musculus	723880	0	live	Mir540	Mirn540, mir-540, mmu-mir-540	microRNA 540	mir 540	12	12	NC_000078.6	109586080	109586146	plus	1		
+10090	Mus musculus	735253	0	live	Mir488	Mirn488, mir-488, mmu-mir-488	microRNA 488	mir 488	1	1	NC_000067.6	158505625	158505733	plus	1		
+10090	Mus musculus	724064	0	live	Mir148b	Mirn148b, mir-148b	microRNA 148b	mir 148b|mmu-mir-148b	15	15	NC_000081.6	103285125	103285221	plus	1		
+10090	Mus musculus	751560	0	live	Mir501	Mirn501, mir-501, mmu-mir-501	microRNA 501		X	X	NC_000086.7	7241243	7241351	minus	1		
+10090	Mus musculus	751543	0	live	Mir690	Mirn690, mir-690, mmu-mir-690	microRNA 690	mir 690	16	16	NC_000082.6	28599935	28600043	minus	1		
+10090	Mus musculus	723919	0	live	Mir452	Mirn452, mir-452, mmu-mir-452	microRNA 452	mir 452	X	X	NC_000086.7	72262224	72262308	minus	1		
+10090	Mus musculus	751524	0	live	Mir496a	Mir496, Mirn496, mir-496a, mmu-mir-496, mmu-mir-496a	microRNA 496a	microRNA 496|mir 496	12	12	NC_000078.6	109739119	109739197	plus	1		
+10090	Mus musculus	735309	0	live	Mir449c	Mirn449b, Mirn449c, mir-449c	microRNA 449c	microRNA 449b|mmu-mir-449c	13	13	NC_000079.6	113035983	113036091	plus	1		
+10090	Mus musculus	735256	0	live	Mir669a-1	Mir669a-1a, Mirn669a-1, Mirn669a-1a, mir-669a-1	microRNA 669a-1	microRNA 669a-1a|mmu-mir-669a-1	2	2	NC_000068.7	10476853	10476949	plus	1		
+10090	Mus musculus	751544	0	live	Mir532	Mirn532, mir-532, mmu-mir-532	microRNA 532	mir 532	X	X	NC_000086.7	7248402	7248497	minus	1		
+10090	Mus musculus	100316672	0	live	Mir1192	Mirn1192, mmu-mir-1192	microRNA 1192	microRNA mir-1192	19 17.91 cM	19	NC_000085.6	23149431	23149551	plus	1		
+10090	Mus musculus	751521	0	live	Mir666	Mirn666, mir-666, mmu-mir-666	microRNA 666	mir 666	12	12	NC_000078.6	109717085	109717183	plus	1		
+10090	Mus musculus	723975	0	live	Mir721	Mirn721, miRY, mir-721, mmu-mir-721	microRNA 721	mir 721	5	5	NC_000071.6	136375716	136375803	minus	1		
+10090	Mus musculus	735290	0	live	Mir706	Mirn706, mir-706, mmu-mir-706	microRNA 706	microRNA mir-706|mir 706	6	6	NC_000072.6	120034228	120034311	minus	1		
+10090	Mus musculus	723845	0	live	Mir340	Mirn340, mir-340, mmu-mir-340	microRNA 340	mir 340	11	11	NC_000077.6	50069702	50069799	plus	1		
+10090	Mus musculus	100628572	0	live	Mir101c	mir-101c, mmu-mir-101c	microRNA 101c	microRNA mir-101c	9 1.84 cM	9	NC_000075.6	3038669	3038743	minus	1		
+10090	Mus musculus	723939	0	live	Mir471	Mirn471, mir-471, mmu-mir-471	microRNA 471	mir 471	X	X	NC_000086.7	66792595	66792661	minus	1		
+10090	Mus musculus	100124469	0	live	Mir875	Mirn875, mir-875, mmu-mir-875	microRNA 875	microRNA Mirn875|microRNA mir-875	15	15	NC_000081.6	35660970	35661047	minus	1		
+10090	Mus musculus	735259	0	live	Mir670	Mirn670, mir-670, mmu-mir-670	microRNA 670	mir 670	2	2	NC_000068.7	94261300	94261399	minus	1		
+10090	Mus musculus	100316678	0	live	Mir1902	Mirn1902, mmu-mir-1902	microRNA 1902	microRNA mir-1902	2 54.74 cM	2	NC_000068.7	104428861	104428940	minus	1		
+10090	Mus musculus	100124459	0	live	Mir877	Mirn877, mir-877, mmu-mir-877	microRNA 877	microRNA Mirn877|microRNA mir-877	17	17	NC_000083.6	35960730	35960814	minus	1		
+10090	Mus musculus	100316716	0	live	Mir1983	mmu-mir-1983	microRNA 1983	microRNA mir-1983	13 8.05 cM	13	NC_000079.6	21896918	21897049	minus	1		
+10090	Mus musculus	100124452	0	live	Mir598	Mirn598, mir-598, mmu-mir-598	microRNA 598	microRNA Mirn598|microRNA mir-598	14	14	NC_000080.6	63727189	63727267	plus	1		
+10090	Mus musculus	751552	0	live	Mir667	Mirn667, mir-667, mmu-mir-667	microRNA 667	mmir 667	12	12	NC_000078.6	109720006	109720097	plus	1		
+10090	Mus musculus	100124479	0	live	Mir878	Mirn878, mir-878, mmu-mir-878	microRNA 878	microRNA Mirn878|microRNA mir-878	X	X	NC_000086.7	66801508	66801585	minus	1		
+10090	Mus musculus	100124471	0	live	Mir291b	Mirn291b, mir-291b, mmu-mir-291b	microRNA 291b		7	7	NC_000073.6	3219482	3219560	plus	1		
+10090	Mus musculus	723869	0	live	Mir450-1	Mirn450-1, mir-450a-1	microRNA 450-1	mir 450-1|mmu-mir-450-1|mmu-mir-450a-1	X	X	NC_000086.7	53048154	53048244	minus	1		
+10090	Mus musculus	100049548	0	live	Mir742	Mirn742, mir-742, mmu-miR-742	microRNA 742		X	X	NC_000086.7	66780373	66780437	minus	1		
+10090	Mus musculus	100049545	0	live	Mir741	Mirn741, mir-741, mmu-miR-742, mmu-mir-741	microRNA 741		X	X	NC_000086.7	66796805	66796875	minus	1		
+10090	Mus musculus	100526461	0	live	Mir1249	mir-1249, mmu-mir-1249	microRNA 1249	microRNA mir-1249	15 40.25 cM	15	NC_000081.6	84951526	84951623	minus	1		
+10090	Mus musculus	751558	0	live	Mir694	Mirn694, mir-694, mmu-mir-694	microRNA 694	mir 694	18	18	NC_000084.6	66219264	66219333	minus	1		
+10090	Mus musculus	751555	0	live	Mir665	Mirn665, mir-665, mmu-mir-665	microRNA 665	mir 665	12	12	NC_000078.6	109586314	109586407	plus	1		
+10090	Mus musculus	724063	0	live	Mir330	Mirn330, mir-330, mmu-mir-330	microRNA 330	mir 330	7	7	NC_000073.6	19181465	19181562	plus	1		
+10090	Mus musculus	751519	0	live	Mir423	Mirn423, mir-423, mmu-mir-423	microRNA 423	mir 423	11	11	NC_000077.6	77078064	77078172	minus	1		
+10090	Mus musculus	735272	0	live	Mir669a-3	Mirn669a-3, mir-669a-3	microRNA 669a-3	microRNA mir-669a-3|mmu-mir-669a-3	2	2	NC_000068.7	10474433	10474541	plus	1		
+10090	Mus musculus	735258	0	live	Mir669a-2	Mirn669a-2	microRNA 669a-2	microRNA mir-669a-2|mir 669a-2|mmu-mir-669a-2	2	2	NC_000068.7	10510164	10510260	plus	1		
+10090	Mus musculus	751536	0	live	Mir711	Mirn711, mir-711, mmu-mir-711	microRNA 711		9	9	NC_000075.6	108969922	108970003	plus	1		
+10090	Mus musculus	102466637	0	live	Mir21b	Gm27951, mmu-mir-21b	microRNA 21b	microRNA mir-21b		3	NC_000069.6	29636744	29636851	plus	1		
+10090	Mus musculus	102465212	0	live	Mir21c	Gm28013, mmu-mir-21c	microRNA 21c	microRNA mir-21c		8	NC_000074.6	128278148	128278225	minus	1		
+10090	Mus musculus	723833	0	live	Mir300	Mirn300, mir-300, mmu-mir-300	microRNA 300	mir 300	12	12	NC_000078.6	109724313	109724391	plus	1		
+10090	Mus musculus	735282	0	live	Mir491	Mirn491, mir-491, mmu-mir-491	microRNA 491	mir 491	4	4	NC_000070.6	88122040	88122125	plus	1		
+10090	Mus musculus	723938	0	live	Mir450-2	Mirn450-2, mir-450a-2	microRNA 450-2	mir 450-2|mmu-mir-450-2|mmu-mir-450a-2	X	X	NC_000086.7	53048299	53048367	minus	1		
+10090	Mus musculus	100316667	0	live	Mir669f	Mirn669f, mmu-mir-669f	microRNA 669f	microRNA mir-669f	2 8.22 cM	2	NC_000068.7	10467229	10467349	plus	1		
+10090	Mus musculus	723887	0	live	Mir463	Mirn463, mir-463, mmu-mir-463	microRNA 463	mir 463	X	X	NC_000086.7	66799223	66799297	minus	1		
+10090	Mus musculus	100316803	0	live	Mir1187	Mirn1187, mir-1187, mmu-mir-1187	microRNA 1187	microRNA mir-1187	5 43.0 cM	5	NC_000071.6	82798944	82799065	minus	1		
+10090	Mus musculus	100124494	0	live	Mir421	Mirn421, mmu-mir-421	microRNA 421	microRNA Mirn421|microRNA mir-421	X	X	NC_000086.7	103572921	103572996	minus	1		
+10090	Mus musculus	100124487	0	live	Mir467c	Mirn467c	microRNA 467c	microRNA Mirn467c|microRNA mir-467c|mmu-mir-467c	2	2	NC_000068.7	10473931	10474027	plus	1		
+10090	Mus musculus	723831	0	live	Mir297-1	Mir297a-1, Mirn297-1	microRNA 297-1	microRNA mir-297a-1|mir 297-1|mmu-mir-297-1|mmu-mir-297a-1		7	NC_000073.6	10958437	10958512	minus	1		
+10090	Mus musculus	735285	0	live	Mir700	Mirn700, mir-700, mmu-mir-700	microRNA 700		4	4	NC_000070.6	135416555	135416633	minus	1		
+10090	Mus musculus	100124468	0	live	Mir653	Mirn653, mir-653, mmu-mir-653	microRNA 653	microRNA Mirn653|microRNA mir-653	6	6	NC_000072.6	3721301	3721385	minus	1		
+10090	Mus musculus	100124477	0	live	Mir590	Mirn590, mmu-mir-590	microRNA 590	microRNA Mirn590|microRNA mir-590									
+10090	Mus musculus	100526515	0	live	Mir1247	mir-1247, mmu-mir-1247	microRNA 1247	microRNA mir-1247	12 60.56 cM	12	NC_000078.6	110278048	110278129	minus	1		
+10090	Mus musculus	100124456	0	live	Mir872	Mirn872, mmu-mir-872	microRNA 872	microRNA Mirn872|microRNA mir-872	4	4	NC_000070.6	94665157	94665237	plus	1		
+10090	Mus musculus	751523	0	live	Mir668	Gm27556, Mirn668, mir-668, mmu-mir-668	microRNA 668	mir 668	12	12	NC_000078.6	109734732	109734797	plus	1		
+10090	Mus musculus	735264	0	live	Mir671	Mirn671, mmu-mir-671	microRNA 671	mir 671	5	5	NC_000071.6	24592114	24592211	plus	1		
+10090	Mus musculus	791079	0	live	Mir770	Mirn770, mir-770, mmu-mir-770	microRNA 770		12	12	NC_000078.6	109563692	109563785	plus	1		
+10090	Mus musculus	735273	0	live	Mir669c	Mirn669c, Mirn669c-1	microRNA 669c	microRNA 669c-1|microRNA mir-669c|mir 669c|mmu-mir-669c		2	NC_000068.7	10509296	10509404	plus	1		
+10090	Mus musculus	100526476	0	live	Mir3077	mir-3077, mmu-mir-3077	microRNA 3077	microRNA mir-3077	14 30.51 cM	14	NC_000080.6	57798424	57798487	plus	1		
+10090	Mus musculus	100124447	0	live	Mir467d	Mirn467d, mir-467d	microRNA 467d	microRNA Mirn467d|microRNA mir-467d|mmu-mir-467d	2	2	NC_000068.7	10507630	10507714	plus	1		
+10090	Mus musculus	751545	0	live	Mir505	Mirn505, mir-505, mmu-mir-505	microRNA 505	mir 505	X	X	NC_000086.7	60394403	60394492	minus	1		
+10090	Mus musculus	100316821	0	live	Mir1981	mir-1981, mmu-mir-1981	microRNA 1981	microRNA mir-1981	1 89.13 cM	1	NC_000067.6	184822407	184822488	minus	1		
+10090	Mus musculus	100124480	0	live	Mir880	Mirn880, mir-880, mmu-mir-880	microRNA 880	microRNA Mirn880|microRNA mir-880	X	X	NC_000086.7	66800530	66800607	minus	1		
+10090	Mus musculus	100124478	0	live	Mir871	Mirn871, mir-871, mmu-mir-871	microRNA 871	microRNA Mirn871|microRNA mir-871	X	X	NC_000086.7	66810428	66810504	minus	1		
+10090	Mus musculus	100124462	0	live	Mir883a	Mirn883a, mir-883a	microRNA 883a	microRNA Mirn883a|microRNA mir-883a|mmu-mir-883a	X	X	NC_000086.7	66780758	66780833	minus	1		
+10090	Mus musculus	100124460	0	live	Mir881	Mirn881, mir-881, mmu-mir-881	microRNA 881	microRNA Mirn881|microRNA mir-881	X	X	NC_000086.7	66801944	66802021	minus	1		
+10090	Mus musculus	791077	0	live	Mir760	Mirn760, mir-760, mmu-mir-760	microRNA 760		3	3	NC_000069.6	122293585	122293703	minus	1		
+10090	Mus musculus	791072	0	live	Mir551b	Mirn551b, mir-551b	microRNA 551b	mmu-mir-551b	3	3	NC_000069.6	29416823	29416920	plus	1		
+10090	Mus musculus	723940	0	live	Mir487b	Mirn487b, mir-487b	microRNA 487b	mir 487b|mmu-mir-487b	12	12	NC_000078.6	109727333	109727414	plus	1		
+10090	Mus musculus	723918	0	live	Mir547	Mirn547, mir-547, mmu-mir-547	microRNA 547	mir 547	X	X	NC_000086.7	67988374	67988451	minus	1		
+10090	Mus musculus	100499514	0	live	Mir2861	mmu-mir-2861	microRNA 2861	microRNA mir-2861	2 22.09 cM	2	NC_000068.7	32712807	32712888	minus	1		
+10090	Mus musculus	100628571	0	live	Mir378b	mir-378b, mmu-mir-378b	microRNA 378b	microRNA mir-378b	11 52.4 cM	11	NC_000077.6	88352773	88352864	plus	1		
+10090	Mus musculus	100049546	0	live	Mir743	Mirn743, mir-743a, mmu-mir-743	microRNA 743	mmu-mir-743a	X	X	NC_000086.7	66776757	66776818	minus	1		
+10090	Mus musculus	735263	0	live	Mir698	Mirn698, mir-698, mmu-mir-698	microRNA 698		4	4	NC_000070.6	124743781	124743889	plus	1		
+10090	Mus musculus	100316751	0	live	Mir1197	Mirn1197, mir-1197, mmu-mir-1197	microRNA 1197	microRNA mir-1197	12 60.56 cM	12	NC_000078.6	109712317	109712436	plus	1		
+10090	Mus musculus	100316673	0	live	Mir1193	Mirn1193, mir-1193, mmu-mir-1193	microRNA 1193	microRNA mir-1193	12 60.56 cM	12	NC_000078.6	109715671	109715791	plus	1		
+10090	Mus musculus	100124463	0	live	Mir105	Mirn105, mmu-mir-105	microRNA 105	microRNA mir-105	X	X	NC_000086.7	72591500	72591579	minus	1		
+10090	Mus musculus	100316778	0	live	Mir1982	mir-1982, mmu-mir-1982	microRNA 1982	microRNA mir-1982	10 39.72 cM	10	NC_000076.6	80828797	80828870	plus	1		
+10090	Mus musculus	100124482	0	live	Mir297a-3	Mirn297a-3	microRNA 297a-3	microRNA Mirn297a-3|microRNA mir-297a-3|mmu-mir-297a-3		2	NC_000068.7	10515820	10515921	plus	1		
+10090	Mus musculus	100124435	0	live	Mir297a-4	Mirn297a-4	microRNA 297a-4	microRNA Mirn297a-4|microRNA mir-297a-4|mmu-mir-297a-4		2	NC_000068.7	10517067	10517164	plus	1		
+10090	Mus musculus	100124431	0	live	Mir18b	Mirn18b, mir-18b, mmu-mir-18b	microRNA 18b	microRNA mir-18b	X	X	NC_000086.7	52742331	52742413	minus	1		
+10090	Mus musculus	100316679	0	live	Mir1897	Mirn1897, mmu-mir-1897	microRNA 1897	microRNA mir-1897	3 16.93 cM	3	NC_000069.6	34638464	34638542	plus	1		
+10090	Mus musculus	751518	0	live	Mir677	Mirn677, mir-677, mmu-mir-677	microRNA 677	mir 677	10	10	NC_000076.6	128085286	128085363	plus	1		
+10090	Mus musculus	100316815	0	live	Mir669l	mmu-mir-669l	microRNA 669l	microRNA mir-669l	2 8.22 cM	2	NC_000068.7	10468971	10469068	plus	1		
+10090	Mus musculus	104795949	0	live	Gm38670	Mir9769, mir-9769, mmu-mir-9769	predicted gene, 38670	microRNA mir-9769		7	NC_000073.6	30552828	30552904	plus	1		
+10090	Mus musculus	100124640	0	live	Mir466e	Mir466e-2, Mirn466e-2, mmu-mir-466e	microRNA 466e	microRNA 466e-2|microRNA mir-466e		2	NC_000068.7	10479088	10479171	plus	1		
+10090	Mus musculus	100316699	0	live	Mir1948	mir-1948, mmu-mir-1948	microRNA 1948	microRNA mir-1948	18 6.76 cM	18	NC_000084.6	12714811	12714895	plus	1		
+10090	Mus musculus	100316807	0	live	Mir1198	Mirn1198, mmu-mir-1198	microRNA 1198	microRNA mir-1198	X 3.52 cM	X	NC_000086.7	7807101	7807221	plus	1		
+10090	Mus musculus	791075	0	live	Mir761	Mirn761, mir-761, mmu-mir-761	microRNA 761		4	4	NC_000070.6	109017655	109017730	plus	1		
+10090	Mus musculus	100526530	0	live	Mir1843a	Mir1843, mir-1843a, mmu-mir-1843, mmu-mir-1843a	microRNA 1843a	microRNA Mir1843	12 36.67 cM	12	NC_000078.6	80391613	80391677	minus	1		
+10090	Mus musculus	100316664	0	live	Mir669d	Mirn669d, mmu-mir-669d	microRNA 669d	microRNA mir-669d	2 8.22 cM	2	NC_000068.7	10468343	10468463	plus	1		
+10090	Mus musculus	100124450	0	live	Mir544	Mirn544, mmu-mir-544	microRNA 544	microRNA Mirn544|microRNA mir-544	12	12	NC_000078.6	109729325	109729402	plus	1		
+10090	Mus musculus	735281	0	live	Mir297b	Mir, Mirn297b	microRNA 297b	microRNA mir-297b|mmu-mir-297b		2	NC_000068.7	10511667	10511775	plus	1		
+10090	Mus musculus	751539	0	live	Mir679	Mirn679, mir-679, mmu-mir-679	microRNA 679	mir 679	12	12	NC_000078.6	109715577	109715650	plus	1		
+10090	Mus musculus	100124473	0	live	Mir465b-1	Mir465-1, Mirn465b-1	microRNA 465b-1	microRNA Mirn465b-1|microRNA mir-465b-1|mmu-mir-465b-1	X	X	NC_000086.7	66829202	66829280	minus	1		
+10090	Mus musculus	100124464	0	live	Mir465c-2	Mirn465c-2	microRNA 465c-2	microRNA Mirn465c-2|microRNA mir-465c-2|mmu-mir-465c-2	X	X	NC_000086.7	66832517	66832597	minus	1		
+10090	Mus musculus	100124443	0	live	Mir466c-1	Mir466c, Mirn466c, Mirn466c-1, mmu-mir-466c, mmu-mir-466c-1	microRNA 466c-1	microRNA Mirn466c|microRNA Mirn466c-1|microRNA mir-466c		2	NC_000068.7	10481534	10481617	plus	1		
+10090	Mus musculus	100124441	0	live	Mir465c-1	Mirn465c-1	microRNA 465c-1	microRNA Mirn465c-1|microRNA mir-465c-1|mmu-mir-465c-1	X	X	NC_000086.7	66825955	66826035	minus	1		
+10090	Mus musculus	100124440	0	live	Mir465b-2	Mirn465b-2	microRNA 465b-2	microRNA Mirn465b-2|microRNA mir-465b-2|mmu-mir-465b-2	X	X	NC_000086.7	66835764	66835842	minus	1		
+10090	Mus musculus	723846	0	live	Mir341	Mirn341, mmu-mir-341	microRNA 341	microRNA mir-341|mir 341		12	NC_000078.6	109611500	109611595	plus	1		
+10090	Mus musculus	100526535	0	live	Mir669a-4	mmu-mir-669a-4	microRNA 669a-4	microRNA mir-669a-4	2 8.22 cM	2	NC_000068.7	10479315	10479401	plus	1		
+10090	Mus musculus	100526485	0	live	Mir669a-6	mmu-mir-669a-6	microRNA 669a-6	microRNA mir-669a-6	2 8.22 cM	2	NC_000068.7	10484196	10484282	plus	1		
+10090	Mus musculus	100526483	0	live	Mir669a-5	mmu-mir-669a-5	microRNA 669a-5	microRNA mir-669a-5	2 8.22 cM	2	NC_000068.7	10481761	10481847	plus	1		
+10090	Mus musculus	100316717	0	live	Mir1839	mir-1839, mmu-mir-1839	microRNA 1839	microRNA mir-1839	7 45.71 cM	7	NC_000073.6	81529916	81529988	plus	1		
+10090	Mus musculus	100316753	0	live	Mir1933	mir-1933, mmu-mir-1933	microRNA 1933	microRNA mir-1933	11 13.89 cM	11	NC_000077.6	21344588	21344675	minus	1		
+10090	Mus musculus	100316663	0	live	Mir669k	Mirn669k, mir-669k, mmu-mir-669k	microRNA 669k	microRNA mir-669k	2 8.22 cM	2	NC_000068.7	10475300	10475426	plus	1		
+10090	Mus musculus	751553	0	live	Mir693	Mirn693, mir-693, mmu-mir-693	microRNA 693	mir 693	17	17	NC_000083.6	46231531	46231619	plus	1		
+10090	Mus musculus	751542	0	live	Mir688	Mirn688, mmu-mir-688	microRNA 688	mir 688	15	15	NC_000081.6	102671792	102671866	minus	1		
+10090	Mus musculus	100190765	0	live	Mir449b	Mirn449b	microRNA 449b	mmu-mir-449b	13	13	NC_000079.6	113037419	113037498	plus	1		
+10090	Mus musculus	100124496	0	live	Mir743b	Mirn743b, mir-743b	microRNA 743b	microRNA Mirn743b|microRNA mir-743b|mmu-mir-743b	X	X	NC_000086.7	66777256	66777332	minus	1		
+10090	Mus musculus	100124492	0	live	Mir879	Mirn879, mir-879, mmu-mir-879	microRNA 879	microRNA Mirn879|microRNA mir-879	5	5	NC_000071.6	9375704	9375779	plus	1		
+10090	Mus musculus	100124489	0	live	Mir582	Mirn582, mir-582, mmu-mir-582	microRNA 582	microRNA Mirn582|microRNA mir-582	13	13	NC_000079.6	109324744	109324824	plus	1		
+10090	Mus musculus	100124481	0	live	Mir190b	Mirn190b, mir-190b	microRNA 190b	microRNA mir-190b|mmu-mir-190b	3	3	NC_000069.6	90070020	90070099	plus	1		
+10090	Mus musculus	100124458	0	live	Mir876	Mirn876, mir-876, mmu-mir-876	microRNA 876	microRNA Mirn876|microRNA mir-876	4	4	NC_000070.6	36645373	36645453	minus	1		
+10090	Mus musculus	100124439	0	live	Mir344-2	Mirn344-2, mir-344-2	microRNA 344-2	microRNA Mirn344-2|microRNA mir-344-2|mmu-mir-344-2	7	7	NC_000073.6	61940027	61940106	minus	1		
+10090	Mus musculus	102465990	0	live	Mir6715	Gm27474, mmu-mir-6715	microRNA 6715	microRNA mir-6715		19	NC_000085.6	55192678	55192734	plus	1		
+10090	Mus musculus	100316831	0	live	Mir669h	Mirn669h, mir-669h, mmu-mir-669h	microRNA 669h	microRNA mir-669h	2 8.22 cM	2	NC_000068.7	10518155	10518279	plus	1		
+10090	Mus musculus	100316669	0	live	Mir1188	Mirn1188, mir-1188, mmu-mir-1188	microRNA 1188	microRNA mir-1188	12 60.43 cM	12	NC_000078.6	109611822	109611941	plus	1		
+10090	Mus musculus	102465959	0	live	Mir6236	Gm27547, mmu-mir-6236	microRNA 6236	microRNA mir-6236		9	NC_000075.6	110281287	110281409	plus	1		
+10090	Mus musculus	102465206	0	live	Mir378c	Gm27930, mmu-mir-378c	microRNA 378c	microRNA mir-378c		14	NC_000080.6	46954830	46954928	minus	1		
+10090	Mus musculus	100885845	0	live	Mir5710	Gm22872, mir-5710, mmu-mir-5710	microRNA 5710	microRNA mir-5710	9	9	NC_000075.6	54708313	54708381	plus	1		
+10090	Mus musculus	100885844	0	live	Mir5709	Gm22041, mir-5709, mmu-mir-5709	microRNA 5709	microRNA mir-5709	17	17	NC_000083.6	67026147	67026235	minus	1		
+10090	Mus musculus	100885843	0	live	Mir344i	Gm26031, mir-344i, mmu-mir-344i	microRNA 344i	microRNA mir-344i	7	7	NC_000073.6	62085223	62085310	minus	1		
+10090	Mus musculus	100316737	0	live	Mir664	mir-664, mmu-mir-664	microRNA 664	microRNA mir-664	1 89.46 cM	1	NC_000067.6	185242975	185243043	plus	1		
+10090	Mus musculus	104797311	0	live	Gm38671	Mir9768, mmu-mir-9768	predicted gene, 38671	microRNA mir-9768		8	NC_000074.6	12947941	12948070	plus	1		
+10090	Mus musculus	102465258	0	live	Mir6516	mmu-mir-6516	microRNA 6516	microRNA mir-6516		11	NC_000077.6	117077348	117077457	plus	1		
+10090	Mus musculus	102465230	0	live	Mir6481	Gm27744, mmu-mir-6481	microRNA 6481	microRNA mir-6481		3	NC_000069.6	99199344	99199453	minus	1		
+10090	Mus musculus	100628576	0	live	Mir5046	mmu-mir-5046, mu-mir-5046	microRNA 5046	microRNA mir-5046	19 5.08 cM	19	NC_000085.6	6829886	6829944	minus	1		
+10090	Mus musculus	100316675	0	live	Mir467h	Mirn467h, mmu-mir-467h	microRNA 467h	microRNA mir-467h	9 67.82 cM	9	NC_000075.6	115381819	115381939	plus	1		
+10090	Mus musculus	100124454	0	live	Mir696	Mirn696, mmu-mir-696	microRNA 696	microRNA Mirn696									
+10090	Mus musculus	751551	0	live	Mir680-2	Mirn680-2	microRNA 680-2	mir 680-2|mmu-mir-680-2	X	X	NC_000086.7	144297790	144297899	plus	1		
+10090	Mus musculus	751520	0	live	Mir680-3	Mirn680-3	microRNA 680-3	mir 680-3|mmu-mir-680-3	12	12	NC_000078.6	35194811	35194897	minus	1		
+10090	Mus musculus	735268	0	live	Mir680-1	Mirn680-1	microRNA 680-1	mir 680-1|mmu-mir-680-1	6	6	NC_000072.6	129691535	129691643	plus	1		
+10090	Mus musculus	100499512	0	live	Mir3475	mir-3475, mmu-mir-3475	microRNA 3475	microRNA mir-3475	X 61.35 cM	X	NC_000086.7	140310948	140311012	plus	1		
+10090	Mus musculus	751529	0	live	Mir692-1	Mirn692-1, mir-692-1	microRNA 692-1	mir 692-1|mmu-mir-692-1	17	17	NC_000083.6	6895229	6895337	minus	1		
+10090	Mus musculus	735289	0	live	Mir704	Mirn704, mir-704, mmu-mir-704	microRNA 704	mir 704	6	6	NC_000072.6	47803576	47803652	minus	1		
+10090	Mus musculus	735288	0	live	Mir692-2	Mir692-2a, Mir692-3, Mirn692-2, Mirn692-2a, mir-692-2, mmu-mir-692-2	microRNA 692-2	microRNA 692-2a	4	4	NC_000070.6	125504749	125504857	plus	1		
+10090	Mus musculus	723871	0	live	Mir468	Mirn468, mir-468, mmu-mir-468	microRNA 468	mir 468	6	6	NC_000072.6	81896599	81896676	minus	1		
+10090	Mus musculus	100124453	0	live	Mir654	Mirn654, mmu-mir-654	microRNA 654	microRNA Mirn654|microRNA mir-654	12	12	NC_000078.6	109723218	109723301	plus	1		
+10090	Mus musculus	735278	0	live	Mir701	Mirn701, mir-701, mmu-mir-701	microRNA 701	mir 701	5	5	NC_000071.6	111004144	111004252	plus	1		
+10090	Mus musculus	723945	0	live	Mir297a-2	Gm24114, Mir297-2, Mirn297-2	microRNA 297a-2	microRNA 297-2|microRNA mir-297a-2|mir 297-2|mmu-mir-297-2|mmu-mir-297a-2	2 22.89 cM	2	NC_000068.7	10472254	10472343	plus	1		
+10090	Mus musculus	100316804	0	live	Mir466f-4	Mirn466f-4, mmu-mir-466f-4	microRNA 466f-4	microRNA mir-466f-4	13 36.69 cM	13	NC_000079.6	71107089	71107209	plus	1		
+10090	Mus musculus	735270	0	live	Mir710	Mirn710, mmu-mir-710	microRNA 710	mir 710	8	8	NC_000074.6	64514332	64514441	minus	1		
+10090	Mus musculus	102465218	0	live	Mir496b	Gm28028, mmu-mir-496b	microRNA 496b	microRNA mir-496b		19	NC_000085.6	16314892	16315004	minus	1		
+10090	Mus musculus	100316806	0	live	Mir669e	Mirn669e, mmu-mir-669e	microRNA 669e	microRNA mir-669e	2 8.22 cM	2	NC_000068.7	10467495	10467613	plus	1		
+10090	Mus musculus	100526546	0	live	Mir3068	mir-3068, mmu-mir-3068	microRNA 3068	microRNA mir-3068	12 41.66 cM	12	NC_000078.6	87437679	87437757	minus	1		
+10090	Mus musculus	100316709	0	live	Mir1960	mir-1960, mmu-mir-1960	microRNA 1960	microRNA mir-1960	5 16.07 cM	5	NC_000071.6	30170739	30170816	plus	1		
+10090	Mus musculus	100316688	0	live	Mir1929	mir-1929, mmu-mir-1929	microRNA 1929	microRNA mir-1929	10 23.24 cM	10	NC_000076.6	44359676	44359768	plus	1		
+10090	Mus musculus	100124485	0	live	Mir466b-1	Mir466b-1a, Mirn466b-1, Mirn466b-1a, mmu-mir-466b-1	microRNA 466b-1	microRNA 466b-1a|microRNA Mirn466b-1|microRNA mir-466b-1		2	NC_000068.7	10474219	10474300	plus	1		
+10090	Mus musculus	100124483	0	live	Mir297c	Mirn297c	microRNA 297c	microRNA Mirn297c|microRNA mir-297c|mmu-mir-297c		2	NC_000068.7	10509016	10509113	plus	1		
+10090	Mus musculus	100124474	0	live	Mir466b-3	Mirn466b-3	microRNA 466b-3	microRNA Mirn466b-3|microRNA mir-466b-3|mmu-mir-466b-3	2	2	NC_000068.7	10503565	10503645	plus	1		
+10090	Mus musculus	100124448	0	live	Mir467e	Mirn467e	microRNA 467e	microRNA Mirn467e|microRNA mir-467e|mmu-mir-467e		2	NC_000068.7	10505721	10505807	plus	1		
+10090	Mus musculus	100124442	0	live	Mir466b-2	Mirn466b-2	microRNA 466b-2	microRNA Mirn466b-2|microRNA mir-466b-2|mmu-mir-466b-2	2	2	NC_000068.7	10498685	10498766	plus	1		
+10090	Mus musculus	791076	0	live	Mir763	Mirn763, mir-763, mmu-mir-763	microRNA 763		10	10	NC_000076.6	120447991	120448110	minus	1		
+10090	Mus musculus	751561	0	live	Mir691	Mirn691, mir-691, mmu-mir-691	microRNA 691		16	16	NC_000082.6	74341990	74342067	minus	1		
+10090	Mus musculus	751541	0	live	Mir687	Mirn687, mir-687, mmu-mir-687	microRNA 687	mir 687	14	14	NC_000080.6	73206763	73206851	minus	1		
+10090	Mus musculus	751533	0	live	Mir718	Mirn718, mir-718, mmu-mir-718	microRNA 718	mir 718	X	X	NC_000086.7	74023849	74023936	minus	1		
+10090	Mus musculus	751531	0	live	Mir717	Mirn717, mir-717, mmu-mir-717	microRNA 717	mir 717	X	X	NC_000086.7	52422407	52422515	minus	1		
+10090	Mus musculus	100526554	0	live	Mir467a-9	mmu-mir-467a-9	microRNA 467a-9	microRNA mir-467a-9	2 8.22 cM	2	NC_000068.7	10498393	10498475	plus	1		
+10090	Mus musculus	100526553	0	live	Mir467a-7	Mirn467a-7, mmu-mir-467a-7	microRNA 467a-7	microRNA mir-467a-7|mmu-mir-467a	2	2	NC_000068.7	10493510	10493592	plus	1		
+10090	Mus musculus	100526539	0	live	Mir467a-10	mmu-mir-467a-10	microRNA 467a-10	microRNA mir-467a-10	2 8.22 cM	2	NC_000068.7	10503273	10503355	plus	1		
+10090	Mus musculus	100124643	0	live	Mir467a-8	Gm22705, Mirn467a-8, mmu-mir-467a-8	microRNA 467a-8	microRNA mir-467a-8|mmu-mir-467a	2	2	NC_000068.7	10495980	10496062	plus	1		
+10090	Mus musculus	100124642	0	live	Mir467a-3	Mirn467a-3, mmu-mir-467a-3	microRNA 467a-3	microRNA mir-467a-3|mmu-mir-467a	2	2	NC_000068.7	10483678	10483760	plus	1		
+10090	Mus musculus	100124627	0	live	Mir467a-6	Mirn467a-6, mmu-mir-467a-6	microRNA 467a-6	microRNA mir-467a-6|mmu-mir-467a	2	2	NC_000068.7	10491048	10491130	plus	1		
+10090	Mus musculus	100124626	0	live	Mir467a-5	Mirn467a-5, mmu-mir-467a-5	microRNA 467a-5	microRNA mir-467a-5|mmu-mir-467a	2	2	NC_000068.7	10488599	10488681	plus	1		
+10090	Mus musculus	100124625	0	live	Mir467a-4	Mirn467a-4, mmu-mir-467a-4	microRNA 467a-4	microRNA mir-467a-4|mmu-mir-467a	2	2	NC_000068.7	10486135	10486217	plus	1		
+10090	Mus musculus	100124624	0	live	Mir467a-2	Mirn467a-2, mmu-mir-467a-2	microRNA 467a-2	microRNA mir-467a-2|mmu-mir-467a	2	2	NC_000068.7	10478798	10478880	plus	1		
+10090	Mus musculus	100316840	0	live	Mir1934	mir-1934, mmu-mir-1934	microRNA 1934	microRNA mir-1934	11 42.86 cM	11	NC_000077.6	69663043	69663125	plus	1		
+10090	Mus musculus	100316811	0	live	Mir1930	mir-1930, mmu-mir-1930	microRNA 1930	microRNA mir-1930	10 39.72 cM	10	NC_000076.6	77641224	77641307	plus	1		
+10090	Mus musculus	100316756	0	live	Mir1955	mir-1955, mmu-mir-1955	microRNA 1955	microRNA mir-1955	2 50.81 cM	2	NC_000068.7	92191977	92192074	plus	1		
+10090	Mus musculus	100316713	0	live	Mir1968	mir-1968, mmu-mir-1968	microRNA 1968	microRNA mir-1968	8 5.73 cM	8	NC_000074.6	13189031	13189098	minus	1		
+10090	Mus musculus	100316711	0	live	Mir1964	mir-1964, mmu-mir-1964	microRNA 1964	microRNA mir-1964	7 17.26 cM	7	NC_000073.6	29773294	29773376	plus	1		
+10090	Mus musculus	100316698	0	live	Mir1947	mir-1947, mmu-mir-1947	microRNA 1947	microRNA mir-1947	16 23.63 cM	16	NC_000082.6	33105361	33105445	plus	1		
+10090	Mus musculus	100316695	0	live	Mir1943	mir-1943, mmu-mir-1943	microRNA 1943	microRNA mir-1943	15 37.7 cM	15	NC_000081.6	79375228	79375300	minus	1		
+10090	Mus musculus	100316677	0	live	Mir1199	Mirn1199, mir-1199, mmu-mir-1199	microRNA 1199	microRNA mir-1199	8 40.24 cM	8	NC_000074.6	84011515	84011633	minus	1		
+10090	Mus musculus	102466172	0	live	Mir6540	Gm27780, mir-6540, mmu-mir-6540	microRNA 6540	microRNA mir-6540		16	NC_000082.6	42303362	42303469	minus	1		
+10090	Mus musculus	102465310	0	live	Mir6539	Gm27464, mir-6539, mmu-mir-6539	microRNA 6539	microRNA mir-6539		14	NC_000080.6	67859636	67859745	minus	1		
+10090	Mus musculus	102465787	0	live	Mir126b	mmu-mir-126b	microRNA 126b	microRNA mir-126b		2	NC_000068.7	26591363	26591420	minus	1		
+10090	Mus musculus	100628615	0	live	Mir3962	mmu-mir-3962, mu-mir-3962	microRNA 3962	microRNA mir-3962	1 98.34 cM	1	NC_000067.6	194822001	194822064	plus	1		
+10090	Mus musculus	100526536	0	live	Mir669a-7	mmu-mir-669a-7	microRNA 669a-7	microRNA mir-669a-7	2 8.22 cM	2	NC_000068.7	10486653	10486739	plus	1		
+10090	Mus musculus	100526496	0	live	Mir669a-12	mmu-mir-669a-12	microRNA 669a-12	microRNA mir-669a-12	2 8.22 cM	2	NC_000068.7	10503791	10503877	plus	1		
+10090	Mus musculus	100526495	0	live	Mir669a-11	mmu-mir-669a-11	microRNA 669a-11	microRNA mir-669a-11	2 8.22 cM	2	NC_000068.7	10501339	10501425	plus	1		
+10090	Mus musculus	100526494	0	live	Mir669a-10	mmu-mir-669a-10	microRNA 669a-10	microRNA mir-669a-10	2 8.22 cM	2	NC_000068.7	10498911	10498997	plus	1		
+10090	Mus musculus	100526491	0	live	Mir669a-9	mmu-mir-669a-9	microRNA 4669a-9	microRNA mir-669a-9|mmu-mir-4669a-9	2 8.22 cM	2	NC_000068.7	10494028	10494114	plus	1		
+10090	Mus musculus	100526489	0	live	Mir669a-8	mmu-mir-669a-8	microRNA 669a-8	microRNA mir-669a-8	2 8.22 cM	2	NC_000068.7	10491566	10491652	plus	1		
+10090	Mus musculus	100124455	0	live	Mir714	Mirn714, mmu-mir-714	microRNA 714	microRNA Mirn714|microRNA mir-714									
+10090	Mus musculus	100526544	0	live	Mir344d-1	mir-344d-1, mmu-mir-344d-1	microRNA 344d-1	microRNA mir-344d-1	7 34.27 cM	7	NC_000073.6	61683124	61683192	minus	1		
+10090	Mus musculus	100526543	0	live	Mir344d-3	mir-344d-3, mmu-mir-344d-3	microRNA 344d-3	microRNA mir-344d-3	7 34.28 cM	7	NC_000073.6	61726249	61726328	minus	1		
+10090	Mus musculus	100526531	0	live	Mir344d-2	mir-344d-2, mmu-mir-344d-2	microRNA 344d-2	microRNA mir-344d-2	7 34.27 cM	7	NC_000073.6	61685272	61685351	minus	1		
+10090	Mus musculus	100526516	0	live	Mir3059	mir-3059, mmu-mir-3059	microRNA 3059	microRNA mir-3059	10 53.06 cM	10	NC_000076.6	101772692	101772772	plus	1		
+10090	Mus musculus	100526464	0	live	Mir3106	mir-3106, mmu-mir-3106	microRNA 3106	microRNA mir-3106	8 8.38 cM	8	NC_000074.6	16168757	16168838	minus	1		
+10090	Mus musculus	100526463	0	live	Mir3058	mir-3058, mmu-mir-3058	microRNA 3058	microRNA mir-3058	10 49.43 cM	10	NC_000076.6	95559231	95559321	minus	1		
+10090	Mus musculus	100526462	0	live	Mir1298	mir-1298, mmu-mir-1298	microRNA 1298	microRNA mir-1298	X 68.46 cM	X	NC_000086.7	147064905	147065002	plus	1		
+10090	Mus musculus	100526460	0	live	Mir1264	mir-1264, mmu-mir-1264	microRNA 1264	microRNA mir-1264	X 68.46 cM	X	NC_000086.7	147010601	147010686	plus	1		
+10090	Mus musculus	751525	0	live	Mir686	Mirn686, mmu-mir-686	microRNA 686	mir 686	14	14	NC_000080.6	54616677	54616785	minus	1		
+10090	Mus musculus	735287	0	live	Mir695	Mirn695, mmu-mir-695	microRNA 695	mir 695	2	2	NC_000068.7	155356817	155356925	plus	1		
+10090	Mus musculus	100316810	0	live	Mir1894	Mirn1894, mmu-mir-1894	microRNA 1894	microRNA mir-1894	17 18.77 cM	17	NC_000083.6	35917889	35917969	plus	1		
+10090	Mus musculus	100316700	0	live	Mir1949	mir-1949, mmu-mir-1949	microRNA 1949	microRNA mir-1949	18 19.14 cM	18	NC_000084.6	35554567	35554636	plus	1		
+10090	Mus musculus	100124486	0	live	Mir466f-1	Mirn466f-1	microRNA 466f-1	microRNA Mirn466f-1|microRNA mir-466f-1|mmu-mir-466f-1		2	NC_000068.7	10466944	10467037	plus	1		
+10090	Mus musculus	100124475	0	live	Mir466f-3	Mirn466f-3	microRNA 466f-3	microRNA Mirn466f-3|microRNA mir-466f-3|mmu-mir-466f-3		2	NC_000068.7	10471953	10472046	plus	1		
+10090	Mus musculus	100124445	0	live	Mir466f-2	Mirn466f-2	microRNA 466f-2	microRNA Mirn466f-2|microRNA mir-466f-2|mmu-mir-466f-2		2	NC_000068.7	10468675	10468768	plus	1		
+10090	Mus musculus	100316681	0	live	Mir1900	Mirn1900, mmu-mir-1900	microRNA 1900	microRNA mir-1900	9 7.7 cM	9	NC_000075.6	21032251	21032328	minus	1		
+10090	Mus musculus	100316712	0	live	Mir1966	mir-1966, mmu-mir-1966	microRNA 1966	microRNA mir-1966	8 53.04 cM	8	NC_000074.6	105615466	105615573	plus	1		
+10090	Mus musculus	100316779	0	live	Mir2137	mmu-mir-2137	microRNA 2137	microRNA mir-2137	X 37.29 cM	X	NC_000086.7	72992079	72992144	plus	1		
+10090	Mus musculus	100316734	0	live	Mir2183	mmu-mir-2183	microRNA 2183	microRNA mir-2183		16							
+10090	Mus musculus	100316727	0	live	Mir2139	mmu-mir-2139	microRNA 2139	microRNA mir-2139	4 71.03 cM	4	NC_000070.6	139967526	139967620	minus	1		
+10090	Mus musculus	100316725	0	live	Mir2136	mmu-mir-2136	microRNA 2136	microRNA mir-2136	9 56.61 cM	9	NC_000075.6	104426113	104426187	plus	1		
+10090	Mus musculus	100124641	0	live	Mir692-3	Mir692-2b, Mirn692-2b, mmu-mir-692-3	microRNA 692-3	microRNA 692-2a-like|microRNA 692-2b	13	13	NC_000079.6	74407065	74407173	plus	1		
+10090	Mus musculus	723882	0	live	Mir546	Mirn546, mmu-mir-546	microRNA 546	mir 546	10	10	NC_000076.6	126998440	126998560	plus	1		
+10090	Mus musculus	735255	0	live	Mir669b	Mirn669b	microRNA 669b	microRNA mir-669b|mir 669b|mmu-mir-669b	2	2	NC_000068.7	10467790	10467886	plus	1		
+10090	Mus musculus	100499517	0	live	Mir3072	mir-3072, mmu-mir-3072	microRNA 3072	microRNA mir-3072	12 60.56 cM	12	NC_000078.6	109747878	109747960	plus	1		
+10090	Mus musculus	100124668	0	live	Mir466c-2	Mirn466c-2, mmu-mir-466c-2	microRNA 466c-2	microRNA Mirn466c-2|microRNA mir-466c-2|mmu-mir-466c		2	NC_000068.7	10483966	10484055	plus	1		
+10090	Mus musculus	100124495	0	live	Mir466g	Mirn466g	microRNA 466g	microRNA Mirn466g|microRNA mir-466g|mmu-mir-466g	2	2	NC_000068.7	10514595	10514674	plus	1		
+10090	Mus musculus	735265	0	live	Mir703	Mirn703, mir-703, mmu-mir-703	microRNA 703	microRNA mir-703|mir 703	5	5	NC_000071.6	98475556	98475664	minus	1		
+10090	Mus musculus	100124437	0	live	Mir327	Mirn327, mmu-mir-327	microRNA 327	microRNA Mirn327|microRNA mir-327	14	14	NC_000080.6	44947443	44947511	minus	1		
+10090	Mus musculus	100316671	0	live	Mir466j	Mirn466j, mmu-mir-466j	microRNA 466j	microRNA mir-466j	10 32.1 cM	10	NC_000076.6	60960723	60960844	plus	1		
+10090	Mus musculus	100628609	0	live	Mir3473b	mmu-mir-3473b	microRNA 3473b	microRNA mir-3473b	10 22.64 cM	10	NC_000076.6	41670739	41670793	plus	1		
+10090	Mus musculus	100316682	0	live	Mir1892	Mirn1892, mir-1892, mmu-mir-1892	microRNA 1892	microRNA mir-1892	12 23.46 cM	12	NC_000078.6	54645933	54646012	minus	1		
+10090	Mus musculus	100316816	0	live	Mir1952	mmu-mir-1952	microRNA 1952	microRNA mir-1952	2 68.52 cM	2	NC_000068.7	138819929	138820007	plus	1		
+10090	Mus musculus	100316776	0	live	Mir1954	mmu-mir-1954	microRNA 1954	microRNA mir-1954	2 22.09 cM	2	NC_000068.7	32652329	32652414	plus	1		
+10090	Mus musculus	100628622	0	live	Mir1843b	mir-1843b, mmu-mir-1843b	microRNA 1843b	microRNA mir-1843b	1 69.03 cM	1	NC_000067.6	159340358	159340423	plus	1		
+10090	Mus musculus	100628573	0	live	Mir3969	mir-3969, mmu-mir-3969, mu-mir-3969	microRNA 3969	microRNA mir-3969	5 43.56 cM	5	NC_000071.6	87595902	87595993	minus	1		
+10090	Mus musculus	387250	0	live	Mirlet7h	Mirnlet7h	microRNA let7h										
+10090	Mus musculus	104797221	0	live	Gm22650	Mir3552, mir-3552, mmu-mir-3552	predicted gene, 22650	microRNA mir-3552		X	NC_000086.7	146999405	146999509	plus	1		
+10090	Mus musculus	104795665	0	live	Gm23363	Mir3154, mir-3154, mmu-mir-3154	predicted gene, 23363	microRNA mir-3154		2	NC_000068.7	32318265	32318343	plus	1		
+10090	Mus musculus	100316839	0	live	Mir1191	Mirn1191, mmu-mir-1191, mmu-mir-1191a	microRNA 1191	microRNA mir-1191	7 15.84 cM	7	NC_000073.6	27205536	27205655	plus	1		
+10090	Mus musculus	100316834	0	live	Mir669m-2	mmu-mir-669m-2	microRNA 669m-2	microRNA mir-669m-2	2 8.22 cM	2	NC_000068.7	10513434	10513531	plus	1		
+10090	Mus musculus	100316702	0	live	Mir669o	mmu-mir-669o	microRNA 669o	microRNA mir-669o	2 8.22 cM	2	NC_000068.7	10514300	10514395	plus	1		
+10090	Mus musculus	100316701	0	live	Mir669m-1	mmu-mir-669m-1	microRNA 669m-1	microRNA mir-669m-1	2 8.22 cM	2	NC_000068.7	10512790	10512887	plus	1		
+10090	Mus musculus	100316694	0	live	Mir1941	mmu-mir-1941	microRNA 1941	microRNA mir-1941	15 56.81 cM	15	NC_000081.6	101369352	101369434	plus	1		
+10090	Mus musculus	100316670	0	live	Mir466k	Mirn466k, mmu-mir-466k	microRNA 466k	microRNA mir-466k	3 37.83 cM	3	NC_000069.6	85467377	85467498	plus	1		
+10090	Mus musculus	102466836	0	live	Mir7578	Gm27789, mmu-mir-7578	microRNA 7578	microRNA mir-7578		2	NC_000068.7	27450549	27450630	minus	1		
+10090	Mus musculus	102466677	0	live	Mir3473e	Gm27422, mmu-mir-3473e	microRNA 3473e	microRNA mir-3473e		5	NC_000071.6	31667231	31667340	minus	1		
+10090	Mus musculus	102466676	0	live	Mir6538	Gm27439, mmu-mir-6538	microRNA 6538	microRNA mir-6538		12	NC_000078.6	26414901	26415010	minus	1		
+10090	Mus musculus	102466620	0	live	Mir6240	Gm27850, mmu-mir-6240	microRNA 6240	microRNA mir-6240		5	NC_000071.6	114851948	114852064	plus	1		
+10090	Mus musculus	102466619	0	live	Mir6238	Gm27982, mmu-mir-6238	microRNA 6238	microRNA mir-6238		7	NC_000073.6	53891761	53891889	minus	1		
+10090	Mus musculus	102466147	0	live	Mir6237	Gm27411, mmu-mir-6237	microRNA 6237	microRNA mir-6237		9	NC_000075.6	9894431	9894521	plus	1		
+10090	Mus musculus	102465968	0	live	Mir6537	Gm27808, mmu-mir-6537	microRNA 6537	microRNA mir-6537		7	NC_000073.6	25097066	25097175	minus	1		
+10090	Mus musculus	102465311	0	live	Mir6541	Gm27311, mmu-mir-6541	microRNA 6541	microRNA mir-6541		14	NC_000080.6	62865542	62865651	plus	1		
+10090	Mus musculus	102465309	0	live	Mir7k	Gm27814, Mirlet7k, mmu-let-7k	microRNA 7k	microRNA let-7k		5	NC_000071.6	147283189	147283298	minus	1		
+10090	Mus musculus	102465150	0	live	Mir6244	Gm27368, mmu-mir-6244	microRNA 6244	microRNA mir-6244		9	NC_000075.6	52115623	52115739	plus	1		
+10090	Mus musculus	102465149	0	live	Mir6241	Gm27302, mmu-mir-6241	microRNA 6241	microRNA mir-6241		14	NC_000080.6	118258634	118258736	plus	1		
+10090	Mus musculus	102465148	0	live	Mir6239	Gm28025, mmu-mir-6239	microRNA 6239	microRNA mir-6239		14	NC_000080.6	117953743	117953847	minus	1		
+10090	Mus musculus	102465895	0	live	Gm24148	Mir3535, mir-3535, mmu-mir-3535	predicted gene, 24148	microRNA mir-3535		1	NC_000067.6	86351981	86352127	minus	1		
+10090	Mus musculus	100628629	0	live	Mir5121	mir-5121, mmu-mir-5121, mu-mir-5121	microRNA 5121	microRNA mir-5121	7 29.14 cM	7	NC_000073.6	45126918	45126991	minus	1		
+10090	Mus musculus	100628625	0	live	Mir5100	mir-5100, mmu-mir-5100, mu-mir-5100	microRNA 5100	microRNA mir-5100	11 37.81 cM	11	NC_000077.6	60728663	60728726	plus	1		
+10090	Mus musculus	100628618	0	live	Mir5106	mir-5106, mmu-mir-5106, mu-mir-5106	microRNA 5106	microRNA mir-5106	4 23.17 cM	4	NC_000070.6	44221195	44221267	minus	1		
+10090	Mus musculus	100628612	0	live	Mir5113	mir-5113, mmu-mir-5113, mu-mir-5113	microRNA 5113	microRNA mir-5113	15 37.94 cM	15	NC_000081.6	80940039	80940120	plus	1		
+10090	Mus musculus	100628611	0	live	Mir5107	mir-5107, mmu-mir-5107, mu-mir-5107	microRNA 5107	microRNA mir-5107	18 34.41 cM	18	NC_000084.6	60812076	60812163	plus	1		
+10090	Mus musculus	100628604	0	live	Mir5135	mir-5135, mmu-mir-5135, mu-mir-5135	microRNA 5135	microRNA mir-5135	12 33.73 cM	12	NC_000078.6	76533134	76533212	minus	1		
+10090	Mus musculus	100628603	0	live	Mir5134	mir-5134, mmu-mir-5134, mu-mir-5134	microRNA 5134	microRNA mir-5134	17 12.33 cM	17	NC_000083.6	24234527	24234604	minus	1		
+10090	Mus musculus	100628602	0	live	Mir5133	mir-5133, mmu-mir-5133, mu-mir-5133	microRNA 5133	microRNA mir-5133	9 33.59 cM	9	NC_000075.6	62122518	62122594	minus	1		
+10090	Mus musculus	100628601	0	live	Mir5132	mir-5132, mmu-mir-5132, mu-mir-5132	microRNA 5132	microRNA mir-5132	X 37.63 cM	X	NC_000086.7	74023528	74023598	minus	1		
+10090	Mus musculus	100628599	0	live	Mir5130	mir-5130, mmu-mir-5130, mu-mir-5130	microRNA 5130	microRNA mir-5130	14 51.55 cM	14	NC_000080.6	102982549	102982632	minus	1		
+10090	Mus musculus	100628598	0	live	Mir5129	mir-5129, mmu-mir-5129, mu-mir-5129	microRNA 5129	microRNA mir-5129	2 27.31 cM	2	NC_000068.7	45023100	45023177	minus	1		
+10090	Mus musculus	100628597	0	live	Mir5128	mir-5128, mmu-mir-5128, mu-mir-5128	microRNA 5128	microRNA mir-5128	2 24.19 cM	2	NC_000068.7	37688201	37688284	minus	1		
+10090	Mus musculus	100628595	0	live	Mir5126	mir-5126, mmu-mir-5126, mu-mir-5126	microRNA 5126	microRNA mir-5126	1 43.42 cM	1	NC_000067.6	84695839	84695915	plus	1		
+10090	Mus musculus	100628594	0	live	Mir3572	mir-3572, mmu-mir-3572	microRNA 3572	microRNA mir-3572	7 2.11 cM	7	NC_000073.6	3655962	3656047	plus	1		
+10090	Mus musculus	100628581	0	live	Mir5104	mir-5104, mmu-mir-5104, mu-mir-5104	microRNA 5104	microRNA mir-5104	10 2.45 cM	10	NC_000076.6	7836381	7836474	plus	1		
+10090	Mus musculus	100628580	0	live	Mir5103	mir-5103, mmu-mir-5103, mu-mir-5103	microRNA 5103	microRNA mir-5103	1 13.22 cM	1	NC_000067.6	34433121	34433199	minus	1		
+10090	Mus musculus	100049547	0	live	Mir804	Mirn804, mmu-mir-804	microRNA 804		11	11	NC_000077.6	50357785	50357879	minus	1		
+10090	Mus musculus	100316833	0	live	Mir1945	mir-1945, mmu-mir-1945	microRNA 1945	microRNA mir-1945	16 6.4 cM	16	NC_000082.6	11254368	11254445	minus	1		
+10090	Mus musculus	100316819	0	live	Mir1967	mir-1967, mmu-mir-1967	microRNA 1967	microRNA mir-1967	8 72.33 cM	8	NC_000074.6	124022641	124022722	plus	1		
+10090	Mus musculus	100316818	0	live	Mir1962	mir-1962, mmu-mir-1962	microRNA 1962	microRNA mir-1962	7 81.27 cM	7	NC_000073.6	135566162	135566282	plus	1		
+10090	Mus musculus	100316812	0	live	Mir1936	mir-1936, mmu-mir-1936	microRNA 1936	microRNA mir-1936	12 52.0 cM	12	NC_000078.6	102684928	102685020	minus	1		
+10090	Mus musculus	100316802	0	live	Mir669g	Mirn669g, mir-669g, mmu-mir-669g	microRNA 669g	microRNA mir-669g	2 8.22 cM	2	NC_000068.7	10477150	10477272	plus	1		
+10090	Mus musculus	100316777	0	live	Mir1969	mir-1969, mmu-mir-1969	microRNA 1969	microRNA mir-1969	8 34.43 cM	8	NC_000074.6	70925525	70925618	plus	1		
+10090	Mus musculus	100316710	0	live	Mir1963	mir-1963, mmu-mir-1963	microRNA 1963	microRNA mir-1963	7 16.94 cM	7	NC_000073.6	29083636	29083694	minus	1		
+10090	Mus musculus	100316706	0	live	Mir1956	mir-1956, mmu-mir-1956	microRNA 1956	microRNA mir-1956	3 64.3 cM	3	NC_000069.6	138526421	138526485	plus	1		
+10090	Mus musculus	100316704	0	live	Mir1953	mir-1953, mmu-mir-1953	microRNA 1953	microRNA mir-1953	2 74.83 cM	2	NC_000068.7	151967529	151967617	minus	1		
+10090	Mus musculus	100316703	0	live	Mir1951	mir-1951, mmu-mir-1951	microRNA 1951	microRNA mir-1951	2 58.2 cM	2	NC_000068.7	115638725	115638813	plus	1		
+10090	Mus musculus	100316693	0	live	Mir1938	mir-1938, mmu-mir-1938	microRNA 1938	microRNA mir-1938	12 18.06 cM	12	NC_000078.6	40222712	40222811	minus	1		
+10090	Mus musculus	100316690	0	live	Mir1932	mir-1932, mmu-mir-1932	microRNA 1932	microRNA mir-1932	11 83.47 cM	11	NC_000077.6	119390472	119390561	plus	1		
+10090	Mus musculus	100316689	0	live	Mir1931	mir-1931, mmu-mir-1931	microRNA 1931	microRNA mir-1931	10 47.89 cM	10	NC_000076.6	93162785	93162903	plus	1		
+10090	Mus musculus	100316668	0	live	Mir669i	Mirn669i, mir-669i, mmu-mir-669i	microRNA 669i	microRNA mir-669i	2 8.22 cM	2	NC_000068.7	10517604	10517730	plus	1		
+10090	Mus musculus	100628606	0	live	Mir3960	mmu-mir-3960	microRNA 3960	microRNA mir-3960	2 22.09 cM	2	NC_000068.7	32712900	32712972	minus	1		
+10090	Mus musculus	102465703	0	live	Mir7220	Gm27329, mmu-mir-7220	microRNA 7220	microRNA mir-7220		18	NC_000084.6	60953873	60953932	plus	1		
+10090	Mus musculus	102465699	0	live	Mir7213	Gm27377, mmu-mir-7213	microRNA 7213	microRNA mir-7213		15	NC_000081.6	79998970	79999026	minus	1		
+10090	Mus musculus	102465698	0	live	Mir7212	Gm28027, mmu-mir-7212	microRNA 7212	microRNA mir-7212		15	NC_000081.6	25948227	25948287	plus	1		
+10090	Mus musculus	100885842	0	live	Mir5627	Gm23684, mir-5627, mmu-mir-5627	microRNA 5627	microRNA mir-5627	12	12	NC_000078.6	44210313	44210373	plus	1		
+10090	Mus musculus	100885839	0	live	Mir5626	Gm25590, mir-5626, mmu-mir-5626	microRNA 5626	microRNA mir-5626	9	9	NC_000075.6	70405694	70405753	minus	1		
+10090	Mus musculus	100885837	0	live	Mir5624	Gm25075, mir-5624, mmu-mir-5624	microRNA 5624	microRNA mir-5624	13	13	NC_000079.6	93790777	93790837	plus	1		
+10090	Mus musculus	100885836	0	live	Mir3073b	mir-3073b, mmu-mir-3073b	microRNA 3073b	microRNA mir-3073b	12	12	NC_000078.6	112109250	112109309	minus	1		
+10090	Mus musculus	100885835	0	live	Mir5623	Gm26068, mir-5623, mmu-mir-5623	microRNA 5623	microRNA mir-5623	19	19	NC_000085.6	58051167	58051236	plus	1		
+10090	Mus musculus	100885833	0	live	Mir5621	Gm22564, mir-5621, mmu-mir-5621	microRNA 5621	microRNA mir-5621	11	11	NC_000077.6	115795824	115795886	plus	1		
+10090	Mus musculus	100885832	0	live	Mir5620	Gm23572, mir-5620, mmu-mir-5620	microRNA 5620	microRNA mir-5620	7	7	NC_000073.6	7298891	7298946	plus	1		
+10090	Mus musculus	100885831	0	live	Mir5619	Gm23866, mir-5619, mmu-mir-5619	microRNA 5619	microRNA mir-5619	5	5	NC_000071.6	104048003	104048063	plus	1		
+10090	Mus musculus	100885829	0	live	Mir5617	Gm25192, mir-5617, mmu-mir-5617	microRNA 5617	microRNA mir-5617	X	X	NC_000086.7	20863126	20863182	minus	1		
+10090	Mus musculus	100885828	0	live	Mir5616	Gm25191, mir-5616, mmu-mir-5616	microRNA 5616	microRNA mir-5616	4	4	NC_000070.6	149537863	149537922	plus	1		
+10090	Mus musculus	100885827	0	live	Mir1231	Gm23720, mir-1231, mmu-mir-1231	microRNA 1231	microRNA mir-1231	1	1	NC_000067.6	135454603	135454683	minus	1		
+10090	Mus musculus	100885826	0	live	Mir5615-2	Gm23367, mir-5615-2, mmu-mir-5615-2	microRNA 5615-2	microRNA mir-5615-2	10	10	NC_000076.6	81104616	81104675	plus	1		
+10090	Mus musculus	100885825	0	live	Mir5615-1	mir-5615-1, mmu-mir-5615-1	microRNA 5615-1	microRNA mir-5615-1	10	10	NC_000076.6	81104614	81104673	minus	1		
+10090	Mus musculus	100885823	0	live	Mir3544	mir-3544, mmu-mir-3544	microRNA 3544	microRNA mir-3544	12	12	NC_000078.6	109585813	109585873	minus	1		
+10090	Mus musculus	387241	0	live	Mir199s	Mirn199s	microRNA 199s										
+10090	Mus musculus	102466907	0	live	Mir6399	Gm27667, mir-6399, mmu-mir-6399	microRNA 6399	microRNA mir-6399		4	NC_000070.6	138163209	138163292	plus	1		
+10090	Mus musculus	102465227	0	live	Mir6418	Gm27629, mir-6418, mmu-mir-6418	microRNA 6418	microRNA mir-6418		5	NC_000071.6	137529480	137529594	minus	1		
+10090	Mus musculus	102466848	0	live	Mir219c	mmu-mir-219c	microRNA 219c	microRNA mir-219c		17	NC_000083.6	34025012	34025071	plus	1		
+10090	Mus musculus	102465177	0	live	Mir6347	Gm27863, mmu-mir-6347	microRNA 6347	microRNA mir-6347		1	NC_000067.6	167290125	167290225	plus	1		
+10090	Mus musculus	791080	0	live	Mir759	Mirn759, mir-759, mmu-mir-759	microRNA 759		14	14	NC_000080.6	79738431	79738528	plus	1		
+10090	Mus musculus	100124649	0	live	Mir683-2	Gm23091, Mirn683-2, Mirn683b, mmu-mir-683, mmu-mir-683-2	microRNA 683-2	microRNA 683b|microRNA mir-683-2	13	13	NC_000079.6	50600972	50601080	minus	1		
+10090	Mus musculus	751559	0	live	Mir683-1	Gm26093, Mirn683, Mirn683-1, Mirn683a, mmu-mir-683, mmu-mir-683-1	microRNA 683-1	microRNA 683|microRNA 683a|mir 683	13	13	NC_000079.6	50544626	50544734	minus	1		
+10090	Mus musculus	751554	0	live	Mir678	Mirn678, mmu-mir-678	microRNA 678	mir 678	10	10	NC_000076.6	76207326	76207409	minus	1		
+10090	Mus musculus	751548	0	live	Mir713	Mirn713, mir-713, mmu-mir-713	microRNA 713		13	13	NC_000079.6	62760739	62760846	plus	1		
+10090	Mus musculus	751538	0	live	Mir681	Mirn681, mmu-mir-681	microRNA 681	mir 681	12	12	NC_000078.6	69763835	69763944	minus	1		
+10090	Mus musculus	751526	0	live	Mir719	Mirn719, mmu-mir-719	microRNA 719	mir 719	14	14	NC_000080.6	60228806	60228915	minus	1		
+10090	Mus musculus	735277	0	live	Mir697	Mirn697, mmu-mir-697	microRNA 697	mir 697	4	4	NC_000070.6	124731694	124731802	plus	1		
+10090	Mus musculus	735274	0	live	Mir684-1	Mirn684-1	microRNA 684-1	mir 684-1|mmu-mir-684-1	2	2	NC_000068.7	80628705	80628790	minus	1		
+10090	Mus musculus	735269	0	live	Mir707	Mirn707, mmu-mir-707	microRNA 707	mir 707	7	7	NC_000073.6	44849699	44849771	plus	1		
+10090	Mus musculus	735261	0	live	Mir684-2	Mirn684-2	microRNA 684-2	mir 684-2|mmu-mir-684-2	4	4	NC_000070.6	11134097	11134182	plus	1		
+10090	Mus musculus	100499529	0	live	Mir3474	mir-3474, mmu-mir-3474	microRNA 3474	microRNA mir-3474	2 78.72 cM	2	NC_000068.7	158638583	158638640	plus	1		
+10090	Mus musculus	100499528	0	live	Mir3473a	Mir3473, mir-3473a, mmu-mir-3473, mmu-mir-3473a	microRNA 3473a	microRNA 3473|microRNA mir-3473	X 75.07 cM	X	NC_000086.7	162874918	162874995	minus	1		
+10090	Mus musculus	100526560	0	live	Mir3109	mir-3109, mmu-mir-3109	microRNA 3109	microRNA mir-3109	9 38.58 cM	9	NC_000075.6	69456944	69457031	plus	1		
+10090	Mus musculus	100526559	0	live	Mir3103	mir-3103, mmu-mir-3103	microRNA 3103	microRNA mir-3103	7 70.09 cM	7	NC_000073.6	128288369	128288435	minus	1		
+10090	Mus musculus	100526558	0	live	Mir344b	mir-344b, mmu-mir-344b	microRNA 344b	microRNA mir-344b	7 34.29 cM	7	NC_000073.6	61790519	61790581	minus	1		
+10090	Mus musculus	100526557	0	live	Mir3097	mir-3097, mmu-mir-3097	microRNA 3097	microRNA mir-3097	5 17.98 cM	5	NC_000071.6	35021049	35021115	plus	1		
+10090	Mus musculus	100526556	0	live	Mir3091	mir-3091, mmu-mir-3091	microRNA 3091	microRNA mir-3091	2 102.78 cM	2	NC_000068.7	180257536	180257611	plus	1		
+10090	Mus musculus	100526555	0	live	Mir3087	mir-3087, mmu-mir-3087	microRNA 3087	microRNA mir-3087	2 17.26 cM	2	NC_000068.7	25442779	25442834	plus	1		
+10090	Mus musculus	100526549	0	live	Mir3085	mir-3085, mmu-mir-3085	microRNA 3085	microRNA mir-3085	19 36.07 cM	19	NC_000085.6	42280082	42280170	minus	1		
+10090	Mus musculus	100526547	0	live	Mir3073a	Mir3073, mir-3073a, mmu-mir-3073, mmu-mir-3073a	microRNA 3073a	microRNA 3073|microRNA mir-3073	12 61.14 cM	12	NC_000078.6	112109238	112109322	plus	1		
+10090	Mus musculus	100526545	0	live	Mir3062	mir-3062, mmu-mir-3062	microRNA 3062	microRNA mir-3062	11 42.26 cM	11	NC_000077.6	68990574	68990678	minus	1		
+10090	Mus musculus	100526541	0	live	Mir344e	mir-344e, mmu-mir-344e	microRNA 344e	microRNA mir-344e	7 34.28 cM	7	NC_000073.6	61735537	61735602	minus	1		
+10090	Mus musculus	100526540	0	live	Mir3093	mir-3093, mmu-mir-3093	microRNA 3093	microRNA mir-3093	3 38.78 cM	3	NC_000069.6	88215171	88215257	plus	1		
+10090	Mus musculus	100526534	0	live	Mir3083	mir-3083, mmu-mir-3083	microRNA 3083	microRNA mir-3083	17 13.6 cM	17	NC_000083.6	26948056	26948119	minus	1		
+10090	Mus musculus	100526533	0	live	Mir3075	mir-3075, mmu-mir-3075	microRNA 3075	microRNA mir-3075	14 15.06 cM	14	NC_000080.6	25534439	25534523	plus	1		
+10090	Mus musculus	100526532	0	live	Mir3067	mir-3067, mmu-mir-3067	microRNA 3067	microRNA mir-3067	12 37.41 cM	12	NC_000078.6	81166151	81166234	plus	1		
+10090	Mus musculus	100526529	0	live	Mir1912	mir-1912, mmu-mir-1912	microRNA 1912	microRNA mir-1912	X 68.46 cM	X	NC_000086.7	147009441	147009527	plus	1		
+10090	Mus musculus	100526528	0	live	Mir3074-2	mir-3074-2, mmu-mir-3074-2	microRNA 3074-2	microRNA mir-3074-2	8 40.58 cM	8	NC_000074.6	84208825	84208907	minus	1		
+10090	Mus musculus	100526527	0	live	Mir344f	mir-344f, mmu-mir-344f	microRNA Mir344f	microRNA mir-344f	7 34.32 cM	7	NC_000073.6	62046181	62046248	minus	1		
+10090	Mus musculus	100526525	0	live	Mir3092	mir-3092, mmu-mir-3092	microRNA 3092	microRNA mir-3092	3 10.98 cM	3	NC_000069.6	27584900	27584995	minus	1		
+10090	Mus musculus	100526519	0	live	Mir3070b	mir-3070-2, mmu-mir-3070-2, mmu-mir-3070b	microRNA 3070b	microRNA mir-3070b	12 60.38 cM	12	NC_000078.6	109588592	109588680	plus	1		
+10090	Mus musculus	100526518	0	live	Mir3065	mir-3065, mmu-mir-3065	microRNA 3065	microRNA mir-3065	11 83.96 cM	11	NC_000077.6	120014767	120014853	plus	1		
+10090	Mus musculus	100526517	0	live	Mir1251	mir-1251, mmu-mir-1251	microRNA 1251	microRNA mir-1251	10 46.73 cM	10	NC_000076.6	92137140	92137223	minus	1		
+10090	Mus musculus	100526511	0	live	Mir3108	mir-3108, mmu-mir-3108	microRNA 3108	microRNA mir-3108	8 56.19 cM	8	NC_000074.6	108936860	108936938	plus	1		
+10090	Mus musculus	100526510	0	live	Mir3107	mir-486b, mmu-mir-3107, mmu-mir-486b	microRNA 3107	microRNA mir-3107	8 11.42 cM	8	NC_000074.6	23142573	23142662	minus	1		
+10090	Mus musculus	100526509	0	live	Mir3104	mir-3104, mmu-mir-3104	microRNA 3104	microRNA mir-3104	7 87.48 cM	7	NC_000073.6	141992179	141992241	plus	1		
+10090	Mus musculus	100526507	0	live	Mir344g	mir-344g, mmu-mir-344g	microRNA 344g	microRNA mir-344g	7 34.31 cM	7	NC_000073.6	61982289	61982359	minus	1		
+10090	Mus musculus	100526506	0	live	Mir344c	mir-344c, mmu-mir-344c	microRNA 344c	microRNA mir-344c	7 34.29 cM	7	NC_000073.6	61837311	61837402	minus	1		
+10090	Mus musculus	100526505	0	live	Mir3101	mir-3101, mmu-mir-3101	microRNA 3101	microRNA mir-3101	7 15.84 cM	7	NC_000073.6	27176006	27176093	minus	1		
+10090	Mus musculus	100526504	0	live	Mir3100	mir-3100, mmu-mir-3100	microRNA 3100	microRNA mir-3100	7 9.46 cM	7	NC_000073.6	19086828	19086892	plus	1		
+10090	Mus musculus	100526502	0	live	Mir3095	mir-3095, mmu-mir-3095	microRNA 3095	microRNA mir-3095	4 32.2 cM	4	NC_000070.6	58441012	58441098	minus	1		
+10090	Mus musculus	100526501	0	live	Mir3094	mir-3094, mmu-mir-3094	microRNA 3094	microRNA mir-3094	4 20.76 cM	4	NC_000070.6	40993695	40993758	plus	1		
+10090	Mus musculus	100526499	0	live	Mir3089	mir-3089, mmu-mir-3089	microRNA 3089	microRNA mir-3089	2 21.72 cM	2	NC_000068.7	30721210	30721293	plus	1		
+10090	Mus musculus	100526498	0	live	Mir3088	mir-3088, mmu-mir-3088	microRNA 3088	microRNA mir-3088	2 19.38 cM	2	NC_000068.7	28733278	28733351	plus	1		
+10090	Mus musculus	100526480	0	live	Mir3086	mir-3086, mmu-mir-3086	microRNA 3086	microRNA mir-3086	19 54.54 cM	19	NC_000085.6	58911673	58911759	minus	1		
+10090	Mus musculus	100526479	0	live	Mir3082	mir-3082, mmu-mir-3082	microRNA 3082	microRNA mir-3082	17 12.93 cM	17	NC_000083.6	25831365	25831428	minus	1		
+10090	Mus musculus	100526478	0	live	Mir3081	mir-3081, mmu-mir-3081	microRNA 3081	microRNA mir-3081	16 28.88 cM	16	NC_000082.6	44558046	44558129	minus	1		
+10090	Mus musculus	100526475	0	live	Mir3076	mir-3076, mmu-mir-3076	microRNA 3076	microRNA mir-3076	14 18.81 cM	14	NC_000080.6	30572149	30572208	plus	1		
+10090	Mus musculus	100526473	0	live	Mir3071	mir-3071, mmu-mir-3071	microRNA 3071	microRNA mir-3071	12 60.39 cM	12	NC_000078.6	109595318	109595397	minus	1		
+10090	Mus musculus	100526472	0	live	Mir3070a	mir-3070-1, mmu-mir-3070-1, mmu-mir-3070a	microRNA 3070a	microRNA mir-3070a	12 60.37 cM	12	NC_000078.6	109587943	109588031	plus	1		
+10090	Mus musculus	100526471	0	live	Mir3069	mir-3069, mmu-mir-3069	microRNA 3069	microRNA mir-3069	12 55.04 cM	12	NC_000078.6	105031077	105031141	minus	1		
+10090	Mus musculus	100526470	0	live	Mir3066	mir-3066, mmu-mir-3066	microRNA 3066	microRNA mir-3066	12 8.08 cM	12	NC_000078.6	17355392	17355474	plus	1		
+10090	Mus musculus	100526469	0	live	Mir3064	mir-3064, mmu-mir-3064	microRNA 3064	microRNA mir-3064	11 70.02 cM	11	NC_000077.6	106782693	106782759	minus	1		
+10090	Mus musculus	100526467	0	live	Mir3061	mir-3061, mmu-mir-3061	microRNA 3061	microRNA mir-3061	11 31.86 cM	11	NC_000077.6	52126746	52126836	plus	1		
+10090	Mus musculus	100526466	0	live	Mir3060	mir-3060, mmu-mir-3060	microRNA 3060	microRNA mir-3060	11 2.9 cM	11	NC_000077.6	4139364	4139446	plus	1		
+10090	Mus musculus	100526465	0	live	Mir3057	mir-3057, mmu-mir-3057	microRNA 3057	microRNA mir-3057	10 39.72 cM	10	NC_000076.6	81271597	81271687	plus	1		
+10090	Mus musculus	100499530	0	live	Mir1906-2	mmu-mir-1906-2	microRNA 1906-2	microRNA mir-1906-2	X 39.95 cM	X	NC_000086.7	88759474	88759553	minus	1		
+10090	Mus musculus	100316832	0	live	Mir1895	Mirn1895, mmu-mir-1895	microRNA 1895	microRNA mir-1895	3 62.12 cM	3	NC_000069.6	134240505	134240583	minus	1		
+10090	Mus musculus	100316809	0	live	Mir1906-1	Mir1906, Mirn1906, mmu-mir-1906, mmu-mir-1906-1	microRNA 1906-1	microRNA mir-1906	12 60.26 cM	12	NC_000078.6	109544541	109544620	plus	1		
+10090	Mus musculus	100316808	0	live	Mir1905	Mirn1905, mmu-mir-1905	microRNA 1905	microRNA mir-1905	3 38.86 cM	3	NC_000069.6	88536301	88536382	minus	1		
+10090	Mus musculus	100316773	0	live	Mir1893	Mirn1893, mmu-mir-1893	microRNA 1893	microRNA mir-1893	18 4.49 cM	18	NC_000084.6	6490564	6490646	minus	1		
+10090	Mus musculus	100316772	0	live	Mir1899	Mirn1899, mmu-mir-1899	microRNA 1899	microRNA mir-1899	9 2.46 cM	9	NC_000075.6	8246786	8246881	plus	1		
+10090	Mus musculus	100316752	0	live	Mir1896	Mirn1896, mmu-mir-1896	microRNA 1896	microRNA mir-1896	13 7.8 cM	13	NC_000079.6	21445160	21445240	plus	1		
+10090	Mus musculus	100316686	0	live	Mir1901	Mirn1901, mmu-mir-1901	microRNA 1901	microRNA mir-1901	18 5.88 cM	18	NC_000084.6	11840361	11840438	minus	1		
+10090	Mus musculus	100316685	0	live	Mir1907	Mirn1907, mmu-mir-1907	microRNA 1907	microRNA mir-1907	15 19.19 cM	15	NC_000081.6	50889025	50889114	minus	1		
+10090	Mus musculus	100316684	0	live	Mir1898	Mirn1898, mmu-mir-1898	microRNA 1898	microRNA mir-1898	15 5.9 cM	15	NC_000081.6	12171492	12171574	plus	1		
+10090	Mus musculus	100316683	0	live	Mir1904	Mirn1904, mmu-mir-1904	microRNA 1904	microRNA mir-1904	13 60.84 cM	13	NC_000079.6	109903809	109903888	plus	1		
+10090	Mus musculus	100316680	0	live	Mir1903	Mirn1903, mmu-mir-1903	microRNA 1903	microRNA mir-1903	8 75.78 cM	8	NC_000074.6	128359241	128359320	plus	1		
+10090	Mus musculus	102465697	0	live	Mir7210	mir-7210, mmu-mir-7210	microRNA 7210	microRNA mir-7210		14	NC_000080.6	24088877	24088930	plus	1		
+10090	Mus musculus	100628624	0	live	Mir3971	mmu-mir-3971, mu-mir-3971	microRNA 3971	microRNA mir-3971	11 45.92 cM	11	NC_000077.6	75551429	75551511	plus	1		
+10090	Mus musculus	100628623	0	live	Mir3968	mmu-mir-3968, mu-mir-3968	microRNA 3968	microRNA mir-3968	11 80.84 cM	11	NC_000077.6	115447961	115448060	minus	1		
+10090	Mus musculus	100628621	0	live	Mir3961	mmu-mir-3961	microRNA 3961	microRNA mir-3961	13 43.68 cM	13	NC_000079.6	82698275	82698333	minus	1		
+10090	Mus musculus	100628616	0	live	Mir3966	mmu-mir-3966, mu-mir-3966	microRNA 3966	microRNA mir-3966	10 50.25 cM	10	NC_000076.6	97423478	97423562	plus	1		
+10090	Mus musculus	100628608	0	live	Mir3967	mmu-mir-3967, mu-mir-3967	microRNA 3967	microRNA mir-3967	2 15.15 cM	2	NC_000068.7	22654283	22654350	plus	1		
+10090	Mus musculus	100628607	0	live	Mir3964	mmu-mir-3964, mu-mir-3964	microRNA 3964	microRNA mir-3964	15 11.97 cM	15	NC_000081.6	29713331	29713404	minus	1		
+10090	Mus musculus	100628575	0	live	Mir3970	mmu-mir-3970, mu-mir-3970	microRNA 3970	microRNA mir-3970	19 29.09 cM	19	NC_000085.6	33157112	33157201	plus	1		
+10090	Mus musculus	100628574	0	live	Mir28b	mmu-mir-28b	microRNA 28b	microRNA mir-28b	8 35.08 cM	8	NC_000074.6	73016512	73016591	plus	1		
+10090	Mus musculus	100628570	0	live	Mir3965	mmu-mir-3965, mu-mir-3965	microRNA 3965	microRNA mir-3965	5 74.53 cM	5	NC_000071.6	134326454	134326522	plus	1		
+10090	Mus musculus	100628568	0	live	Mir3963	mmu-mir-3963, mu-mir-3963	microRNA 3963	microRNA mir-3963	3 76.76 cM	3	NC_000069.6	151023792	151023862	minus	1		
+10090	Mus musculus	100628567	0	live	Mir28c	mmu-mir-28c	microRNA 28c	microRNA mir-28c	15 21.15 cM	15	NC_000081.6	53614205	53614279	minus	1		
+10090	Mus musculus	100526561	0	live	Mir466b-8	mmu-mir-466b-8	microRNA 466b-8	microRNA mir-466b-8	2 8.22 cM	2	NC_000068.7	10476628	10476713	plus	1		
+10090	Mus musculus	100526492	0	live	Mir466b-7	mmu-mir-466b-7	microRNA 466b-7	microRNA mir-466b-7	2 8.22 cM	2	NC_000068.7	10496268	10496355	plus	1		
+10090	Mus musculus	100526490	0	live	Mir466b-6	mmu-mir-466b-6	microRNA 466b-6	microRNA mir-466b-6	2 8.22 cM	2	NC_000068.7	10493798	10493887	plus	1		
+10090	Mus musculus	100526488	0	live	Mir466b-5	mmu-mir-466b-5	microRNA 466b-5	microRNA mir-466b-5	2 8.22 cM	2	NC_000068.7	10488887	10488974	plus	1		
+10090	Mus musculus	100526486	0	live	Mir466b-4	mmu-mir-466b-4	microRNA 466b-4	microRNA mir-466b-4	2 8.22 cM	2	NC_000068.7	10486423	10486512	plus	1		
+10090	Mus musculus	104795667	0	live	Gm23450	Mir935, mmu-mir-935	predicted gene, 23450	microRNA mir-935		7	NC_000073.6	3415066	3415156	plus	1		
+10090	Mus musculus	104795666	0	live	Gm24572	Mir3618, mmu-mir-3618	predicted gene, 24572	microRNA mir-3618		16	NC_000082.6	18284550	18284637	minus	1		
+10090	Mus musculus	100124484	0	live	Mir453	Mirn453, mmu-mir-453	microRNA 453	microRNA Mirn453|microRNA mir-453	12	12	NC_000078.6	109735619	109735700	plus	1		
+10090	Mus musculus	100124467	0	live	Mir568	Mirn568, mmu-mir-568	microRNA 568	microRNA Mirn568|microRNA mir-568	16	16	NC_000082.6	43640655	43640737	plus	1		
+10090	Mus musculus	100124461	0	live	Mir882	Mirn882, mmu-mir-882	microRNA 882	microRNA Mirn882|microRNA mir-882	12	12	NC_000078.6	109682197	109682273	plus	1		
+10090	Mus musculus	100124449	0	live	Mir509	Mirn509, mmu-mir-509	microRNA 509	microRNA Mirn509|microRNA mir-509	X	X	NC_000086.7	68010105	68010179	minus	1		
+10090	Mus musculus	100124438	0	live	Mir343	Mirn343, mmu-mir-343	microRNA 343	microRNA Mirn343|microRNA mir-343	7	7	NC_000073.6	19386643	19386717	plus	1		
+10090	Mus musculus	102467006	0	live	Mir8108	Gm27484, mmu-mir-8108	microRNA 8108	microRNA mir-8108		8	NC_000074.6	25159125	25159233	minus	1		
+10090	Mus musculus	102466888	0	live	Mir8099-2	Gm27692, mmu-mir-8099-2	microRNA 8099-2	microRNA mir-8099-2	3	12	NC_000078.6	93927338	93927464	plus	1		
+10090	Mus musculus	102466887	0	live	Mir8116	Gm27485, mmu-mir-8116	microRNA 8116	microRNA mir-8116		5	NC_000071.6	137293780	137293876	plus	1		
+10090	Mus musculus	102466886	0	live	Mir8111	Gm27823, mmu-mir-8111	microRNA 8111	microRNA mir-8111		8	NC_000074.6	84005628	84005764	plus	1		
+10090	Mus musculus	102466885	0	live	Mir8107	Gm27455, mmu-mir-8107	microRNA 8107	microRNA mir-8107	9 F2	9	NC_000075.6	110635999	110636115	minus	1		
+10090	Mus musculus	102466884	0	live	Mir8104	Gm27380, mmu-mir-8104	microRNA 8104	microRNA mir-8104		10	NC_000076.6	122679315	122679415	plus	1		
+10090	Mus musculus	102466883	0	live	Mir142b	Gm27750, mmu-mir-142b	microRNA 142b	microRNA mir-142b		11	NC_000077.6	87756841	87756955	minus	1		
+10090	Mus musculus	102466882	0	live	Mir8096	Gm27479, mmu-mir-8096	microRNA 8096	microRNA mir-8096		1	NC_000067.6	85751948	85752074	plus	1		
+10090	Mus musculus	102466881	0	live	Mir8092	Gm27407, mmu-mir-8092	microRNA 8092	microRNA mir-8092		19	NC_000085.6	40894703	40894789	plus	1		
+10090	Mus musculus	102466258	0	live	Mir3473g	Gm27751, mmu-mir-3473g	microRNA 3473g	microRNA mir-3473g		2	NC_000068.7	126902250	126902385	minus	1		
+10090	Mus musculus	102466257	0	live	Mir8114	Gm27382, mmu-mir-8114	microRNA 8114	microRNA mir-8114	1 G2	1	NC_000067.6	153899926	153900036	plus	1		
+10090	Mus musculus	102466256	0	live	Mir8102	Gm27795, mmu-mir-8102	microRNA 8102	microRNA mir-8102		11	NC_000077.6	97744897	97745035	plus	1		
+10090	Mus musculus	102466255	0	live	Mir1291	mmu-mir-1291	microRNA 1291	microRNA mir-1291		15	NC_000081.6	98519762	98519878	minus	1		
+10090	Mus musculus	102466254	0	live	Mir3473f	Gm27846, mmu-mir-3473f	microRNA 3473f	microRNA mir-3473f		1	NC_000067.6	106546496	106546631	minus	1		
+10090	Mus musculus	102465997	0	live	Mir8119	Gm27567, mmu-mir-8119	microRNA 8119	microRNA mir-8119		4	NC_000070.6	129557683	129557811	minus	1		
+10090	Mus musculus	102465996	0	live	Mir8100	Gm27638, mmu-mir-8100	microRNA 8100	microRNA mir-8100		11	NC_000077.6	46102270	46102390	plus	1		
+10090	Mus musculus	102465905	0	live	Mir8120	Gm27637, mmu-mir-8120	microRNA 8120	microRNA mir-8120		3	NC_000069.6	65659288	65659426	plus	1		
+10090	Mus musculus	102465904	0	live	Mir8118	Gm27954, mmu-mir-8118	microRNA 8118	microRNA mir-8118		4	NC_000070.6	33438081	33438209	plus	1		
+10090	Mus musculus	102465903	0	live	Mir8117	Gm27323, mmu-mir-8117	microRNA 8117	microRNA mir-8117		5	NC_000071.6	50252762	50252868	plus	1		
+10090	Mus musculus	102465902	0	live	Mir8115	Gm28012, mmu-mir-8115	microRNA 8115	microRNA mir-8115	5 F	5	NC_000071.6	122682597	122682715	plus	1		
+10090	Mus musculus	102465901	0	live	Mir8113	Gm27394, mmu-mir-8113	microRNA 8113	microRNA mir-8113		6	NC_000072.6	125234684	125234812	minus	1		
+10090	Mus musculus	102465900	0	live	Mir8112	Gm27739, mmu-mir-8112	microRNA 8112	microRNA mir-8112		6	NC_000072.6	71271671	71271801	plus	1		
+10090	Mus musculus	102465899	0	live	Mir8110	Gm27571, mmu-mir-8110	microRNA 8110	microRNA mir-8110		8	NC_000074.6	89024735	89024831	plus	1		
+10090	Mus musculus	102465898	0	live	Mir8109	Gm27495, mmu-mir-8109	microRNA 8109	microRNA mir-8109		8	NC_000074.6	85700905	85701021	plus	1		
+10090	Mus musculus	102465897	0	live	Mir1668	Gm27590, mmu-mir-1668	microRNA 1668	microRNA mir-1668		8	NC_000074.6	83723878	83723984	minus	1		
+10090	Mus musculus	102465896	0	live	Mir8106	Gm27594, mmu-mir-8106	microRNA 8106	microRNA mir-8106		9	NC_000075.6	122273890	122274028	minus	1		
+10090	Mus musculus	102465894	0	live	Mir8105	Gm27346, mmu-mir-8105	microRNA 8105	microRNA mir-8105		10	NC_000076.6	128458680	128458768	plus	1		
+10090	Mus musculus	102465893	0	live	Mir8103	Gm27841, mmu-mir-8103	microRNA 8103	microRNA mir-8103		11	NC_000077.6	97063768	97063874	plus	1		
+10090	Mus musculus	102465892	0	live	Mir8101	Gm27705, mmu-mir-8101	microRNA 8101	microRNA mir-8101		11	NC_000077.6	102230040	102230150	minus	1		
+10090	Mus musculus	102465891	0	live	Mir497b	Gm27737, mmu-mir-497b	microRNA 497b	microRNA mir-497b		11	NC_000077.6	70234692	70234816	minus	1		
+10090	Mus musculus	102465890	0	live	Mir8099-1	Gm27917, mmu-mir-8099-1	microRNA 8099-1	microRNA mir-8099-1	3	3	NC_000069.6	95139060	95139186	minus	1		
+10090	Mus musculus	102465889	0	live	Mir8098	Gm27462, mmu-mir-8098	microRNA 8098	microRNA mir-8098		14	NC_000080.6	62837721	62837857	plus	1		
+10090	Mus musculus	102465888	0	live	Mir8097	Gm27497, mmu-mir-8097	microRNA 8097	microRNA mir-8097		15	NC_000081.6	36240046	36240164	minus	1		
+10090	Mus musculus	102465887	0	live	Mir8095	Gm27566, mmu-mir-8095	microRNA 8095	microRNA mir-8095		16	NC_000082.6	22532056	22532184	minus	1		
+10090	Mus musculus	102465886	0	live	Mir8094	Gm27513, mmu-mir-8094	microRNA 8094	microRNA mir-8094	17 B1	17	NC_000083.6	35251289	35251405	plus	1		
+10090	Mus musculus	102465885	0	live	Mir8093	Gm27548, mmu-mir-8093	microRNA 8093	microRNA mir-8093		2	NC_000068.7	32687630	32687766	minus	1		
+10090	Mus musculus	102465884	0	live	Mir8091	Gm27575, mmu-mir-8091	microRNA 8091	microRNA mir-8091		19	NC_000085.6	41588651	41588789	plus	1		
+10090	Mus musculus	102465883	0	live	Mir8090	Gm27862, mmu-mir-8090	microRNA 8090	microRNA mir-8090		19	NC_000085.6	47755022	47755157	minus	1		
+10090	Mus musculus	100628630	0	live	Mir5124a	Mir5124, mmu-mir-5124, mmu-mir-5124a, mu-mir-5124	microRNA 5124a	microRNA 5124|microRNA mir-5124	13 20.13 cM	13	NC_000079.6	40865791	40865862	plus	1		
+10090	Mus musculus	100628628	0	live	Mir5116	mmu-mir-5116, mu-mir-5116	microRNA 5116	microRNA mir-5116	X 30.06 cM	X	NC_000086.7	56587852	56587914	minus	1		
+10090	Mus musculus	100628627	0	live	Mir5110	mmu-mir-5110	microRNA 5110	microRNA mir-5110	11 51.34 cM	11	NC_000077.6	85760616	85760702	minus	1		
+10090	Mus musculus	100628620	0	live	Mir5122	mmu-mir-5122, mu-mir-5122	microRNA 5122	microRNA mir-5122	4 66.25 cM	4	NC_000070.6	133369776	133369864	plus	1		
+10090	Mus musculus	100628619	0	live	Mir5114	mmu-mir-5114, mu-mir-5114	microRNA 5114	microRNA mir-5114	19 37.98 cM	19	NC_000085.6	44303171	44303231	plus	1		
+10090	Mus musculus	100628614	0	live	Mir5123	mmu-mir-5123, mu-mir-5123	microRNA 5123	microRNA mir-5123	4 20.53 cM	4	NC_000070.6	40850056	40850138	minus	1		
+10090	Mus musculus	100628613	0	live	Mir5119	mmu-mir-5119, mu-mir-5119	microRNA 5119	microRNA mir-5119	11 61.75 cM	11	NC_000077.6	98262606	98262662	plus	1		
+10090	Mus musculus	100628610	0	live	Mir5101	mmu-mir-5101, mu-mir-5101	microRNA 5101	microRNA mir-5101	12 33.27 cM	12	NC_000078.6	75909103	75909185	plus	1		
+10090	Mus musculus	100628605	0	live	Mir5136	mmu-mir-5136, mu-mir-5136	microRNA 5136	microRNA mir-5136	19 5.93 cM	19	NC_000085.6	8888699	8888774	minus	1		
+10090	Mus musculus	100628600	0	live	Mir5131	mmu-mir-5131, mu-mir-5131	microRNA 5131	microRNA mir-5131	14 23.33 cM	14	NC_000080.6	45657961	45658053	minus	1		
+10090	Mus musculus	100628596	0	live	Mir5127	mmu-mir-5127, mu-mir-5127	microRNA 5127	microRNA mir-5127	18 55.64 cM	18	NC_000084.6	81992010	81992080	minus	1		
+10090	Mus musculus	100628593	0	live	Mir5125	mmu-mir-5125, mu-mir-5125	microRNA 5125	microRNA mir-5125	17 12.08 cM	17	NC_000083.6	23823291	23823369	plus	1		
+10090	Mus musculus	100628592	0	live	Mir3473d	mmu-mir-3473d	microRNA 3473d	microRNA mir-3473d	8 57.89 cM	8	NC_000074.6	111016450	111016530	minus	1		
+10090	Mus musculus	100628591	0	live	Mir466q	Mir446q, mmu-mir-466q, mu-mir-446q	microRNA 466q	microRNA 446q|microRNA mir-466q|mmu-mir-446q	3 12.19 cM	3	NC_000069.6	28419943	28420018	plus	1		
+10090	Mus musculus	100628590	0	live	Mir5120	mmu-mir-5120, mu-mir-5120	microRNA 5120	microRNA mir-5120	4 23.56 cM	4	NC_000070.6	44607491	44607568	minus	1		
+10090	Mus musculus	100628589	0	live	Mir5118	mmu-mir-5118, mu-mir-5118	microRNA 5118	microRNA mir-5118	16 33.65 cM	16	NC_000082.6	55494731	55494797	plus	1		
+10090	Mus musculus	100628586	0	live	Mir5112	mmu-mir-5112, mu-mir-5112	microRNA 5112	microRNA mir-5112	18 56.71 cM	18	NC_000084.6	82720281	82720340	plus	1		
+10090	Mus musculus	100628583	0	live	Mir5108	mmu-mir-5108, mu-mir-5108	microRNA 5108	microRNA mir-5108	10 32.28 cM	10	NC_000076.6	61774737	61774821	plus	1		
+10090	Mus musculus	100628582	0	live	Mir3473c	mmu-mir-3473c	microRNA 3473c	microRNA mir-3473c	1 97.11 cM	1	NC_000067.6	191998554	191998634	minus	1		
+10090	Mus musculus	100628578	0	live	Mir5099	mmu-mir-5099, mu-mir-5099	microRNA 5099	microRNA mir-5099	12 16.84 cM	12	NC_000078.6	36816205	36816278	plus	1		
+10090	Mus musculus	100628577	0	live	Mir5098	mmu-mir-5098, mu-mir-5098	microRNA 5098	microRNA mir-5098	5 41.61 cM	5	NC_000071.6	77272757	77272838	plus	1		
+10090	Mus musculus	100316841	0	live	Mir1961	mmu-mir-1961	microRNA 1961	microRNA mir-1961	5 47.29 cM	5	NC_000071.6	92788451	92788562	minus	1		
+10090	Mus musculus	100316820	0	live	Mir1970	mmu-mir-1970	microRNA 1970	microRNA mir-1970	X 57.28 cM	X	NC_000086.7	135786114	135786217	minus	1		
+10090	Mus musculus	100316805	0	live	Mir1190	Mirn1190, mmu-mir-1190	microRNA 1190	microRNA mir-1190	12 51.16 cM	12	NC_000078.6	101021673	101021768	minus	1		
+10090	Mus musculus	100316784	0	live	Mir1927	mmu-mir-1927	microRNA 1927	microRNA mir-1927	1 69.75 cM	1	NC_000067.6	160295864	160295972	minus	1		
+10090	Mus musculus	100316775	0	live	Mir1950	mmu-mir-1950	microRNA 1950	microRNA mir-1950	19 29.79 cM	19	NC_000085.6	34965396	34965469	plus	1		
+10090	Mus musculus	100316774	0	live	Mir1942	mmu-mir-1942	microRNA 1942	microRNA mir-1942	15 35.54 cM	15	NC_000081.6	76215611	76215673	minus	1		
+10090	Mus musculus	100316770	0	live	Mir669j	Mirn669j, mmu-mir-669j	microRNA 669j	microRNA mir-669j	2 8.22 cM	2	NC_000068.7	10477910	10478030	plus	1		
+10090	Mus musculus	100316750	0	live	Mir1194	Mirn1194, mmu-mir-1194	microRNA 1194	microRNA mir-1194									
+10090	Mus musculus	100316749	0	live	Mir467f	Mirn467f, mmu-mir-467f	microRNA 467f	microRNA mir-467f|mmu-mir-466f	11 42.86 cM	11	NC_000077.6	69635400	69635519	minus	1		
+10090	Mus musculus	100316715	0	live	Mir1971	mmu-mir-1971	microRNA 1971	microRNA mir-1971	14 41.21 cM	14	NC_000080.6	78191373	78191478	minus	1		
+10090	Mus musculus	100316714	0	live	Mir1946b	mmu-mir-1946b	microRNA 1946b	microRNA mir-1946b	9 7.84 cM	9	NC_000075.6	21613444	21613576	minus	1		
+10090	Mus musculus	100316708	0	live	Mir1958	mmu-mir-1958	microRNA 1958	microRNA mir-1958	4 26.09 cM	4	NC_000070.6	48213119	48213215	minus	1		
+10090	Mus musculus	100316707	0	live	Mir1957a	Mir1957, mmu-mir-1957, mmu-mir-1957a	microRNA 1957a	microRNA 1957|microRNA mir-1957	4 55.34 cM	4	NC_000070.6	119129779	119129844	plus	1		
+10090	Mus musculus	100316705	0	live	Mir669n	mmu-mir-669n	microRNA 669n	microRNA mir-669n	3 50.17 cM	3	NC_000069.6	115979902	115979955	plus	1		
+10090	Mus musculus	100316697	0	live	Mir1946a	mmu-mir-1946a	microRNA 1946a	microRNA mir-1946a	16 22.49 cM	16	NC_000082.6	32267450	32267583	minus	1		
+10090	Mus musculus	100316687	0	live	Mir1928	mmu-mir-1928	microRNA 1928	microRNA mir-1928	1 38.46 cM	1	NC_000067.6	74206554	74206620	minus	1		
+10090	Mus musculus	100316676	0	live	Mir1195	Mirn1195, mmu-mir-1195	microRNA 1195	microRNA mir-1195	17 41.87 cM	17	NC_000083.6	70860503	70860600	minus	1		
+10090	Mus musculus	100316674	0	live	Mir467g	Mirn467g, mmu-mir-467g	microRNA 467g	microRNA mir-467g	5 17.92 cM	5	NC_000071.6	34732853	34732972	minus	1		
+10090	Mus musculus	102467000	0	live	Mir292b	mmu-mir-292b	microRNA 292b	microRNA mir-292b		7	NC_000073.6	3219198	3219259	minus	1		
+10090	Mus musculus	102466999	0	live	Mir7036b	Gm27625, mmu-mir-7036b	microRNA 7036b	microRNA mir-7036b		5	NC_000071.6	34574151	34574213	plus	1		
+10090	Mus musculus	102466998	0	live	Mir6546	Gm27408, mmu-mir-6546	microRNA 6546	microRNA mir-6546		1	NC_000067.6	171064591	171064652	minus	1		
+10090	Mus musculus	102466849	0	live	Mir7687	Gm27573, mmu-mir-7687	microRNA 7687	microRNA mir-7687		8	NC_000074.6	120538696	120538754	plus	1		
+10090	Mus musculus	102466847	0	live	Mir7682	mmu-mir-7682	microRNA 7682	microRNA mir-7682		1	NC_000067.6	151442393	151442450	plus	1		
+10090	Mus musculus	102466846	0	live	Mir7679	Gm27908, mmu-mir-7679	microRNA 7679	microRNA mir-7679		11	NC_000077.6	82985003	82985065	minus	1		
+10090	Mus musculus	102466845	0	live	Mir7676-2	Gm27790, mmu-mir-7676-2	microRNA 7676-2	microRNA mir-7676-2		15	NC_000081.6	78348599	78348660	plus	1		
+10090	Mus musculus	102466844	0	live	Mir7674	Gm27563, mmu-mir-7674	microRNA 7674	microRNA mir-7674		2	NC_000068.7	32050946	32051008	plus	1		
+10090	Mus musculus	102466843	0	live	Mir7670	Gm27707, mmu-mir-7670	microRNA 7670	microRNA mir-7670	6 B1	6	NC_000072.6	38507325	38507393	plus	1		
+10090	Mus musculus	102466842	0	live	Mir7665	Gm27478, mmu-mir-7665	microRNA 7665	microRNA mir-7665		2	NC_000068.7	120017517	120017579	plus	1		
+10090	Mus musculus	102466841	0	live	Mir7660	Gm27712, mmu-mir-7660	microRNA 7660	microRNA mir-7660		6	NC_000072.6	115775657	115775719	plus	1		
+10090	Mus musculus	102466840	0	live	Mir7655	Gm27794, mmu-mir-7655	microRNA 7655	microRNA mir-7655		2	NC_000068.7	18057846	18057903	plus	1		
+10090	Mus musculus	102466839	0	live	Mir219b	mmu-mir-219b	microRNA 219b	microRNA mir-219b		2	NC_000068.7	29845647	29845711	plus	1		
+10090	Mus musculus	102466838	0	live	Mir7648	Gm27736, mmu-mir-7648	microRNA 7648	microRNA mir-7648	15 E3	15	NC_000081.6	90224360	90224412	plus	1		
+10090	Mus musculus	102466240	0	live	Mir7685	Gm27757, mmu-mir-7685	microRNA 7685	microRNA mir-7685		2	NC_000068.7	158243504	158243565	minus	1		
+10090	Mus musculus	102466239	0	live	Mir465d	mmu-mir-465d	microRNA 465d	microRNA mir-465d		X	NC_000086.7	66822656	66822713	minus	1		
+10090	Mus musculus	102466238	0	live	Mir7673	Gm27569, mmu-mir-7673	microRNA 7673	microRNA mir-7673		X	NC_000086.7	94274574	94274637	plus	1		
+10090	Mus musculus	102466237	0	live	Mir7666	Gm27915, mmu-mir-7666	microRNA 7666	microRNA mir-7666		8	NC_000074.6	40307875	40307929	minus	1		
+10090	Mus musculus	102466236	0	live	Mir7658	Gm27345, mmu-mir-7658	microRNA 7658	microRNA mir-7658		4	NC_000070.6	156230059	156230115	minus	1		
+10090	Mus musculus	102465989	0	live	Mir7664	Gm28015, mmu-mir-7664	microRNA 7664	microRNA mir-7664		2	NC_000068.7	25059811	25059873	plus	1		
+10090	Mus musculus	102465792	0	live	Mir7689	Gm27434, mmu-mir-7689	microRNA 7689	microRNA mir-7689		5	NC_000071.6	36301570	36301628	plus	1		
+10090	Mus musculus	102465791	0	live	Mir7688	Gm27874, mmu-mir-7688	microRNA 7688	microRNA mir-7688		10	NC_000076.6	93433107	93433162	plus	1		
+10090	Mus musculus	102465790	0	live	Mir1258	Gm27371, mmu-mir-1258	microRNA 1258	microRNA mir-1258		18	NC_000084.6	56538139	56538198	plus	1		
+10090	Mus musculus	102465789	0	live	Mir290b	mmu-mir-290b	microRNA 290b	microRNA mir-290b		7	NC_000073.6	3218638	3218695	minus	1		
+10090	Mus musculus	102465788	0	live	Mir7686	mmu-mir-7686	microRNA mir-7686			7	NC_000073.6	139957566	139957622	minus	1		
+10090	Mus musculus	102465786	0	live	Mir7684	Gm27873, mmu-mir-7684	microRNA 7684	microRNA mir-7684	15 E1	15	NC_000081.6	82393919	82393978	minus	1		
+10090	Mus musculus	102465785	0	live	Mir216c	mmu-mir-216c	microRNA 216c	microRNA mir-216c		11	NC_000077.6	28746198	28746266	minus	1		
+10090	Mus musculus	102465784	0	live	Mir7683	Gm27950, mmu-mir-7683	microRNA 7683	microRNA mir-7683		1	NC_000067.6	171641840	171641900	minus	1		
+10090	Mus musculus	102465783	0	live	Mir7681	Gm27806, mmu-mir-7681	microRNA 7681	microRNA mir-7681		1	NC_000067.6	53849424	53849495	plus	1		
+10090	Mus musculus	102465782	0	live	Mir3620	Gm27984, mmu-mir-3620	microRNA 3620	microRNA mir-3620		X	NC_000086.7	150547385	150547445	minus	1		
+10090	Mus musculus	102465781	0	live	Mir7680	Gm27417, mmu-mir-7680	microRNA 7680	microRNA mir-7680		16	NC_000082.6	21256013	21256066	minus	1		
+10090	Mus musculus	102465780	0	live	Mir7678	Gm27388, mmu-mir-7678	microRNA 7678	microRNA mir-7678		2	NC_000068.7	164354313	164354383	minus	1		
+10090	Mus musculus	102465779	0	live	Mir7677	Gm27400, mmu-mir-7677	microRNA 7677	microRNA mir-7677		17	NC_000083.6	27091245	27091311	plus	1		
+10090	Mus musculus	102465778	0	live	Mir1191b	mmu-mir-1191b	microRNA 1191b	microRNA mir-1191b		10	NC_000076.6	81416240	81416297	minus	1		
+10090	Mus musculus	102465777	0	live	Mir129b	mmu-mir-129b	microRNA 129b	microRNA mir-129b		2	NC_000068.7	94241378	94241442	plus	1		
+10090	Mus musculus	102465776	0	live	Mir7676-1	Gm27600, mmu-mir-7676-1	microRNA 7676-1	microRNA mir-7676-1	15 E1	15	NC_000081.6	78284788	78284849	minus	1		
+10090	Mus musculus	102465775	0	live	Mir7675	Gm27965, mmu-mir-7675	microRNA 7675	microRNA mir-7675		12	NC_000078.6	11299887	11299944	plus	1		
+10090	Mus musculus	102465774	0	live	Mir3569	Gm27279, mmu-mir-3569	microRNA 3569	microRNA mir-3569		7	NC_000073.6	30589380	30589437	plus	1		
+10090	Mus musculus	102465773	0	live	Mir7672	Gm27314, mmu-mir-7672	microRNA 7672	microRNA mir-7672		14	NC_000080.6	26669547	26669608	minus	1		
+10090	Mus musculus	102465772	0	live	Mir7671	Gm27802, mmu-mir-7671	microRNA 7671	microRNA mir-7671		11	NC_000077.6	53763597	53763654	minus	1		
+10090	Mus musculus	102465771	0	live	Mir7669	Gm27996, mmu-mir-7669	microRNA 7669	microRNA mir-7669		3	NC_000069.6	90011153	90011210	minus	1		
+10090	Mus musculus	102465770	0	live	Mir7668	Gm27961, mmu-mir-7668	microRNA 7668	microRNA mir-7668		7	NC_000073.6	29906509	29906567	plus	1		
+10090	Mus musculus	102465769	0	live	Mir7667	Gm27756, mmu-mir-7667	microRNA 7667	microRNA mir-7667		17	NC_000083.6	29595538	29595600	plus	1		
+10090	Mus musculus	102465768	0	live	Mir7663	Gm28034, mmu-mir-7663	microRNA 7663	microRNA mir-7663		10	NC_000076.6	22729372	22729432	minus	1		
+10090	Mus musculus	102465767	0	live	Mir7662	Gm27876, mmu-mir-7662	microRNA 7662	microRNA mir-7662		10	NC_000076.6	62194167	62194227	minus	1		
+10090	Mus musculus	102465766	0	live	Mir7661	mmu-mir-7661	microRNA 7661	microRNA mir-7661		6	NC_000072.6	108489743	108489803	plus	1		
+10090	Mus musculus	102465765	0	live	Mir7659	Gm27433, mmu-mir-7659	microRNA 7659	microRNA mir-7659		10	NC_000076.6	78340150	78340207	minus	1		
+10090	Mus musculus	102465764	0	live	Mir7657	mmu-mir-7657	microRNA 7657	microRNA mir-7657		3	NC_000069.6	122541625	122541681	minus	1		
+10090	Mus musculus	102465763	0	live	Mir7656	Gm27614, mmu-mir-7656	microRNA 7656	microRNA mir-7656		9	NC_000075.6	94751829	94751890	plus	1		
+10090	Mus musculus	102465762	0	live	Mir7654	Gm27748, mmu-mir-7654	microRNA 7654	microRNA mir-7654		8	NC_000074.6	8690093	8690162	minus	1		
+10090	Mus musculus	102465761	0	live	Mir7653	Gm27900, mmu-mir-7653	microRNA 7653	microRNA mir-7653		11	NC_000077.6	78178827	78178887	plus	1		
+10090	Mus musculus	102465760	0	live	Mir7652	Gm27932, mmu-mir-7652	microRNA 7652	microRNA mir-7652		11	NC_000077.6	55501226	55501281	plus	1		
+10090	Mus musculus	102465759	0	live	Mir7651	Gm27664, mmu-mir-7651	microRNA 7651	microRNA mir-7651		11	NC_000077.6	6401630	6401693	plus	1		
+10090	Mus musculus	102465758	0	live	Gm25500	Mir7650, mmu-mir-7650	predicted gene, 25500	microRNA mir-7650		9	NC_000075.6	15312611	15312669	plus	1		
+10090	Mus musculus	102465757	0	live	Mir7649	mmu-mir-7649	microRNA 7649	microRNA mir-7649		6	NC_000072.6	128974840	128974895	minus	1		
+10090	Mus musculus	102465756	0	live	Mir7647	Gm27347, mmu-mir-7647	microRNA 7647	microRNA mir-7647		5	NC_000071.6	123522637	123522695	minus	1		
+10090	Mus musculus	102465755	0	live	Mir7646	mmu-mir-7646	microRNA mir-7646			X	NC_000086.7	135746716	135746769	plus	1		
+10090	Mus musculus	100885841	0	live	Mir344h-2	Gm23309, mmu-mir-344h-2	microRNA 344h-2	microRNA mir-344h-2	7	7	NC_000073.6	61742366	61742425	minus	1		
+10090	Mus musculus	100885840	0	live	Mir344h-1	Gm24425, mmu-mir-344h-1	microRNA 344h-1	microRNA mir-344h-1	7	7	NC_000073.6	61739350	61739409	minus	1		
+10090	Mus musculus	100885838	0	live	Mir5625	Gm23930, mmu-mir-5625	microRNA 5625	microRNA mir-5625	5	5	NC_000071.6	30647936	30648015	plus	1		
+10090	Mus musculus	100885834	0	live	Mir5622	Gm24421, mmu-mir-5622	microRNA 5622	microRNA mir-5622	2	2	NC_000068.7	152865067	152865126	plus	1		
+10090	Mus musculus	100885830	0	live	Mir5618	Gm23685, mmu-mir-5618	microRNA 5618	microRNA mir-5618	9	9	NC_000075.6	7784390	7784440	plus	1		
+10090	Mus musculus	100885824	0	live	Mir299b	Gm25400, mmu-mir-299b	microRNA 299b	microRNA mir-299b	12	12	NC_000078.6	109710645	109710693	minus	1		
+10090	Mus musculus	102466970	0	live	Mir1957b	Gm27725, mmu-mir-1957b	microRNA 1957b	microRNA mir-1957b		8	NC_000074.6	111450200	111450322	plus	1		
+10090	Mus musculus	102466969	0	live	Mir6350	Gm27958, mmu-mir-6350	microRNA 6350	microRNA mir-6350		1	NC_000067.6	47467021	47467125	minus	1		
+10090	Mus musculus	102466650	0	live	Mir30f	mmu-mir-30f	microRNA 30f	microRNA mir-30f		4	NC_000070.6	120772606	120772697	plus	1		
+10090	Mus musculus	102466649	0	live	Mir451b	mmu-mir-451b	microRNA 451b	microRNA mir-451b		11	NC_000077.6	78073170	78073241	minus	1		
+10090	Mus musculus	102466648	0	live	Mir6417	Gm27334, mmu-mir-6417	microRNA 6417	microRNA mir-6417		5	NC_000071.6	52135902	52136017	minus	1		
+10090	Mus musculus	102466647	0	live	Mir6413	Gm27432, mmu-mir-6413	microRNA 6413	microRNA mir-6413		10	NC_000076.6	20297581	20297688	minus	1		
+10090	Mus musculus	102466646	0	live	Mir6409	Gm27787, mmu-mir-6409	microRNA 6409	microRNA mir-6409		10	NC_000076.6	76008926	76009017	plus	1		
+10090	Mus musculus	102466645	0	live	Mir6405	Gm27349, mmu-mir-6405	microRNA 6405	microRNA mir-6405		19	NC_000085.6	44808406	44808529	plus	1		
+10090	Mus musculus	102466644	0	live	Mir6400	Gm27425, mmu-mir-6400	microRNA 6400	microRNA mir-6400		4	NC_000070.6	15942900	15942991	minus	1		
+10090	Mus musculus	102466643	0	live	Mir6396	Gm27938, mmu-mir-6396	microRNA 6396	microRNA mir-6396		8	NC_000074.6	122622265	122622375	minus	1		
+10090	Mus musculus	102466642	0	live	Mir6392	Gm27431, mmu-mir-6392	microRNA 6392	microRNA mir-6392		15	NC_000081.6	84168270	84168377	plus	1		
+10090	Mus musculus	102466641	0	live	Mir5124b	Gm27681, mmu-mir-5124b	microRNA 5124b	microRNA mir-5124b		14	NC_000080.6	11282477	11282561	plus	1		
+10090	Mus musculus	102466640	0	live	Mir130c	Gm27641, mmu-mir-130c	microRNA 130c	microRNA mir-130c		9	NC_000075.6	53400805	53400886	minus	1		
+10090	Mus musculus	102466639	0	live	Mir6385	Gm28021, mmu-mir-6385	microRNA 6385	microRNA mir-6385		9	NC_000075.6	58221150	58221254	plus	1		
+10090	Mus musculus	102466638	0	live	Mir6380	Gm27356, mmu-mir-6380	microRNA 6380	microRNA mir-6380		3	NC_000069.6	137783535	137783615	minus	1		
+10090	Mus musculus	102466636	0	live	Mir6373	Gm27870, mmu-mir-6373	microRNA 6373	microRNA mir-6373		6	NC_000072.6	102794384	102794485	plus	1		
+10090	Mus musculus	102466635	0	live	Mir6368	Gm27800, mmu-mir-6368	microRNA 6368	microRNA mir-6368		13	NC_000079.6	28710781	28710873	minus	1		
+10090	Mus musculus	102466634	0	live	Mir6363	Gm28026, mmu-mir-6363	microRNA 6363	microRNA mir-6363		16	NC_000082.6	50727132	50727245	plus	1		
+10090	Mus musculus	102466633	0	live	Mir6359	Gm27328, mmu-mir-6359	microRNA 6359	microRNA mir-6359		18	NC_000084.6	88972030	88972110	plus	1		
+10090	Mus musculus	102466632	0	live	Mir6354	Gm27282, mmu-mir-6354	microRNA 6354	microRNA mir-6354		1	NC_000067.6	169018974	169019089	minus	1		
+10090	Mus musculus	102466631	0	live	Mir6349	Gm27558, mmu-mir-6349	microRNA 6349	microRNA mir-6349		1	NC_000067.6	39186896	39186992	minus	1		
+10090	Mus musculus	102466630	0	live	Mir6345	Gm27819, mmu-mir-6345	microRNA 6345	microRNA mir-6345		1	NC_000067.6	93352158	93352285	plus	1		
+10090	Mus musculus	102466629	0	live	Mir6344	Gm27840, mmu-mir-6344	microRNA 6344	microRNA mir-6344		1	NC_000067.6	82131916	82132019	plus	1		
+10090	Mus musculus	102466628	0	live	Mir6339	Gm27848, mmu-mir-6339	microRNA 6339	microRNA mir-6339		2	NC_000068.7	130016292	130016408	minus	1		
+10090	Mus musculus	102466627	0	live	Mir6335	Gm27836, mmu-mir-6335	microRNA 6335	microRNA mir-6335		2	NC_000068.7	67781043	67781140	plus	1		
+10090	Mus musculus	102466159	0	live	Mir6415	Gm27714, mmu-mir-6415	microRNA 6415	microRNA mir-6415		5	NC_000071.6	92458557	92458656	plus	1		
+10090	Mus musculus	102466158	0	live	Mir6408	Gm27451, mmu-mir-6408	microRNA 6408	microRNA mir-6408		10	NC_000076.6	60923023	60923113	plus	1		
+10090	Mus musculus	102466157	0	live	Mir6402	Gm27764, mmu-mir-6402	microRNA 6402	microRNA mir-6402		4	NC_000070.6	91373284	91373363	minus	1		
+10090	Mus musculus	102466156	0	live	Mir6389	Gm27946, mmu-mir-6389	microRNA 6389	microRNA mir-6389		7	NC_000073.6	57581061	57581162	plus	1		
+10090	Mus musculus	102466155	0	live	Mir6378	Gm27706, mmu-mir-6378	microRNA 6378	microRNA mir-6378		3	NC_000069.6	34922545	34922651	minus	1		
+10090	Mus musculus	102466154	0	live	Mir6372	Gm27358, mmu-mir-6372	microRNA 6372	microRNA mir-6372		11	NC_000077.6	26202240	26202348	plus	1		
+10090	Mus musculus	102466153	0	live	Mir6365	Gm27683, mmu-mir-6365	microRNA 6365	microRNA mir-6365		16	NC_000082.6	13471080	13471180	minus	1		
+10090	Mus musculus	102466152	0	live	Mir6357	Gm27333, mmu-mir-6357	microRNA 6357	microRNA mir-6357		18	NC_000084.6	70516786	70516889	plus	1		
+10090	Mus musculus	102466151	0	live	Mir6337	Gm27877, mmu-mir-6337	microRNA 6337	microRNA mir-6337		2	NC_000068.7	65364296	65364400	minus	1		
+10090	Mus musculus	102465964	0	live	Mir6419	Gm27713, mmu-mir-6419	microRNA 6419	microRNA mir-6419		2	NC_000068.7	17563514	17563626	plus	1		
+10090	Mus musculus	102465963	0	live	Mir6382	Gm27319, mmu-mir-6382	microRNA 6382	microRNA mir-6382		X	NC_000086.7	106309826	106309935	plus	1		
+10090	Mus musculus	102465962	0	live	Mir6362	Gm27812, mmu-mir-6362	microRNA 6362	microRNA mir-6362		16	NC_000082.6	22605326	22605432	plus	1		
+10090	Mus musculus	102465961	0	live	Mir6341	Gm27262, mmu-mir-6341	microRNA 6341	microRNA mir-6341		1	NC_000067.6	12425986	12426106	plus	1		
+10090	Mus musculus	102465229	0	live	Mir873b	mmu-mir-873b	microRNA 873b	microRNA mir-873b		4	NC_000070.6	36668510	36668586	plus	1		
+10090	Mus musculus	102465228	0	live	Mir6420	Gm28007, mmu-mir-6420	microRNA 6420	microRNA mir-6420		17	NC_000083.6	64440806	64440907	plus	1		
+10090	Mus musculus	102465226	0	live	Mir6416	Gm27746, mmu-mir-6416	microRNA 6416	microRNA mir-6416		7	NC_000073.6	64249983	64250099	minus	1		
+10090	Mus musculus	102465225	0	live	Mir6414	Gm27518, mmu-mir-6414	microRNA 6414	microRNA mir-6414		5	NC_000071.6	41891342	41891423	plus	1		
+10090	Mus musculus	102465224	0	live	Mir378d	Gm27650, mmu-mir-378d	microRNA 378d	microRNA mir-378d		10	NC_000076.6	126710282	126710391	minus	1		
+10090	Mus musculus	102465223	0	live	Mir6412	Gm27364, mmu-mir-6412	microRNA 6412	microRNA mir-6412		10	NC_000076.6	122648339	122648435	plus	1		
+10090	Mus musculus	102465222	0	live	Mir6411	Gm27767, mmu-mir-6411	microRNA 6411	microRNA mir-6411		10	NC_000076.6	104287269	104287376	plus	1		
+10090	Mus musculus	102465221	0	live	Mir6410	Gm27916, mmu-mir-6410	microRNA 6410	microRNA mir-6410		10	NC_000076.6	78434799	78434902	plus	1		
+10090	Mus musculus	102465220	0	live	Mir6407	Gm27832, mmu-mir-6407	microRNA 6407	microRNA mir-6407		19	NC_000085.6	53010656	53010756	minus	1		
+10090	Mus musculus	102465219	0	live	Mir6406	Gm27981, mmu-mir-6406	microRNA 6406	microRNA mir-6406		11	NC_000077.6	68220892	68221011	plus	1		
+10090	Mus musculus	102465217	0	live	Mir6404	Gm28014, mmu-mir-6404	microRNA 6404	microRNA mir-6404		7	NC_000073.6	143933115	143933208	plus	1		
+10090	Mus musculus	102465216	0	live	Mir6403	Gm27992, mmu-mir-6403	microRNA 6403	microRNA mir-6403		4	NC_000070.6	134567723	134567851	minus	1		
+10090	Mus musculus	102465215	0	live	Mir6401	Gm27442, mmu-mir-6401	microRNA 6401	microRNA mir-6401		7	NC_000073.6	139779018	139779126	plus	1		
+10090	Mus musculus	102465214	0	live	Mir6398	Gm27657, mmu-mir-6398	microRNA 6398	microRNA mir-6398		4	NC_000070.6	123616420	123616521	plus	1		
+10090	Mus musculus	102465213	0	live	Mir6397	Gm28004, mmu-mir-6397	microRNA 6397	microRNA mir-6397		4	NC_000070.6	108087357	108087449	plus	1		
+10090	Mus musculus	102465211	0	live	Mir6395	Gm27561, mmu-mir-6395	microRNA 6395	microRNA mir-6395		8	NC_000074.6	34166622	34166712	minus	1		
+10090	Mus musculus	102465210	0	live	Mir6394	Gm27929, mmu-mir-6394	microRNA 6394	microRNA mir-6394		7	NC_000073.6	96305667	96305765	plus	1		
+10090	Mus musculus	102465209	0	live	Mir6393	Gm27424, mmu-mir-6393	microRNA 6393	microRNA mir-6393		15	NC_000081.6	87795850	87795943	minus	1		
+10090	Mus musculus	102465208	0	live	Mir6391	Gm27914, mmu-mir-6391	microRNA 6391	microRNA mir-6391		14	NC_000080.6	118592369	118592472	minus	1		
+10090	Mus musculus	102465207	0	live	Mir6390	Gm27562, mmu-mir-6390	microRNA 6390	microRNA mir-6390		14	NC_000080.6	105623642	105623770	minus	1		
+10090	Mus musculus	102465205	0	live	Mir6388	Gm27925, mmu-mir-6388	microRNA 6388	microRNA mir-6388		12	NC_000078.6	115695720	115695794	minus	1		
+10090	Mus musculus	102465204	0	live	Mir6387	Gm27281, mmu-mir-6387	microRNA 6387	microRNA mir-6387		12	NC_000078.6	15800994	15801101	minus	1		
+10090	Mus musculus	102465203	0	live	Mir6386	Gm27842, mmu-mir-6386	microRNA 6386	microRNA mir-6386		9	NC_000075.6	92267258	92267361	minus	1		
+10090	Mus musculus	102465202	0	live	Mir6384	mmu-mir-6384	microRNA 6384	microRNA mir-6384		X	NC_000086.7	52378121	52378181	minus	1		
+10090	Mus musculus	102465201	0	live	Mir6383	Gm27689, mmu-mir-6383	microRNA 6383	microRNA mir-6383		X	NC_000086.7	136183245	136183360	plus	1		
+10090	Mus musculus	102465200	0	live	Mir6381	Gm27963, mmu-mir-6381	microRNA 6381	microRNA mir-6381		3	NC_000069.6	142623860	142623946	minus	1		
+10090	Mus musculus	102465199	0	live	Mir6379	Gm27730, mmu-mir-6379	microRNA 6379	microRNA mir-6379		3	NC_000069.6	46900668	46900782	minus	1		
+10090	Mus musculus	102465198	0	live	Mir7j	Gm27716, Mirlet7j, mmu-let-7j	microRNA 7j	microRNA let-7j		3	NC_000069.6	140028249	140028370	plus	1		
+10090	Mus musculus	102465197	0	live	Mir6377	Gm27416, mmu-mir-6377	microRNA 6377	microRNA mir-6377		3	NC_000069.6	57616609	57616722	plus	1		
+10090	Mus musculus	102465196	0	live	Mir6376	Gm27778, mmu-mir-6376	microRNA 6376	microRNA mir-6376		6	NC_000072.6	88104128	88104258	minus	1		
+10090	Mus musculus	102465195	0	live	Mir6375	mmu-mir-6375	microRNA 6375	microRNA mir-6375		6	NC_000072.6	85790140	85790234	minus	1		
+10090	Mus musculus	102465194	0	live	Mir6374	Gm27292, mmu-mir-6374	microRNA 6374	microRNA mir-6374		6	NC_000072.6	83400996	83401102	minus	1		
+10090	Mus musculus	102465193	0	live	Mir6371	Gm27376, mmu-mir-6371	microRNA 6371	microRNA mir-6371		6	NC_000072.6	50572398	50572508	plus	1		
+10090	Mus musculus	102465192	0	live	Mir6370	Gm27480, mmu-mir-6370	microRNA 6370	microRNA mir-6370		6	NC_000072.6	19555342	19555461	plus	1		
+10090	Mus musculus	102465191	0	live	Mir6369	Gm27615, mmu-mir-6369	microRNA 6369	microRNA mir-6369		13	NC_000079.6	58313044	58313149	minus	1		
+10090	Mus musculus	102465190	0	live	Mir6367	Gm27467, mmu-mir-6367	microRNA 6367	microRNA mir-6367		16	NC_000082.6	91527443	91527544	minus	1		
+10090	Mus musculus	102465189	0	live	Mir6366	Gm27720, mmu-mir-6366	microRNA 6366	microRNA mir-6366		16	NC_000082.6	18165089	18165170	minus	1		
+10090	Mus musculus	102465188	0	live	Mir6364	Gm27327, mmu-mir-6364	microRNA 6364	microRNA mir-6364		16	NC_000082.6	5215789	5215874	minus	1		
+10090	Mus musculus	102465187	0	live	Mir145b	Gm27644, mmu-mir-145b	microRNA 145b	microRNA mir-145b		18	NC_000084.6	69022199	69022273	minus	1		
+10090	Mus musculus	102465186	0	live	Mir6361	Gm27612, mmu-mir-6361	microRNA 6361	microRNA mir-6361		18	NC_000084.6	32880573	32880673	minus	1		
+10090	Mus musculus	102465185	0	live	Mir6360	Gm27296, mmu-mir-6360	microRNA 6360	microRNA mir-6360		18	NC_000084.6	23774864	23774989	minus	1		
+10090	Mus musculus	102465184	0	live	Mir6358	Gm27830, mmu-mir-6358	microRNA 6358	microRNA mir-6358		18	NC_000084.6	76170552	76170652	plus	1		
+10090	Mus musculus	102465183	0	live	Mir6356	Gm27461, mmu-mir-6356	microRNA 6356	microRNA mir-6356		18	NC_000084.6	68739400	68739501	plus	1		
+10090	Mus musculus	102465182	0	live	Mir6355	Gm27473, mmu-mir-6355	microRNA 6355	microRNA mir-6355		18	NC_000084.6	59579630	59579735	plus	1		
+10090	Mus musculus	102465181	0	live	Mir6353	Gm27391, mmu-mir-6353	microRNA 6353	microRNA mir-6353		1	NC_000067.6	84218849	84218961	minus	1		
+10090	Mus musculus	102465180	0	live	Mir6352	Gm27481, mmu-mir-6352	microRNA 6352	microRNA mir-6352		1	NC_000067.6	77496653	77496768	minus	1		
+10090	Mus musculus	102465179	0	live	Mir6351	Gm27936, mmu-mir-6351	microRNA 6351	microRNA mir-6351		1	NC_000067.6	73855477	73855575	minus	1		
+10090	Mus musculus	102465178	0	live	Mir6348	Gm27412, mmu-mir-6348	microRNA 6348	microRNA mir-6348		1	NC_000067.6	168490643	168490762	plus	1		
+10090	Mus musculus	102465176	0	live	Mir6346	Gm27829, mmu-mir-6346	microRNA 6346	microRNA mir-6346		1	NC_000067.6	118954220	118954300	plus	1		
+10090	Mus musculus	102465175	0	live	Mir6343	Gm27304, mmu-mir-6343	microRNA 6343	microRNA mir-6343		1	NC_000067.6	76509560	76509643	plus	1		
+10090	Mus musculus	102465174	0	live	Mir6342	Gm27268, mmu-mir-6342	microRNA 6342	microRNA mir-6342		1	NC_000067.6	29421488	29421612	plus	1		
+10090	Mus musculus	102465173	0	live	Mir6340	Gm27909, mmu-mir-6340	microRNA 6340	microRNA mir-6340		2	NC_000068.7	173701030	173701148	minus	1		
+10090	Mus musculus	102465172	0	live	Mir6338	Gm27678, mmu-mir-6338	microRNA 6338	microRNA mir-6338		11	NC_000077.6	72388756	72388864	plus	1		
+10090	Mus musculus	102465171	0	live	Mir6336	Gm27584, mmu-mir-6336	microRNA 6336	microRNA mir-6336		2	NC_000068.7	42447439	42447568	minus	1		
+10090	Mus musculus	102465170	0	live	Mir133c	Gm27865, mmu-mir-133c	microRNA 133c	microRNA mir-133c		2	NC_000068.7	29475215	29475294	minus	1		
+10090	Mus musculus	102465169	0	live	Mir195b	Gm27491, mmu-mir-195b	microRNA 195b	microRNA mir-195b		2	NC_000068.7	56785811	56785907	plus	1		
+10090	Mus musculus	104796139	0	live	Gm27740	Mir6967-2, mmu-mir-6967-2	predicted gene, 27740	microRNA mir-6967-2		17	NC_000083.6	33886676	33886733	minus	1		
+10090	Mus musculus	102466993	0	live	Mir7076	Gm27318, mmu-mir-7076	microRNA 7076	microRNA mir-7076		8	NC_000074.6	111689601	111689674	minus	1		
+10090	Mus musculus	102466992	0	live	Mir7041	Gm27872, mmu-mir-7041	microRNA 7041	microRNA mir-7041		6	NC_000072.6	94606364	94606415	minus	1		
+10090	Mus musculus	102466991	0	live	Mir7010	Gm28029, mmu-mir-7010	microRNA 7010	microRNA mir-7010		3	NC_000069.6	82106247	82106309	minus	1		
+10090	Mus musculus	102466990	0	live	Mir6974	Gm27658, mmu-mir-6974	microRNA 6974	microRNA mir-6974		17	NC_000083.6	35204475	35204557	minus	1		
+10090	Mus musculus	102466989	0	live	Mir6940	Gm27655, mmu-mir-6940	microRNA 6940	microRNA mir-6940		12	NC_000078.6	112733322	112733391	plus	1		
+10090	Mus musculus	102466988	0	live	Mir6931	Gm27303, mmu-mir-6931	microRNA 6931	microRNA mir-6931		11	NC_000077.6	102999848	102999921	minus	1		
+10090	Mus musculus	102466987	0	live	Mir6896	mmu-mir-6896	microRNA 6896	microRNA mir-6896		1	NC_000067.6	34117359	34117431	plus	1		
+10090	Mus musculus	102466914	0	live	Mir7088	Gm27577, mmu-mir-7088	microRNA 7088	microRNA mir-7088		9	NC_000075.6	108081498	108081583	plus	1		
+10090	Mus musculus	102466913	0	live	Mir6980	Gm27969, mmu-mir-6980	microRNA 6980	microRNA mir-6980		18	NC_000084.6	37990887	37990945	minus	1		
+10090	Mus musculus	102466808	0	live	Mir7117	Gm27729, mmu-mir-7117	microRNA 7117	microRNA mir-7117		15	NC_000081.6	27571494	27571558	plus	1		
+10090	Mus musculus	102466805	0	live	Mir7093	Gm27453, mmu-mir-7093	microRNA 7093	microRNA mir-7093		X	NC_000086.7	134757631	134757731	plus	1		
+10090	Mus musculus	102466804	0	live	Mir7091	Gm27381, mmu-mir-7091	microRNA 7091	microRNA mir-7091		X	NC_000086.7	74274027	74274105	minus	1		
+10090	Mus musculus	102466803	0	live	Mir7086	Gm27643, mmu-mir-7086	microRNA 7086	microRNA mir-7086		9	NC_000075.6	45266643	45266707	minus	1		
+10090	Mus musculus	102466802	0	live	Mir7081	Gm27904, mmu-mir-7081	microRNA 7081	microRNA mir-7081		9	NC_000075.6	20914090	20914164	minus	1		
+10090	Mus musculus	102466801	0	live	Mir7077	Gm27774, mmu-mir-7077	microRNA 7077	microRNA mir-7077		8	NC_000074.6	117453023	117453079	plus	1		
+10090	Mus musculus	102466800	0	live	Mir7072	Gm27665, mmu-mir-7072	microRNA 7072	microRNA mir-7072		8	NC_000074.6	94505046	94505105	plus	1		
+10090	Mus musculus	102466799	0	live	Mir6769b	Gm27546, mmu-mir-6769b	microRNA 6769b	microRNA mir-6769b		8	NC_000074.6	71631047	71631106	minus	1		
+10090	Mus musculus	102466798	0	live	Mir7063	Gm27654, mmu-mir-7063	microRNA 7063	microRNA mir-7063		7	NC_000073.6	141620701	141620791	plus	1		
+10090	Mus musculus	102466797	0	live	Mir7058	Gm27766, mmu-mir-7058	microRNA 7058	microRNA mir-7058		7	NC_000073.6	126367971	126368045	minus	1		
+10090	Mus musculus	102466796	0	live	Mir7053	Gm27503, mmu-mir-7053	microRNA 7053	microRNA mir-7053		7	NC_000073.6	44538106	44538178	minus	1		
+10090	Mus musculus	102466795	0	live	Mir7049	Gm27277, mmu-mir-7049	microRNA 7049	microRNA mir-7049		7	NC_000073.6	28560925	28560984	minus	1		
+10090	Mus musculus	102466794	0	live	Mir7048	Gm27274, mmu-mir-7048	microRNA 7048	microRNA mir-7048		7	NC_000073.6	25217668	25217725	minus	1		
+10090	Mus musculus	102466793	0	live	Mir7043	Gm27776, mmu-mir-7043	microRNA 7043	microRNA mir-7043		6	NC_000072.6	116645978	116646047	minus	1		
+10090	Mus musculus	102466792	0	live	Mir7038	Gm27955, mmu-mir-7038	microRNA 7038	microRNA mir-7038		5	NC_000071.6	140427339	140427409	plus	1		
+10090	Mus musculus	102466791	0	live	Mir7034	Gm27372, mmu-mir-7034	microRNA 7034	microRNA mir-7034		5	NC_000071.6	135735806	135735889	minus	1		
+10090	Mus musculus	102466790	0	live	Mir7029	Gm27293, mmu-mir-7029	microRNA 7029	microRNA mir-7029		5	NC_000071.6	115580949	115581009	plus	1		
+10090	Mus musculus	102466789	0	live	Mir7024	Gm27559, mmu-mir-7024	microRNA 7024	microRNA mir-7024		5	NC_000071.6	33898910	33898971	minus	1		
+10090	Mus musculus	102466788	0	live	Mir7019	Gm27947, mmu-mir-7019	microRNA 7019	microRNA mir-7019		4	NC_000070.6	138316132	138316200	minus	1		
+10090	Mus musculus	102466787	0	live	Mir7014	Gm27837, mmu-mir-7014	microRNA 7014	microRNA mir-7014		3	NC_000069.6	95734911	95734973	minus	1		
+10090	Mus musculus	102466786	0	live	Mir7009	Gm27472, mmu-mir-7009	microRNA 7009	microRNA mir-7009		3	NC_000069.6	36475461	36475524	minus	1		
+10090	Mus musculus	102466785	0	live	Mir7005	Gm27835, mmu-mir-7005	microRNA 7005	microRNA mir-7005		2	NC_000068.7	180179755	180179823	minus	1		
+10090	Mus musculus	102466784	0	live	Mir7004	mmu-mir-7004	microRNA 7004	microRNA mir-7004		2	NC_000068.7	168640696	168640759	minus	1		
+10090	Mus musculus	102466783	0	live	Mir7000	Gm27338, mmu-mir-7000	microRNA 7000	microRNA mir-7000		2	NC_000068.7	92387384	92387446	minus	1		
+10090	Mus musculus	102466782	0	live	Mir6995	Gm27576, mmu-mir-6995	microRNA 6995	microRNA mir-6995		19	NC_000085.6	47273519	47273589	minus	1		
+10090	Mus musculus	102466781	0	live	Mir6991	Gm27966, mmu-mir-6991	microRNA 6991	microRNA mir-6991		19	NC_000085.6	7422573	7422642	plus	1		
+10090	Mus musculus	102466780	0	live	Mir6986	Gm27709, mmu-mir-6986	microRNA 6986	microRNA mir-6986		19	NC_000085.6	4623898	4623955	minus	1		
+10090	Mus musculus	102466779	0	live	Mir6981	Gm27609, mmu-mir-6981	microRNA 6981	microRNA mir-6981		18	NC_000084.6	37974503	37974617	minus	1		
+10090	Mus musculus	102466778	0	live	Mir6976	mmu-mir-6976	microRNA 6976	microRNA mir-6976		17	NC_000083.6	46553827	46553889	minus	1		
+10090	Mus musculus	102466777	0	live	Mir6971	Gm27307, mmu-mir-6971	microRNA 6971	microRNA mir-6971		17	NC_000083.6	34841809	34841871	minus	1		
+10090	Mus musculus	102466776	0	live	Mir6966	Gm27272, mmu-mir-6966	microRNA 6966	microRNA mir-6966		17	NC_000083.6	25780808	25780879	plus	1		
+10090	Mus musculus	102466775	0	live	Mir6963	Gm27724, mmu-mir-6963	microRNA 6963	microRNA mir-6963		15	NC_000081.6	103350455	103350525	minus	1		
+10090	Mus musculus	102466774	0	live	Mir6962	mmu-mir-6962	microRNA 6962	microRNA mir-6962		15	NC_000081.6	101193869	101193931	plus	1		
+10090	Mus musculus	102466773	0	live	Mir6957	Gm27895, mmu-mir-6957	microRNA 6957	microRNA mir-6957		15	NC_000081.6	80646073	80646136	plus	1		
+10090	Mus musculus	102466772	0	live	Mir6952	Gm27948, mmu-mir-6952	microRNA 6952	microRNA mir-6952		15	NC_000081.6	76064828	76064888	minus	1		
+10090	Mus musculus	102466771	0	live	Mir6948	mmu-mir-6948	microRNA 6948	microRNA mir-6948		14	NC_000080.6	54643049	54643110	minus	1		
+10090	Mus musculus	102466770	0	live	Mir6943	Gm27791, mmu-mir-6943	microRNA 6943	microRNA mir-6943		13	NC_000079.6	55453106	55453171	plus	1		
+10090	Mus musculus	102466769	0	live	Mir6938	Gm27519, mmu-mir-6938	microRNA 6938	microRNA mir-6938		12	NC_000078.6	85245923	85245985	minus	1		
+10090	Mus musculus	102466768	0	live	Mir6933	Gm27856, mmu-mir-6933	microRNA 6933	microRNA mir-6933		11	NC_000077.6	118002270	118002350	plus	1		
+10090	Mus musculus	102466767	0	live	Mir6928	Gm27728, mmu-mir-6928	microRNA 6928	microRNA mir-6928		11	NC_000077.6	101030340	101030409	plus	1		
+10090	Mus musculus	102466766	0	live	Mir6923	Gm27312, mmu-mir-6923	microRNA 6923	microRNA mir-6923		11	NC_000077.6	67099804	67099875	plus	1		
+10090	Mus musculus	102466765	0	live	Mir6919	Gm27889, mmu-mir-6919	microRNA 6919	microRNA mir-6919		11	NC_000077.6	50232245	50232306	plus	1		
+10090	Mus musculus	102466764	0	live	Mir6918	Gm27968, mmu-mir-6918	microRNA 6918	microRNA mir-6918		11	NC_000077.6	4891345	4891402	plus	1		
+10090	Mus musculus	102466763	0	live	Mir6913	Gm27788, mmu-mir-6913	microRNA 6913	microRNA mir-6913		10	NC_000076.6	81386347	81386412	plus	1		
+10090	Mus musculus	102466762	0	live	Mir6908	Gm27827, mmu-mir-6908	microRNA 6908	microRNA mir-6908		10	NC_000076.6	78445095	78445157	minus	1		
+10090	Mus musculus	102466761	0	live	Mir6904	Gm27426, mmu-mir-6904	microRNA 6904	microRNA mir-6904		1	NC_000067.6	180587201	180587267	plus	1		
+10090	Mus musculus	102466760	0	live	Mir6899	Gm27384, mmu-mir-6899	microRNA 6899	microRNA mir-6899		1	NC_000067.6	64042438	64042501	minus	1		
+10090	Mus musculus	102466272	0	live	Mir7045	Gm27758, mmu-mir-7045	microRNA 7045	microRNA mir-7045		6	NC_000072.6	125097024	125097086	plus	1		
+10090	Mus musculus	102466221	0	live	Mir7084	Gm27978, mmu-mir-7084	microRNA 7084	microRNA mir-7084		9	NC_000075.6	22113944	22114013	minus	1		
+10090	Mus musculus	102466220	0	live	Mir7069	Gm27777, mmu-mir-7069	microRNA 7069	microRNA mir-7069		8	NC_000074.6	84867947	84868008	plus	1		
+10090	Mus musculus	102466219	0	live	Mir7061	mmu-mir-7061	microRNA 7061	microRNA mir-7061		7	NC_000073.6	130908268	130908335	plus	1		
+10090	Mus musculus	102466218	0	live	Mir7054	Gm27557, mmu-mir-7054	microRNA 7054	microRNA mir-7054		7	NC_000073.6	45012426	45012487	minus	1		
+10090	Mus musculus	102466217	0	live	Mir7033	Gm27687, mmu-mir-7033	microRNA 7033	microRNA mir-7033		5	NC_000071.6	135383730	135383810	minus	1		
+10090	Mus musculus	102466216	0	live	Mir7026	Gm27988, mmu-mir-7026	microRNA 7026	microRNA mir-7026		5	NC_000071.6	110666075	110666141	minus	1		
+10090	Mus musculus	102466215	0	live	Mir7017	Gm27945, mmu-mir-7017	microRNA 7017	microRNA mir-7017		4	NC_000070.6	133195655	133195716	plus	1		
+10090	Mus musculus	102466214	0	live	Mir6998	Gm28024, mmu-mir-6998	microRNA 6998	microRNA mir-6998		2	NC_000068.7	31612421	31612484	plus	1		
+10090	Mus musculus	102466213	0	live	Mir6990	Gm27726, mmu-mir-6990	microRNA 6990	microRNA mir-6990		19	NC_000085.6	6914196	6914286	minus	1		
+10090	Mus musculus	102466212	0	live	Mir6983	Gm27496, mmu-mir-6983	microRNA 6983	microRNA mir-6983		18	NC_000084.6	61117468	61117531	plus	1		
+10090	Mus musculus	102466211	0	live	Gm27775	Mir6967, Mir6967-1, mmu-mir-6967, mmu-mir-6967-1	predicted gene, 27775	microRNA mir-6967|microRNA mir-6967-1		17	NC_000083.6	26920962	26921019	plus	1		
+10090	Mus musculus	102466210	0	live	Mir6955	Gm27769, mmu-mir-6955	microRNA 6955	microRNA mir-6955		15	NC_000081.6	78891840	78891913	plus	1		
+10090	Mus musculus	102466209	0	live	Mir6947	mmu-mir-6947	microRNA 6947	microRNA mir-6947		14	NC_000080.6	29988888	29988952	plus	1		
+10090	Mus musculus	102466208	0	live	Mir6924	mmu-mir-6924	microRNA 6924	microRNA mir-6924		11	NC_000077.6	69882032	69882094	minus	1		
+10090	Mus musculus	102466207	0	live	Mir6911	Gm27822, mmu-mir-6911	microRNA 6911	microRNA mir-6911		10	NC_000076.6	80278164	80278232	plus	1		
+10090	Mus musculus	102466206	0	live	Mir6903	Gm27797, mmu-mir-6903	microRNA 6903	microRNA mir-6903		1	NC_000067.6	133726558	133726645	minus	1		
+10090	Mus musculus	102465984	0	live	Mir7067	Gm28031, mmu-mir-7067	microRNA 7067	microRNA mir-7067		8	NC_000074.6	70895508	70895570	minus	1		
+10090	Mus musculus	102465983	0	live	Mir7023	Gm27912, mmu-mir-7023	microRNA 7023	microRNA mir-7023		4	NC_000070.6	149655504	149655567	minus	1		
+10090	Mus musculus	102465982	0	live	Mir7002	Gm27429, mmu-mir-7002	microRNA 7002	microRNA mir-7002		2	NC_000068.7	114150516	114150570	minus	1		
+10090	Mus musculus	102465981	0	live	Mir6959	Gm27807, mmu-mir-6959	microRNA 6959	microRNA mir-6959		15	NC_000081.6	89305658	89305732	minus	1		
+10090	Mus musculus	102465980	0	live	Mir6937	Gm27448, mmu-mir-6937	microRNA 6937	microRNA mir-6937		12	NC_000078.6	28679325	28679389	plus	1		
+10090	Mus musculus	102465979	0	live	Mir6915	mmu-mir-6915	microRNA 6915	microRNA mir-6915		10	NC_000076.6	128388832	128388900	plus	1		
+10090	Mus musculus	102465673	0	live	Mir7119	Gm27560, mmu-mir-7119	microRNA 7119	microRNA mir-7119		4	NC_000070.6	126559860	126559918	plus	1		
+10090	Mus musculus	102465672	0	live	Mir7118	mmu-mir-7118	microRNA 7118	microRNA mir-7118		15	NC_000081.6	89162848	89162908	minus	1		
+10090	Mus musculus	102465671	0	live	Mir7116	mmu-mir-7116	microRNA 7116			11	NC_000077.6	100478411	100478480	minus	1		
+10090	Mus musculus	102465670	0	live	Mir7115	Gm27902, mmu-mir-7115	microRNA 7115	microRNA mir-7115		11	NC_000077.6	70438255	70438318	plus	1		
+10090	Mus musculus	102465664	0	live	Mir7094-2	Gm27508, mmu-mir-7094-2	microRNA 7094-2	microRNA mir-7094-2		12	NC_000078.6	114513635	114513694	minus	1		
+10090	Mus musculus	102465663	0	live	Mir7094-1	mmu-mir-7094-1	microRNA 7094-1	microRNA mir-7094-1		12	NC_000078.6	114469407	114469466	minus	1		
+10090	Mus musculus	102465662	0	live	Mir7092	mmu-mir-7092	microRNA 7092	microRNA mir-7092		X	NC_000086.7	74317362	74317429	plus	1		
+10090	Mus musculus	102465661	0	live	Mir7090	mmu-mir-7090	microRNA 7090	microRNA mir-7090		9	NC_000075.6	120955086	120955147	plus	1		
+10090	Mus musculus	102465660	0	live	Mir7089	Gm27418, mmu-mir-7089	microRNA 7089	microRNA mir-7089		9	NC_000075.6	109889643	109889710	plus	1		
+10090	Mus musculus	102465659	0	live	Mir7087	Gm27273, mmu-mir-7087	microRNA 7087	microRNA mir-7087		9	NC_000075.6	45939521	45939590	minus	1		
+10090	Mus musculus	102465658	0	live	Mir7085	Gm27423, mmu-mir-7085	microRNA 7085	microRNA mir-7085		9	NC_000075.6	44400423	44400488	plus	1		
+10090	Mus musculus	102465657	0	live	Mir7083	Gm27888, mmu-mir-7083	microRNA 7083	microRNA mir-7083		9	NC_000075.6	21809941	21810000	minus	1		
+10090	Mus musculus	102465656	0	live	Mir7082	Gm27933, mmu-mir-7082	microRNA 7082	microRNA mir-7082		9	NC_000075.6	21075497	21075588	minus	1		
+10090	Mus musculus	102465655	0	live	Mir7080	Gm27911, mmu-mir-7080	microRNA 7080	microRNA mir-7080		8	NC_000074.6	123130106	123130172	plus	1		
+10090	Mus musculus	102465654	0	live	Mir7079	Gm27278, mmu-mir-7079	microRNA 7079	microRNA mir-7079		8	NC_000074.6	123104975	123105043	plus	1		
+10090	Mus musculus	102465653	0	live	Mir7078	Gm27386, mmu-mir-7078	microRNA 7078	microRNA mir-7078		8	NC_000074.6	117459265	117459328	plus	1		
+10090	Mus musculus	102465652	0	live	Mir7075	Gm27821, mmu-mir-7075	microRNA 7075	microRNA mir-7075		8	NC_000074.6	107096025	107096106	minus	1		
+10090	Mus musculus	102465651	0	live	Mir7074	Gm27603, mmu-mir-7074	microRNA 7074	microRNA mir-7074		8	NC_000074.6	105951637	105951699	minus	1		
+10090	Mus musculus	102465650	0	live	Mir7073	mmu-mir-7073	microRNA 7073	microRNA mir-7073		8	NC_000074.6	95753151	95753214	minus	1		
+10090	Mus musculus	102465649	0	live	Mir7071	Gm27623, mmu-mir-7071	microRNA 7071	microRNA mir-7071		8	NC_000074.6	88138206	88138274	plus	1		
+10090	Mus musculus	102465648	0	live	Mir7070	Gm27565, mmu-mir-7070	microRNA 7070	microRNA mir-7070		8	NC_000074.6	85062086	85062171	plus	1		
+10090	Mus musculus	102465647	0	live	Mir7068	Gm27570, mmu-mir-7068	microRNA 7068	microRNA mir-7068		8	NC_000074.6	72470016	72470089	minus	1		
+10090	Mus musculus	102465646	0	live	Mir7066	Gm27290, mmu-mir-7066	microRNA 7066	microRNA mir-7066		8	NC_000074.6	70102524	70102586	minus	1		
+10090	Mus musculus	102465645	0	live	Mir7065	Gm27871, mmu-mir-7065	microRNA 7065	microRNA mir-7065		8	NC_000074.6	13136072	13136132	plus	1		
+10090	Mus musculus	102465644	0	live	Mir7064	Gm27632, mmu-mir-7064	microRNA 7064	microRNA mir-7064		7	NC_000073.6	143570671	143570759	minus	1		
+10090	Mus musculus	102465643	0	live	Mir7062	Gm27339, mmu-mir-7062	microRNA 7062	microRNA mir-7062		7	NC_000073.6	139986809	139986874	minus	1		
+10090	Mus musculus	102465642	0	live	Mir7060	Gm27515, mmu-mir-7060	microRNA 7060	microRNA mir-7060		7	NC_000073.6	127489251	127489387	plus	1		
+10090	Mus musculus	102465641	0	live	Mir7059	Gm27534, mmu-mir-7059	microRNA 7059	microRNA mir-7059		7	NC_000073.6	126579474	126579532	minus	1		
+10090	Mus musculus	102465640	0	live	Mir7057	Gm27550, mmu-mir-7057	microRNA 7057	microRNA mir-7057		7	NC_000073.6	66381667	66381724	minus	1		
+10090	Mus musculus	102465639	0	live	Mir7056	Gm27696, mmu-mir-7056	microRNA 7056	microRNA mir-7056		7	NC_000073.6	47083166	47083224	minus	1		
+10090	Mus musculus	102465638	0	live	Mir7055	mmu-mir-7055	microRNA 7055	microRNA mir-7055		7	NC_000073.6	45173303	45173361	plus	1		
+10090	Mus musculus	102465637	0	live	Mir7052	Gm27583, mmu-mir-7052	microRNA 7052	microRNA mir-7052		7	NC_000073.6	44470347	44470411	plus	1		
+10090	Mus musculus	102465636	0	live	Mir7051	Gm27685, mmu-mir-7051	microRNA 7051	microRNA mir-7051		7	NC_000073.6	43457497	43457569	plus	1		
+10090	Mus musculus	102465635	0	live	Mir7050	Gm27578, mmu-mir-7050	microRNA 7050	microRNA mir-7050		7	NC_000073.6	31040258	31040317	minus	1		
+10090	Mus musculus	102465634	0	live	Mir7047	Gm27270, mmu-mir-7047	microRNA 7047	microRNA mir-7047		7	NC_000073.6	24987604	24987667	minus	1		
+10090	Mus musculus	102465633	0	live	Mir7046	Gm27469, mmu-mir-7046	microRNA 7046	microRNA mir-7046		7	NC_000073.6	24970010	24970075	minus	1		
+10090	Mus musculus	102465632	0	live	Mir7044	Gm27354, mmu-mir-7044	microRNA 7044	microRNA mir-7044		6	NC_000072.6	118085192	118085263	plus	1		
+10090	Mus musculus	102465631	0	live	Mir7042	mmu-mir-7042	microRNA 7042	microRNA mir-7042		6	NC_000072.6	113707208	113707265	plus	1		
+10090	Mus musculus	102465630	0	live	Mir7040	Gm27489, mmu-mir-7040	microRNA 7040	microRNA mir-7040		6	NC_000072.6	83049711	83049773	plus	1		
+10090	Mus musculus	102465629	0	live	Mir7039	Gm27824, mmu-mir-7039	microRNA 7039	microRNA mir-7039		5	NC_000071.6	144896732	144896816	minus	1		
+10090	Mus musculus	102465628	0	live	Mir7037	Gm27447, mmu-mir-7037	microRNA 7037	microRNA mir-7037		5	NC_000071.6	139767879	139767943	minus	1		
+10090	Mus musculus	102465627	0	live	Mir7036	Gm27973, mmu-mir-7036, mmu-mir-7036a	microRNA 7036	microRNA mir-7036		5	NC_000071.6	137296624	137296688	minus	1		
+10090	Mus musculus	102465626	0	live	Mir7035	Gm27661, mmu-mir-7035	microRNA 7035	microRNA mir-7035		5	NC_000071.6	136105522	136105603	plus	1		
+10090	Mus musculus	102465625	0	live	Mir7032	Gm27309, mmu-mir-7032	microRNA 7032	microRNA mir-7032		5	NC_000071.6	123996852	123996930	plus	1		
+10090	Mus musculus	102465624	0	live	Mir7031	Gm27859, mmu-mir-7031	microRNA 7031	microRNA mir-7031		5	NC_000071.6	121819209	121819273	minus	1		
+10090	Mus musculus	102465623	0	live	Mir7030	Gm27267, mmu-mir-7030	microRNA 7030	microRNA mir-7030		5	NC_000071.6	115645573	115645632	plus	1		
+10090	Mus musculus	102465622	0	live	Mir7028	Gm27674, mmu-mir-7028	microRNA 7028	microRNA mir-7028		5	NC_000071.6	114719515	114719578	plus	1		
+10090	Mus musculus	102465621	0	live	Mir7027	Gm27831, mmu-mir-7027	microRNA 7027	microRNA mir-7027		5	NC_000071.6	114404468	114404539	plus	1		
+10090	Mus musculus	102465620	0	live	Mir7025	Gm27860, mmu-mir-7025	microRNA 7025	microRNA mir-7025		5	NC_000071.6	75176831	75176904	plus	1		
+10090	Mus musculus	102465619	0	live	Mir7022	Gm27291, mmu-mir-7022	microRNA 7022	microRNA mir-7022		4	NC_000070.6	148146936	148146996	minus	1		
+10090	Mus musculus	102465618	0	live	Mir7021	mmu-mir-7021	microRNA 7021	microRNA mir-7021		4	NC_000070.6	143136100	143136162	minus	1		
+10090	Mus musculus	102465617	0	live	Mir7020	Gm27759, mmu-mir-7020	microRNA 7020	microRNA mir-7020		4	NC_000070.6	139644042	139644111	plus	1		
+10090	Mus musculus	102465616	0	live	Mir7018	Gm27606, mmu-mir-7018	microRNA 7018	microRNA mir-7018		4	NC_000070.6	137538286	137538370	plus	1		
+10090	Mus musculus	102465615	0	live	Mir7016	Gm27994, mmu-mir-7016	microRNA 7016	microRNA mir-7016		4	NC_000070.6	129684500	129684571	minus	1		
+10090	Mus musculus	102465614	0	live	Mir7015	mmu-mir-7015	microRNA 7015	microRNA mir-7015		4	NC_000070.6	120973259	120973322	minus	1		
+10090	Mus musculus	102465613	0	live	Mir7013	Gm27488, mmu-mir-7013	microRNA 7013	microRNA mir-7013		3	NC_000069.6	95004168	95004239	plus	1		
+10090	Mus musculus	102465612	0	live	Mir7012	Gm27370, mmu-mir-7012	microRNA 7012	microRNA mir-7012		3	NC_000069.6	90270149	90270212	plus	1		
+10090	Mus musculus	102465611	0	live	Mir7011	Gm27677, mmu-mir-7011	microRNA 7011	microRNA mir-7011		3	NC_000069.6	88440879	88440951	minus	1		
+10090	Mus musculus	102465610	0	live	Mir7008	Gm27752, mmu-mir-7008	microRNA 7008	microRNA mir-7008		3	NC_000069.6	31038966	31039028	plus	1		
+10090	Mus musculus	102465609	0	live	Mir7007	Gm27897, mmu-mir-7007	microRNA 7007	microRNA mir-7007		3	NC_000069.6	20222290	20222359	minus	1		
+10090	Mus musculus	102465608	0	live	Mir7006	Gm27398, mmu-mir-7006	microRNA 7006	microRNA mir-7006		2	NC_000068.7	181587900	181587968	minus	1		
+10090	Mus musculus	102465607	0	live	Mir7003	Gm27340, mmu-mir-7003	microRNA 7003	microRNA mir-7003		2	NC_000068.7	163068090	163068155	plus	1		
+10090	Mus musculus	102465606	0	live	Mir6973b	Gm27815, mmu-mir-6973b	microRNA 6973b	microRNA mir-6973b		2	NC_000068.7	131040319	131040398	minus	1		
+10090	Mus musculus	102465605	0	live	Mir7001	Gm27886, mmu-mir-7001	microRNA 7001	microRNA mir-7001		2	NC_000068.7	93421929	93422007	minus	1		
+10090	Mus musculus	102465604	0	live	Mir6999	Gm27673, mmu-mir-6999	microRNA 6999	microRNA mir-6999		2	NC_000068.7	91944870	91944930	minus	1		
+10090	Mus musculus	102465603	0	live	Mir6997	Gm27310, mmu-mir-6997	microRNA 6997	microRNA mir-6997		2	NC_000068.7	29995950	29996020	plus	1		
+10090	Mus musculus	102465602	0	live	Mir6996	Gm27531, mmu-mir-6996	microRNA 6996	microRNA mir-6996		2	NC_000068.7	26470059	26470119	minus	1		
+10090	Mus musculus	102465601	0	live	Mir6994	mmu-mir-6994	microRNA 6994	microRNA mir-6994		19	NC_000085.6	11923728	11923800	plus	1		
+10090	Mus musculus	102465600	0	live	Mir6993	Gm27642, mmu-mir-6993	microRNA 6993	microRNA mir-6993		19	NC_000085.6	10191375	10191439	plus	1		
+10090	Mus musculus	102465599	0	live	Mir6992	Gm27906, mmu-mir-6992	microRNA 6992	microRNA mir-6992		19	NC_000085.6	8742971	8743079	plus	1		
+10090	Mus musculus	102465598	0	live	Mir6989	Gm27885, mmu-mir-6989	microRNA 6989	microRNA mir-6989		19	NC_000085.6	6346480	6346544	plus	1		
+10090	Mus musculus	102465597	0	live	Mir6988	Gm27593, mmu-mir-6988	microRNA 6988	microRNA mir-6988		19	NC_000085.6	6051334	6051392	plus	1		
+10090	Mus musculus	102465596	0	live	Mir6987	Gm27891, mmu-mir-6987	microRNA 6987	microRNA mir-6987		19	NC_000085.6	5679004	5679076	minus	1		
+10090	Mus musculus	102465595	0	live	Mir6985	Gm27719, mmu-mir-6985	microRNA 6985	microRNA mir-6985		19	NC_000085.6	4263818	4263878	minus	1		
+10090	Mus musculus	102465594	0	live	Mir6984	Gm27771, mmu-mir-6984	microRNA 6984	microRNA mir-6984		19	NC_000085.6	3288920	3288983	plus	1		
+10090	Mus musculus	102465593	0	live	Mir6982	Gm27890, mmu-mir-6982	microRNA 6982	microRNA mir-6982		18	NC_000084.6	60958073	60958140	plus	1		
+10090	Mus musculus	102465592	0	live	Mir6979	Gm27524, mmu-mir-6979	microRNA 6979	microRNA mir-6979		18	NC_000084.6	37854605	37854660	minus	1		
+10090	Mus musculus	102465591	0	live	Mir6978	Gm27858, mmu-mir-6978	microRNA 6978	microRNA mir-6978		17	NC_000083.6	57217172	57217228	minus	1		
+10090	Mus musculus	102465590	0	live	Mir6977	Gm27922, mmu-mir-6977	microRNA 6977	microRNA mir-6977		17	NC_000083.6	56418846	56418909	minus	1		
+10090	Mus musculus	102465589	0	live	Mir6975	Gm27693, mmu-mir-6975	microRNA 6975	microRNA mir-6975		17	NC_000083.6	35244075	35244135	plus	1		
+10090	Mus musculus	102465588	0	live	Mir6973a	Gm27967, mmu-mir-6973a	microRNA 6973a	microRNA mir-6973a		17	NC_000083.6	35194972	35195049	plus	1		
+10090	Mus musculus	102465587	0	live	Mir6972	Gm27810, mmu-mir-6972	microRNA 6972	microRNA mir-6972		17	NC_000083.6	34857569	34857632	minus	1		
+10090	Mus musculus	102465586	0	live	Mir6970	Gm27589, mmu-mir-6970	microRNA 6970	microRNA mir-6970		17	NC_000083.6	34845101	34845167	minus	1		
+10090	Mus musculus	102465585	0	live	Mir6969	Gm27305, mmu-mir-6969	microRNA 6969	microRNA mir-6969		17	NC_000083.6	28558441	28558501	minus	1		
+10090	Mus musculus	102465584	0	live	Mir6968	Gm27666, mmu-mir-6968	microRNA 6968	microRNA mir-6968		17	NC_000083.6	26935472	26935539	plus	1		
+10090	Mus musculus	102465583	0	live	Mir3547	Gm22410, mmu-mir-3547	microRNA 3547	microRNA mir-3547		17	NC_000083.6	25245551	25245638	minus	1		
+10090	Mus musculus	102465582	0	live	Mir6965	Gm27324, mmu-mir-6965	microRNA 6965	microRNA mir-6965		17	NC_000083.6	24240884	24240947	minus	1		
+10090	Mus musculus	102465581	0	live	Mir6964	mmu-mir-6964	microRNA 6964	microRNA mir-6964		16	NC_000082.6	97877233	97877291	minus	1		
+10090	Mus musculus	102465580	0	live	Mir6961	Gm27367, mmu-mir-6961	microRNA 6961	microRNA mir-6961		15	NC_000081.6	100649163	100649229	minus	1		
+10090	Mus musculus	102465579	0	live	Mir6960	Gm27620, mmu-mir-6960	microRNA 6960	microRNA mir-6960		15	NC_000081.6	99080805	99080865	plus	1		
+10090	Mus musculus	102465578	0	live	Mir6958	Gm27581, mmu-mir-6958	microRNA 6958	microRNA mir-6958		15	NC_000081.6	89185465	89185537	minus	1		
+10090	Mus musculus	102465577	0	live	Mir6956	Gm27880, mmu-mir-6956	microRNA 6956	microRNA mir-6956		15	NC_000081.6	79002223	79002284	plus	1		
+10090	Mus musculus	102465576	0	live	Mir6954	Gm27770, mmu-mir-6954	microRNA 6954	microRNA mir-6954		15	NC_000081.6	76433214	76433273	plus	1		
+10090	Mus musculus	102465575	0	live	Mir6953	Gm27738, mmu-mir-6953	microRNA 6953	microRNA mir-6953		15	NC_000081.6	76248191	76248258	plus	1		
+10090	Mus musculus	102465574	0	live	Mir6951	Gm27765, mmu-mir-6951	microRNA 6951	microRNA mir-6951		15	NC_000081.6	38490473	38490547	minus	1		
+10090	Mus musculus	102465573	0	live	Mir6950	Gm27586, mmu-mir-6950	microRNA 6950	microRNA mir-6950		14	NC_000080.6	69692248	69692320	plus	1		
+10090	Mus musculus	102465572	0	live	Mir6949	Gm27697, mmu-mir-6949	microRNA 6949	microRNA mir-6949		14	NC_000080.6	56082401	56082468	minus	1		
+10090	Mus musculus	102465571	0	live	Mir6946	Gm27799, mmu-mir-6946	microRNA 6946	microRNA mir-6946		14	NC_000080.6	20690635	20690703	plus	1		
+10090	Mus musculus	102465570	0	live	Mir6945	Gm27779, mmu-mir-6945	microRNA 6945	microRNA mir-6945		13	NC_000079.6	55507625	55507692	minus	1		
+10090	Mus musculus	102465569	0	live	Mir6944	Gm27710, mmu-mir-6944	microRNA 6944	microRNA mir-6944		13	NC_000079.6	55477681	55477776	minus	1		
+10090	Mus musculus	102465568	0	live	Mir6942	Gm27287, mmu-mir-6942	microRNA 6942	microRNA mir-6942		13	NC_000079.6	21396578	21396638	minus	1		
+10090	Mus musculus	102465567	0	live	Mir6941	Gm27923, mmu-mir-6941	microRNA 6941	microRNA mir-6941		12	NC_000078.6	112920483	112920541	minus	1		
+10090	Mus musculus	102465566	0	live	Mir6939	Gm27498, mmu-mir-6939	microRNA 6939	microRNA mir-6939		12	NC_000078.6	112659277	112659351	minus	1		
+10090	Mus musculus	102465565	0	live	Mir6936	Gm27574, mmu-mir-6936	microRNA 6936	microRNA mir-6936		11	NC_000077.6	120624823	120624876	minus	1		
+10090	Mus musculus	102465564	0	live	Mir6935	Gm27344, mmu-mir-6935	microRNA 6935	microRNA mir-6935		11	NC_000077.6	120347350	120347413	minus	1		
+10090	Mus musculus	102465563	0	live	Mir6934	Gm27523, mmu-mir-6934	microRNA 6934	microRNA mir-6934		11	NC_000077.6	119154076	119154137	minus	1		
+10090	Mus musculus	102465562	0	live	Mir6932	Gm27691, mmu-mir-6932	microRNA 6932	microRNA mir-6932		11	NC_000077.6	107637722	107637779	plus	1		
+10090	Mus musculus	102465561	0	live	Mir6930	Gm27436, mmu-mir-6930	microRNA 6930	microRNA mir-6930		11	NC_000077.6	102404920	102404987	minus	1		
+10090	Mus musculus	102465560	0	live	Mir6929	Gm27298, mmu-mir-6929	microRNA 6929	microRNA mir-6929		11	NC_000077.6	101419187	101419253	minus	1		
+10090	Mus musculus	102465559	0	live	Mir6927	Gm27662, mmu-mir-6927	microRNA 6927	microRNA mir-6927		11	NC_000077.6	97677060	97677130	plus	1		
+10090	Mus musculus	102465558	0	live	Mir6926	Gm27949, mmu-mir-6926	microRNA 6926	microRNA mir-6926		11	NC_000077.6	74868127	74868194	minus	1		
+10090	Mus musculus	102465557	0	live	Mir6925	mmu-mir-6925	microRNA 6925	microRNA mir-6925		11	NC_000077.6	70705990	70706059	plus	1		
+10090	Mus musculus	102465556	0	live	Mir6922	Gm27269, mmu-mir-6922	microRNA 6922	microRNA mir-6922		11	NC_000077.6	60202262	60202327	minus	1		
+10090	Mus musculus	102465555	0	live	Mir6921	Gm27352, mmu-mir-6921	microRNA 6921	microRNA mir-6921		11	NC_000077.6	60200538	60200617	minus	1		
+10090	Mus musculus	102465554	0	live	Mir6920	mmu-mir-6920	microRNA 6920	microRNA mir-6920		11	NC_000077.6	53409197	53409267	plus	1		
+10090	Mus musculus	102465553	0	live	Mir6917	Gm27633, mmu-mir-6917	microRNA 6917	microRNA mir-6917		10	NC_000076.6	128584437	128584497	minus	1		
+10090	Mus musculus	102465552	0	live	Mir6916	Gm27721, mmu-mir-6916	microRNA 6916	microRNA mir-6916		10	NC_000076.6	128511968	128512030	minus	1		
+10090	Mus musculus	102465551	0	live	Mir6914	Gm27526, mmu-mir-6914	microRNA 6914	microRNA mir-6914		10	NC_000076.6	128382838	128382906	plus	1		
+10090	Mus musculus	102465550	0	live	Mir6912	Gm27990, mmu-mir-6912	microRNA 6912	microRNA mir-6912		10	NC_000076.6	80609260	80609329	plus	1		
+10090	Mus musculus	102465549	0	live	Mir6910	Gm27763, mmu-mir-6910	microRNA 6910	microRNA mir-6910		10	NC_000076.6	79862587	79862652	plus	1		
+10090	Mus musculus	102465548	0	live	Mir6909	Gm27727, mmu-mir-6909	microRNA 6909	microRNA mir-6909		10	NC_000076.6	79531029	79531090	minus	1		
+10090	Mus musculus	102465547	0	live	Mir6907	Gm27351, mmu-mir-6907	microRNA 6907	microRNA mir-6907		10	NC_000076.6	78408475	78408545	minus	1		
+10090	Mus musculus	102465546	0	live	Mir6906	mmu-mir-6906	microRNA 6906	microRNA mir-6906		10	NC_000076.6	60126776	60126833	plus	1		
+10090	Mus musculus	102465545	0	live	Mir6905	Gm27879, mmu-mir-6905	microRNA 6905	microRNA mir-6905		10	NC_000076.6	24910664	24910733	plus	1		
+10090	Mus musculus	102465544	0	live	Mir6902	mmu-mir-6902	microRNA 6902	microRNA mir-6902		1	NC_000067.6	93346092	93346155	plus	1		
+10090	Mus musculus	102465543	0	live	Mir6901	Gm27732, mmu-mir-6901	microRNA 6901	microRNA mir-6901		1	NC_000067.6	93274549	93274610	plus	1		
+10090	Mus musculus	102465542	0	live	Mir6900	Gm27708, mmu-mir-6900	microRNA 6900	microRNA mir-6900		1	NC_000067.6	92464483	92464542	minus	1		
+10090	Mus musculus	102465541	0	live	Mir6898	Gm27816, mmu-mir-6898	microRNA 6898	microRNA mir-6898		1	NC_000067.6	36348682	36348758	minus	1		
+10090	Mus musculus	102465540	0	live	Mir6897	Gm27652, mmu-mir-6897	microRNA 6897	microRNA mir-6897		1	NC_000067.6	36144252	36144313	minus	1		
+10090	Mus musculus	100499526	0	live	Mir3472	mmu-mir-3472	microRNA 3472	microRNA mir-3472	X 66.25 cM	X	NC_000086.7	145039344	145039414	plus	1		
+10090	Mus musculus	100499523	0	live	Mir3471-2	mmu-mir-3471-2	microRNA 3471-2	microRNA mir-3471-2|mu-mir-3471-2	4 1.97 cM	4	NC_000070.6	3537090	3537191	plus	1		
+10090	Mus musculus	100499521	0	live	Mir3471-1	mmu-mir-3471-1	microRNA 3471-1	microRNA mir-3471-1	4 4.83 cM	4	NC_000070.6	10845500	10845630	minus	1		
+10090	Mus musculus	100499519	0	live	Mir3470b	mmu-mir-3470b	microRNA 3470b	microRNA mir-3470b	16 28.44 cM	16	NC_000082.6	44013852	44013977	plus	1		
+10090	Mus musculus	100499518	0	live	Mir3470a	mmu-mir-3470a	microRNA 3470a	microRNA mir-3470a	6 35.94 cM	6	NC_000072.6	83090311	83090387	minus	1		
+10090	Mus musculus	100316827	0	live	Mir767	mmu-mir-767	microRNA 767	microRNA mir-767	X 37.27 cM	X	NC_000086.7	72589988	72590094	minus	1		
+10090	Mus musculus	100316736	0	live	Mir599	mmu-mir-599	microRNA 599	microRNA mir-599	15 14.46 cM	15	NC_000081.6	35660831	35660918	minus	1		
+10090	Mus musculus	100316735	0	live	Mir432	mmu-mir-432	microRNA 432	microRNA mir-432	12 60.39 cM	12	NC_000078.6	109594956	109595030	plus	1		
+10090	Mus musculus	104797374	0	live	Gm25285	Mir466c-3, mmu-mir-466c-3	predicted gene, 25285	microRNA mir-466c-3		2	NC_000068.7	10491336	10491425	plus	1		
+10090	Mus musculus	102465114	0	live	Gm38437	Mir3084-2, mmu-mir-3084-2	predicted gene, 38437	microRNA mir-3084-2	19 D3	19	NC_000085.6	60774329	60774397	minus	1		
+10090	Mus musculus	100526562	0	live	Mir3105	mmu-mir-3105	microRNA 3105	microRNA mir-3105	7 88.46 cM	7	NC_000073.6	144009254	144009338	plus	1		
+10090	Mus musculus	100526552	0	live	Mir669p-1	Mir699p-1, mmu-mir-669p-1	microRNA 669p-1	microRNA 699p-1|microRNA mir-669p-1|mmu-mir-699p-1	2 8.22 cM	2	NC_000068.7	10489116	10489202	plus	1		
+10090	Mus musculus	100526550	0	live	Mir669d-2	mmu-mir-669d-2	microRNA 669d-2	microRNA mir-669d-2	2 8.22 cM	2	NC_000068.7	10471644	10471729	plus	1		
+10090	Mus musculus	100526548	0	live	Mir3079	mmu-mir-3079	microRNA 3079	microRNA mir-3079	15 35.66 cM	15	NC_000081.6	76290879	76290968	minus	1		
+10090	Mus musculus	100526542	0	live	Mir3113	mmu-mir-3113	microRNA 3113	microRNA mir-3113	X 68.46 cM	X	NC_000086.7	151859562	151859637	plus	1		
+10090	Mus musculus	100526538	0	live	Mir669p-2	mmu-mir-669p-2	microRNA 669p-2	microRNA mir-669p-2	2 8.22 cM	2	NC_000068.7	10496497	10496583	plus	1		
+10090	Mus musculus	100526526	0	live	Mir3098	mmu-mir-3098	microRNA 3098	microRNA mir-3098	6 59.32 cM	6	NC_000072.6	125195792	125195878	plus	1		
+10090	Mus musculus	100526524	0	live	Mir466n	mmu-mir-466n	microRNA 466n	microRNA mir-466n	2 8.22 cM	2	NC_000068.7	10513741	10513834	plus	1		
+10090	Mus musculus	100526521	0	live	Mir3084-1	Mir3084, mmu-mir-3084, mmu-mir-3084-1	microRNA 3084-1	microRNA 3084|microRNA mir-3084	19 19.87 cM	19	NC_000085.6	24942235	24942303	minus	1		
+10090	Mus musculus	100526520	0	live	Mir3078	mmu-mir-3078	microRNA 3078	microRNA mir-3078	14 33.77 cM	14	NC_000080.6	64591185	64591271	plus	1		
+10090	Mus musculus	100526514	0	live	Mir3112	mmu-mir-3112	microRNA 3112	microRNA mir-3112	X 55.66 cM	X	NC_000086.7	134075316	134075397	plus	1		
+10090	Mus musculus	100526513	0	live	Mir374c	mmu-mir-374c	microRNA 374c	microRNA mir-374c	X 46.22 cM	X	NC_000086.7	103573085	103573133	plus	1		
+10090	Mus musculus	100526512	0	live	Mir3110	mmu-mir-3110	microRNA 3110	microRNA mir-3110	X 22.47 cM	X	NC_000086.7	38210441	38210520	plus	1		
+10090	Mus musculus	100526508	0	live	Mir3102	mmu-mir-3102	microRNA 3102	microRNA mir-3102	7 54.45 cM	7	NC_000073.6	100882306	100882409	minus	1		
+10090	Mus musculus	100526500	0	live	Mir3090	mmu-mir-3090	microRNA 3090	microRNA mir-3090	2 65.21 cM	2	NC_000068.7	133564708	133564794	plus	1		
+10090	Mus musculus	100526497	0	live	Mir466p	mmu-mir-466p	microRNA 466p	microRNA mir-466p	2 8.22 cM	2	NC_000068.7	10506006	10506094	plus	1		
+10090	Mus musculus	100526482	0	live	Mir466o	Mir4660, mmu-mir-466o	microRNA 466o	microRNA 4660|microRNA mir-466o|mmu-mir-4660	2 8.22 cM	2	NC_000068.7	10472540	10472623	plus	1		
+10090	Mus musculus	100526481	0	live	Mir466m	mmu-mir-466m	microRNA 466m	microRNA mir-466m	2 8.22 cM	2	NC_000068.7	10466663	10466746	plus	1		
+10090	Mus musculus	100526477	0	live	Mir3080	mmu-mir-3080	microRNA 3080	microRNA mir-3080	15 38.88 cM	15	NC_000081.6	82959218	82959296	minus	1		
+10090	Mus musculus	100526474	0	live	Mir3074-1	mmu-mir-3074-1	microRNA 3074-1	microRNA mir-3074-1	13 32.8 cM	13	NC_000079.6	63301199	63301283	minus	1		
+10090	Mus musculus	100526468	0	live	Mir3063	mmu-mir-3063	microRNA 3063	microRNA mir-3063	11 59.08 cM	11	NC_000077.6	95963292	95963383	minus	1		
+10090	Mus musculus	102466996	0	live	Mir7233	mmu-mir-7233	microRNA 7233	microRNA mir-7233		6	NC_000072.6	127788084	127788143	minus	1		
+10090	Mus musculus	102466915	0	live	Mir7237	Gm27482, mmu-mir-7237	microRNA 7237	microRNA mir-7237		8	NC_000074.6	121978024	121978086	plus	1		
+10090	Mus musculus	102466824	0	live	Mir7241	Gm27918, mmu-mir-7241	microRNA 7241	microRNA mir-7241		9	NC_000075.6	67727717	67727780	minus	1		
+10090	Mus musculus	102466823	0	live	Mir7240	Gm27487, mmu-mir-7240	microRNA 7240	microRNA mir-7240		8	NC_000074.6	70798135	70798192	plus	1		
+10090	Mus musculus	102466822	0	live	Mir7235	Gm27986, mmu-mir-7235	microRNA 7235	microRNA mir-7235		11	NC_000077.6	97146364	97146419	minus	1		
+10090	Mus musculus	102466821	0	live	Mir7230	mmu-mir-7230	microRNA 7230	microRNA mir-7230		5	NC_000071.6	113337590	113337645	minus	1		
+10090	Mus musculus	102466820	0	live	Mir7226	Gm27630, mmu-mir-7226	microRNA 7226	microRNA mir-7226		4	NC_000070.6	118210505	118210564	minus	1		
+10090	Mus musculus	102466819	0	live	Mir7221	Gm27378, mmu-mir-7221	microRNA 7221	microRNA mir-7221		2	NC_000068.7	92592206	92592277	plus	1		
+10090	Mus musculus	102466818	0	live	Mir7216	Gm27555, mmu-mir-7216	microRNA 7216	microRNA mir-7216		17	NC_000083.6	27328385	27328460	plus	1		
+10090	Mus musculus	102466817	0	live	Mir7211	Gm27536, mmu-mir-7211	microRNA 7211	microRNA mir-7211		10	NC_000076.6	94586137	94586199	minus	1		
+10090	Mus musculus	102466241	0	live	Mir7243	Gm27363, mmu-mir-7243	microRNA 7243	microRNA mir-7243		9	NC_000075.6	102304924	102304975	minus	1		
+10090	Mus musculus	102466229	0	live	Mir7225	Gm27499, mmu-mir-7225	microRNA 7225	microRNA mir-7225		3	NC_000069.6	97690509	97690562	minus	1		
+10090	Mus musculus	102466228	0	live	Mir7218	mmu-mir-7218	microRNA 7218	microRNA mir-7218		17	NC_000083.6	27358097	27358155	plus	1		
+10090	Mus musculus	102465987	0	live	Mir7215	mmu-mir-7215	microRNA 7215	microRNA mir-7215		10	NC_000076.6	62682508	62682558	plus	1		
+10090	Mus musculus	102465716	0	live	Mir7242	Gm27809, mmu-mir-7242	microRNA 7242	microRNA mir-7242		9	NC_000075.6	67729499	67729577	minus	1		
+10090	Mus musculus	102465715	0	live	Mir7239	Gm27504, mmu-mir-7239	microRNA 7239	microRNA mir-7239		11	NC_000077.6	46170087	46170143	plus	1		
+10090	Mus musculus	102465714	0	live	Mir7238	mmu-mir-7238	microRNA 7238	microRNA mir-7238		8	NC_000074.6	11635694	11635736	minus	1		
+10090	Mus musculus	102465713	0	live	Mir7236	Gm28005, mmu-mir-7236	microRNA 7236	microRNA mir-7236		11	NC_000077.6	121387145	121387204	minus	1		
+10090	Mus musculus	102465712	0	live	Mir7234	mmu-mir-7234	microRNA 7234	microRNA mir-7234		7	NC_000073.6	73819590	73819641	plus	1		
+10090	Mus musculus	102465711	0	live	Mir7232	mmu-mir-7232	microRNA 7232	microRNA mir-7232		6	NC_000072.6	81895590	81895663	minus	1		
+10090	Mus musculus	102465710	0	live	Mir7231	mmu-mir-7231	microRNA 7231	microRNA mir-7231		6	NC_000072.6	122831377	122831437	plus	1		
+10090	Mus musculus	102465709	0	live	Mir7229	mmu-mir-7229	microRNA 7229	microRNA mir-7229		5	NC_000071.6	113324493	113324545	minus	1		
+10090	Mus musculus	102465708	0	live	Mir7228	mmu-mir-7228	microRNA 7228	microRNA mir-7228		5	NC_000071.6	134572076	134572114	plus	1		
+10090	Mus musculus	102465707	0	live	Mir7227	mmu-mir-7227	microRNA 7227	microRNA mir-7227		4	NC_000070.6	133717050	133717108	minus	1		
+10090	Mus musculus	102465706	0	live	Mir7224	Gm27971, mmu-mir-7224	microRNA 7224	microRNA mir-7224		2	NC_000068.7	67675457	67675516	plus	1		
+10090	Mus musculus	102465705	0	live	Mir7223	Gm28009, mmu-mir-7223	microRNA 7223	microRNA mir-7223		11	NC_000077.6	107996848	107996916	plus	1		
+10090	Mus musculus	102465704	0	live	Mir7222	Gm27413, mmu-mir-7222	microRNA 7222	microRNA mir-7222		2	NC_000068.7	92594602	92594676	plus	1		
+10090	Mus musculus	102465702	0	live	Mir7219	Gm27613, mmu-mir-7219	microRNA 7219	microRNA mir-7219		18	NC_000084.6	68260920	68260973	minus	1		
+10090	Mus musculus	102465701	0	live	Mir7217	mmu-mir-7217	microRNA 7217	microRNA mir-7217		17	NC_000083.6	27355738	27355799	plus	1		
+10090	Mus musculus	102465700	0	live	Mir7214	mmu-mir-7214	microRNA 7214	microRNA mir-7214		17	NC_000083.6	27317035	27317095	minus	1		
+10090	Mus musculus	387240	0	live	Mir199c	Mirn199c	microRNA 199c										
+10090	Mus musculus	101447999	0	live	Mirc35hg		microRNA cluster 35, host gene	hypothetical protein P63-2|hypothetical protein P63-III|hypothetical protein P70-I|hypothetical protein P98-I		6	NC_000072.6	30158640	30174125	minus	3		

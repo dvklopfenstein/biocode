@@ -19,7 +19,6 @@ class ChrAB(object):
     self.start_bp = start_bp if isinstance(start_bp, int) else None
     self.stop_bp = stop_bp if isinstance(stop_bp, int) else None
     self._init(orientation, orgn)
-
   def _init(self, orientation, orgn):
     """Set:  Fwd: Start < Stop;   Rev: Start > Stop."""
     # Use orientation if available (Forward/Reverse) strand.
@@ -98,6 +97,31 @@ class ChrAB(object):
       return min(self.start_bp, self.stop_bp)
     return None
 
+  def get_aart_line(self, win_start, win_end, bpsPchar=20000):
+    """Get an ASCII Art line representing a gene in a region."""
+    gene_start, gene_end = self.get_plotXs()
+    totPts = int(float(win_end-win_start)/bpsPchar)+1
+    picStr = list(' '*(totPts))
+    # Find gene start and end points relative to the print window
+    loc_start = int(float(gene_start - win_start)/bpsPchar)
+    loc_end   = int(float(gene_end   - win_start)/bpsPchar)
+    picStr[-1] = '.' # Note the end of the window
+    picStrL = len(picStr) 
+    IDX_RNG = range(loc_start,loc_end+1) if loc_start <= loc_end else range(loc_end, loc_start+1)
+    for i in IDX_RNG:
+      # If this part of the gene is in the print window, print 'G' for 'gene in this spot'
+      gene_pm = self.is_fwd()
+      if i>=0 and i<picStrL:
+        if gene_pm is True:
+          picStr[i] = '>'
+        elif gene_pm is False:
+          picStr[i] = '<'
+        else:
+          picStr[i] = 'G'
+        #if i==totPts: 
+        #  picStr[totPts] = 'g' # Print 'g' instead of '.'
+    return ''.join(picStr)
+
   def __eq__(self, rhs):
     bp_eq = self.start_bp == rhs.start_bp and self.stop_bp == rhs.stop_bp
     if self.ichr is not None and rhs.ichr is not None: 
@@ -134,3 +158,8 @@ class ChrAB(object):
       else:
         return False
     
+  def __str__(self):
+    pm = "+" if self.stop_bp > self.start_bp else "-"
+    return "{SCHR:>2} {pm} {START} {STOP}".format(
+      SCHR=self.schr, pm=pm, START=self.start_bp, STOP=self.stop_bp)
+

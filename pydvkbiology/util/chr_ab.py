@@ -7,8 +7,8 @@ class ChrAB(object):
   # Uses convention that rev. strand start_bp > stop_bp
   # so that this class may be used without an orientation arg.
 
-  fwd = ['plus']
-  rev = ['minus']
+  fwd = ['+', 'plus']
+  rev = ['-', 'minus']
   typ = cx.namedtuple("ChrAB", "chr start_bp stop_bp fwd_strand ichr")
 
   def __init__(self, schr, start_bp, stop_bp, orientation=None, orgn=None, name=None):
@@ -19,6 +19,7 @@ class ChrAB(object):
     self.start_bp = start_bp if isinstance(start_bp, int) else None
     self.stop_bp = stop_bp if isinstance(stop_bp, int) else None
     self._init(orientation, orgn)
+
   def _init(self, orientation, orgn):
     """Set:  Fwd: Start < Stop;   Rev: Start > Stop."""
     # Use orientation if available (Forward/Reverse) strand.
@@ -97,10 +98,15 @@ class ChrAB(object):
       return min(self.start_bp, self.stop_bp)
     return None
 
+  @staticmethod
+  def get_aart_len(win_start, win_end, bpsPchar=20000):
+    """Returns the number of characters in an ASCII Art line."""
+    return int(float(win_end-win_start)/bpsPchar)+1
+
   def get_aart_line(self, win_start, win_end, bpsPchar=20000):
     """Get an ASCII Art line representing a gene in a region."""
     gene_start, gene_end = self.get_plotXs()
-    totPts = int(float(win_end-win_start)/bpsPchar)+1
+    totPts = self.get_aart_len(win_start, win_end, bpsPchar)
     picStr = list(' '*(totPts))
     # Find gene start and end points relative to the print window
     loc_start = int(float(gene_start - win_start)/bpsPchar)
@@ -162,4 +168,12 @@ class ChrAB(object):
     pm = "+" if self.stop_bp > self.start_bp else "-"
     return "{SCHR:>2} {pm} {START} {STOP}".format(
       SCHR=self.schr, pm=pm, START=self.start_bp, STOP=self.stop_bp)
+
+  def __repr__(self):
+    ret = 'ChrAB("{schr}", {start_bp}, {stop_bp}'.format(
+      schr=self.schr, start_bp=self.start_bp, stop_bp=self.stop_bp)
+    if self.name is not None:
+      ret = "{RET}, name={NAME}".format(RET=ret, NAME=self.name)
+    return "{RET})".format(RET=ret)
+    #, orientation=None, orgn=None, name=None):
 

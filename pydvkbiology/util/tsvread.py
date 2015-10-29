@@ -33,7 +33,7 @@ def tbl2lists(fin, sep=r'\t', **kwargs):
   """
   return FileHelperObj(fin, sep, kwargs).run("lists", None)
 
-def tbl2namedtuple(fin, tuplename, sep=r'\t', **kwargs):
+def tbl2namedtuple(fin, tuplename="NtData", sep=r'\t', **kwargs):
   """Read tsv/csv and store data in list of named tuples.
      data = tbl2namedtuple(fin, 'NCBI_Gene')
   """

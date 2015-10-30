@@ -156,7 +156,9 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
   N  = len(record['IdList'])
   WE = record['WebEnv']
   QK = record['QueryKey']
+  #print "AAAA", N, batch_size
   for start in range(0, N, batch_size):
+    #print "BBBB", start
     socket_handle = None
     msg = '  EFetching up to {:5} records, starting at {}\n'.format(batch_size,start)
     PRT.write(msg); PRT.flush()
@@ -203,7 +205,7 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
  
   sys.stdout.write("""
     Need to revisit reading XML reading another way. 
-    Biopython XML no longer working for XML files from NCBI Gene.""")
+    Biopython XML no longer working for XML files from NCBI Gene.\n""")
   if N > batch_size and typemode[1] == "xml": # DVK Biopython XML not working
     Entrez_strip_extra_eSummaryResult(fout)   # DVK Biopython XML not working
 

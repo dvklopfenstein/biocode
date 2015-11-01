@@ -10,28 +10,28 @@
     [Dec 2011 mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
 * **NCBI Gene** Downloaded **October 24, 2015**
   * Homo sapiens
-    * [genes_NCBI_All_Homo_sapiens.tsv](./NCBI/genes_NCBI_All_Homo_sapiens.tsv) using this
+    * [genes_NCBI_hsa_All.tsv](./NCBI/genes_NCBI_hsa_All.tsv) using this
       [**Search for All Human DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (59542 items)
-    * [genes_NCBI_ProteinCoding.tsv](./NCBI/genes_NCBI_ProteinCoding.tsv) using this
+    * [genes_NCBI_hsa_ProteinCoding.tsv](./NCBI/genes_NCBI_hsa_ProteinCoding.tsv) using this
       [**Search for Human Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (20922 items)
-    * [genes_NCBI_microRNA.tsv](./NCBI/genes_NCBI_microRNA.tsv) using this
+    * [genes_NCBI_hsa_microRNA.tsv](./NCBI/genes_NCBI_hsa_microRNA.tsv) using this
       [**Search for All Human microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=9606%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
       (1882 items)
   * Mus musculus (house mouse)
-    * [genes_NCBI_All_mus.tsv](./NCBI/genes_NCBI_All_mus.tsv) using this
+    * [genes_NCBI_mus_All.tsv](./NCBI/genes_NCBI_mus_All.tsv) using this
       [**Search for All Mouse DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (73343 items)
-    * [genes_NCBI_PC_mus.tsv](./NCBI/genes_NCBI_PC_mus.tsv) using this
+    * [genes_NCBI_mus_ProteinCoding.tsv](./NCBI/genes_NCBI_mus_ProteinCoding.tsv) using this
       [**Search for Mouse Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (29414 items)
-    * [genes_NCBI_microRNA.tsv](./NCBI/genes_NCBI_microRNA.tsv) using this
+    * [genes_NCBI_mus_microRNA.tsv](./NCBI/genes_NCBI_mus_microRNA.tsv) using this
       [**Search for Mouse microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
       (1202 items)

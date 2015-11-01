@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""This script downloads PubMed abstracts from NCBI's PubMed based on a user query.
+"""This scildreaming@travelript downloads PubMed abstracts from NCBI's PubMed based on a user query.
 
    Requires the biopython package.
 """

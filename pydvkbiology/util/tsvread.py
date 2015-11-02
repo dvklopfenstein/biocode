@@ -174,46 +174,46 @@ class FileHelperObj(object):
         self.log.write("  {:9} data READ:  {}\n".format(len(self.ret_list), self.fin))
     return self.ret_list, self.hdr2idx
 
-  #def run_namedtuple(self, tuplename):
-  #  """Read csv/tsv file and return specified data in a list of lists."""
-  #  data = []
-  #  nt_obj = None
-  #  with open(self.fin) as fin_stream:
-  #    for lnum, line in enumerate(fin_stream, 1):
-  #      try:
-  #        line = line.rstrip('\r\n') # chomp
-  #        # Obtain Data if headers have been collected from the first line
-  #        if nt_obj is not None:
-  #          flds = re.split(self.sep, line)
-  #          self.convert_ints_floats(flds)
-  #          data.append(nt_obj._make(flds))
-  #        # Obtain the header
-  #        else:
-  #          nt_obj = self._init_nt_hdr(tuplename, line)
-  #      except:
-  #        if nt_obj is not None:
-  #          sys.stdout.write("{HDRS}\n".format(HDRS=' '.join(nt_obj._fields)))
-  #        print re.split(self.sep, line)
-  #        raise Exception("{FIN}({LNUM}): {LINE}\n".format(FIN=self.fin, LNUM=lnum, LINE=line))
-  #    if self.log is not None:
-  #      self.log.write("  {:9} nt_obj READ:  {}\n".format(len(data), self.fin))
-  #  return data
-
   def run_namedtuple(self, tuplename):
-    import csv
-    with open(self.fin) as tsvstrm:
-      N = None
-      NtTsv = None
-      data = []
-      for flds in csv.reader(tsvstrm, delimiter="\t"):
-        if N is not None:
-          self.convert_ints_floats(flds)
-          data.append(NtTsv._make(flds[:N])) # NCBI Gene has space at last fields
-        else:
-          NtTsv = cx.namedtuple(tuplename, ' '.join(self.hdr_xform(flds)))
-          N = len(NtTsv._fields)
-      sys.stdout.write("  READ:  {:>6} {}\n".format(len(data), self.fin))
-      return data
+    """Read csv/tsv file and return specified data in a list of lists."""
+    data = []
+    nt_obj = None
+    with open(self.fin) as fin_stream:
+      for lnum, line in enumerate(fin_stream, 1):
+        try:
+          line = line.rstrip('\r\n') # chomp
+          # Obtain Data if headers have been collected from the first line
+          if nt_obj is not None:
+            flds = re.split(self.sep, line)
+            self.convert_ints_floats(flds)
+            data.append(nt_obj._make(flds))
+          # Obtain the header
+          else:
+            nt_obj = self._init_nt_hdr(tuplename, line)
+        except:
+          if nt_obj is not None:
+            sys.stdout.write("{HDRS}\n".format(HDRS=' '.join(nt_obj._fields)))
+          print re.split(self.sep, line)
+          raise Exception("{FIN}({LNUM}): {LINE}\n".format(FIN=self.fin, LNUM=lnum, LINE=line))
+      if self.log is not None:
+        self.log.write("  {:9} nt_obj READ:  {}\n".format(len(data), self.fin))
+    return data
+
+  #def run_namedtuple(self, tuplename):
+  #  import csv
+  #  with open(self.fin) as tsvstrm:
+  #    N = None
+  #    NtTsv = None
+  #    data = []
+  #    for flds in csv.reader(tsvstrm, delimiter="\t"):
+  #      if N is not None:
+  #        self.convert_ints_floats(flds)
+  #        data.append(NtTsv._make(flds[:N])) # NCBI Gene has space at last fields
+  #      else:
+  #        NtTsv = cx.namedtuple(tuplename, ' '.join(self.hdr_xform(flds)))
+  #        N = len(NtTsv._fields)
+  #    sys.stdout.write("  READ:  {:>6} {}\n".format(len(data), self.fin))
+  #    return data
 
   def hdr_xform(self, hdrs):
     xform = []

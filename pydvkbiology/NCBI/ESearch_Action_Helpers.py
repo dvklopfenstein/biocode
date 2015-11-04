@@ -145,15 +145,19 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
   For NCBI's online documentation of efetch:
     http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch 
   """
-  downloaded_data = None 
+  N  = len(record['IdList'])
   # Write the list of UIDs in the record
   tsv = get_tsv_filename(fout)
   wr_IDs(tsv, record)
+  EFetch_and_write_N(db, fout, typemode, record, N, batch_size, PRT)
+
+
+def EFetch_and_write_N(db, fout, typemode, record, N, batch_size=100, PRT=sys.stdout):
+  downloaded_data = None 
 
   # EFetch records found for IDs returned in ESearch...
   # Search for IDs returned using ID of the above Web Search
   FOUT = open(fout, 'w')
-  N  = len(record['IdList'])
   WE = record['WebEnv']
   QK = record['QueryKey']
   #print "AAAA", N, batch_size
@@ -168,21 +172,21 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
         db        = db,
         retstart  = start,
         retmax    = batch_size, 
-        rettype   = typemode[0],
-        retmode   = typemode[1],
+        rettype   = typemode[0], # Ex: medline
+        retmode   = typemode[1], # Ex: text
         webenv    = WE,
         query_key = QK)
     except IOError, e:
-      print "db:", db
-      print "retstart:", start
-      print "retmax:", batch_size
-      print "rettype:", typemode[0]
-      print "retmode:", typemode[1]
-      print "WebEnv:", WE
-      print "QueryKey:", QK
-      msg = "*FATAL: NETWORK OR MEMORY PROBLEM: {}".format(e)
+      msg = "\n*FATAL: EFetching FAILED: {}".format(e)
       PRT.write(msg)
       sys.stdout.write(msg)
+      sys.stdout.write("  db: {}\n".format(db))
+      sys.stdout.write("  retstart: {}\n".format(start))
+      sys.stdout.write("  retmax: {}\n".format(batch_size))
+      sys.stdout.write("  rettype: {}\n".format(typemode[0]))
+      sys.stdout.write("  retmode: {}\n".format(typemode[1]))
+      sys.stdout.write("  WebEnv: {}\n".format(WE))
+      sys.stdout.write("  QueryKey: {}\n".format(QK))
       if socket_handle is not None:
         socket_handle.close()
         socket_handle = None
@@ -194,9 +198,9 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
         socket_handle.close()
         FOUT.write(downloaded_data)
       except Exception:
-        print "*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}"
+        sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n")
     else:
-      print "*FATAL: NO SOCKET HANDLE TO READ FROM"
+      sys.stdout.write("*FATAL: NO SOCKET HANDLE TO READ FROM\n")
       
 
   # Close files

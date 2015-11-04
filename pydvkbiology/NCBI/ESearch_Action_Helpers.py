@@ -153,25 +153,35 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
 
 
 def EFetch_and_write_N(db, fout, typemode, record, N, batch_size=100, PRT=sys.stdout):
-  downloaded_data = None 
+  FOUT = open(fout, 'w')
+  downloaded_data = EFetch_and_write_WEQK_N(db, FOUT, typemode, record, 
+    record['WebEnv'], record['QueryKey'], N, batch_size=100, PRT=sys.stdout)
+  FOUT.close(); PRT.write("  WROTE: {}\n".format(fout))
+ 
+  sys.stdout.write("""
+    Need to revisit reading XML reading another way. 
+    Biopython XML no longer working for XML files from NCBI Gene.\n""")
+  if N > batch_size and typemode[1] == "xml": # DVK Biopython XML not working
+    Entrez_strip_extra_eSummaryResult(fout)   # DVK Biopython XML not working
+  return downloaded_data
 
+
+def EFetch_and_write_WEQK_N(db, FOUT, typemode, record, WE, QK, N, batch_size=100, PRT=sys.stdout):
+  downloaded_data = None 
   # EFetch records found for IDs returned in ESearch...
   # Search for IDs returned using ID of the above Web Search
-  FOUT = open(fout, 'w')
-  WE = record['WebEnv']
-  QK = record['QueryKey']
   #print "AAAA", N, batch_size
   for start in range(0, N, batch_size):
     #print "BBBB", start
     socket_handle = None
-    msg = '  EFetching up to {:5} records, starting at {}\n'.format(batch_size,start)
-    PRT.write(msg); PRT.flush()
+    msg = '  QueryKey({:>6}) EFetching up to {:5} records, starting at {}\n'.format(QK, batch_size,start)
+    #PRT.write(msg); PRT.flush()
     sys.stdout.write(msg)
     try:
       socket_handle = Entrez.efetch(
         db        = db,
-        retstart  = start,
-        retmax    = batch_size, 
+        retstart  = start,       # dflt: 1
+        retmax    = batch_size,  # max: 10,000
         rettype   = typemode[0], # Ex: medline
         retmode   = typemode[1], # Ex: text
         webenv    = WE,
@@ -196,24 +206,17 @@ def EFetch_and_write_N(db, fout, typemode, record, N, batch_size=100, PRT=sys.st
         # Read the downloaded data from the socket handle
         downloaded_data = socket_handle.read()
         socket_handle.close()
+        M = re.search(r'(ERROR.*\n)', downloaded_data)
+        if M:
+          sys.stdout.write(M.group(1))
         FOUT.write(downloaded_data)
-      except Exception:
-        sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n")
+      except Exception, e:
+        sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n".format(str(e)))
     else:
       sys.stdout.write("*FATAL: NO SOCKET HANDLE TO READ FROM\n")
+  return downloaded_data
       
 
-  # Close files
-  FOUT.close(); 
-  PRT.write("  WROTE: {}\n".format(fout))
- 
-  sys.stdout.write("""
-    Need to revisit reading XML reading another way. 
-    Biopython XML no longer working for XML files from NCBI Gene.\n""")
-  if N > batch_size and typemode[1] == "xml": # DVK Biopython XML not working
-    Entrez_strip_extra_eSummaryResult(fout)   # DVK Biopython XML not working
-
-  return downloaded_data
 
 
 # -------------------------------------------------------

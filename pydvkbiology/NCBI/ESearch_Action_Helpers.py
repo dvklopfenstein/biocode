@@ -4,32 +4,9 @@
    Requires the biopython package.
 """
 
-# Copyright (C) 2014-2015 DV Klopfenstein.  All rights reserved.
-#
-# http://www.gnu.org/licenses/gpl-2.0.html#SEC1
-#
-# Helpers for using the NCBI's EUtils through biopython as used in my research.
-#
-# This program is free software; you can redistribute it and/or
-# modify it under the terms of the GNU General Public License
-# as published by the Free Software Foundation; either version 2
-# of the License, or (at your option) any later version.
-#
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU General Public License for more details.
-#
-# You should have received a copy of the GNU General Public License
-# along with this program; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
-
-
-# To cite this script, please use:
-#
-# Klopfenstein D.V. (2014) Access to the NCBI's EUtils through biopython as used in daily lab work. [Computer program]. 
-# Available at://github.com/dklopfenstein/biocode/blob/master/PyDkBio/NCBI/ESearch_Action_Helpers.py 
-
+__author__ = 'DV Klopfenstein'
+__copyright__ = "Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved."
+__license__ = "GPL"
 
 import sys
 import os
@@ -38,8 +15,6 @@ import re
 
 from Bio import Entrez
 import requests
-
-__author__ = "DV Klopfenstein"
 
 # -------------------------------------------------------
 def find_IDs_with_ESearch(db, retmax, email, query):

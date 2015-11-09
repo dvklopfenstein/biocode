@@ -1,5 +1,9 @@
 """Utilities for using WebLogo from Python."""
 
+__author__  = 'DV Klopfenstein'
+__copyright__ = "Copyright 2014-2015, DV Klopfenstein. All rights reserved."
+__license__ = "GPL"
+
 import os
 import sys
 

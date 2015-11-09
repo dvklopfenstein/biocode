@@ -17,6 +17,8 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 __author__ = 'DV Klopfenstein'
+__copyright__ = "Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved."
+__license__ = "GPL"
 
 # Helpful pages:
 #   http://stackoverflow.com/questions/14777066/matplotlib-discrete-colorbar

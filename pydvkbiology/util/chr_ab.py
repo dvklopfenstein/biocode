@@ -1,5 +1,9 @@
 """Manages chromosome name, start bp, stop bp with different sources."""
 
+__author__  = 'DV Klopfenstein'
+__copyright__ = "Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved."
+__license__ = "GPL"
+
 import collections as cx
 
 class ChrAB(object):

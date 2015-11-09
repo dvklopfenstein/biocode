@@ -4,6 +4,10 @@
    Requires the biopython package.
 """
 
+__author__ = 'DV Klopfenstein'
+__copyright__ = "Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved."
+__license__ = "GPL"
+
 import PyBiocode.NCBI.EUtils_Apps as EA
 
 # Copyright (C) 2014-2015 DV Klopfenstein.  All rights reserved.

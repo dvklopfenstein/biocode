@@ -82,6 +82,9 @@ class ChrAB(object):
       return sorted([self.start_bp, self.stop_bp])
     return None
 
+  def get_len(self):
+    return abs(self.stop_bp-self.start_bp)
+
   def get_dist(self, rhs_chrab):
     """Return intergenic distance between two genes. Return 0 if overlapping or 'kissing'."""
     if self.schr == rhs_chrab.schr:

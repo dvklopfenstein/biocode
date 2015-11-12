@@ -10,7 +10,7 @@
     by [Yasha Berchenko-Kogan](http://math.mit.edu/~yashabk/)
 
 ### Bio Downloads
-  * [Downloads] (https://github.com/dklopfenstein/biocode/tree/master/biodownloads/README.md) from Biological databases used by the scripts in this repository.
+  * Selected [downloads] (https://github.com/dklopfenstein/biocode/tree/master/biodownloads/README.md) from Biological databases
 
 ### Color Picking
   * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and

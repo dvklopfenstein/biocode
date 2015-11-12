@@ -6,7 +6,7 @@
 
   * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
   * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
-  * A good description of the [PhD student experience](./doc/How_PhD_thesis_topic.md)
+  * A good description of the [**PhD student experience**](./doc/How_PhD_thesis_topic.md)
     by [Yasha Berchenko-Kogan](http://math.mit.edu/~yashabk/)
 
 ### Bio Downloads

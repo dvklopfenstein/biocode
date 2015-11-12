@@ -40,4 +40,8 @@ This repository uses data/code from:
 * [GOATOOLS] (https://github.com/tanghaibao/goatools/blob/master/README.rst) for
   Gene Ontology Analysis
 
+## Electrical Engineering
+In a previous life...
+  * Dennis Feruson's answer for [**"How do capacitors go bad?**](./doc/bad_capacitors.md)
+
 Copyright (C) 2015 DV Klopfenstein. All rights reserved.

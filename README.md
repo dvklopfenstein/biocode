@@ -30,6 +30,8 @@
 
 This repository uses data/code from:
 * [NCBI] (http://www.ncbi.nlm.nih.gov/)
+* [GENCODE] (http://www.gencodegenes.org/)
+* [DrugBank] (http://www.drugbank.ca/)
 * [UniProt] (http://www.uniprot.org/)
 * [OMIM] (http://www.omim.org/) Online Mendelian Inheritance in Man(R)
 * [UCSC] (https://genome.ucsc.edu/)

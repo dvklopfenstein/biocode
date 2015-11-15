@@ -8,6 +8,7 @@
   * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
   * A good description of the [**PhD student experience**](./doc/How_PhD_thesis_topic.md)
     by [Yasha Berchenko-Kogan](http://math.mit.edu/~yashabk/)
+  * More on [The PhD Experience](https://www.quora.com/What-was-it-like-during-your-PhD-years-compared-to-your-other-studies-or-degree-programs/answer/Barry-Rountree) by Barry Rountree
 
 ### Bio Downloads
   * Selected [downloads] (https://github.com/dklopfenstein/biocode/tree/master/biodownloads/README.md) from Biological databases

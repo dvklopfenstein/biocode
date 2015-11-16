@@ -99,6 +99,17 @@ class ChrAB(object):
       return 0 
     return None # genes are on separate chromosomes
 
+  def get_rng(self, margin_lhs=0, margin_rhs=None):
+    """Return an expanded range: Expand orignal from left, right, or both."""
+    x0, xN = self.get_plotXs()
+    if margin_lhs == 0 and margin_rhs is None:
+      return x0, xN
+    rng0 = x0 - margin_lhs
+    if rng0 < 0: # rng0 minimum value is 0
+      rng0 = 0
+    rngN = xN + (margin_lhs if margin_rhs is None else margin_rhs)
+    return [rng0, rngN]
+
   def get_min_bp(self):
     """Returns the smallest base pair value."""
     if self.valid_start_stop():

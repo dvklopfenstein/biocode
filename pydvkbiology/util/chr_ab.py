@@ -110,6 +110,11 @@ class ChrAB(object):
     rngN = xN + (margin_lhs if margin_rhs is None else margin_rhs)
     return [rng0, rngN]
 
+  def get_ChrAB_rng(self, margin_lhs=0, margin_rhs=None):
+    """Create ChrAB w/expanded range: Expand orignal from left, right, or both."""
+    x0, xN = self.get_rng(margin_lhs, margin_rhs)
+    return ChrAB(self.schr, x0, xN)
+
   def get_min_bp(self):
     """Returns the smallest base pair value."""
     if self.valid_start_stop():

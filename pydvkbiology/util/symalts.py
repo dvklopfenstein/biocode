@@ -19,3 +19,7 @@ class SymAlts(object):
         return "{}({})".format(self.Symbol, ', '.join(alts))
     return self.Symbol
 
+  def __repr__(self):
+    return "SymAlts('{Symbol}', {alts})".format(
+      Symbol=self.Symbol, alts=self.alts)
+

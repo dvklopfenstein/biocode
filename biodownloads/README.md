@@ -9,7 +9,7 @@
     [Mouse Genome](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/) released 
     [Dec 2011 mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
 * **NCBI Gene** Downloaded **October 24, 2015**
-  * Homo sapiens
+  * **Homo sapiens (human)**: Taxonomy ID 9606
     * [genes_NCBI_hsa_All.tsv](./NCBI/genes_NCBI_hsa_All.tsv) using this
       [**Search for All Human DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
@@ -22,7 +22,7 @@
       [**Search for All Human microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=9606%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
       (1882 items)
-  * Mus musculus (house mouse)
+  * **Mus musculus (house mouse)**: Taxonomy ID 10090
     * [genes_NCBI_mus_All.tsv](./NCBI/genes_NCBI_mus_All.tsv) using this
       [**Search for All Mouse DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
@@ -35,6 +35,7 @@
       [**Search for Mouse microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
       (1202 items)
+  * **Drosophila melanogaster (fruit fly)**: Taxonomy ID 7227
 * **GENCODE lncRNA** [v23 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_23/) Oct 26, 2015
   * extracted for all lines where feature=gene from gencode.v23.long_noncoding_RNAs.gtf 
     (Release 23 (GRCh38.p3) 2.4MB 7/16/15 4:10:00 PM):

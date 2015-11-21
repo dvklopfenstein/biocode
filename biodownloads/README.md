@@ -2,7 +2,7 @@
 
 ## Downloads in original source format
 * [**UCSC Sequence and Annotation Downloads**](http://hgdownload.cse.ucsc.edu/downloads.html) for 
-  [cytoBandIdeo.txt file](#cytocandideotxt)
+  [cytoBandIdeo.txt file](#cytobandideotxt)
   * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/hg38/cytoBandIdeo.txt) from **UCSC**'s 
     [Human Genome](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/) released 
     [Dec 2013 (hg38, GRCh38)] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)

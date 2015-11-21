@@ -11,8 +11,9 @@
   * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/dm6/cytoBandIdeo.txt) from **UCSC**'s 
     [Fly Genome](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/) released 
     [Aug 2014 (dm6, BDGP Release 6 + ISO1 MT)](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz)
-* **NCBI Gene** Downloaded **October 24, 2015**
-  * **Homo sapiens (human)**: Taxonomy ID 9606
+* [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **October 24, 2015**
+  * **Homo sapiens (human)**: Taxonomy ID [9606]
+    (http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_hsa_All.tsv](./NCBI/genes_NCBI_hsa_All.tsv) using this
       [**Search for All Human DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)

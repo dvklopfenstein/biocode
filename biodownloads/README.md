@@ -8,6 +8,9 @@
   * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/mm10/cytoBandIdeo.txt) from **UCSC**'s 
     [Mouse Genome](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/) released 
     [Dec 2011 mm10](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
+  * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/dm6/cytoBandIdeo.txt) from **UCSC**'s 
+    [Fly Genome](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/) released 
+    [Aug 2014 (dm6, BDGP Release 6 + ISO1 MT)](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz)
 * **NCBI Gene** Downloaded **October 24, 2015**
   * **Homo sapiens (human)**: Taxonomy ID 9606
     * [genes_NCBI_hsa_All.tsv](./NCBI/genes_NCBI_hsa_All.tsv) using this

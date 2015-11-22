@@ -91,7 +91,7 @@ class ChrAB(object):
 
   def get_dist(self, rhs_chrab):
     """Return intergenic distance between two genes. Return 0 if overlapping or 'kissing'."""
-    if self.schr == rhs_chrab.schr:
+    if rhs_chrab is not None and self.schr == rhs_chrab.schr:
       # Put gene coords in list and sort genes by smallest coord. eg [[0, 5], [6, 10]]
       genes_ab = sorted([self.get_plotXs(), rhs_chrab.get_plotXs()], key=lambda t: t[0])
       if genes_ab[0][1] < genes_ab[1][0]: # Not 'kissing'

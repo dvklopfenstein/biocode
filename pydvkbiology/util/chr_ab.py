@@ -15,13 +15,18 @@ class ChrAB(object):
   rev = ['-', 'minus']
   typ = cx.namedtuple("ChrAB", "chr start_bp stop_bp fwd_strand ichr")
 
-  def __init__(self, schr, start_bp, stop_bp, orientation=None, orgn=None, name=None):
+  def __init__(self, schr, start_bp, stop_bp=None, orientation=None, orgn=None, name=None):
     """Initialize data members."""
     self.name = name
     self.schr = schr
     self.ichr = None
     self.start_bp = start_bp if isinstance(start_bp, int) else None
-    self.stop_bp = stop_bp if isinstance(stop_bp, int) else None
+    if stop_bp is None:
+      self.stop_bp = self.start_bp
+    elif isinstance(stop_bp, int):
+      self.stop_bp = stop_bp
+    else:
+      self.stop_bp = None
     self._init(orientation, orgn)
 
   def _init(self, orientation, orgn):
@@ -188,9 +193,14 @@ class ChrAB(object):
         return False
     
   def __str__(self):
-    pm = "+" if self.stop_bp > self.start_bp else "-"
-    return "{SCHR:>2} {pm} {START} {STOP}".format(
-      SCHR=self.schr, pm=pm, START=self.start_bp, STOP=self.stop_bp)
+    txt = []
+    bp1 = self.start_bp == self.stop_bp
+    if not bp1:
+      txt.append("({})".format("+" if self.stop_bp > self.start_bp else "-"))
+    txt.append("chr{SCHR:<2} {START}".format(SCHR=self.schr, START=self.start_bp))
+    if bp1:
+      return ''.join(txt)
+    return ''.join([txt, " {STOP}".format(STOP=self.stop_bp)])
 
   def __repr__(self):
     ret = 'ChrAB("{schr}", {start_bp}, {stop_bp}'.format(

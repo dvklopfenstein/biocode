@@ -203,8 +203,9 @@ class ChrAB(object):
     return ''.join([txt, " {STOP}".format(STOP=self.stop_bp)])
 
   def __repr__(self):
-    ret = 'ChrAB("{schr}", {start_bp}, {stop_bp}'.format(
-      schr=self.schr, start_bp=self.start_bp, stop_bp=self.stop_bp)
+    ret = 'ChrAB("{schr}", {start_bp}'.format(schr=self.schr, start_bp=self.start_bp)
+    if self.start_bp != self.stop_bp:
+      ret = ', {stop_bp}'.format(stop_bp=self.stop_bp)
     if self.name is not None:
       ret = "{RET}, name={NAME}".format(RET=ret, NAME=self.name)
     return "{RET})".format(RET=ret)

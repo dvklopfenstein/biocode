@@ -39,7 +39,7 @@ def find_IDs_with_ESearch(db, retmax, email, query):
     raise Exception("NO IDS FOUND FOR '{}' SEARCH({})\n".format(db, query))
 
 # -------------------------------------------------------
-def EPost(db, IDs, email, LOG=sys.stdout, step=10):
+def EPost(db, IDs, email, log=sys.stdout, step=10):
   """Posts to NCBI WebServer of any number of UIDs."""
   ## http://biopython.org/DIST/docs/tutorial/Tutorial.html#htoc112
   Entrez.email = email
@@ -49,9 +49,9 @@ def EPost(db, IDs, email, LOG=sys.stdout, step=10):
   # epost produces WebEnv value ($web1) and QueryKey value ($key1) 
   socket_handle = Entrez.epost(db, id=id_str)
   record = Entrez.read(socket_handle)
-  if LOG is not None:
-    LOG.write('FIRST EPOST RESULT: {}\n'.format(record))
-    LOG.write("QueryKey({:>6})  IDs={}\n".format(record['QueryKey'], id_str))
+  if log is not None:
+    log.write('FIRST EPOST RESULT: {}\n'.format(record))
+    log.write("QueryKey({:>6})  IDs={}\n".format(record['QueryKey'], id_str))
   socket_handle.close()
   if 'WebEnv' in record:
     WebEnv = record['WebEnv']
@@ -66,11 +66,11 @@ def EPost(db, IDs, email, LOG=sys.stdout, step=10):
       socket_handle = Entrez.epost(db, id=id_str, WebEnv=WebEnv)
       record = Entrez.read(socket_handle)
       WebEnv = record['WebEnv']
-      LOG.write("QueryKey({:>6})  strIDs={}\n".format(record['QueryKey'], id_str))
+      if log is not None: log.write("QueryKey({:>6})  strIDs={}\n".format(record['QueryKey'], id_str))
       socket_handle.close()
   else:
     raise Exception("NO WebEnv RETURNED FROM FIRST EPOST")
-  if LOG is not None: LOG.write('LAST  EPOST RESULT: {}\n'.format(record))
+  if log is not None: log.write('LAST  EPOST RESULT: {}\n'.format(record))
   return record
   
 
@@ -114,7 +114,7 @@ def get_DbStats(db, version='2.0', retmode='xml'):
   return record
 
 # -------------------------------------------------------
-def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout):
+def EFetch_and_write(desc, db, fout, typemode, record, batch_size=100, PRT=sys.stdout):
   """Fetches NCBI records returned from last search.
 
   For NCBI's online documentation of efetch:
@@ -124,12 +124,12 @@ def EFetch_and_write(db, fout, typemode, record, batch_size=100, PRT=sys.stdout)
   # Write the list of UIDs in the record
   tsv = get_tsv_filename(fout)
   wr_IDs(tsv, record)
-  EFetch_and_write_N(db, fout, typemode, record, N, batch_size, PRT)
+  EFetch_and_write_N(desc, db, fout, typemode, record, N, batch_size, PRT)
 
 
-def EFetch_and_write_N(db, fout, typemode, record, N, batch_size=100, PRT=sys.stdout):
+def EFetch_and_write_N(desc, db, fout, typemode, record, N, batch_size=100, PRT=sys.stdout):
   FOUT = open(fout, 'w')
-  downloaded_data = EFetch_and_write_WEQK_N(db, FOUT, typemode, record, 
+  downloaded_data = EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, record, 
     record['WebEnv'], record['QueryKey'], N, batch_size=100, PRT=sys.stdout)
   FOUT.close(); PRT.write("  WROTE: {}\n".format(fout))
  
@@ -141,7 +141,7 @@ def EFetch_and_write_N(db, fout, typemode, record, N, batch_size=100, PRT=sys.st
   return downloaded_data
 
 
-def EFetch_and_write_WEQK_N(db, FOUT, typemode, record, WE, QK, N, batch_size=100, PRT=sys.stdout):
+def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, record, WE, QK, N, batch_size=100, PRT=sys.stdout):
   downloaded_data = None 
   # EFetch records found for IDs returned in ESearch...
   # Search for IDs returned using ID of the above Web Search
@@ -149,7 +149,8 @@ def EFetch_and_write_WEQK_N(db, FOUT, typemode, record, WE, QK, N, batch_size=10
   for start in range(0, N, batch_size):
     #print "BBBB", start
     socket_handle = None
-    msg = '  QueryKey({:>6}) EFetching up to {:5} records, starting at {}\n'.format(QK, batch_size,start)
+    msg = '  QueryKey({:>6}) EFetching(db={}) up to {:5} records, starting at {}; {}\n'.format(
+      QK, db, batch_size, start, desc)
     #PRT.write(msg); PRT.flush()
     sys.stdout.write(msg)
     try:

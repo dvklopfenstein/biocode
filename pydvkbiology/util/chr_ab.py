@@ -126,6 +126,13 @@ class ChrAB(object):
       return min(self.start_bp, self.stop_bp)
     return None
 
+  def get_ichr(self, orgn=None):
+    """Gets chromosome index if it is available. If not, sets it in this object, then returns it."""
+    if self.ichr is not None:
+      return self.ichr
+    self.ichr = orgn.get_iChr(self.schr)
+    return self.ichr
+
   @staticmethod
   def get_aart_len(win_start, win_end, bpsPchar=20000):
     """Returns the number of characters in an ASCII Art line."""

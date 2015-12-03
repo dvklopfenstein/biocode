@@ -200,6 +200,7 @@ class ChrAB(object):
         return False
     
   def __str__(self):
+    print "AAAA", self.schr, self.start_bp, self.stop_bp
     txt = []
     bp1 = self.start_bp == self.stop_bp
     if not bp1:
@@ -207,7 +208,8 @@ class ChrAB(object):
     txt.append("chr{SCHR:<2} {START}".format(SCHR=self.schr, START=self.start_bp))
     if bp1:
       return ''.join(txt)
-    return ''.join([txt, " {STOP}".format(STOP=self.stop_bp)])
+    txt.append(" {STOP}".format(STOP=self.stop_bp))
+    return ''.join(txt)
 
   def __repr__(self):
     ret = 'ChrAB("{schr}", {start_bp}'.format(schr=self.schr, start_bp=self.start_bp)

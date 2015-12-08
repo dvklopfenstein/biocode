@@ -11,6 +11,8 @@
 
 ### Bio Downloads
   * Selected [downloads] (https://github.com/dklopfenstein/biocode/tree/master/biodownloads/README.md) from Biological databases
+  * Biosketch/CV/resume: [p1](./doc/resume/biosketch_dvklopfenstein2015-0.png) and
+    [p2](./doc/resume/biosketch_dvklopfenstein2015-1.png)
 
 ### Color Picking
   * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and

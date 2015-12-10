@@ -45,7 +45,8 @@ class ChrAB(object):
         self.start_bp, self.stop_bp = self.stop_bp, self.start_bp
     elif orientation in ChrAB.fwd:
       pass
-    else:
+    # An expected orientation is only relevant if there are both start_bp and stop_bp
+    elif self.start_bp is not None and self.stop_bp is not None:
       raise Exception("UNKNOWN ORIENTATION({})".format(orientation))
 
   def is_fwd(self):
@@ -94,15 +95,19 @@ class ChrAB(object):
   def get_len(self):
     return abs(self.stop_bp-self.start_bp)
 
+  def has_abs(self):
+    return self.start_bp is not None and self.stop_bp is not None
+
   def get_dist(self, rhs_chrab):
     """Return intergenic distance between two genes. Return 0 if overlapping or 'kissing'."""
     if rhs_chrab is not None and self.schr == rhs_chrab.schr:
       # Put gene coords in list and sort genes by smallest coord. eg [[0, 5], [6, 10]]
-      genes_ab = sorted([self.get_plotXs(), rhs_chrab.get_plotXs()], key=lambda t: t[0])
-      if genes_ab[0][1] < genes_ab[1][0]: # Not 'kissing'
-        return genes_ab[1][0] - genes_ab[0][1]
-      return 0 
-    return None # genes are on separate chromosomes
+      if self.has_abs() and rhs_chrab.has_abs():
+        genes_ab = sorted([self.get_plotXs(), rhs_chrab.get_plotXs()], key=lambda t: t[0])
+        if genes_ab[0][1] < genes_ab[1][0]: # Not 'kissing'
+          return genes_ab[1][0] - genes_ab[0][1]
+        return 0 
+    return None # genes are on separate chromosomes or lack bp values
 
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""

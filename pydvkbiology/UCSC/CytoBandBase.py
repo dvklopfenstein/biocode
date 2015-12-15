@@ -58,6 +58,7 @@ class CytoBandBase:
     self.stalks   = data['stalks']
     self.map2info = data['map2info']
     self.coarse   = data['coarse']
+    self.chr_plt  = data['chr_legend'] # Location for legend in genome plots
 
   def isChr(self, sChr):
     """Returns True if the name of the chromosome is recognized."""

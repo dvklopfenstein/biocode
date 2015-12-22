@@ -38,7 +38,7 @@ def main():
             F[13] = '278486'  # bN
             F[14] = 'minus' # +/-
             F[15] = '6'       # b0
-            F[16] = ''.join([F[16], '\t\n'])
+            F[16] = ''.join([F[16], '\t\r\n'])
             line = '\t'.join(F[:-1])
         FOUT.write(line)
       FOUT.close()

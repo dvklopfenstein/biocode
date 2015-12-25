@@ -3,7 +3,7 @@
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
-downloaded = "2015_12_24" # UniProt source files were downloaded on this date
+downloaded = "2015_12_25" # UniProt source files were downloaded on this date
 
 # Contains 19048 items for Homo sapiens (Human)
 

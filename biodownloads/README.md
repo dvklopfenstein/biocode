@@ -43,6 +43,19 @@
       (1202 items)
   * **Drosophila melanogaster (fruit fly)**: Taxonomy ID [7227]
     (http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&lin=f&keep=1&srchmode=1&unlock)
+    * [genes_NCBI_dme_All.tsv](./NCBI/genes_NCBI_dme_All.tsv) using this
+      [**Search for All Fruit fly DNA Items**]
+      (http://www.ncbi.nlm.nih.gov/gene/?term=%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
+      (??? items)
+    * [genes_NCBI_dme_ProteinCoding.tsv](./NCBI/genes_NCBI_dme_ProteinCoding.tsv) using this
+      [**Search for Fruit fly Protein-Coding Genes**]
+      (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
+      (13919 items)
+    * [genes_NCBI_dme_microRNA.tsv](./NCBI/genes_NCBI_dme_microRNA.tsv) using this
+      [**Search for Fruit fly microRNA**]
+      (http://www.ncbi.nlm.nih.gov/gene/?term=7227%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
+      (??? items)
+    (http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&lin=f&keep=1&srchmode=1&unlock)
 * **GENCODE lncRNA** [v23 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_23/) Oct 26, 2015
   * extracted for all lines where feature=gene from gencode.v23.long_noncoding_RNAs.gtf 
     (Release 23 (GRCh38.p3) 2.4MB 7/16/15 4:10:00 PM):

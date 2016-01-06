@@ -51,7 +51,7 @@
       [**Search for Fruit fly Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (13919 items) 
-    * [genes_NCBI_dme_noncoding.tsv](./NCBI/genes_NCBI_dme_nondocing.tsv) using this
+    * [genes_NCBI_dme_noncoding.tsv](./NCBI/genes_NCBI_dme_noncoding.tsv) using this
       [**Search for Fruit fly Non-coding DNA items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=7227%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+((%22genetype+miscrna%22%5BProperties%5D+OR+%22genetype+ncrna%22%5BProperties%5D+OR+%22genetype+rrna%22%5BProperties%5D+OR+%22genetype+trna%22%5BProperties%5D+OR+%22genetype+scrna%22%5BProperties%5D+OR+%22genetype+snrna%22%5BProperties%5D+OR+%22genetype+snorna%22%5BProperties%5D)+NOT+%22genetype+protein+coding%22%5BProperties%5D))
       (3516 items) 

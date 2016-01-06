@@ -37,6 +37,6 @@ NCBI_Gene_dme_all:
 NCBI_Gene_dme_pc:
 	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_dme_ProteinCoding.tsv
 
-# Download all microRNA for Drosophila melanogaster (fruit fly)
-NCBI_Gene_dme_uRNA:
-	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_dme_microRNA.tsv
+# Download all noncoding items for Drosophila melanogaster (fruit fly)
+NCBI_Gene_dme_noncoding:
+	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_dme_noncoding.tsv

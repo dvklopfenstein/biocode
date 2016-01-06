@@ -12,49 +12,49 @@
   * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/dm6/cytoBandIdeo.txt) from **UCSC**'s 
     [Fly Genome](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/) released 
     [Aug 2014 (dm6, BDGP Release 6 + ISO1 MT)](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz)
-* [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **December 17, 2015**
+* [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **January 5, 2016**
   * **Homo sapiens (human)**: Taxonomy ID [9606]
     (http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_hsa_All.tsv](./NCBI/genes_NCBI_hsa_All.tsv) using this
       [**Search for All Human DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (59546 items)
+      (59542 items) 
     * [genes_NCBI_hsa_ProteinCoding.tsv](./NCBI/genes_NCBI_hsa_ProteinCoding.tsv) using this
       [**Search for Human Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (20921 items)
+      (20922 items) 
     * [genes_NCBI_hsa_microRNA.tsv](./NCBI/genes_NCBI_hsa_microRNA.tsv) using this
       [**Search for All Human microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=9606%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
-      (1883 items)
+      (1883 items) 
   * **Mus musculus (house mouse)**: Taxonomy ID [10090]
     (http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_mus_All.tsv](./NCBI/genes_NCBI_mus_All.tsv) using this
       [**Search for All Mouse DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (71446 items)
+      (69432 items) 
     * [genes_NCBI_mus_ProteinCoding.tsv](./NCBI/genes_NCBI_mus_ProteinCoding.tsv) using this
       [**Search for Mouse Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (28459 items)
+      (28235 items) 
     * [genes_NCBI_mus_microRNA.tsv](./NCBI/genes_NCBI_mus_microRNA.tsv) using this
       [**Search for Mouse microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
-      (1202 items)
+      (1202 items) 
   * **Drosophila melanogaster (fruit fly)**: Taxonomy ID [7227]
     (http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_dme_All.tsv](./NCBI/genes_NCBI_dme_All.tsv) using this
       [**Search for All Fruit fly DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (25074 items)
+      (25074 items) 
     * [genes_NCBI_dme_ProteinCoding.tsv](./NCBI/genes_NCBI_dme_ProteinCoding.tsv) using this
       [**Search for Fruit fly Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (13919 items)
+      (13919 items) 
     * [genes_NCBI_dme_noncoding.tsv](./NCBI/genes_NCBI_dme_nondocing.tsv) using this
       [**Search for Fruit fly Non-coding DNA items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=7227%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+((%22genetype+miscrna%22%5BProperties%5D+OR+%22genetype+ncrna%22%5BProperties%5D+OR+%22genetype+rrna%22%5BProperties%5D+OR+%22genetype+trna%22%5BProperties%5D+OR+%22genetype+scrna%22%5BProperties%5D+OR+%22genetype+snrna%22%5BProperties%5D+OR+%22genetype+snorna%22%5BProperties%5D)+NOT+%22genetype+protein+coding%22%5BProperties%5D))
-      (3516 items)
+      (3516 items) 
 
 * **GENCODE lncRNA** [v23 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_23/) Oct 26, 2015
   * extracted for all lines where feature=gene from gencode.v23.long_noncoding_RNAs.gtf 

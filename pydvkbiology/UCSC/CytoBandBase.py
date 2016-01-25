@@ -143,13 +143,28 @@ class CytoBandBase:
     if chr_idx < self.num_chr:
       return self.lengths[chr_idx]
 
+  def get_len_adj(self, chr_idx):
+    """Get the length of one particular chromosome minus centromere/stalk/gvar if exists."""
+    len_chr = self.get_len(chr_idx)
+    len_adj = self.adj_len(len_chr, chr_idx, self.get_gvarL)
+    len_adj = self.adj_len(len_adj, chr_idx, self.get_stalkL)
+    len_adj = self.adj_len(len_adj, chr_idx, self.cen_get_len)
+    return len_adj
+
+  def adj_len(self, len_chr, chr_idx, get_genepoor_len):
+    """Subtract gene-poor areas from overall chromosome length."""
+    len_genepoor = get_genepoor_len(chr_idx)
+    if len_genepoor is not None:
+      return len_chr - len_genepoor
+    return len_chr
+
   def get_len_max(self):
     """Get the length of the largest Chromosome in the genome."""
     return max(L for L in self.lengths)
 
   def get_len_genome(self):
     """Returns the sum of the length of all chromosomes."""
-    return sum( self.lengths )
+    return sum(self.lengths)
     
   def get_iChr(self, sChr):
     """Given the commonly known chromosome name, return the chr list index used by this class."""

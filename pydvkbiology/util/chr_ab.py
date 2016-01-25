@@ -28,6 +28,9 @@ class ChrAB(object):
     else:
       self.stop_bp = None
     self._init(orientation, orgn)
+ 
+  def __equal__(self, lhs_cab):
+    return self.schr==lhs_cab.schr and self.start_bp==lhs_cab.start_bp and self.stop_bp==lhs_cab.stop_bp
 
   def _init(self, orientation, orgn):
     """Set:  Fwd: Start < Stop;   Rev: Start > Stop."""
@@ -139,6 +142,14 @@ class ChrAB(object):
     return self.ichr
 
   @staticmethod
+  def rng_g_cabs(cab_lst):
+    """Given a list of ChrABs, give the min bp and maxbp."""
+    bps = set()
+    for cab in cab_lst:
+      bps |= set([cab.start_bp, cab.stop_bp])
+    return min(bps), max(bps)
+
+  @staticmethod
   def get_aart_len(win_start, win_end, bpsPchar=20000):
     """Returns the number of characters in an ASCII Art line."""
     return int(float(win_end-win_start)/bpsPchar)+1
@@ -209,10 +220,10 @@ class ChrAB(object):
     bp1 = self.start_bp == self.stop_bp
     if not bp1:
       txt.append("({})".format("+" if self.stop_bp > self.start_bp else "-"))
-    txt.append("chr{SCHR:<2} {START}".format(SCHR=self.schr, START=self.start_bp))
+    txt.append("chr{SCHR:<2} {START:>9}".format(SCHR=self.schr, START=self.start_bp))
     if bp1:
       return ''.join(txt)
-    txt.append(" {STOP}".format(STOP=self.stop_bp))
+    txt.append(" {STOP:>9}".format(STOP=self.stop_bp))
     return ''.join(txt)
 
   def __repr__(self):

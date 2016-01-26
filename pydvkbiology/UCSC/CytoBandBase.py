@@ -42,6 +42,9 @@ __maintainer__ = "DV Klopfenstein"
 class CytoBandBase:
   """Python Interface to Species-Independent UCSC cytoBandIdeo.txt information."""
 
+  flds_rpt_orgn = ['iChr', 'sChr', 'len_chr', 'len_adj', 'perc_chr', 'perc_adjDchr']
+  NtOrgnRpt = cx.namedtuple("NtOrgnRpt", " ".join(flds_rpt_orgn))
+
   def __init__(self, data):
     """Initialize variables using data downloaded from a UCSC Cytoband file."""
     # Number of Chromosomes for this species
@@ -59,6 +62,18 @@ class CytoBandBase:
     self.map2info = data['map2info']
     self.coarse   = data['coarse']
     self.chr_plt  = data['chr_legend'] # Location for legend in genome plots
+
+  def get_summary_iChr2orgninfo(self):
+    """Collect summary chr data: chr length, adjusted length, etc."""
+    summary_iChr2orgninfo = {}
+    for iChr in range(self.num_chr):
+      sChr = self.get_sChr(iChr)
+      len_chr = self.get_len(iChr)
+      len_adj = self.get_len_adj(iChr) # length minus gene-poor areas
+      perc_chr = 100.0*len_chr/self.get_len_max()
+      perc_adjDchr = 100.0*len_adj/len_chr
+      summary_iChr2orgninfo[iChr] = self.NtOrgnRpt(iChr, sChr, len_chr, len_adj, perc_chr, perc_adjDchr)
+    return summary_iChr2orgninfo
 
   def isChr(self, sChr):
     """Returns True if the name of the chromosome is recognized."""

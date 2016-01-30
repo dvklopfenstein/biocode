@@ -79,6 +79,9 @@ class CytoBandBase:
     """Returns True if the name of the chromosome is recognized."""
     return True if sChr.strip() in self.chr_s2i else False
 
+  def getCytobandRange_ChrAB(self, cab, ret_max=None, shorten=True):
+    return self.getCytobandRange(cab.schr, cab.start_bp, cab.stop_bp, ret_max, shorten)
+
   def getCytobandRange(self, sChr, start, end, ret_max=None, shorten=True):
     iChr = self.get_iChr(sChr)
     bp0 = self.get_map_loc(iChr, start, ret_max)

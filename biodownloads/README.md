@@ -6,17 +6,17 @@
   * <a name="top"></a>
     [Human Genome](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/) released 
     [Dec 2013 (hg38, GRCh38)] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)
-    * [cytoBandIdeo.txt](./UCSC/hg38/cytoBandIdeo.txt) 
+    * [cytoBandIdeo.txt](./UCSC/hg38/cytoBandIdeo.txt),
       [hg38.2bit](http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/)
   * <a name="top"></a>
     [Mouse Genome](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/) released 
     [Dec 2011 (mm10)](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
-    * [cytoBandIdeo.txt](./UCSC/mm10/cytoBandIdeo.txt) 
+    * [cytoBandIdeo.txt](./UCSC/mm10/cytoBandIdeo.txt), 
       [mm10.2bit](http://hgdownload.cse.ucsc.edu/goldenPath/mm10/bigZips/)
   * <a name="top"></a>
     [Fly Genome](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/) released 
     [Aug 2014 (dm6, BDGP Release 6 + ISO1 MT)](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz)
-    * [cytoBandIdeo.txt](./UCSC/dm6/cytoBandIdeo.txt) 
+    * [cytoBandIdeo.txt](./UCSC/dm6/cytoBandIdeo.txt),
       [dm6.2bit](http://hgdownload.cse.ucsc.edu/goldenPath/dm6/bigZips/)
 * [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **January 5, 2016**
   * **Homo sapiens (human)**: Taxonomy ID [9606]

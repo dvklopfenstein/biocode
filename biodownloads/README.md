@@ -3,13 +3,16 @@
 ## Downloads in original source format
 * [**UCSC Sequence and Annotation Downloads**](http://hgdownload.cse.ucsc.edu/downloads.html) for 
   [cytoBandIdeo.txt file](#cytobandideotxt)
-  * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/hg38/cytoBandIdeo.txt) from **UCSC**'s 
-    [Human Genome](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/) released 
+  * <a name="top"></a>
+    [cytoBandIdeo.txt](./UCSC/hg38/cytoBandIdeo.txt) 
+    **UCSC**'s [Human Genome](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/) released 
     [Dec 2013 (hg38, GRCh38)] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)
-  * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/mm10/cytoBandIdeo.txt) from **UCSC**'s 
-    [Mouse Genome](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/) released 
+  * <a name="top"></a>
+    [cytoBandIdeo.txt](./UCSC/mm10/cytoBandIdeo.txt) 
+    **UCSC**'s [Mouse Genome](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/) released 
     [Dec 2011 (mm10)](http://hgdownload.soe.ucsc.edu/goldenPath/mm10/database/cytoBandIdeo.txt.gz)
-  * <a name="top"></a>[cytoBandIdeo.txt] (./UCSC/dm6/cytoBandIdeo.txt) from **UCSC**'s 
+  * <a name="top"></a>
+    [cytoBandIdeo.txt](./UCSC/dm6/cytoBandIdeo.txt) 
     [Fly Genome](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/) released 
     [Aug 2014 (dm6, BDGP Release 6 + ISO1 MT)](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz)
 * [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **January 5, 2016**

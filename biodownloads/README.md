@@ -2,7 +2,8 @@
 
 ## Downloads in original source format
 * [**UCSC Sequence and Annotation Downloads**](http://hgdownload.cse.ucsc.edu/downloads.html) for 
-  [cytoBandIdeo.txt file](#cytobandideotxt) and human/mouse/fly genomic sequence in 2bit files
+  [cytoBandIdeo.txt file](#cytobandideotxt) and human/mouse/fly genomic sequence in 2bit files from
+  [The Genome Reference Consortium](http://www.ncbi.nlm.nih.gov/projects/genome/assembly/grc/)
   * <a name="top"></a>
     [Human Genome](http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/) released 
     [Dec 2013 (hg38, GRCh38)] (http://hgdownload.soe.ucsc.edu/goldenPath/hg38/database/cytoBandIdeo.txt.gz)

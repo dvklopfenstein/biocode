@@ -68,6 +68,9 @@
     (Release 23 (GRCh38.p3) 2.4MB 7/16/15 4:10:00 PM):
     [genes_GENCODE_lncRNA.tsv](./GENCODE/genes_GENCODE_lncRNA.tsv)
 
+* [**SNPs**](http://learn.genetics.utah.edu/content/pharma/snips/) downloaded Feb 12, 2016   
+  * NCBI dbSNP [Search for All Human SNPs](http://www.ncbi.nlm.nih.gov/snp/?term=%22Homo+sapiens%22%5BOrganism%5D+AND+snp%5BSnp_Class%5D) (144702459 items)
+
 ## Downloads translated to Python format
 * **UniProt** Downloaded December 26, 2015
   * 86,556 UniProt Accession numbers to 19,048 Entrez GeneIDs (and vice versa) for Homo sapiens:    

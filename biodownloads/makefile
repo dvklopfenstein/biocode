@@ -40,3 +40,8 @@ NCBI_Gene_dme_pc:
 # Download all noncoding items for Drosophila melanogaster (fruit fly)
 NCBI_Gene_dme_noncoding:
 	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_dme_noncoding.tsv
+
+
+# Download SNPs
+NCBI_dbSNP_hsa_OMIM:
+	mv $(DL)/snp_result.txt ./NCBI/dbSNP_NCBI_hsa_OMIM.tsv

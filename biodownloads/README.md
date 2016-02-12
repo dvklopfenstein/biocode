@@ -69,7 +69,10 @@
     [genes_GENCODE_lncRNA.tsv](./GENCODE/genes_GENCODE_lncRNA.tsv)
 
 * [**SNPs**](http://learn.genetics.utah.edu/content/pharma/snips/) downloaded Feb 12, 2016   
-  * NCBI dbSNP [Search for All Human SNPs](http://www.ncbi.nlm.nih.gov/snp/?term=%22Homo+sapiens%22%5BOrganism%5D+AND+snp%5BSnp_Class%5D) (144702459 items)
+  * NCBI dbSNP [Search for All Human SNPs](http://www.ncbi.nlm.nih.gov/snp/?term=%22Homo+sapiens%22%5BOrganism%5D+AND+snp%5BSnp_Class%5D) 
+   (144702459 items)
+  * NCBI dbSNP [Search for OMIM Human SNPs](http://www.ncbi.nlm.nih.gov/snp/?term=%22Homo+sapiens%22%5BOrganism%5D+AND+snp%5BSnp_Class%5D+AND+AND+snp_omim%5BFilter%5D) 
+   (16498 items)
 
 ## Downloads translated to Python format
 * **UniProt** Downloaded December 26, 2015

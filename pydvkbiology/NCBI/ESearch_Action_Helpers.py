@@ -17,7 +17,7 @@ from Bio import Entrez
 import requests
 
 # -------------------------------------------------------
-def find_IDs_with_ESearch(db, retmax, email, query):
+def find_IDs_with_ESearch(db, retmax, email, query, log=sys.stdout):
   """Searches an NCBI database for a user search term, returns NCBI records."""
 
   # Provide your email to the NCBI so they may contact you prior 
@@ -35,8 +35,6 @@ def find_IDs_with_ESearch(db, retmax, email, query):
   
   if 'IdList' in record and record['IdList']:
     return record
-  else:
-    raise Exception("NO IDS FOUND FOR '{}' SEARCH({})\n".format(db, query))
 
 # -------------------------------------------------------
 def EPost(db, IDs, email, log=sys.stdout, step=10):

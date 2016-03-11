@@ -1,9 +1,9 @@
 
-# Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved
+# Copyright (C) 2014-2016 DV Klopfenstein. All rights reserved
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
-downloaded = "2015_12_26" # UniProt source files were downloaded on this date
+downloaded = "2016_03_06" # UniProt source files were downloaded on this date
 
 # Contains 19048 items for Homo sapiens (Human)
 

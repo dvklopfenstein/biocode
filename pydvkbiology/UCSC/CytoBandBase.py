@@ -47,6 +47,8 @@ class CytoBandBase:
 
   def __init__(self, data):
     """Initialize variables using data downloaded from a UCSC Cytoband file."""
+    # Species w/version of build
+    self.species = data['species']
     # Number of Chromosomes for this species
     self.num_chr = data['num_chr']
     # Index to Chromosome Name

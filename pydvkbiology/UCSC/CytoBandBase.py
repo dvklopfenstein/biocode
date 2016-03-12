@@ -29,8 +29,9 @@
 # Klopfenstein D.V. (2014) Storage and Python Access to UCSC's Cytoband Data In A Species-Independent Manner (Version 2.0) 
 # [Computer program]. Available at https://github.com/dklopfenstein/biocode/blob/master/PyDkBio/UCSC/CytoBandBase.py (Accessed [NN Month 20NN])
 
-import collections as cx
+import sys
 import re
+import collections as cx
 import numpy as np
 
 __author__  = 'DV Klopfenstein'
@@ -47,6 +48,7 @@ class CytoBandBase:
 
   def __init__(self, data):
     """Initialize variables using data downloaded from a UCSC Cytoband file."""
+    self.log = sys.stdout
     # Species w/version of build
     self.species = data['species']
     # Number of Chromosomes for this species
@@ -94,12 +96,20 @@ class CytoBandBase:
     """Shortern the print of the range if possible."""
     # No shortening; This is a single cytomap location, not a range.
     if bp0 == bpN: 
-      return ''.join([sChr, bp0])
+      if sChr != bp0:
+        return ''.join([sChr, bp0])
+      else:
+        return sChr
     if shorten:
+      #print "CHR({}) BP0({}) BPN({})".format(sChr, bp0, bpN)
       pq_0, coarse_0, detailed_0 = self.split_cytomap(bp0)
       pq_N, coarse_N, detailed_N = self.split_cytomap(bpN)
+      # Fly genome case on 2R: None 41B3 None -> None 41C1 None
+      if (pq_0 is None and coarse_0 is not None and detailed_0 is None) and \
+         (pq_N is None and coarse_N is not None and detailed_N is None):
+        return ''.join([sChr, ':', coarse_0, '-', coarse_N])
       # No shortening; Cytomap ends are on different chromosome arms
-      if pq_0 != pq_N: 
+      if pq_0 is not None and pq_N is not None and pq_0 != pq_N: 
         return ''.join([ sChr, bp0, '-', bpN ])
       # Shorten 'pq' only; coarse regions are different
       if coarse_0 != coarse_N:
@@ -111,19 +121,21 @@ class CytoBandBase:
 
   def split_cytomap(self, pRA_rb):
     """Splits cytomap into "p or q", coarse "Region A", and detailed "region b"."""
-    pq = None
-    word = pRA_rb
-    arm  = word[0]
-    if arm == 'p' or arm == 'q':
-      pq = arm
-      word = word[1:]
-    if "." not in word:
-      return pq, word, None
-    else:
-      fields = word.split(r".")
-      if len(fields) == 2:
-        return pq, fields[0], fields[1]
-    return (pq, None, None)
+    if pRA_rb:
+      pq = None
+      word = pRA_rb
+      arm  = word[0]
+      if arm == 'p' or arm == 'q':
+        pq = arm
+        word = word[1:]
+      if "." not in word:
+        return pq, word, None
+      else:
+        fields = word.split(r".")
+        if len(fields) == 2:
+          return pq, fields[0], fields[1]
+      return (pq, None, None)
+    return (None, "", None)
     
 
   def getCytoband(self, sChr, bp, ret_max=None):
@@ -223,6 +235,7 @@ class CytoBandBase:
         return cmap
 
     max_bp = self.get_max_bp(iChr)
+    print "MMMM", max_bp
     # If the bp > max_bp for that chromosome
     if ret_max is not None and bp > max_bp:
       # Return cytomap at the highest bp value if the user specifies ret_max=True
@@ -235,9 +248,11 @@ class CytoBandBase:
       else:
         return None
     else:
+      # return sChr if there is no cytomap found for the user's 'bp' value
+      return self.get_sChr(iChr)
     # Raise an Exception if there is no cytomap found for the user's 'bp' value
-      raise Exception('*FATAL: get_map_loc(chr({}), bp({})): NO map VALUE AVAILABLE; MAX_BP({}) DELTA({})'.format(
-        self.get_sChr(iChr), bp, self.get_max_bp(iChr), bp - self.get_max_bp(iChr) ))
+    #  raise Exception('*FATAL: retmax({R}) get_map_loc(chr({CHR}), bp({BP:,})): NO map VALUE AVAILABLE; MAX_BP({MBP:,}) DELTA({D:,})'.format(
+    #    R=ret_max, CHR=self.get_sChr(iChr), BP=bp, MBP=self.get_max_bp(iChr), D = bp - self.get_max_bp(iChr) ))
 
 
   def get_sChr(self, chr_idx):

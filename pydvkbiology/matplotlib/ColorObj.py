@@ -52,6 +52,9 @@ class MplColorHelper:
   def max_hexstr(self): return self.get_hexstr(self.stop_val)
 
 
+
+
+
 def example1_MplColorHelper():
   import numpy as np
   # setup the plot

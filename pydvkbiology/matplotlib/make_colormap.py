@@ -23,19 +23,27 @@ def make_colormap(seq):
             cdict['red'].append([item, r1, r2])
             cdict['green'].append([item, g1, g2])
             cdict['blue'].append([item, b1, b2])
+    for E in seq: print "SEQ", E
+    for E in cdict.items(): print "CDT", E
     return mcolors.LinearSegmentedColormap('CustomMap', cdict)
 
-c = mcolors.ColorConverter().to_rgb
-rvb = make_colormap([
-  c('red'), c('violet'), 0.33,
-  c('violet'), c('blue'), 0.66,
-  c('blue')])
-N = 1000
-array_dg = np.random.uniform(0,10, size=(N, 2))
-colors = np.random.uniform(-2, 2, size=(N,))
-plt.scatter(array_dg[:, 0], array_dg[:, 1], c=colors, cmap=rvb)
-plt.colorbar()
-plt.show()
+def main(N=1000):
+    c = mcolors.ColorConverter().to_rgb
+    rvb = make_colormap([
+      c('red'), c('violet'), 0.33,
+      c('violet'), c('blue'), 0.66,
+      c('blue')])
+    colors   = np.random.uniform(low=-2, high=2,  size=(N,))
+    # Generate N "[x, y]"s where x and y values vary from 0...10: [[x0, y0], [x1, y1], ...
+    XYs = np.random.uniform(low=0,  high=10, size=(N, 2)) 
+    Xs, Ys = zip(*XYs)
+    # Create Scatter Plot
+    plt.scatter(Xs, Ys, c=colors, cmap=rvb)
+    plt.colorbar()
+    plt.show()
+
+if __name__ == '__main__':
+    main()
   
 
 

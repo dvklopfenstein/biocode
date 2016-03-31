@@ -47,6 +47,10 @@ class MplColorHelper:
   def get_color_list(self):
     return [self.get_hexstr(i) for i in range(self.start_val, self.stop_val+1)]
 
+  def min_hexstr(self): return self.get_hexstr(self.start_val)
+
+  def max_hexstr(self): return self.get_hexstr(self.stop_val)
+
 
 def example1_MplColorHelper():
   import numpy as np
@@ -69,7 +73,7 @@ def example1_MplColorHelper():
   plt.show()
 
 
-def example2_named_colors():
+def example2_mpl_namedcolors():
   """ Plots all the named colors in matplotlib.
 
       From: http://stackoverflow.com/questions/22408237/named-colors-in-matplotlib

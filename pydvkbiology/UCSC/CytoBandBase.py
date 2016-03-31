@@ -202,8 +202,9 @@ class CytoBandBase:
     """Given the commonly known chromosome name, return the chr list index used by this class."""
     if isinstance(sChr, str):
       schr = sChr.strip()
-      if schr in self.chr_s2i:
-        return self.chr_s2i[schr]
+      if schr in self.chr_s2i: return self.chr_s2i[schr]
+      schr = re.sub("chr", "", schr)
+      if schr in self.chr_s2i: return self.chr_s2i[schr]
       return None
     else:
       raise Exception("UNEXPECTED sChr({}) VALUE in get_iChr".format(sChr))
@@ -235,7 +236,6 @@ class CytoBandBase:
         return cmap
 
     max_bp = self.get_max_bp(iChr)
-    print "MMMM", max_bp
     # If the bp > max_bp for that chromosome
     if ret_max is not None and bp > max_bp:
       # Return cytomap at the highest bp value if the user specifies ret_max=True

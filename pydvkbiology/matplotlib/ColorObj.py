@@ -17,12 +17,14 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 __author__ = 'DV Klopfenstein'
-__copyright__ = "Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved."
+__copyright__ = "Copyright (C) 2014-2016 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
 # Helpful pages:
 #   http://stackoverflow.com/questions/14777066/matplotlib-discrete-colorbar
+#   http://stackoverflow.com/questions/16834861/create-own-colormap-using-matplotlib-and-plot-color-scale
 
+import collections as cx
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import cm
@@ -50,9 +52,6 @@ class MplColorHelper:
   def min_hexstr(self): return self.get_hexstr(self.start_val)
 
   def max_hexstr(self): return self.get_hexstr(self.stop_val)
-
-
-
 
 
 def example1_MplColorHelper():

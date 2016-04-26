@@ -4,6 +4,7 @@
 
 ### Biology
 
+  * 2014 [Guidelines for investigating causality of sequence variants in human disease](http://www.nature.com/nature/journal/v508/n7497/full/nature13127.html) [pdf](doc/papers/2014_Nature_Guidelines_disease_causality.pdf)    
   * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
   * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
   * A good description of the [**PhD student experience**](./doc/How_PhD_thesis_topic.md)

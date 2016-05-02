@@ -1,10 +1,10 @@
 # Sequence Variants
 
 ## Guidelines for establishing causality to disease
-"Unfortunately, although the vast majority of genes reported as 
+*Unfortunately, although the vast majority of genes reported as 
 causally linked to monogenic diseases are true positives,
 false assignments of causality at the variant level are a 
-substantial issue."(2)
+substantial issue.*(2)
 
   1) Nature 2015 May [**Standards and guidelines for the interpretation of sequence variants: 
 a joint consensus recommendation of the American College of Medical Genetics 
@@ -14,4 +14,8 @@ and Genomics and the Association for Molecular Pathology.**](
   2) Nature 2014 Apr [**Guidelines for investigating causality of sequence variants in human disease**](
      http://www.nature.com/nature/journal/v508/n7497/full/nature13127.html) and
      [pdf](doc/papers/2014_Nature_Guidelines_disease_causality.pdf)    
+
+## Links
+* [Sequencing Laboratories](https://www.genetests.org/laboratories/)
+* [Recommended variant nomenclature](http://www.hgvs.org/mutnomen/recs.html)
 

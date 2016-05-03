@@ -1,4 +1,4 @@
-# Sequence Variants
+# [Sequence Variants](http://www.uvm.edu/~cgep/Education/Mutations.html)
 
 ## Guidelines for establishing causality to disease
 *Unfortunately, although the vast majority of genes reported as 
@@ -16,15 +16,15 @@ and Genomics and the Association for Molecular Pathology.**](
      [pdf](doc/papers/2014_Nature_Guidelines_disease_causality.pdf)    
 
 ## Databases (1)
-*When using databases: (1)
+*When using databases: (1)    
   i) determine how frequently the database is updated, whether data
-     curation is supported, and what methods were used for curation
+     curation is supported, and what methods were used for curation    
   ii) confirm HGVS nomenclature and determine the genome build and 
-     transcript references used for naming variants.
+     transcript references used for naming variants.    
   iii) determine the degree to which data are validated for analytical accuracy (
      e.g. low-pass next-generation sequencing vc. Sanger-validated variants)
      and evaluate any quality metrics that are provided to assess data 
-     accuracy, wich may require reading associated publications
+     accuracy, wich may require reading associated publications    
   iv) determine the source and independence of the observations listed.*
 ### Population databases
 *Population databases are useful in obtaining the frequencies of variants in large populations.

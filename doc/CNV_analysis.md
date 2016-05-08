@@ -2,17 +2,18 @@
 from 2015 Apr paper by Mehdi Pirooznia, Fernando S. Goes, and Peter P. Zandi    
 
 *Accumulating evidence indicates that DNA copy number variation (CNV) 
-is likely to make a significant contribution to **human diversity** 
-and also play an important role in **disease susceptibility**.*
+is likely to make a significant contribution to* ***human diversity*** 
+*and also play an important role in* ***disease susceptibility***.
 
-## *widely used [CNV detection tools](http://omictools.com/cnv-detection3-category)*
+## Widely used [CNV detection tools](http://omictools.com/cnv-detection3-category)
 *with specific focus on whole genome sequencing data*
 
-### *There are four main methods for detecting CNVs with NGS data*: 
-* Read Pair (RP)
-* Split-Read (SR)
-* Read Depth (RD) 
-* Assembly based (AS) methods
+### *Four main methods for detecting CNVs with NGS data*: 
+* [**Read Pair (RP)**](#read-pair-rp)
+* [**Split-Read (SR)**](#split-read-sr)
+* [**Read Depth (RD)**](#read-depth-rd) 
+* [**Assembly based (AS) methods**](#assembly-as)
+* [**Combined Approach (CA)**](#combined-approach-ca)
 
 #### Read Pair (RP)
 **Minus**:  Low sensitivity for detecting variation in repeating regions (Medvedev et al., 2009)   
@@ -26,7 +27,7 @@ and also play an important role in **disease susceptibility**.*
 #### Split Read (SR)
 **Plus**: Can do single-base-pair resolution    
 **Minus**: Extremely dependent on read length. Not as reliable in repetitive regions.    
-(Bellos et al., 2012
+(Bellos et al., 2012)
 
 * [Pindel](http://gmt.genome.wustl.edu/packages/pindel/)
 * [Gustaf](https://www.seqan.de/apps/gustaf/)
@@ -35,7 +36,7 @@ and also play an important role in **disease susceptibility**.*
 
 
 #### Read Depth (RD)
-**Plus**: Good at detecting absolute copy number (Alkan et al., 2009   
+**Plus**: Good at detecting absolute copy number (Alkan et al., 2009)   
 **Minus**: Poor efficiency for determining small CNVs (Bellos et al., 2012)   
 
 * CNV-seq (Xie and Tammi, 2009)
@@ -58,7 +59,7 @@ Performs  poorly on repeats.
 * Magnolya
 
 
-#### Combined Approac (CA)
+#### Combined Approach (CA)
 * **SVDetect** (Zeitouni et al., 2010)
 * **cnvHiTSeq** (Bellos et al., 2012)
 * **Clever-sv** (Marschall et al., 2013)

@@ -50,4 +50,4 @@ In a previous life...
   * [Learn to land an airplane if the pilot becomes incapacitated]
     (http://www.aopa.org/aopa-live?watch=lldXB1MjrCR2n2wMlJsc_lpw9C2mbcdf)
 
-Copyright (C) 2015 DV Klopfenstein. All rights reserved.
+Copyright (C) 2015-2016, DV Klopfenstein. All rights reserved.

@@ -21,16 +21,12 @@
   * [**xkcd color picker**](http://xkcdcp.martinblech.com/)
   * [**Map Colors**](http://colorbrewer2.org/)
 
- 
-
-## Public scripts
-* **Scripts**
-  * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/NCBI/README.md) to search for and download data from the NCBI databases.
-  * [Scripts] (https://github.com/dklopfenstein/biocode/tree/master/pydvkbiology/UCSC/README.md) to return UCSC Cytoband information.
-
 ## Links
 
-This repository uses data/code from:
+* [GOATOOLS] (https://github.com/tanghaibao/goatools/blob/master/README.rst) for
+  Gene Ontology Analysis
+* [How do project owners use pull requests on Github?](
+  http://www.gousios.gr/blog/How-do-project-owners-use-pull-requests-on-Github/)
 * [NCBI] (http://www.ncbi.nlm.nih.gov/)
 * [GENCODE] (http://www.gencodegenes.org/)
 * [DrugBank] (http://www.drugbank.ca/)
@@ -39,8 +35,6 @@ This repository uses data/code from:
 * [UCSC] (https://genome.ucsc.edu/)
 * [Kegg] (http://www.genome.jp/kegg/kegg2.html)
 * [HGNC] (http://www.genenames.org/) HUGO Gene Nomenclature Committee
-* [GOATOOLS] (https://github.com/tanghaibao/goatools/blob/master/README.rst) for
-  Gene Ontology Analysis
 
 ## Electrical Engineering
 In a previous life...

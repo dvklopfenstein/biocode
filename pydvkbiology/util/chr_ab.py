@@ -5,6 +5,7 @@ __copyright__ = "Copyright (C) 2014-2016 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
 import collections as cx
+import numpy as np
 
 class ChrAB(object):
   """Class to hold the chromosome name, and the start and end base pair values."""
@@ -33,6 +34,7 @@ class ChrAB(object):
       self.ichr = kws['orgn'].get_iChr(schr)
     if 'orientation' in kws:
       self._init_orientation(kws['orientation'])
+    self.len_adj = self._init_n_based(kws['N-based'] if 'N-based' in kws else None)
  
   def __equal__(self, lhs_cab):
     return self.schr==lhs_cab.schr and self.start_bp==lhs_cab.start_bp and self.stop_bp==lhs_cab.stop_bp
@@ -51,6 +53,21 @@ class ChrAB(object):
     elif self.start_bp is not None and self.stop_bp is not None:
       raise Exception("UNKNOWN ORIENTATION({})".format(orientation))
 
+  def _init_n_based(self, n_based):
+    """Set data members needed for calculations based on 0-based or 1-based numbering scheme."""
+    #
+    # 0-based: 0 1 2 3 4 5 6 7 8 9  CAGC => 1-5  len = 4 = 5 - 1
+    #          A C A G C T A C A G
+    #            -------
+    # 1-based: 1 2 3 4 5 6 7 8 9    CAGC => 2-5  len = 4 = 5 - 2 + 1
+    if n_based is None:
+      return 1
+    elif n_based == '0-based':
+      return 0
+    elif n_based == '1-based':
+      return 1
+    return 1
+    
   def is_fwd(self):
     """Return True if this is forward-stranded data."""
     if self.valid_start_stop():
@@ -95,7 +112,7 @@ class ChrAB(object):
     return None
 
   def get_len(self):
-    return abs(self.stop_bp-self.start_bp)
+    return abs(self.stop_bp - self.start_bp + self.len_adj)
 
   def has_abs(self):
     return self.start_bp is not None and self.stop_bp is not None
@@ -124,6 +141,16 @@ class ChrAB(object):
           assert start_bp <= stop_bp, "START({}) STOP({})".format(start_bp, stop_bp)
           return ChrAB(self.schr, start_bp, stop_bp)
     return None # genes are on separate chromosomes or lack bp values
+
+  def get_rand_loc(self, rng_len):
+    """Returns a random start location for a range length within this ChrAB."""
+    self_len = self.get_len()
+    print "BBBB", self_len, rng_len
+    if rng_len < self_len:
+      return np.random.randint(self.start_bp, self.stop_bp - rng_len + 1)
+    elif self_len == rng_len:
+      return self.start_bp
+    return None
 
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""

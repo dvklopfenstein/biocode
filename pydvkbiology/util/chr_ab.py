@@ -235,7 +235,9 @@ class ChrAB(object):
     bp1 = self.start_bp == self.stop_bp
     if not bp1:
       txt.append("({})".format("+" if self.stop_bp > self.start_bp else "-"))
-    txt.append("chr{SCHR:<2} {START:>9}".format(SCHR=self.schr, START=self.start_bp))
+    if 'chr' not in self.schr.lower():
+      txt.append("chr")
+    txt.append("{SCHR:<2} {START:>9}".format(SCHR=self.schr, START=self.start_bp))
     if bp1:
       return ''.join(txt)
     txt.append(" {STOP:>9}".format(STOP=self.stop_bp))

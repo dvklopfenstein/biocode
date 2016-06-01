@@ -112,7 +112,7 @@ class ChrAB(object):
     return None
 
   def get_len(self):
-    return abs(self.stop_bp - self.start_bp + self.len_adj)
+    return abs(self.stop_bp - self.start_bp) + self.len_adj
 
   def has_abs(self):
     return self.start_bp is not None and self.stop_bp is not None
@@ -144,11 +144,15 @@ class ChrAB(object):
 
   def get_rand_loc(self, rng_len):
     """Returns a random start location for a range length within this ChrAB."""
+    assert rng_len > 0
     self_len = self.get_len()
+    #print "LLLL", self_len, rng_len
+    b0, bN = self.get_plotXs()
     if rng_len < self_len:
-      return np.random.randint(self.start_bp, self.stop_bp - rng_len + self.len_adj)
+      #print "BBBB", b0, bN
+      return np.random.randint(b0, bN - rng_len + self.len_adj)
     elif self_len == rng_len:
-      return self.start_bp
+      return b0
     return None
 
   def get_rand_cab(self, rng_len):

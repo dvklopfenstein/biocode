@@ -111,6 +111,20 @@ class ChrAB(object):
         return 0 
     return None # genes are on separate chromosomes or lack bp values
 
+  def get_overlap_cab(self, rhs_chrab):
+    """Return cab representing overlap of chr_a and chr_b. None if no overlap."""
+    if rhs_chrab is not None and self.schr == rhs_chrab.schr:
+      # If start_bp and stop_bp exist for both input cabs
+      if self.has_abs() and rhs_chrab.has_abs():
+        # Put gene coords in list and sort genes by smallest coord. eg [[0, 5], [4, 10]]
+        genes_ab = sorted([self.get_plotXs(), rhs_chrab.get_plotXs()], key=lambda t: t[0])
+        if genes_ab[0][1] >= genes_ab[1][0]: # If there is an overlap
+          start_bp = genes_ab[1][0] 
+          stop_bp = min(genes_ab[0][1], genes_ab[1][1])
+          assert start_bp <= stop_bp, "START({}) STOP({})".format(start_bp, stop_bp)
+          return ChrAB(self.schr, start_bp, stop_bp)
+    return None # genes are on separate chromosomes or lack bp values
+
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""
     # return e.g.: [31425567, 31728336]

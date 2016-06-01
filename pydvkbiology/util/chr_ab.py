@@ -145,12 +145,17 @@ class ChrAB(object):
   def get_rand_loc(self, rng_len):
     """Returns a random start location for a range length within this ChrAB."""
     self_len = self.get_len()
-    print "BBBB", self_len, rng_len
     if rng_len < self_len:
-      return np.random.randint(self.start_bp, self.stop_bp - rng_len + 1)
+      return np.random.randint(self.start_bp, self.stop_bp - rng_len + self.len_adj)
     elif self_len == rng_len:
       return self.start_bp
     return None
+
+  def get_rand_cab(self, rng_len):
+    """Return a new cab from an area randomly chosen from inside this cab."""
+    start_bp = self.get_rand_loc(rng_len)
+    if start_bp is not None:
+      return ChrAB(self.schr, start_bp, start_bp + rng_len - self.len_adj)
 
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""

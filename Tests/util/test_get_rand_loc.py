@@ -12,11 +12,18 @@ def test_get_rand_loc(prt=sys.stdout):
         (ChrAB('1',  0, 10), 11),
         (ChrAB('1',  0, 10), 12),
     ]
-    for cab, rng_len in chr_abs:
-        bp = cab.get_rand_loc(rng_len)
-        prt.write("RAND BP({BP:4}) ChrAB({A}) RNG_LEN({L:2})\n".format(A=cab, L=rng_len, BP=bp))
-        #assert cab_act == cab_exp, "EXPECTED({EXP})".format(EXP=cab_exp)
+    for cab_cur, rng_len in chr_abs:
+        cab_sub = cab_cur.get_rand_cab(rng_len)
+        prt.write("ChrAB({A}) RNG_LEN({L:2}) -> RAND BP({BP:28}) L({LEN:>4})\n".format(
+            A=cab_cur, L=rng_len, BP=cab_sub, LEN=cab_sub.get_len() if cab_sub is not None else None))
+        if cab_sub is not None:
+            assert cab_sub.get_len() == rng_len
+            assert cab_sub.stop_bp <= cab_cur.stop_bp
+            assert cab_sub.start_bp >= cab_cur.start_bp
+        else:
+            assert cab_cur.get_len() < rng_len
         
 
 if __name__ == '__main__':
     test_get_rand_loc()
+

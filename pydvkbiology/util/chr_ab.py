@@ -1,7 +1,7 @@
 """Manages chromosome name, start bp, stop bp with different sources."""
 
 __author__  = 'DV Klopfenstein'
-__copyright__ = "Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved."
+__copyright__ = "Copyright (C) 2014-2016 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
 import collections as cx
@@ -15,9 +15,9 @@ class ChrAB(object):
   rev = ['-', 'minus']
   typ = cx.namedtuple("ChrAB", "chr start_bp stop_bp fwd_strand ichr")
 
-  def __init__(self, schr, start_bp, stop_bp=None, orientation=None, orgn=None, name=None):
+  def __init__(self, schr, start_bp, stop_bp=None, **kws):
     """Initialize data members."""
-    self.name = name
+    # Data members
     self.schr = schr
     self.ichr = None
     self.start_bp = start_bp if isinstance(start_bp, int) else None
@@ -27,21 +27,20 @@ class ChrAB(object):
       self.stop_bp = stop_bp
     else:
       self.stop_bp = None
-    self._init(orientation, orgn)
+    # Key-word args
+    self.name = kws['name'] if 'name' in kws else None
+    if 'orgn' in kws:
+      self.ichr = kws['orgn'].get_iChr(schr)
+    if 'orientation' in kws:
+      self._init_orientation(kws['orientation'])
  
   def __equal__(self, lhs_cab):
     return self.schr==lhs_cab.schr and self.start_bp==lhs_cab.start_bp and self.stop_bp==lhs_cab.stop_bp
 
-  def _init(self, orientation, orgn):
-    """Set:  Fwd: Start < Stop;   Rev: Start > Stop."""
-    # Use orientation if available (Forward/Reverse) strand.
-    if orientation is not None:
-      self._init_orientation(orientation)
-    if orgn is not None:
-      self.ichr = orgn.get_iChr(self.schr)
-
   def _init_orientation(self, orientation):
     """Use orientation to set start and stop."""
+    # Set:  Fwd: Start < Stop;   Rev: Start > Stop.
+    # Use orientation if available (Forward/Reverse) strand.
     if orientation in ChrAB.rev:
       # biocode uses convention that rev. strand start_bp > stop_bp
       if self.start_bp < self.stop_bp:
@@ -238,3 +237,4 @@ class ChrAB(object):
     return ''.join(ret)
     #, orientation=None, orgn=None, name=None):
 
+# Copyright (C) 2014-2016 DV Klopfenstein. All rights reserved.

@@ -22,6 +22,8 @@ def test():
     if schr and bp0 and bpN:
       chr_ab = ChrAB(schr, int(bp0), int(bpN), orientation=fwdrev, orgn=orgn)
       print schr, bp0, bpN, fwdrev, chr_ab.is_fwd(), chr_ab.get_plotXs()
+      if fwdrev=='minus': assert not chr_ab.is_fwd()
+      if fwdrev=='plus':  assert     chr_ab.is_fwd()
 
 
 if __name__ == '__main__':

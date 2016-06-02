@@ -160,20 +160,35 @@ class ChrAB(object):
       return ChrAB(self.schr, start_bp, start_bp + rng_len - self.len_adj)
 
   def minus_cab(self, cab):
-    """Subtract cab from self. Return remaining cab(s).
-
-          INPUT                 OUTPUT 
-          0         1           0         1           
-          01234567890123456789  01234567890123456789  
-    self       ==========            ==========       
-    cab0    -------     .                ======       
-    cab1       . -------.            ==       =       
-    cab2       -------  .                   ===       
-    cab3       .  -------            ===              
-    cab4       .     -------         ======           
-    """
+    """Subtract cab from self. Return remaining cab(s)."""
     cab_overlap = self.get_overlap_cab(cab)
-    return cab_overlap
+    b0, bN = self.get_plotXs()
+    if cab_overlap is None:
+      # self       ==========            ==========       
+      # cab    --  .        .            ==========       
+      # cab        .        . --         ==========       
+      return [ChrAB(self.schr, b0, bN)]
+    o0, oN = cab_overlap.start_bp, cab_overlap.stop_bp
+    if b0 == o0 and bN == oN:
+      # self       ==========            ==========       
+      # cab        ----------            None
+      # cab     ---------------          None
+      return None
+    if o0 == b0:
+      # self       ==========            ==========       
+      # cab     -------     .                ======       
+      # cab        -------  .                   ===       
+      return [ChrAB(self.schr, oN+1, bN)]
+    if cab_overlap.stop_bp == bN:
+      # self       ==========            ==========       
+      # cab4       .  -------            ===              
+      # cab5       .     -------         ======           
+      return [ChrAB(self.schr, b0, o0-1)]
+    # self       ==========            ==========       
+    # cab        . -------.            ==       =       
+    # cab        . ----   .            ==    ====
+    assert b0 < o0 and oN < bN
+    return [ChrAB(self.schr, b0, o0-1), ChrAB(self.schr, oN+1, bN)]
 
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""
@@ -245,10 +260,12 @@ class ChrAB(object):
     return ''.join(picStr)
 
   def __eq__(self, rhs):
-    bp_eq = self.start_bp == rhs.start_bp and self.stop_bp == rhs.stop_bp
-    if self.ichr is not None and rhs.ichr is not None: 
-      return self.ichr == rhs.ichr and bp_eq
-    return self.schr == rhs.schr and bp_eq
+    if rhs is not None:
+      bp_eq = self.start_bp == rhs.start_bp and self.stop_bp == rhs.stop_bp
+      if self.ichr is not None and rhs.ichr is not None: 
+        return self.ichr == rhs.ichr and bp_eq
+      return self.schr == rhs.schr and bp_eq
+    return False
 
   def __lt__(self, rhs):
     if self.ichr is not None and rhs.ichr is not None: 

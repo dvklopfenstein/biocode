@@ -24,7 +24,7 @@ def test_minus_cab(prt=sys.stdout, random_seed=None):
     cab8   --  .        .            ==========       
     cab9       .        . --         ==========       
     """
-    cab_cur = ChrAB('1', 5, 14)
+    cab_curs = [ChrAB('1', 5, 14), ChrAB('1', 14, 5)]
     chr_abs = [
         # Input               Expected results
         (ChrAB('1',  2,  8),  [ChrAB('1',  9, 14)]), # cab0
@@ -33,14 +33,17 @@ def test_minus_cab(prt=sys.stdout, random_seed=None):
         (ChrAB('1',  5, 11),  [ChrAB('1', 12, 14)]), # cab3
         (ChrAB('1',  8, 14),  [ChrAB('1',  5,  7)]), # cab4
         (ChrAB('1', 11, 17),  [ChrAB('1',  5, 10)]), # cab5
-        (ChrAB('1',  5, 14),  [None              ]), # cab6
-        (ChrAB('1',  2, 16),  [None              ]), # cab7
+        (ChrAB('1',  5, 14),   None               ), # cab6
+        (ChrAB('1',  2, 16),   None               ), # cab7
         (ChrAB('1',  1,  2),  [ChrAB('1',  5, 14)]), # cab8
         (ChrAB('1', 16, 17),  [ChrAB('1',  5, 14)]), # cab9
     ]
     for cab_m, exp in chr_abs:
-        cabs = cab_cur.minus_cab(cab_m)
-        prt.write("ChrAB({A}) minus ({B:28}) -> {cabs}\n".format(A=cab_cur, B=cab_m, cabs=cabs))
+        for cab_cur in cab_curs:
+            cabs = cab_cur.minus_cab(cab_m)
+            prt.write("ChrAB({A}) minus ({B:28}) -> {cabs} {TF:5} EXP: {exp}\n".format(
+                A=cab_cur, B=cab_m, cabs=cabs, TF=cabs==exp, exp=exp))
+            assert cabs == exp
         
 
 if __name__ == '__main__':

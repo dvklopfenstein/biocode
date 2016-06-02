@@ -20,24 +20,39 @@ class ChrAB(object):
     """Initialize data members."""
     # Data members
     self.schr = schr
-    self.ichr = None
     self.start_bp = start_bp if isinstance(start_bp, int) else None
-    if stop_bp is None:
-      self.stop_bp = self.start_bp
-    elif isinstance(stop_bp, int):
-      self.stop_bp = stop_bp
-    else:
-      self.stop_bp = None
-    # Key-word args
+    self.stop_bp = self._init_stop_bp(stop_bp)
+    # Key-word args(4): name, ichr, orgn, orientation, N-based
+    self._init_ichr(**kws) # kws: Either of: ichr orgn
     self.name = kws['name'] if 'name' in kws else None
-    if 'orgn' in kws:
-      self.ichr = kws['orgn'].get_iChr(schr)
     if 'orientation' in kws:
       self._init_orientation(kws['orientation'])
     self.len_adj = self._init_n_based(kws['N-based'] if 'N-based' in kws else None)
+
+  def _init_stop_bp(self, stop_bp):
+    """Initialize stop_bp."""
+    if stop_bp is None: # Length of 1
+      return self.start_bp
+    if isinstance(stop_bp, int):
+      return stop_bp
+
+  def _init_ichr(self, **kws):
+    """Initialize ichr if ichr or orgn is provided."""
+    ichr = kws['ichr'] if 'ichr' in kws else None
+    if 'orgn' in kws:
+      orgn_ichr = kws['orgn'].get_iChr(self.schr)
+      if ichr is not None: 
+        assert ichr == orgn_ichr
+      ichr = orgn_ichr
+    self.ichr = ichr
  
   def __equal__(self, lhs_cab):
-    return self.schr==lhs_cab.schr and self.start_bp==lhs_cab.start_bp and self.stop_bp==lhs_cab.stop_bp
+    return self.schr     == lhs_cab.schr and \
+           self.start_bp == lhs_cab.start_bp and \
+           self.stop_bp  == lhs_cab.stop_bp and \
+           self.start_bp == lhs_cab.start_bp and \
+           self.name     == lhs_cab.name and \
+           self.len_adj  == lhs_cab.len_adj
 
   def _init_orientation(self, orientation):
     """Use orientation to set start and stop."""
@@ -157,17 +172,19 @@ class ChrAB(object):
     """Return a new cab from an area randomly chosen from inside this cab."""
     start_bp = self.get_rand_loc(rng_len)
     if start_bp is not None:
-      return ChrAB(self.schr, start_bp, start_bp + rng_len - self.len_adj)
+      return ChrAB(self.schr, start_bp, start_bp + rng_len - self.len_adj, 
+        ichr=self.ichr, name=self.name, len_adj=self.len_adj)
 
   def minus_cab(self, cab):
     """Subtract cab from self. Return remaining cab(s)."""
     cab_overlap = self.get_overlap_cab(cab)
+    kwargs = {'ichr':self.ichr, 'name':self.name, 'len_adj':self.len_adj}
     b0, bN = self.get_plotXs()
     if cab_overlap is None:
       # self       ==========            ==========       
       # cab    --  .        .            ==========       
       # cab        .        . --         ==========       
-      return [ChrAB(self.schr, b0, bN)]
+      return [ChrAB(self.schr, b0, bN, **kwargs)]
     o0, oN = cab_overlap.start_bp, cab_overlap.stop_bp
     if b0 == o0 and bN == oN:
       # self       ==========            ==========       
@@ -178,17 +195,17 @@ class ChrAB(object):
       # self       ==========            ==========       
       # cab     -------     .                ======       
       # cab        -------  .                   ===       
-      return [ChrAB(self.schr, oN+1, bN)]
+      return [ChrAB(self.schr, oN+1, bN, **kwargs)]
     if cab_overlap.stop_bp == bN:
       # self       ==========            ==========       
       # cab4       .  -------            ===              
       # cab5       .     -------         ======           
-      return [ChrAB(self.schr, b0, o0-1)]
+      return [ChrAB(self.schr, b0, o0-1, **kwargs)]
     # self       ==========            ==========       
     # cab        . -------.            ==       =       
     # cab        . ----   .            ==    ====
     assert b0 < o0 and oN < bN
-    return [ChrAB(self.schr, b0, o0-1), ChrAB(self.schr, oN+1, bN)]
+    return [ChrAB(self.schr, b0, o0-1, **kwargs), ChrAB(self.schr, oN+1, bN, **kwargs)]
 
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""

@@ -146,10 +146,8 @@ class ChrAB(object):
     """Returns a random start location for a range length within this ChrAB."""
     assert rng_len > 0
     self_len = self.get_len()
-    #print "LLLL", self_len, rng_len
     b0, bN = self.get_plotXs()
     if rng_len < self_len:
-      #print "BBBB", b0, bN
       return np.random.randint(b0, bN - rng_len + self.len_adj)
     elif self_len == rng_len:
       return b0
@@ -160,6 +158,22 @@ class ChrAB(object):
     start_bp = self.get_rand_loc(rng_len)
     if start_bp is not None:
       return ChrAB(self.schr, start_bp, start_bp + rng_len - self.len_adj)
+
+  def minus_cab(self, cab):
+    """Subtract cab from self. Return remaining cab(s).
+
+          INPUT                 OUTPUT 
+          0         1           0         1           
+          01234567890123456789  01234567890123456789  
+    self       ==========            ==========       
+    cab0    -------     .                ======       
+    cab1       . -------.            ==       =       
+    cab2       -------  .                   ===       
+    cab3       .  -------            ===              
+    cab4       .     -------         ======           
+    """
+    cab_overlap = self.get_overlap_cab(cab)
+    return cab_overlap
 
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""

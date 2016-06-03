@@ -71,10 +71,11 @@ class ChrAB(object):
   def _init_n_based(self, n_based):
     """Set data members needed for calculations based on 0-based or 1-based numbering scheme."""
     #
-    # 0-based: 0 1 2 3 4 5 6 7 8 9  CAGC => 1-5  len = 4 = 5 - 1
+    # 1-based: 1 2 3 4 5 6 7 8 9    CAGC => 2-5  len = 4 = 5 - 2 + 1
     #          A C A G C T A C A G
     #            -------
-    # 1-based: 1 2 3 4 5 6 7 8 9    CAGC => 2-5  len = 4 = 5 - 2 + 1
+    # 0-based: 0 1 2 3 4 5 6 7 8 9  CAGC => 1-5  len = 4 = 5 - 1
+    # dflt:    0 1 2 3 4 5 6 7 8 9  CAGC => 1-4  len = 4 = 4 - 1 + 1
     if n_based is None:
       return 1
     elif n_based == '0-based':

@@ -316,9 +316,8 @@ class CytoBandBase:
           raise Exception('\n**\n** FATAL: NO COLOR ASSIGNED TO MAP TYPE: "{}"\n**\n'.format(Key))
     return cx.OrderedDict(sorted(range_data.items()))
 
-  def wr_genome_lens(self):
+  def wr_genome_lens(self, pre=""):
     """Write bedtools genome file containing lengths of all chromosomes."""
-    pre = ""
     fout_genome = "{SPECIES}.genome".format(SPECIES=self.species)
     with open(fout_genome, 'w') as prt:
       for ichr in range(self.num_chr):

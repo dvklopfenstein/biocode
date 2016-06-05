@@ -27,7 +27,6 @@ class ChrAB(object):
     self.name = kws['name'] if 'name' in kws else None
     if 'orientation' in kws:
       self._init_orientation(kws['orientation'])
-    self.len_adj = self._init_n_based(kws['N-based'] if 'N-based' in kws else None)
 
   def _init_stop_bp(self, stop_bp):
     """Initialize stop_bp."""
@@ -46,14 +45,6 @@ class ChrAB(object):
       ichr = orgn_ichr
     self.ichr = ichr
  
-  def __equal__(self, lhs_cab):
-    return self.schr     == lhs_cab.schr and \
-           self.start_bp == lhs_cab.start_bp and \
-           self.stop_bp  == lhs_cab.stop_bp and \
-           self.start_bp == lhs_cab.start_bp and \
-           self.name     == lhs_cab.name and \
-           self.len_adj  == lhs_cab.len_adj
-
   def _init_orientation(self, orientation):
     """Use orientation to set start and stop."""
     # Set:  Fwd: Start < Stop;   Rev: Start > Stop.
@@ -68,21 +59,16 @@ class ChrAB(object):
     elif self.start_bp is not None and self.stop_bp is not None:
       raise Exception("UNKNOWN ORIENTATION({})".format(orientation))
 
-  def _init_n_based(self, n_based):
-    """Set data members needed for calculations based on 0-based or 1-based numbering scheme."""
-    #
-    # 1-based: 1 2 3 4 5 6 7 8 9    CAGC => 2-5  len = 4 = 5 - 2 + 1
-    #          A C A G C T A C A G
-    #            -------
-    # 0-based: 0 1 2 3 4 5 6 7 8 9  CAGC => 1-5  len = 4 = 5 - 1
-    # dflt:    0 1 2 3 4 5 6 7 8 9  CAGC => 1-4  len = 4 = 4 - 1 + 1
-    if n_based is None:
-      return 1
-    elif n_based == '0-based':
-      return 0
-    elif n_based == '1-based':
-      return 1
-    return 1
+  # 1-based:     1 2 3 4 5 6 7 8 9    CAGC => 2-5  len = 4 = 5 - 2 + 1
+  #              A C A G C T A C A G
+  #                -------
+  # 0-based:     0 1 2 3 4 5 6 7 8 9  CAGC => 1-5  len = 4 = 5 - 1
+  # This class:  0 1 2 3 4 5 6 7 8 9  CAGC => 1-4  len = 4 = 4 - 1 + 1
+  def get_start_stop_0based(self):
+    """Return coordinates in 0-based format."""
+    if self.is_fwd(): 
+      return self.start_bp, self.stop_bp+1
+    raise Exception("TIME TO IMPLEMENT FOR REV: get_start_stop_0based()")
     
   def is_fwd(self):
     """Return True if this is forward-stranded data."""
@@ -128,7 +114,7 @@ class ChrAB(object):
     return None
 
   def get_len(self):
-    return abs(self.stop_bp - self.start_bp) + self.len_adj
+    return abs(self.stop_bp - self.start_bp) + 1
 
   def has_abs(self):
     return self.start_bp is not None and self.stop_bp is not None
@@ -164,7 +150,7 @@ class ChrAB(object):
     self_len = self.get_len()
     b0, bN = self.get_plotXs()
     if rng_len < self_len:
-      return np.random.randint(b0, bN - rng_len + self.len_adj)
+      return np.random.randint(b0, bN - rng_len + 1)
     elif self_len == rng_len:
       return b0
     return None
@@ -173,13 +159,13 @@ class ChrAB(object):
     """Return a new cab from an area randomly chosen from inside this cab."""
     start_bp = self.get_rand_loc(rng_len)
     if start_bp is not None:
-      return ChrAB(self.schr, start_bp, start_bp + rng_len - self.len_adj, 
-        ichr=self.ichr, name=self.name, len_adj=self.len_adj)
+      return ChrAB(self.schr, start_bp, start_bp + rng_len - 1, 
+        ichr=self.ichr, name=self.name)
 
   def minus_cab(self, cab):
     """Subtract cab from self. Return remaining cab(s)."""
     cab_overlap = self.get_overlap_cab(cab)
-    kwargs = {'ichr':self.ichr, 'name':self.name, 'len_adj':self.len_adj}
+    kwargs = {'ichr':self.ichr, 'name':self.name}
     b0, bN = self.get_plotXs()
     if cab_overlap is None:
       # self       ==========            ==========       
@@ -277,13 +263,22 @@ class ChrAB(object):
         #  picStr[totPts] = 'g' # Print 'g' instead of '.'
     return ''.join(picStr)
 
+  def __hash__(self):
+    return hash(self.__key())
+
+  def __key(self):
+    return (self.ichr, self.schr, self.start_bp, self.stop_bp, self.name)
+
   def __eq__(self, rhs):
     if rhs is not None:
       bp_eq = self.start_bp == rhs.start_bp and self.stop_bp == rhs.stop_bp
-      if self.ichr is not None and rhs.ichr is not None: 
+      if self.ichr is not None and rhs.ichr is not None:
         return self.ichr == rhs.ichr and bp_eq
       return self.schr == rhs.schr and bp_eq
     return False
+
+  def __ne__(self, rhs):
+    return not self.__eq__(rhs)
 
   def __lt__(self, rhs):
     if self.ichr is not None and rhs.ichr is not None: 

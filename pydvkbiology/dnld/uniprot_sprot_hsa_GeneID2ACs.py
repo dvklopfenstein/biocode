@@ -3,15 +3,19 @@
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
-downloaded = "2016_03_06" # UniProt source files were downloaded on this date
+downloaded = "2016_06_14" # UniProt source files were downloaded on this date
 
-# Contains 19048 items for Homo sapiens (Human)
+# Contains 19063 items for Homo sapiens (Human)
+
+#  19,063 keys found
+#  86,642 values found
 
 GeneID2UniProtACs = {
   114787 : set(['C9JM70', 'Q7Z2K8', 'Q8ND74', 'Q96PZ4']), # 4 items
   114786 : set(['Q5GH76', 'Q96PZ8']), # 2 items
   114785 : set(['Q8N3M0', 'Q8NA81', 'Q96DN6', 'Q96Q00']), # 4 items
   114784 : set(['B1AM50', 'E7EUA6', 'Q53TY4', 'Q5VT59', 'Q7Z408', 'Q8N963', 'Q96Q03', 'Q9H4V7', 'Q9H4V8', 'Q9H4V9', 'Q9H4W0', 'Q9H4W1', 'Q9H4W2', 'Q9H4W3', 'Q9H4W4', 'Q9HCY5', 'Q9HCY6', 'Q9HCY7']), # 18 items
+  59353 : set(['Q53FP2', 'Q9H7Y3']), # 2 items
   221545 : set(['A9R9P9', 'F8VX15', 'Q5SQH8', 'Q5SU01', 'Q6ZSB7', 'Q8TB84']), # 6 items
   114781 : set(['Q494V9', 'Q494W1', 'Q96M00', 'Q96Q07']), # 4 items
   114780 : set(['Q6UEE1', 'Q6ZN46', 'Q6ZSP2', 'Q7Z442', 'Q8N1H9', 'Q96CL2', 'Q96Q08']), # 7 items
@@ -122,7 +126,7 @@ GeneID2UniProtACs = {
   9529 : set(['O94950', 'Q86W59', 'Q9UL15']), # 3 items
   9258 : set(['Q96CI0', 'Q9Y4C4']), # 2 items
   55293 : set(['B2RB69', 'B4DL43', 'F5H6L6', 'H7BYD6', 'Q6P2F0', 'Q8IX04', 'Q96FF5', 'Q9NUX7']), # 8 items
-  9256 : set(['O75111', 'O95153', 'Q8N5W3']), # 3 items
+  55300 : set(['Q8TCG2', 'Q9NUW2']), # 2 items
   57475 : set(['A6H8X6', 'Q6PJL4', 'Q6ZWC7', 'Q9ULM0']), # 4 items
   9254 : set(['A7MD15', 'Q9NY47', 'Q9NY48', 'Q9UEW0', 'Q9Y268']), # 5 items
   9255 : set(['B3KTR2', 'B4E1S7', 'Q12904', 'Q6FG28', 'Q96CQ9']), # 5 items
@@ -611,14 +615,14 @@ GeneID2UniProtACs = {
   79706 : set(['B4DGM2', 'Q8NDM6', 'Q96CF8', 'Q9H875']), # 4 items
   79707 : set(['Q2NL84', 'Q4VBY3', 'Q5SY16', 'Q6P472', 'Q7L4D6', 'Q96EE0', 'Q9H5L4']), # 7 items
   79705 : set(['Q38SD2', 'Q6NVH5', 'Q6NYC0', 'Q6ZNL9', 'Q6ZNM9', 'Q96JN5', 'Q9H5S3']), # 7 items
-  79703 : set(['Q8N6T0', 'Q9H677']), # 2 items
+  57732 : set(['B2RP83', 'B3KX50', 'B7Z1Q7', 'B7Z2G9', 'B7Z2M2', 'B7ZB19', 'E9PB54', 'E9PB64', 'E9PG77', 'Q7Z6J3', 'Q9HCC9']), # 11 items
   284309 : set(['Q68DI1', 'Q6ZS36', 'Q8N968']), # 3 items
   79701 : set(['C9JDC8', 'Q6PK18', 'Q8IZ37', 'Q9H6J2']), # 4 items
   388115 : set(['B9EIQ8', 'Q68DG9', 'Q6ZTM3', 'Q6ZU22', 'Q6ZUT6']), # 5 items
   55061 : set(['D3DTB9', 'Q5VX71', 'Q6UX62', 'Q9BSR0', 'Q9NWG0']), # 5 items
   284076 : set(['B4DZJ5', 'C9J233', 'Q24KB1', 'Q24KB2', 'Q24KB6', 'Q24KF3', 'Q24KJ5', 'Q24KN7', 'Q24KS9', 'Q24KX1', 'Q24L13', 'Q24L55', 'Q24L76', 'Q8IYW6', 'Q8N841', 'Q8NA62']), # 16 items
   7567 : set(['A8K895', 'P17023', 'Q86Y66', 'Q8NDE2', 'Q96M79', 'Q96NE5']), # 6 items
-  115362 : set(['B2RCE1', 'Q86TM5', 'Q96PP8']), # 3 items
+  284071 : set(['A2RUB1', 'B4DXJ2', 'B5MD93', 'B9EGQ6', 'C4AM97', 'Q4G0Y1', 'Q8IVZ7', 'Q8NA45']), # 8 items
   51112 : set(['B3KV01', 'D6W4Y2', 'Q8WVT3', 'Q8WVW1', 'Q9Y395']), # 5 items
   55063 : set(['A8MVF5', 'B4DUQ2', 'Q8NA98', 'Q9BUD0', 'Q9H0M4', 'Q9NWF7']), # 6 items
   10251 : set(['A8K0H8', 'O43610']), # 2 items
@@ -632,7 +636,7 @@ GeneID2UniProtACs = {
   5618 : set(['B2R882', 'D1MDP1', 'P16471', 'Q16354', 'Q8TD75', 'Q8TD78', 'Q96P35', 'Q96P36', 'Q9BX87', 'Q9UHJ5']), # 10 items
   55101 : set(['B4DDC0', 'B4DMZ4', 'B4DP55', 'B4DXE8', 'F5H4W7', 'K7EMF6', 'Q96D43', 'Q9NW81']), # 8 items
   101928527 : set(['A0A0B4J2F0']), # 1 items
-  55107 : set(['A8KAM3', 'Q5XXA6', 'Q8IYY8', 'Q8N7V3']), # 4 items
+  170689 : set(['Q32MI6', 'Q8TE58']), # 2 items
   55105 : set(['Q5VYK7', 'Q5VYK8', 'Q86YE7', 'Q9NW75']), # 4 items
   5612 : set(['A8K728', 'O43422', 'Q17RY9', 'Q8WTW1', 'Q9Y3Z4']), # 5 items
   170685 : set(['A8K7D7', 'D3DX69', 'Q86VK1', 'Q86VR0', 'Q8NFP7']), # 5 items
@@ -640,7 +644,7 @@ GeneID2UniProtACs = {
   55109 : set(['O00581', 'Q53YS3', 'Q8N302', 'Q9BU84', 'Q9NW66']), # 5 items
   170680 : set(['Q5STD0', 'Q9UIG4']), # 2 items
   5617 : set(['P01236', 'Q15199', 'Q92996']), # 3 items
-  51118 : set(['A8K785', 'B4DJC6', 'D3DPT7', 'Q5VT93', 'Q9BS98', 'Q9NS31', 'Q9Y3A2']), # 7 items
+  7884 : set(['B3KRJ5', 'Q14493']), # 2 items
   144423 : set(['Q86XG8', 'Q96MS3']), # 2 items
   55069 : set(['Q53H07', 'Q96FR2', 'Q9NWD8']), # 3 items
   284161 : set(['A8W735', 'Q56VR1', 'Q8N4E3', 'Q8N9F7']), # 4 items
@@ -668,7 +672,7 @@ GeneID2UniProtACs = {
   256435 : set(['Q6PCE0', 'Q6UX29', 'Q8N259', 'Q8NDV1']), # 4 items
   253152 : set(['Q8IUS5', 'Q8NCC6']), # 2 items
   64965 : set(['P82933', 'Q6PG40']), # 2 items
-  9524 : set(['B2RD55', 'O75350', 'Q6IBB2', 'Q9BWK3', 'Q9NZ01', 'Q9Y6P0']), # 6 items
+  9256 : set(['O75111', 'O95153', 'Q8N5W3']), # 3 items
   23753 : set(['A2RUD3', 'Q9BRI5', 'Q9HCN8']), # 3 items
   643246 : set(['A6NCE7']), # 1 items
   5982 : set(['B5BU07', 'D3DXG3', 'P32846', 'P35250', 'Q9BU93']), # 5 items
@@ -821,7 +825,7 @@ GeneID2UniProtACs = {
   162699 : set(['Q8NG57']), # 1 items
   10763 : set(['O00552', 'P48681', 'Q3LIF5', 'Q5SYZ6']), # 4 items
   10762 : set(['B1AHA4', 'B2RB15', 'O75644', 'Q8N6V5', 'Q9NPM9', 'Q9NPR6', 'Q9P1K5', 'Q9UKX7']), # 8 items
-  10765 : set(['O95811', 'Q15752', 'Q9UGL1', 'Q9Y3Q5']), # 4 items
+  90668 : set(['Q8ND23', 'Q8TEF7', 'Q96HS9']), # 3 items
   10767 : set(['B7Z365', 'Q4VX89', 'Q4VX90', 'Q5T7G3', 'Q8NDW9', 'Q9UPW3', 'Q9Y450']), # 7 items
   10766 : set(['Q14106', 'Q6FHR7', 'Q6PIT9', 'Q9BY97', 'Q9UBI0']), # 5 items
   10769 : set(['O60679', 'Q96CV7', 'Q9NYY3', 'Q9UE61']), # 4 items
@@ -864,6 +868,7 @@ GeneID2UniProtACs = {
   728395 : set(['P0CV99', 'P0CW01']), # 2 items
   89941 : set(['A2IDC2', 'Q8IXI1', 'Q8NF53', 'Q96C13', 'Q96S17', 'Q9BT60', 'Q9H7M8']), # 7 items
   285172 : set(['B2RCG7', 'Q4ZG87', 'Q53TX6', 'Q8IXS8']), # 4 items
+  84858 : set(['Q8NAC5', 'Q96E25', 'Q96F45', 'Q96IJ0']), # 4 items
   89944 : set(['A6NCE6', 'Q6UX60', 'Q8IW92', 'Q8NC62', 'Q8NCB3', 'Q8NCJ1', 'Q96HP3']), # 7 items
   10940 : set(['A8K5W9', 'Q15037', 'Q99575']), # 3 items
   729574 : set(['A6NEA5', 'P0DMU3', 'P0DMU4', 'P0DMU5']), # 4 items
@@ -936,7 +941,7 @@ GeneID2UniProtACs = {
   8038 : set(['O43184', 'O60470', 'Q5JRP0', 'Q5JRP1', 'Q6P9E3', 'Q6UWB0']), # 6 items
   283638 : set(['Q2KHR7', 'Q86TI7', 'Q9Y4F5']), # 3 items
   8528 : set(['A8KAG4', 'Q5JXM4', 'Q5JXM5', 'Q5JXM6', 'Q8N552', 'Q99489']), # 6 items
-  83878 : set(['A8K7L6', 'B2RCR9', 'Q8N6Y0', 'Q8NBX7', 'Q96KH3', 'Q9BYI8']), # 6 items
+  390999 : set(['O95522']), # 1 items
   80834 : set(['Q5TZ19', 'Q8TE23']), # 2 items
   8522 : set(['A8KAC2', 'B2RCK9', 'O43144', 'O60861', 'Q53Y77', 'Q7Z571']), # 6 items
   8521 : set(['Q4VAQ7', 'Q5T0X0', 'Q99468', 'Q9NP62', 'Q9P1X3']), # 5 items
@@ -1041,7 +1046,7 @@ GeneID2UniProtACs = {
   220042 : set(['Q8IXT1', 'Q96LK6', 'Q9H856']), # 3 items
   5860 : set(['A8K158', 'B3KW71', 'P09417', 'Q53F52', 'Q9H3M5']), # 5 items
   5863 : set(['B4DG72', 'O15211', 'Q5STK0', 'Q9Y3F3']), # 4 items
-  101060233 : set(['P04001']), # 1 items
+  101060233 : set(['P04001', 'P0DN77', 'P0DN78']), # 3 items
   56666 : set(['B7Z684', 'Q96RD5', 'Q96RD6', 'Q9UGX8']), # 4 items
   56667 : set(['Q6UWD9', 'Q9H3R2', 'Q9NXT5']), # 3 items
   56660 : set(['Q9HB15']), # 1 items
@@ -1114,7 +1119,7 @@ GeneID2UniProtACs = {
   85440 : set(['Q00M63', 'Q2PPY7', 'Q45RE8', 'Q45RE9', 'Q5T1B9', 'Q5T1C0', 'Q6ZV32', 'Q8TB82', 'Q96N67', 'Q96NG6', 'Q96NI0', 'Q9C092']), # 12 items
   85441 : set(['Q3C2G2', 'Q4VXQ1', 'Q8TEF3', 'Q96ND3', 'Q9BYK8', 'Q9C094']), # 6 items
   85446 : set(['Q9C0A1', 'Q9UPU6']), # 2 items
-  80167 : set(['A1A4W8', 'A1A4W9', 'Q0P651', 'Q9H7A7']), # 4 items
+  9512 : set(['O60416', 'O75439', 'Q96FV4']), # 3 items
   85444 : set(['B4DYX6', 'B5RI11', 'Q8N768', 'Q96DK7', 'Q96N01', 'Q9C099']), # 6 items
   85445 : set(['E9PFZ6', 'Q86YZ7', 'Q9C0A0']), # 3 items
   80168 : set(['A8K7I3', 'Q3SYC1', 'Q3SYC2', 'Q6ZQZ2', 'Q86UH6', 'Q9H630']), # 6 items
@@ -1479,7 +1484,7 @@ GeneID2UniProtACs = {
   127124 : set(['Q495K2', 'Q495K4', 'Q5T9L6', 'Q96LB4']), # 4 items
   644538 : set(['P0DMW3', 'Q96HG1']), # 2 items
   130733 : set(['Q6UWI6', 'Q8N6N4', 'Q8NBL3']), # 3 items
-  94115 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 12 items
+  94115 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'P0DN86', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 13 items
   9560 : set(['B2RUZ3', 'B7ZMA8', 'Q50EM1', 'Q50EM2', 'Q50EM3', 'Q50EM4', 'Q50EM5', 'Q50EM6', 'Q50EM7', 'Q50EM8', 'Q569J2', 'Q6NSB0', 'Q8NHW4']), # 13 items
   391104 : set(['A1L4M4', 'Q6RSH7']), # 2 items
   939 : set(['B2RDZ0', 'P26842']), # 2 items
@@ -1588,6 +1593,7 @@ GeneID2UniProtACs = {
   7141 : set(['P09430']), # 1 items
   7142 : set(['Q05952', 'Q9NZB0']), # 2 items
   7143 : set(['C9J563', 'Q15568', 'Q5R3G0', 'Q92752']), # 4 items
+  124961 : set(['A5PLL4', 'Q96NJ6']), # 2 items
   10791 : set(['O95183', 'Q9P0T2']), # 2 items
   65267 : set(['B1AKG2', 'Q5JRC1', 'Q6JP76', 'Q8TCX6', 'Q9BYP7', 'Q9HCK6']), # 6 items
   89927 : set(['O00223', 'O75769', 'Q8IZ36', 'Q96H25', 'Q96MC5']), # 5 items
@@ -1643,6 +1649,7 @@ GeneID2UniProtACs = {
   374969 : set(['A8K5P1', 'D3DPW7', 'Q8N300']), # 3 items
   497189 : set(['Q5H8A9', 'Q6ZNK6']), # 2 items
   643161 : set(['B2RV02', 'B3EWG3', 'B3EWG4', 'B3EWG5', 'B3EWG6', 'Q5VTM1']), # 6 items
+  79703 : set(['Q8N6T0', 'Q9H677']), # 2 items
   55565 : set(['A6NK48', 'B4DKK4', 'D3DWS3', 'O75541']), # 4 items
   26523 : set(['Q5TA57', 'Q6P4S0', 'Q9UL18']), # 3 items
   26520 : set(['B2R584', 'Q9Y5J7']), # 2 items
@@ -1824,7 +1831,7 @@ GeneID2UniProtACs = {
   58486 : set(['B2RCC1', 'Q05D82', 'Q49AG3', 'Q86WW3', 'Q9NT24', 'Q9UBJ4']), # 6 items
   113278 : set(['A8K6P1', 'Q5W1A0', 'Q5W1A1', 'Q8NCL7', 'Q96GD5', 'Q9NQ40']), # 6 items
   25850 : set(['Q14585']), # 1 items
-  9719 : set(['B1B0D5', 'O60345', 'Q86TH1']), # 3 items
+  388849 : set(['H7C350']), # 1 items
   9718 : set(['A5PLK8', 'O60344', 'Q6NTG7', 'Q6UW36', 'Q8NFD7', 'Q96NX3', 'Q96NX4', 'Q9BRZ8']), # 8 items
   121006 : set(['A6NE01']), # 1 items
   8544 : set(['O00625', 'Q5U0G0', 'Q6FHD2']), # 3 items
@@ -1839,7 +1846,7 @@ GeneID2UniProtACs = {
   22995 : set(['E7ER66', 'O94986', 'Q17RV1', 'Q6NTA0']), # 4 items
   22994 : set(['A6NHI8', 'B2RN11', 'Q96F50', 'Q9UPN4']), # 4 items
   836 : set(['A8K5M2', 'D3DP53', 'P42574', 'Q96AN1', 'Q96KP2']), # 5 items
-  837 : set(['A2NHL8', 'A2NHM0', 'P49662']), # 3 items
+  837 : set(['A2NHL8', 'A2NHL9', 'A2NHM0', 'B3KPZ9', 'B4DJH5', 'B4E2D2', 'O95601', 'P49662', 'Q7KYX7', 'Q9UG96']), # 10 items
   834 : set(['B5MDZ1', 'P29466', 'Q53EY6', 'Q6DMQ1', 'Q6GSS3', 'Q6PI75', 'Q9UCN3']), # 7 items
   835 : set(['A8K5F9', 'D3DXD6', 'E9PDN0', 'P42575', 'P42576', 'Q59F21', 'Q7KZL6', 'Q86UJ3', 'Q9BUP7', 'Q9BZK9', 'Q9BZL0']), # 11 items
   8884 : set(['B2RB85', 'D6W549', 'Q969Y5', 'Q9Y289']), # 4 items
@@ -1875,6 +1882,7 @@ GeneID2UniProtACs = {
   80856 : set(['B7ZLA8', 'Q2M2V8', 'Q2YD99', 'Q658W8', 'Q8N5V9', 'Q96MS5', 'Q9C0E8']), # 7 items
   5824 : set(['D3DVE7', 'P40855', 'Q5QNY4', 'Q8NI97']), # 4 items
   80854 : set(['B5WWL3', 'Q0VAH3', 'Q4W5A9', 'Q8WTS6', 'Q9C0E6']), # 5 items
+  399693 : set(['A0A096LP49', 'Q8N5P7']), # 2 items
   55092 : set(['A8K819', 'Q9NW97']), # 2 items
   157753 : set(['Q96NL1']), # 1 items
   10928 : set(['D3DUI0', 'Q15311']), # 2 items
@@ -1882,7 +1890,7 @@ GeneID2UniProtACs = {
   1728 : set(['B2R5Y9', 'B4DNM7', 'B7ZAD1', 'P15559', 'Q86UK1']), # 5 items
   1729 : set(['A6NF18', 'B7ZKW2', 'E9PEZ2', 'O60610', 'Q17RN4', 'Q59FH8', 'Q9UC76']), # 7 items
   5245 : set(['B4DY47', 'P35232', 'Q4VBQ0']), # 3 items
-  64748 : set(['Q5CZ76', 'Q8N1U4', 'Q96GM1', 'Q9H929']), # 4 items
+  5244 : set(['A0A2V7', 'A4D1D3', 'A4D1D4', 'A4D1D5', 'D6W5P3', 'D6W5P4', 'P21439', 'Q14813']), # 8 items
   1725 : set(['A8K688', 'M0R1I5', 'P49366', 'Q13184', 'Q13276', 'Q9UDG0']), # 6 items
   403313 : set(['B3KY05', 'Q5JVJ6', 'Q8IY26', 'Q8NCK9']), # 4 items
   1723 : set(['A8K8C8', 'Q02127', 'Q6P176']), # 3 items
@@ -1947,7 +1955,7 @@ GeneID2UniProtACs = {
   114899 : set(['Q0VAN4', 'Q542Y2', 'Q6MZN1', 'Q96KY1', 'Q9BXJ4']), # 5 items
   114898 : set(['Q9BXJ5']), # 1 items
   114897 : set(['Q6ZMH6', 'Q96NF2', 'Q9BXJ1', 'Q9GZR4']), # 4 items
-  9450 : set(['O95711', 'Q9UQC4']), # 2 items
+  57540 : set(['Q5VTU9', 'Q9P2K9', 'Q9UJD6']), # 3 items
   145553 : set(['Q86V88', 'Q86Y84', 'Q8NAD9']), # 3 items
   282775 : set(['Q6IEU5', 'Q8NH18']), # 2 items
   9103 : set(['O00523', 'O00524', 'O00525', 'P31995']), # 4 items
@@ -1993,7 +2001,7 @@ GeneID2UniProtACs = {
   79649 : set(['A2A2J0', 'A6NCZ7', 'A6NHR4', 'B4DWD2', 'H7BY77', 'Q5JXI5', 'Q5JXI6', 'Q6P2S1', 'Q8IWC1', 'Q9H9M8']), # 10 items
   727830 : set(['Q5VYP0']), # 1 items
   23224 : set(['B4DND7', 'B4DPR6', 'I6XXQ5', 'Q540G1', 'Q86YP9', 'Q8N1S3', 'Q8NF49', 'Q8TER7', 'Q8WWW3', 'Q8WWW4', 'Q8WWW5', 'Q8WXH0', 'Q8WXH1', 'Q9NU50', 'Q9UFQ4', 'Q9Y2L4', 'Q9Y4R1']), # 17 items
-  23225 : set(['A6NN56', 'O94980', 'Q6NXG6', 'Q8NBJ1', 'Q8TEM1', 'Q9H6C8', 'Q9UFP3']), # 7 items
+  727832 : set(['A8MZA4', 'D3YTC0']), # 2 items
   55359 : set(['B2R9T2', 'Q52LR3', 'Q6J9G0', 'Q9BXY2', 'Q9NSH1']), # 5 items
   6419 : set(['B4DY74', 'E7EN68', 'Q13579', 'Q1G668', 'Q53H47', 'Q96F41']), # 6 items
   6418 : set(['A5A5H4', 'A6NGV1', 'B4DUE2', 'Q01105', 'Q15541', 'Q5VXV1', 'Q5VXV2', 'Q6FHZ5']), # 8 items
@@ -2079,7 +2087,7 @@ GeneID2UniProtACs = {
   26025 : set(['O15100', 'O60330', 'Q6UW70', 'Q9Y5D7']), # 4 items
   124222 : set(['A8K5Q8', 'D3DUA2', 'D3DUA3', 'Q8N4S7', 'Q8NAS6', 'Q96NW1']), # 6 items
   119774 : set(['A8MUY8', 'B2RP35', 'Q6IFK4', 'Q8NGK3']), # 4 items
-  96626 : set(['B4DPH6', 'C9K0W2', 'P0CW19', 'P0CW20', 'Q9HB10']), # 5 items
+  96626 : set(['A0A0A6YYD2', 'B4DPH6', 'C9K0W2', 'P0CW19', 'P0CW20', 'Q9HB10']), # 6 items
   158326 : set(['B7ZBX4', 'Q5H8C1', 'Q5VV00', 'Q5VV01', 'Q6MZI4', 'Q8NEG9', 'Q96LI3']), # 7 items
   25770 : set(['A0AV97', 'O95567']), # 2 items
   4836 : set(['A8K7C1', 'P30419', 'Q9UE09']), # 3 items
@@ -2114,7 +2122,7 @@ GeneID2UniProtACs = {
   2557 : set(['P48169', 'Q8IYR7']), # 2 items
   2558 : set(['A8K338', 'P31644', 'Q14DC2', 'Q53XL6', 'Q9NYT3', 'Q9NYT4', 'Q9NYT5']), # 7 items
   26084 : set(['B3KVP8', 'E9PBD0', 'Q68CL1', 'Q6AZ96', 'Q6Q8Q8', 'Q96AW8', 'Q96DR6', 'Q96DR7', 'Q9H9D7', 'Q9H9R2', 'Q9UFW5']), # 11 items
-  440400 : set(['G3V1Z9', 'Q502Z2', 'Q6P5S7']), # 3 items
+  81893 : set(['Q8MH63']), # 1 items
   26086 : set(['A9Z1X4', 'B1B0W3', 'Q86SR5', 'Q86YR5', 'Q969T1', 'Q9UFS8']), # 6 items
   26083 : set(['Q9UFV1']), # 1 items
   116496 : set(['Q2TTR2', 'Q5TEM8', 'Q8TEI5', 'Q9BZQ8', 'Q9H593', 'Q9H9Y8', 'Q9HCB9']), # 7 items
@@ -2185,6 +2193,7 @@ GeneID2UniProtACs = {
   83416 : set(['A0N0M2', 'B7WNT9', 'B7WP94', 'Q495Q2', 'Q495Q4', 'Q5VYK9', 'Q6UY46', 'Q96RD9']), # 8 items
   347516 : set(['Q6IEE2', 'Q6ZPD8']), # 2 items
   644414 : set(['P59861']), # 1 items
+  101929983 : set(['A3QJZ7']), # 1 items
   125931 : set(['Q6UY09']), # 1 items
   55717 : set(['Q5VWA1', 'Q9BZH6', 'Q9P2J6']), # 3 items
   340526 : set(['A7E2W7', 'Q5HYW3', 'Q8NCM4', 'Q9NPX1']), # 4 items
@@ -2318,6 +2327,7 @@ GeneID2UniProtACs = {
   199920 : set(['Q5VWT5', 'Q63HM3', 'Q6ZUY6']), # 3 items
   8492 : set(['P56730', 'Q9UP16']), # 2 items
   57477 : set(['A7E2X9', 'D6RFW0', 'Q96LA0', 'Q9ULL8']), # 4 items
+  4856 : set(['B2R5X7', 'P48745', 'Q6I9S3', 'Q96BY5', 'Q9UDE4']), # 5 items
   26502 : set(['A6NCJ3', 'B3KPX2', 'K4DI98', 'Q96AY9', 'Q9BWC6', 'Q9UHQ1']), # 6 items
   23131 : set(['B9EGP9', 'O60300', 'Q8TB99', 'Q9UKJ3']), # 4 items
   26504 : set(['B7Z1U0', 'C7SQM3', 'C7SQM4', 'C7SQM5', 'Q53RE5', 'Q6P4Q7', 'Q9H9G3', 'Q9HCI0', 'Q9NRN1']), # 9 items
@@ -2422,7 +2432,6 @@ GeneID2UniProtACs = {
   55094 : set(['Q8IZV6', 'Q8N3B7', 'Q9BRR8', 'Q9NW94']), # 4 items
   199 : set(['A8K406', 'O43904', 'P55008', 'Q9UIV4', 'Q9UKS9']), # 5 items
   9672 : set(['O75056', 'Q5T1Z6', 'Q5T1Z7', 'Q96CT3', 'Q96PR8']), # 5 items
-  7419 : set(['Q9UIS0', 'Q9Y277']), # 2 items
   120227 : set(['Q2M3H3', 'Q5RT65', 'Q6VVX0']), # 3 items
   81832 : set(['Q86W85', 'Q8ND78', 'Q8TDF4', 'Q8TDF5']), # 4 items
   197 : set(['A8K9N6', 'B2R7G1', 'O14961', 'O14962', 'P02765', 'Q9P152']), # 6 items
@@ -2499,7 +2508,7 @@ GeneID2UniProtACs = {
   79363 : set(['Q5TEV7', 'Q9BU20']), # 2 items
   4957 : set(['B1AND3', 'B4DRK4', 'B4DX73', 'B4DZ02', 'E7EWL2', 'F5H6J4', 'O14721', 'O60631', 'Q1W2J6', 'Q5BJF6', 'Q6UN26', 'Q7Z5I6', 'Q96FN2']), # 13 items
   240 : set(['B7ZLS0', 'E5FPY5', 'E5FPY7', 'E5FPY8', 'P09917', 'Q5JQ14']), # 6 items
-  9731 : set(['O60308', 'Q5JSQ3', 'Q5SR24', 'Q5SR25', 'Q6PKF5', 'Q86W32', 'Q86X14']), # 7 items
+  9731 : set(['A0A024R4G3', 'O60308', 'Q5JSQ3', 'Q5SR24', 'Q5SR25', 'Q6PKF5', 'Q86W32', 'Q86X14']), # 8 items
   113251 : set(['A8K6T1', 'E9PDG5', 'G3XAA8', 'G5E976', 'Q5CZ97', 'Q6ZV14', 'Q71RC2', 'Q96NF9']), # 8 items
   9733 : set(['A8K2E4', 'B7ZKM0', 'Q15020', 'Q2M2H0', 'Q58F06', 'Q8IUS1', 'Q96J95']), # 7 items
   9732 : set(['O14584', 'O94824', 'Q8N1I0', 'Q8NB45']), # 4 items
@@ -2553,6 +2562,7 @@ GeneID2UniProtACs = {
   5229 : set(['P53609', 'Q5MJP9']), # 2 items
   5228 : set(['P49763', 'Q07101', 'Q9BV78', 'Q9Y6S8']), # 4 items
   8433 : set(['O75833', 'Q5T230', 'Q6J1H3']), # 3 items
+  119772 : set(['Q8NGK5']), # 1 items
   400935 : set(['A6NCN4', 'A6PVC1', 'Q6ZVW7']), # 3 items
   157773 : set(['Q96LJ9', 'Q96LL4']), # 2 items
   5222 : set(['A8K749', 'B7ZW62', 'B7ZW75', 'P00790', 'P0DJD9', 'Q7M4R0', 'Q8N1E3']), # 7 items
@@ -2666,7 +2676,7 @@ GeneID2UniProtACs = {
   150864 : set(['Q53QZ5', 'Q585T9', 'Q6P1L5', 'Q8N8W1', 'Q96Q34']), # 5 items
   122509 : set(['Q96BM0']), # 1 items
   495 : set(['O00738', 'P20648']), # 2 items
-  496 : set(['B1B0N8', 'P51164']), # 2 items
+  102724652 : set(['P02489', 'Q53X53']), # 2 items
   51552 : set(['B3KR31', 'P35287', 'P61106', 'Q5JVD4', 'Q6Q7K5', 'Q969L0', 'Q9UI11']), # 7 items
   490 : set(['P20020', 'Q12992', 'Q12993', 'Q13819', 'Q13820', 'Q13821', 'Q16504', 'Q93082']), # 8 items
   491 : set(['O00766', 'Q01814', 'Q12994', 'Q16818']), # 4 items
@@ -2890,7 +2900,6 @@ GeneID2UniProtACs = {
   163051 : set(['A8K4E6', 'Q8N972']), # 2 items
   646000 : set(['P0C7Q5']), # 1 items
   387509 : set(['Q5TGR5', 'Q6AHW8', 'Q6NV75', 'Q86SP8']), # 4 items
-  654348 : set(['Q5VWM1']), # 1 items
   84569 : set(['Q5T921', 'Q6UWQ5', 'Q8WW16']), # 3 items
   203522 : set(['Q5CZA2', 'Q5JSJ4', 'Q6IPS3', 'Q6ZTU5', 'Q6ZWE4']), # 5 items
   203523 : set(['Q5JRZ7', 'Q5JRZ8', 'Q6NZX2', 'Q6P9G9', 'Q8N3Q1', 'Q8TED7']), # 6 items
@@ -2970,7 +2979,7 @@ GeneID2UniProtACs = {
   29982 : set(['A6PW36', 'B4DWS0', 'Q86UR2', 'Q96F24', 'Q96NP6', 'Q9H0S9', 'Q9H2I2']), # 7 items
   29985 : set(['B3KMJ3', 'Q8WUG1', 'Q9BRY0']), # 3 items
   29984 : set(['O00212']), # 1 items
-  254013 : set(['D3DUW3', 'Q8IXQ9']), # 2 items
+  29986 : set(['B2RC76', 'G3V5X2', 'Q4QQJ1', 'Q4V9S4', 'Q96JT6', 'Q9NP94', 'Q9UD20']), # 7 items
   140469 : set(['B8ZZR2', 'Q53QE1', 'Q53T08', 'Q8IX64', 'Q8IX65', 'Q8IX66', 'Q8IX67', 'Q8IX68', 'Q8WXR4', 'Q96N94']), # 10 items
   284306 : set(['A8K5Z9', 'Q8IVP9', 'Q96NC4']), # 3 items
   151306 : set(['B3KV35', 'Q8TDU6']), # 2 items
@@ -2981,6 +2990,7 @@ GeneID2UniProtACs = {
   3977 : set(['P42702', 'Q6LCD9']), # 2 items
   1465 : set(['A8K268', 'P21291', 'Q5U0J2']), # 3 items
   1464 : set(['D3DW77', 'Q6UVK1', 'Q92675']), # 3 items
+  57451 : set(['Q9NT68', 'Q9ULU2']), # 2 items
   1466 : set(['Q16527', 'Q93030']), # 2 items
   3550 : set(['Q13123', 'Q6IPD8']), # 2 items
   1460 : set(['B0UXA9', 'P07312', 'P13862', 'P67870', 'Q4VX47']), # 5 items
@@ -3028,7 +3038,7 @@ GeneID2UniProtACs = {
   319 : set(['Q13790', 'Q8TC13']), # 2 items
   318 : set(['D3DRM0', 'P50583', 'Q5T589']), # 3 items
   221481 : set(['Q5T9G4', 'Q8NEB2', 'Q96LL8']), # 3 items
-  55690 : set(['Q6PJY6', 'Q6PKB6', 'Q6VY07', 'Q7Z590', 'Q7Z5W4', 'Q8N8K6', 'Q96MW0', 'Q9NW92', 'Q9ULP5']), # 9 items
+  93432 : set(['A4D2I3', 'C9JNC2', 'Q2M2H8']), # 3 items
   100129128 : set(['E1P535', 'Q5JSQ8']), # 2 items
   313 : set(['A4D1Y5', 'B7Z490', 'P28039', 'Q53F13']), # 4 items
   312 : set(['P27216', 'Q9BQR5']), # 2 items
@@ -3225,7 +3235,7 @@ GeneID2UniProtACs = {
   3430 : set(['C9JGX1', 'P80217', 'Q92984', 'Q99537', 'Q9BV98']), # 5 items
   3431 : set(['B4DVI4', 'F5H1M1', 'Q14976', 'Q14977', 'Q53TG2', 'Q8WUZ6', 'Q9HB58', 'Q9HCT8']), # 8 items
   874 : set(['O75828', 'Q6FHP2']), # 2 items
-  875 : set(['B2R993', 'D3DSK4', 'P35520', 'Q99425', 'Q9BWC5']), # 5 items
+  875 : set(['B2R993', 'D3DSK4', 'P0DN79', 'P35520', 'Q99425', 'Q9BWC5']), # 6 items
   3434 : set(['B3KS50', 'D3DR31', 'P09914', 'Q5T7J1', 'Q96QM5']), # 5 items
   873 : set(['B2RBZ7', 'B4DFK7', 'P16152', 'Q3LHW8']), # 4 items
   5090 : set(['E9PB27', 'P40426', 'Q5JSA0', 'Q5JSA1', 'Q5VXL3', 'Q96PF9', 'Q96PG0']), # 7 items
@@ -3454,7 +3464,6 @@ GeneID2UniProtACs = {
   3606 : set(['O75599', 'Q14116', 'Q6FGY3', 'Q6WWJ7']), # 4 items
   3605 : set(['Q16552', 'Q5T2P0']), # 2 items
   3604 : set(['Q07011']), # 1 items
-  57577 : set(['B4DYL1', 'Q8NCU4', 'Q9P2E0']), # 3 items
   353288 : set(['A2RUL2', 'B2RNH8', 'Q7Z3Y9']), # 3 items
   3609 : set(['A8K6F2', 'G5E9M5', 'O43409', 'Q12906', 'Q6P1X1', 'Q86XY7', 'Q99544', 'Q99545', 'Q9BZH4', 'Q9BZH5', 'Q9NQ95', 'Q9NQ96', 'Q9NQ97', 'Q9NQ98', 'Q9NQ99', 'Q9NQA0', 'Q9NQA1', 'Q9NQA2', 'Q9NRN2', 'Q9NRN3', 'Q9NRN4', 'Q9UMZ9', 'Q9UN00', 'Q9UN84', 'Q9UNA2']), # 25 items
   3608 : set(['A6NDB0', 'B2R8G7', 'Q12905', 'Q5SR10', 'Q5SR11', 'Q7L7R3', 'Q9BWD4', 'Q9P1N0']), # 8 items
@@ -3574,7 +3583,7 @@ GeneID2UniProtACs = {
   167681 : set(['A8K7B3', 'Q8N3Z0', 'Q9BQP6']), # 3 items
   121457 : set(['Q6ZWH4', 'Q70UP9', 'Q70UQ0', 'Q86V91', 'Q96ND2']), # 5 items
   163259 : set(['B1AL26', 'Q5TCX6', 'Q68D51', 'Q6P3R3']), # 4 items
-  5244 : set(['A0A2V7', 'A4D1D3', 'A4D1D4', 'A4D1D5', 'D6W5P3', 'D6W5P4', 'P21439', 'Q14813']), # 8 items
+  23049 : set(['O43305', 'Q13284', 'Q8NFX2', 'Q96Q15', 'Q96QV0', 'Q96RW3']), # 6 items
   728957 : set(['A8K971', 'A8MY01', 'P0CH99', 'Q2TAN0']), # 4 items
   126074 : set(['Q6NVH7', 'Q8NAM1']), # 2 items
   23046 : set(['B2RP62', 'B7ZMI0', 'O75037', 'Q5T4J3']), # 4 items
@@ -3912,7 +3921,7 @@ GeneID2UniProtACs = {
   84947 : set(['Q49AT1', 'Q5VTX3', 'Q6PKF3', 'Q96JX3']), # 4 items
   353137 : set(['Q5T754']), # 1 items
   353135 : set(['D3DV30', 'Q5T753']), # 2 items
-  170689 : set(['Q32MI6', 'Q8TE58']), # 2 items
+  55107 : set(['A8KAM3', 'Q5XXA6', 'Q8IYY8', 'Q8N7V3']), # 4 items
   9032 : set(['O14894', 'Q17RW9', 'Q6IB79']), # 3 items
   5161 : set(['B2R9Q3', 'P29803', 'Q0VDI5', 'Q4VC02', 'Q6NXQ1']), # 5 items
   7447 : set(['D6W515', 'P28677', 'P29103', 'P42323', 'P62760', 'Q9UM20']), # 6 items
@@ -4027,7 +4036,7 @@ GeneID2UniProtACs = {
   374955 : set(['B9EK40', 'F5GXP5', 'Q7Z572']), # 3 items
   146562 : set(['Q8IYS4', 'Q8NCV0']), # 2 items
   26748 : set(['B7ZM13', 'O76087', 'P0CL80', 'P0CL81', 'P0CL82', 'Q4V324', 'Q66I50']), # 7 items
-  26749 : set(['A6NFB1', 'Q4V326']), # 2 items
+  26749 : set(['A6NG46', 'A6NNR8', 'B7ZL76', 'Q4V325', 'Q9UEU5']), # 5 items
   541468 : set(['Q96LR2']), # 1 items
   126520 : set(['B3KNR4', 'Q1ZYM0', 'Q496M5']), # 3 items
   126526 : set(['Q8IZ33', 'Q8N0V9', 'Q8N9M1']), # 3 items
@@ -4054,6 +4063,7 @@ GeneID2UniProtACs = {
   259282 : set(['Q6P0M8', 'Q8NFC6', 'Q96AL1', 'Q9H6G0', 'Q9NTD6', 'Q9P2L9']), # 6 items
   84619 : set(['E1P5K1', 'Q4VXN9', 'Q5JWI9', 'Q5JWJ0', 'Q8N5A5', 'Q8NC55', 'Q8WUV4', 'Q96JI0', 'Q96JU4', 'Q9H401']), # 10 items
   389136 : set(['A8MV65', 'D3DU37', 'Q504T7']), # 3 items
+  55325 : set(['Q6IA77', 'Q96FS3', 'Q9NUQ7']), # 3 items
   119678 : set(['Q8NGJ4']), # 1 items
   119679 : set(['Q6IFE4', 'Q8NH60']), # 2 items
   387 : set(['P06749', 'P61586', 'Q53HM4', 'Q5U024', 'Q9UDJ0', 'Q9UEJ4']), # 6 items
@@ -4248,7 +4258,7 @@ GeneID2UniProtACs = {
   653067 : set(['A6NJ94', 'Q5JPN8', 'Q5JPP0', 'Q5JPP3', 'Q8WWG5', 'Q8WWG6', 'Q969J6', 'Q9HD64']), # 8 items
   8969 : set(['P02261', 'P0C0S8', 'Q2M1R2', 'Q76PA6']), # 4 items
   8968 : set(['A0PJT7', 'A5PLR1', 'P02295', 'P02296', 'P16106', 'P68431', 'Q6ISV8', 'Q6NWP8', 'Q6NWP9', 'Q6NXU4', 'Q71DJ3', 'Q93081']), # 12 items
-  255057 : set(['O43385', 'Q8N350']), # 2 items
+  255057 : set(['K7EJP2', 'O43385', 'Q8N350']), # 3 items
   149095 : set(['B4DXA0', 'E9PHV3', 'Q5T197', 'Q5T198', 'Q6P1W6', 'Q71S70', 'Q96M70']), # 7 items
   51493 : set(['B2R6A8', 'Q6IAI0', 'Q9BWL4', 'Q9NTH1', 'Q9P037', 'Q9P0J3', 'Q9Y3I0']), # 7 items
   11040 : set(['A8K4G6', 'Q99739', 'Q9P1W9']), # 3 items
@@ -4314,8 +4324,8 @@ GeneID2UniProtACs = {
   5435 : set(['P41584', 'P61218', 'Q6IAY3']), # 3 items
   3364 : set(['B4DFI9', 'O60921']), # 2 items
   1428 : set(['D5MNX0', 'Q14894', 'Q5HYB7']), # 3 items
-  58473 : set(['A8K0Q5', 'B2RBP1', 'B7Z716', 'Q9UBF5', 'Q9UF11', 'Q9UI37', 'Q9UI44']), # 7 items
-  79792 : set(['D3DWJ9', 'P57764', 'Q96Q98']), # 3 items
+  9450 : set(['O95711', 'Q9UQC4']), # 2 items
+  79792 : set(['A8K702', 'D3DWJ9', 'P57764', 'Q96Q98']), # 4 items
   3360 : set(['C4WYH4', 'Q13639', 'Q546Q1', 'Q684M0', 'Q712M9', 'Q96KH9', 'Q96KI0', 'Q9H199', 'Q9NY73', 'Q9UBM6', 'Q9UBT4', 'Q9UE22', 'Q9UE23', 'Q9UQR6']), # 14 items
   3361 : set(['P47898', 'Q2M2D2']), # 2 items
   3362 : set(['P50406', 'Q13640', 'Q5TGZ1']), # 3 items
@@ -4563,7 +4573,7 @@ GeneID2UniProtACs = {
   9469 : set(['O75099', 'Q52M30', 'Q7LGC8']), # 3 items
   9468 : set(['A8IX00', 'B2RCX8', 'B4DK10', 'E9PD84', 'O60621', 'Q86XC9', 'Q9Y5K3']), # 7 items
   57519 : set(['Q68DG2', 'Q6AI01', 'Q6ZWK0', 'Q9P2P6', 'Q9UF70']), # 5 items
-  2074 : set(['D3DX94', 'Q03468', 'Q5W0L9']), # 3 items
+  2074 : set(['B3KQC4', 'D3DX94', 'Q03468', 'Q5W0L9', 'Q5W0M0', 'Q6PIH0', 'Q8N328']), # 7 items
   54893 : set(['Q6P4Q6', 'Q9NXD2']), # 2 items
   54892 : set(['A4D228', 'Q7Z3J9', 'Q86XI2', 'Q8WUG8', 'Q9BRX6', 'Q9H8S2', 'Q9H9K6']), # 7 items
   54891 : set(['B3KU68', 'B9EG77', 'Q53TQ3', 'Q6PJC6', 'Q6PJU1', 'Q6PKA1', 'Q9NXD5']), # 7 items
@@ -4619,7 +4629,7 @@ GeneID2UniProtACs = {
   54763 : set(['D3DN99', 'Q9HAT0', 'Q9UF38']), # 3 items
   100131897 : set(['A6NMK8']), # 1 items
   54097 : set(['P58499']), # 1 items
-  84668 : set(['A4D145', 'Q6N010', 'Q75MR4', 'Q7LDZ4', 'Q96MX1', 'Q96NQ6', 'Q9BYI3']), # 7 items
+  84668 : set(['A0A024RA06', 'A4D145', 'B8ZZJ1', 'Q6N010', 'Q75MR4', 'Q7LDZ4', 'Q96MX1', 'Q96NQ6', 'Q9BYI3']), # 9 items
   54766 : set(['Q8NEH7', 'Q9NY30']), # 2 items
   11317 : set(['O95723', 'Q5QPU9', 'Q5QPV0', 'Q9UBG7', 'Q9ULV9']), # 5 items
   54700 : set(['A2RTY9', 'B4E0J7', 'B4E3T2', 'Q3MHU9', 'Q6IPL4', 'Q9H4F0', 'Q9NYV6']), # 7 items
@@ -4639,6 +4649,7 @@ GeneID2UniProtACs = {
   80209 : set(['A6NJ97', 'Q6P2S2', 'Q7Z3X5', 'Q86XN7', 'Q8N3D2', 'Q8N3P1', 'Q9H9M1']), # 7 items
   120146 : set(['A6NGJ6']), # 1 items
   133558 : set(['Q68DM1', 'Q7Z4U4', 'Q7Z745', 'Q8N7X3']), # 4 items
+  56160 : set(['Q8IW16', 'Q8TEI6', 'Q96MG7', 'Q9H214']), # 4 items
   157869 : set(['A8KAA5', 'Q8IVN8', 'Q96J64']), # 3 items
   9411 : set(['O15463', 'Q52LW3', 'Q59H86', 'Q5VYZ0', 'Q6NVX2', 'Q8TBI6']), # 6 items
   225689 : set(['Q2TCF9', 'Q8N362', 'Q8TD08']), # 3 items
@@ -4784,7 +4795,7 @@ GeneID2UniProtACs = {
   345557 : set(['A6NL04', 'Q63HM9']), # 2 items
   57728 : set(['B5MEF2', 'Q8N5B4', 'Q8NEZ3', 'Q9H5S0', 'Q9HCD4']), # 5 items
   5970 : set(['Q04206', 'Q6GTV1', 'Q6SLK1']), # 3 items
-  93432 : set(['A4D2I3', 'C9JNC2', 'Q2M2H8']), # 3 items
+  84705 : set(['A6NFH1', 'A6NIG5', 'A6NKR4', 'A8K7B4', 'B7Z4V8', 'Q8TCY6', 'Q8WUW9', 'Q969G4', 'Q969Y2', 'Q9BX61']), # 10 items
   80177 : set(['Q8N396', 'Q8N699', 'Q8TBE8', 'Q9H763']), # 4 items
   93436 : set(['B4DI98', 'O94999', 'Q6NXE6', 'Q9BTH5']), # 4 items
   57720 : set(['A6NJ53', 'Q2TB81', 'Q5JPA3', 'Q5VW38', 'Q5VW39', 'Q96T26', 'Q9H658', 'Q9HCE8']), # 8 items
@@ -5166,7 +5177,7 @@ GeneID2UniProtACs = {
   26499 : set(['Q96JT0', 'Q9NYT0']), # 2 items
   59283 : set(['Q8WXS5', 'Q9BXT0', 'Q9BY23']), # 3 items
   64843 : set(['B3KM37', 'Q96A47']), # 2 items
-  154790 : set(['P0C7M8']), # 1 items
+  92002 : set(['Q2I380', 'Q330J9', 'Q8N1B3', 'Q96IU5', 'Q9BUU1']), # 5 items
   64841 : set(['Q96EK6']), # 1 items
   64840 : set(['B2RBN8', 'B7ZAR3', 'Q14829', 'Q9H234', 'Q9H235', 'Q9H236', 'Q9H237', 'Q9UJU7']), # 8 items
   154664 : set(['K9LC76', 'K9LC79', 'K9LCX7', 'K9LDK8', 'K9LDY4', 'Q6ZTT7', 'Q86UQ4', 'Q86WI2', 'Q8N248']), # 9 items
@@ -5179,7 +5190,7 @@ GeneID2UniProtACs = {
   55220 : set(['B3KU70', 'Q8IYD2', 'Q9NVG5']), # 3 items
   55863 : set(['A8K535', 'A8MSS0', 'Q32Q09', 'Q8IUX1', 'Q8WVU3', 'Q96EP3', 'Q9NZ29']), # 7 items
   378925 : set(['A4D0X4', 'Q8N308', 'Q8N7C7']), # 3 items
-  376940 : set(['A9JR71', 'P61129', 'Q6ZW96']), # 3 items
+  106821730 : set(['A8K2G2', 'B3KYB0', 'G5E9R2', 'Q9NQU5']), # 4 items
   337969 : set(['Q3LHN2']), # 1 items
   283869 : set(['Q8N729']), # 1 items
   79587 : set(['Q8NI84', 'Q96IV4', 'Q9HA77']), # 3 items
@@ -5437,8 +5448,8 @@ GeneID2UniProtACs = {
   127428 : set(['Q5T702', 'Q8N8N2', 'Q96MN5']), # 3 items
   118491 : set(['C9JIZ9', 'Q5T0M4', 'Q5T0M9', 'Q5T0N0', 'Q5T0N1', 'Q69YH9', 'Q8IYZ8', 'Q8N7D5', 'Q8NI30', 'Q8NI31']), # 10 items
   118490 : set(['A6NGH6', 'Q2VP95', 'Q4VC12', 'Q5F2H5', 'Q7Z3M9', 'Q8N8G0']), # 6 items
-  55748 : set(['B3KUG4', 'Q8WY59', 'Q96KP4', 'Q9BQ94', 'Q9NVB4']), # 5 items
-  55749 : set(['A0JLT7', 'A1L4P7', 'A8K9D4', 'B4DNP8', 'B4DRK8', 'Q32NE3', 'Q5EBM3', 'Q5VUP6', 'Q6PIZ0', 'Q6X935', 'Q8IX12', 'Q9H8N4', 'Q9NVA7', 'Q9NVQ0', 'Q9NWM6']), # 15 items
+  55748 : set(['B3KUG4', 'Q8WY59', 'Q96KP4', 'Q9BQ94', 'Q9NVB4', 'V9HWE5']), # 6 items
+  91851 : set(['B1AKD0', 'B4DMP3', 'D3DUY6', 'E9PGS5', 'Q539E4', 'Q9BU40', 'Q9Y3H7']), # 7 items
   55038 : set(['Q8TB18', 'Q9BXL8', 'Q9NWK7']), # 3 items
   154881 : set(['A4D2M4', 'Q8IVR0', 'Q96MP8']), # 3 items
   55740 : set(['D0PQI2', 'Q502W5', 'Q5T5M7', 'Q5VTQ9', 'Q5VTR0', 'Q8N8S7', 'Q9NVF3', 'Q9UFB8']), # 8 items
@@ -5467,6 +5478,7 @@ GeneID2UniProtACs = {
   347731 : set(['A8K2A3', 'Q2NKX7', 'Q6N0A3', 'Q86VH5']), # 4 items
   220323 : set(['Q86UD1']), # 1 items
   51626 : set(['A8MVJ5', 'Q53F57', 'Q6PDB2', 'Q8IWA3', 'Q8TCX1', 'Q96B03', 'Q96J00', 'Q9Y370', 'Q9Y3S9']), # 9 items
+  100129520 : set(['A0A0J9YWL9']), # 1 items
   51622 : set(['A2RU45', 'O95766', 'P86790', 'P86791', 'Q9UG65', 'Q9Y359']), # 6 items
   51621 : set(['Q9Y2Y9', 'Q9Y356']), # 2 items
   51629 : set(['A8JZZ2', 'D3DX51', 'D3DX54', 'Q4V9M1', 'Q9BZJ4', 'Q9P182', 'Q9UF66', 'Q9Y379']), # 8 items
@@ -5794,7 +5806,7 @@ GeneID2UniProtACs = {
   286365 : set(['B9EIS1', 'Q6IFL1', 'Q8NGV5']), # 3 items
   150297 : set(['A4QPH5', 'Q6IC83']), # 2 items
   441549 : set(['A2RUU0', 'B4DVW3', 'Q49AH0']), # 3 items
-  84818 : set(['E9PHG1', 'E9PHJ6', 'Q6UVY3', 'Q6UWD4', 'Q8NAC3', 'Q8NFS1', 'Q9BR97']), # 7 items
+  84818 : set(['A8BWC1', 'A8BWC9', 'A8BWD5', 'E9PHG1', 'E9PHJ6', 'Q6UVY3', 'Q6UWD4', 'Q8NAC3', 'Q8NFS1', 'Q9BR97']), # 10 items
   344387 : set(['Q2NME9', 'Q5MAI5']), # 2 items
   257068 : set(['Q0VAA5', 'Q96N12']), # 2 items
   10999 : set(['A8K2F7', 'O95186', 'Q6P1M0', 'Q96G53']), # 4 items
@@ -5908,7 +5920,7 @@ GeneID2UniProtACs = {
   80011 : set(['Q9GZU8']), # 1 items
   84629 : set(['A8MX41', 'O15417', 'Q96JH1', 'Q96K91']), # 4 items
   100507679 : set(['E2RYF6', 'H3BQR8']), # 2 items
-  84620 : set(['D3DVK3', 'Q53QP4', 'Q86Y44', 'Q8IUG7', 'Q96HE4', 'Q96JF0']), # 6 items
+  102723475 : set(['A0A087WTH5', 'A8MWV9']), # 2 items
   84623 : set(['Q3MIJ7', 'Q6UWJ9', 'Q6UWL5', 'Q8IZU9', 'Q96JG0']), # 5 items
   84622 : set(['Q6RFS0', 'Q96JF6']), # 2 items
   84624 : set(['A6H8X2', 'B7ZBR4', 'B7ZBR5', 'B9EK49', 'Q4ZHG4', 'Q5JPI0', 'Q5VU31', 'Q5VU32', 'Q5VXX4', 'Q70CQ6', 'Q96JG1']), # 11 items
@@ -5918,14 +5930,14 @@ GeneID2UniProtACs = {
   83930 : set(['A4D1X0', 'O95772']), # 2 items
   83931 : set(['D3DPS8', 'Q5VTK8', 'Q5VTK9', 'Q6ZMN1', 'Q8N2I9', 'Q8N2J8', 'Q8N3I6', 'Q96HN6', 'Q96I44', 'Q9BSA3', 'Q9H7H6']), # 11 items
   83932 : set(['B1AKT0', 'B5MEF7', 'Q5TE78', 'Q6UWW6', 'Q96BC5', 'Q96KA0', 'Q9H040']), # 7 items
-  10243 : set(['Q9H4E9', 'Q9NQX3', 'Q9P2G2']), # 3 items
+  10243 : set(['Q96KU4', 'Q9H4E9', 'Q9NQX3', 'Q9P2G2']), # 4 items
   9925 : set(['O15062']), # 1 items
   83938 : set(['B1AVW6', 'Q9H2I8']), # 2 items
   83939 : set(['A8MPS6', 'B4DF96', 'B4DQ14', 'D3DNI9', 'Q5QTR2', 'Q7Z4E9', 'Q8NFM1', 'Q96EW9', 'Q96K81', 'Q9BY44']), # 10 items
   6497 : set(['P12755', 'Q5SYT7']), # 2 items
   29083 : set(['A6NE99', 'A6NN11', 'A8K0P6', 'Q5I0Y4', 'Q8N3Z3']), # 5 items
   9289 : set(['A6NIT7', 'A6NJV9', 'B0M0K4', 'B4DR54', 'O95966', 'Q6ZMP1', 'Q8NGB3', 'Q96HB4', 'Q9Y653']), # 9 items
-  7307 : set(['Q01081', 'Q701P4', 'Q71RF1']), # 3 items
+  7307 : set(['P0DN76', 'Q01081', 'Q701P4', 'Q71RF1']), # 4 items
   81603 : set(['A6NI31', 'Q9BZR9', 'Q9C028']), # 3 items
   9284 : set(['O15102', 'Q9UND3']), # 2 items
   9287 : set(['Q5QD02', 'Q6NWS1', 'Q6NWS2', 'Q6NWS3', 'Q9P1P5']), # 5 items
@@ -6067,6 +6079,7 @@ GeneID2UniProtACs = {
   51389 : set(['A8K3W2', 'A8MT24', 'Q9H446', 'Q9Y313', 'Q9Y6B3']), # 5 items
   440730 : set(['Q5TER7', 'Q5TER8', 'Q6ZTA4', 'Q7Z4K7']), # 4 items
   8027 : set(['B0YJ99', 'D3DRU5', 'Q8N6D9', 'Q92783']), # 4 items
+  286430 : set(['P0DMW2']), # 1 items
   11344 : set(['Q6IBS0', 'Q9Y3F5']), # 2 items
   11345 : set(['O08765', 'P60520', 'Q6FG91', 'Q9DCP8', 'Q9UQF7']), # 5 items
   11346 : set(['A5PKZ8', 'D3DQG8', 'O15271', 'Q8N3V7', 'Q9UPX1']), # 5 items
@@ -6092,7 +6105,7 @@ GeneID2UniProtACs = {
   197322 : set(['A8K4J8', 'C9JQL6', 'Q4G176', 'Q6INA0', 'Q8N2F7']), # 5 items
   5707 : set(['B8ZZH9', 'Q24JU0', 'Q53TI2', 'Q6GMU5', 'Q6P2P4', 'Q6PJM7', 'Q6PKG9', 'Q86VU1', 'Q8IV79', 'Q99460']), # 10 items
   5700 : set(['B4DR63', 'P49014', 'P62191', 'Q03527', 'Q6IAW0', 'Q6NW36', 'Q96AZ3']), # 7 items
-  5701 : set(['A4D0Q1', 'B7Z5E2', 'P35998', 'Q3LIA5', 'Q9UDI3']), # 5 items
+  645414 : set(['Q5SWL8']), # 1 items
   57575 : set(['Q4W5F6', 'Q96SF0', 'Q9P2E7']), # 3 items
   101060351 : set(['A0A087X1G2']), # 1 items
   27067 : set(['B7Z1I6', 'B7Z292', 'B7Z8B4', 'E7ER74', 'E9PEI3', 'E9PF26', 'E9PF50', 'Q6AHY7', 'Q96HM0', 'Q96HM1', 'Q9NUL3', 'Q9NVI5', 'Q9UGG6']), # 13 items
@@ -6185,7 +6198,7 @@ GeneID2UniProtACs = {
   26260 : set(['Q6PJ83', 'Q7Z4V4', 'Q8TCJ0', 'Q9UKB8']), # 4 items
   26263 : set(['Q0D2P8', 'Q6PIL5', 'Q8IXW3', 'Q8NEZ5', 'Q9H824', 'Q9UKC0']), # 6 items
   64123 : set(['B1AR71', 'Q5KU34', 'Q9HBW9']), # 3 items
-  124961 : set(['A5PLL4', 'Q96NJ6']), # 2 items
+  22906 : set(['E9PDS2', 'J3KNT7', 'Q63HR0', 'Q659B5', 'Q96B69', 'Q9UPV9']), # 6 items
   56097 : set(['Q9Y5C2', 'Q9Y5F6']), # 2 items
   26269 : set(['B2RB40', 'D3DP41', 'G5E9Z0', 'Q6UWN4', 'Q8IWE1', 'Q9NRD0', 'Q9NRP5', 'Q9UKC4']), # 8 items
   26268 : set(['A6NFW3', 'B3KMM6', 'O75986', 'Q59EH8', 'Q6PKH7', 'Q9NT57', 'Q9UK97', 'Q9Y593']), # 8 items
@@ -6252,6 +6265,7 @@ GeneID2UniProtACs = {
   200634 : set(['B7ZL49', 'Q53RY4', 'Q6UW42', 'Q8IWS5']), # 4 items
   1959 : set(['B2R724', 'B3KRD7', 'P11161', 'Q68CZ5', 'Q8IV26', 'Q9UNA6']), # 6 items
   1958 : set(['P18146']), # 1 items
+  400735 : set(['O60810', 'Q5LJB5']), # 2 items
   3249 : set(['B2RDS4', 'P05981']), # 2 items
   3248 : set(['B4DTA4', 'B4DU74', 'B4DV57', 'D3DP43', 'E7EV11', 'O00749', 'P15428', 'Q06F08', 'Q12998']), # 9 items
   440295 : set(['A0A087WXJ1', 'A6NEM1', 'A6NFL8', 'H0YK89', 'Q8IVV3']), # 5 items
@@ -6945,12 +6959,12 @@ GeneID2UniProtACs = {
   53842 : set(['Q8N7P3']), # 1 items
   7741 : set(['Q16670', 'Q5JPG4', 'Q7Z3Q6', 'Q96A17']), # 4 items
   151246 : set(['Q53RR9', 'Q53T20', 'Q562F6', 'Q86XY4', 'Q8IWK2', 'Q8IZK1', 'Q8N1Q5', 'Q96LQ3']), # 8 items
-  5438 : set(['B2R5J2', 'P36954', 'Q6NW05']), # 3 items
+  58473 : set(['A8K0Q5', 'B2RBP1', 'B7Z716', 'Q9UBF5', 'Q9UF11', 'Q9UI37', 'Q9UI44']), # 7 items
   53339 : set(['A6NMI8', 'Q9BX71', 'Q9H0C5', 'Q9NWN4']), # 4 items
   7941 : set(['A5HTT5', 'Q13093', 'Q15692', 'Q5VTT1', 'Q8IVA2']), # 5 items
   112802 : set(['B3KVC1', 'Q3SY84', 'Q3SY85', 'Q96DU2']), # 4 items
   147381 : set(['Q53Z56', 'Q8IUK8']), # 2 items
-  101243544 : set(['B3KQC4', 'Q5W0M0', 'Q6PIH0', 'Q8N328']), # 4 items
+  5439 : set(['A5D6V8', 'O43375', 'P52435']), # 3 items
   932 : set(['A8MTP8', 'Q8NHW2', 'Q96HJ5']), # 3 items
   58475 : set(['A6NP53', 'Q6IAG8', 'Q9GZW8']), # 3 items
   94039 : set(['C9JU83', 'Q0VDG9', 'Q8IZC7']), # 3 items
@@ -7034,6 +7048,7 @@ GeneID2UniProtACs = {
   30817 : set(['B4DQ96', 'E7ESD7', 'E9PBR1', 'E9PEL6', 'E9PFQ5', 'E9PG91', 'Q8NG96', 'Q9UHX3', 'Q9Y4B1']), # 9 items
   30816 : set(['B2RPD4', 'O95244', 'O95245', 'Q8NHY7', 'Q9NRZ2', 'Q9NZG3', 'Q9UQF0']), # 7 items
   30811 : set(['P57058']), # 1 items
+  51118 : set(['A8K785', 'B4DJC6', 'D3DPT7', 'Q5VT93', 'Q9BS98', 'Q9NS31', 'Q9Y3A2']), # 7 items
   283160 : set(['B9EH49', 'Q6IFR0', 'Q9GZM6']), # 3 items
   8100 : set(['A2A491', 'B4DUS2', 'Q13099', 'Q5SZJ6', 'Q8N719']), # 5 items
   148811 : set(['Q6GTS8', 'Q6P4E3', 'Q96DM4']), # 3 items
@@ -7263,7 +7278,6 @@ GeneID2UniProtACs = {
   390323 : set(['A6NL08']), # 1 items
   390321 : set(['B2RNM0', 'Q96RD1']), # 2 items
   90362 : set(['Q5BM08', 'Q8TC76', 'Q9Y4K2']), # 3 items
-  57732 : set(['B2RP83', 'B3KX50', 'B7Z1Q7', 'B7Z2G9', 'B7Z2M2', 'B7ZB19', 'E9PB54', 'E9PB64', 'E9PG77', 'Q7Z6J3', 'Q9HCC9']), # 11 items
   30836 : set(['Q12987', 'Q53H59', 'Q5QJE6', 'Q5TFJ4', 'Q6TLI0', 'Q76MJ8', 'Q86WX9']), # 7 items
   2619 : set(['B9EGM4', 'P54826', 'Q6B086']), # 3 items
   2618 : set(['A8K945', 'A8KA32', 'D3DSF3', 'D3DSF4', 'O14659', 'P22102', 'Q52M77']), # 7 items
@@ -7788,6 +7802,7 @@ GeneID2UniProtACs = {
   158067 : set(['A8K821', 'Q8N9W9', 'Q96MA6']), # 3 items
   6122 : set(['B2RDV9', 'P39023', 'Q15548', 'Q5I0G0']), # 4 items
   374897 : set(['A8K5J0', 'E9PBV3', 'Q6UWP8']), # 3 items
+  54809 : set(['A2RU68', 'Q5K649', 'Q5K651', 'Q6P080', 'Q75N21', 'Q8IVG6', 'Q9NXS8']), # 7 items
   100287404 : set(['D6RCP7']), # 1 items
   341947 : set(['Q495K7', 'Q7Z4L0']), # 2 items
   8045 : set(['G5E9N9', 'Q02833', 'Q3KP41', 'Q3KP42']), # 4 items
@@ -7829,7 +7844,7 @@ GeneID2UniProtACs = {
   84189 : set(['A8K9S8', 'Q495Q0', 'Q6AW93', 'Q9H5Y7', 'Q9HAA8', 'Q9NT60']), # 6 items
   81697 : set(['B2RNH2', 'Q9GZK3', 'Q9GZL2', 'Q9Y299']), # 4 items
   81696 : set(['A2BDZ0', 'B0S860', 'Q5SQI9', 'Q6NTB5', 'Q8IVL3', 'Q9UGF6']), # 6 items
-  4191 : set(['A8K414', 'B2RE78', 'B4DE44', 'E9PDB2', 'O43682', 'P40926']), # 6 items
+  8519 : set(['P13164', 'Q15322', 'Q53XZ0']), # 3 items
   81693 : set(['Q6UX83', 'Q9BXJ7']), # 2 items
   81691 : set(['B2RB19', 'O60364', 'Q96IC2', 'Q96MB1', 'Q9BXH9', 'Q9H0K2', 'Q9NSM2']), # 7 items
   92935 : set(['A0AVC3', 'Q76E79', 'Q8IW62', 'Q8N7N4', 'Q96GW9']), # 5 items
@@ -7888,7 +7903,7 @@ GeneID2UniProtACs = {
   140731 : set(['Q4VXE6', 'Q9BZ19']), # 2 items
   140730 : set(['A4FU94', 'E1P613', 'Q3MI44', 'Q5JWT7', 'Q9H426']), # 5 items
   7579 : set(['A8K2D0', 'B1ALI4', 'B1ALI5', 'B1ALI6', 'P17040', 'Q6ZN23', 'Q96FA9', 'Q96H84']), # 8 items
-  391002 : set(['A6NMC2', 'Q5VWM4']), # 2 items
+  391002 : set(['A6NMC2', 'B7ZMI5', 'Q5VWM4']), # 3 items
   140738 : set(['Q8WXS4']), # 1 items
   27166 : set(['B2R5F7', 'D6RD25', 'Q549N2', 'Q9UI13', 'Q9UJS9', 'Q9Y255']), # 6 items
   27327 : set(['C9JAR8', 'O15408', 'Q658L5', 'Q6NVB5', 'Q8NDV7', 'Q8NEZ0', 'Q8TBT8', 'Q8TCR0', 'Q9NV59', 'Q9P268']), # 10 items
@@ -8060,6 +8075,7 @@ GeneID2UniProtACs = {
   4337 : set(['B3KPT7', 'B4DTP1', 'O14940', 'O14941', 'O75710', 'Q5J7W0', 'Q5TCE1', 'Q5TCE2', 'Q5TCE6', 'Q5TCE9', 'Q5TCF0', 'Q5TCF1', 'Q8N418', 'Q9NZB7', 'Q9NZB8', 'Q9UEM1']), # 16 items
   4335 : set(['A8K6D1', 'D3DTI7', 'Q1ED38', 'Q99583']), # 4 items
   4332 : set(['P41218']), # 1 items
+  440567 : set(['A0A096LP55']), # 1 items
   4330 : set(['A9Z1V9', 'Q10571']), # 2 items
   4331 : set(['G3V1U8', 'P51948', 'Q15817', 'Q6ICQ7']), # 4 items
   3135 : set(['P17693']), # 1 items
@@ -8364,7 +8380,7 @@ GeneID2UniProtACs = {
   161436 : set(['B9EK59', 'Q05BV3', 'Q5H9N6', 'Q6UYC9', 'Q6ZRP3', 'Q6ZT03']), # 6 items
   6846 : set(['Q9UBD3']), # 1 items
   90231 : set(['Q5JXC1', 'Q8IVF8', 'Q8IYS2', 'Q8NDI7', 'Q9BSY1']), # 5 items
-  6844 : set(['P19065', 'P63027', 'Q9BUC2']), # 3 items
+  55690 : set(['Q6PJY6', 'Q6PKB6', 'Q6VY07', 'Q7Z590', 'Q7Z5W4', 'Q8N8K6', 'Q96MW0', 'Q9NW92', 'Q9ULP5']), # 9 items
   6845 : set(['P51809', 'Q53GY7', 'Q7Z409', 'Q9H4A7']), # 4 items
   347688 : set(['Q3ZCM7', 'Q5SQX9', 'Q8WZ78']), # 3 items
   390940 : set(['A6NC86', 'B7Z457', 'O95053']), # 3 items
@@ -8388,7 +8404,7 @@ GeneID2UniProtACs = {
   6598 : set(['O75784', 'O95474', 'Q12824', 'Q17S11', 'Q38GA1', 'Q76N08', 'Q9UBH2']), # 7 items
   6599 : set(['Q17RS0', 'Q6P172', 'Q8IWH2', 'Q92922']), # 4 items
   8239 : set(['O75550', 'Q8WWT3', 'Q8WX12', 'Q93008']), # 4 items
-  283129 : set(['B3KS99', 'Q3KP22']), # 2 items
+  283129 : set(['B3KS99', 'E9PPE5', 'Q3KP22']), # 3 items
   144699 : set(['Q8N1E6']), # 1 items
   93109 : set(['A1L3V7', 'B7ZLZ5', 'B7ZLZ6', 'C9JJ62', 'E9PGA9', 'Q0P6F7', 'Q2T9K0', 'Q6ZT47', 'Q8IXR1', 'Q8N4G3']), # 10 items
   123745 : set(['B7WPN2', 'Q3MJ16', 'Q6ZSC0']), # 3 items
@@ -8398,7 +8414,7 @@ GeneID2UniProtACs = {
   9278 : set(['B0V007', 'O15209', 'Q5HYV4', 'Q5STL0', 'Q5STR7', 'Q8WV82']), # 6 items
   54549 : set(['A6NMR8', 'C9JA57', 'Q58EX2', 'Q86VY3', 'Q9NTD2', 'Q9NVB3', 'Q9P214']), # 7 items
   284274 : set(['Q3B7S5']), # 1 items
-  55300 : set(['Q8TCG2', 'Q9NUW2']), # 2 items
+  5818 : set(['O75465', 'Q15223', 'Q2M3D3', 'Q9HBE6', 'Q9HBW2']), # 5 items
   7638 : set(['B2RAI6', 'Q2M2H2', 'Q9P1U8', 'Q9UK13']), # 4 items
   493856 : set(['Q7Z3D5', 'Q8N5K1']), # 2 items
   346157 : set(['B4DH77', 'Q9UJN7']), # 2 items
@@ -8607,7 +8623,7 @@ GeneID2UniProtACs = {
   9203 : set(['D3DVV3', 'O15089', 'Q14202', 'Q96E26']), # 4 items
   9202 : set(['A0JP19', 'A0JP20', 'O43308', 'Q5T5E1', 'Q5T5E2', 'Q5VZL5', 'Q7L3Q4']), # 7 items
   2653 : set(['P23434', 'Q9H1E9']), # 2 items
-  2652 : set(['P04001']), # 1 items
+  2652 : set(['P04001', 'P0DN77', 'P0DN78']), # 3 items
   2651 : set(['Q06430', 'Q5T4J1', 'Q5W0E9', 'Q6T5E5', 'Q8N0V5', 'Q8NFS9']), # 6 items
   2650 : set(['Q02742', 'Q6DJZ4']), # 2 items
   2657 : set(['O43344', 'P27539']), # 2 items
@@ -8704,7 +8720,7 @@ GeneID2UniProtACs = {
   2904 : set(['Q12919', 'Q13220', 'Q13224', 'Q13225', 'Q14CU4', 'Q9UM56']), # 6 items
   705 : set(['Q13895', 'Q6P5W4', 'Q86W44', 'Q96IP8']), # 4 items
   2909 : set(['A7E2A4', 'Q14452', 'Q9C0E1', 'Q9NRY4']), # 4 items
-  2908 : set(['A0ZXF9', 'B0LPG8', 'D3DQF4', 'P04150', 'P04151', 'Q53EP5', 'Q6N0A4']), # 7 items
+  2908 : set(['A0ZXF9', 'B0LPG8', 'D3DQF4', 'F5ATB7', 'P04150', 'P04151', 'Q53EP5', 'Q6N0A4']), # 8 items
   701 : set(['B2R6U0', 'B4DL09', 'B4DLG3', 'O60501', 'O60566', 'O60627', 'O60758', 'O75389', 'Q59HH6', 'Q8WV50', 'Q96KM4']), # 11 items
   81848 : set(['A4FVB2', 'A4FVB3', 'Q6QIX2', 'Q9C003', 'Q9C004']), # 5 items
   219743 : set(['Q2T9J0', 'Q5SQT4', 'Q5SQU1', 'Q8N6H2', 'Q96AR5']), # 5 items
@@ -8817,7 +8833,7 @@ GeneID2UniProtACs = {
   8576 : set(['A8K9H9', 'O75716', 'Q5U0F8', 'Q96KI2', 'Q9BUH4', 'Q9UEN3', 'Q9UP78']), # 7 items
   8577 : set(['Q13086', 'Q8IYR6', 'Q8N3T8']), # 3 items
   8570 : set(['O00301', 'Q59EZ9', 'Q5U4P6', 'Q92945', 'Q9UNT5', 'Q9UQH5']), # 6 items
-  100288695 : set(['B4DPH6', 'C9K0W2', 'P0CW19', 'P0CW20', 'Q9HB10']), # 5 items
+  100288695 : set(['A0A0A6YYD2', 'B4DPH6', 'C9K0W2', 'P0CW19', 'P0CW20', 'Q9HB10']), # 6 items
   8572 : set(['B2R8U1', 'P50479', 'Q53Y39', 'Q96AT8', 'Q9BTW8', 'Q9Y292']), # 6 items
   8573 : set(['A6NES1', 'B7ZKY0', 'O14936', 'O43215', 'Q17RI4', 'Q59HA0', 'Q5VT16', 'Q5VT17', 'Q5VT18', 'Q5VT19', 'Q66T42', 'Q9BYH6', 'Q9NYB2', 'Q9NYB3']), # 14 items
   79731 : set(['G3V178', 'Q96I59']), # 2 items
@@ -8847,7 +8863,7 @@ GeneID2UniProtACs = {
   55362 : set(['B9EGU3', 'Q5T3F8', 'Q5T3F9', 'Q6AHX4', 'Q6P5A0', 'Q8N219', 'Q8NDE1', 'Q9NSG5']), # 8 items
   55363 : set(['Q6XAR3', 'Q86XY5', 'Q9BXL5', 'Q9NPC0']), # 4 items
   347168 : set(['A3KFL8', 'Q6IF10', 'Q8NGS3', 'Q96R88']), # 4 items
-  286749 : set(['A8MXJ1', 'B5MCF5', 'B7ZL16', 'Q96JE3', 'Q9BYX3', 'Q9Y6Q2']), # 6 items
+  286749 : set(['A0A0A6YYH4', 'A8MXJ1', 'B5MCF5', 'B7ZL16', 'Q96JE3', 'Q9BYX3', 'Q9Y6Q2']), # 7 items
   51399 : set(['A8K3A5', 'B4DME1', 'Q9Y296']), # 3 items
   51398 : set(['B2R4T8', 'Q9BVI3', 'Q9Y284']), # 3 items
   55287 : set(['C9JID5', 'Q8NAL4', 'Q8WWA1', 'Q9NUZ4']), # 4 items
@@ -9072,7 +9088,7 @@ GeneID2UniProtACs = {
   7013 : set(['A7XP29', 'P54274', 'Q15553', 'Q8NHT6', 'Q93029']), # 5 items
   168391 : set(['Q75KN2', 'Q75MD3', 'Q7Z4T8', 'Q8NCV4', 'Q8WW05', 'Q9UDR9']), # 6 items
   6674 : set(['A6NP70', 'B3KQ58', 'G3XAM3', 'Q07617', 'Q7Z5G1']), # 5 items
-  127933 : set(['A8K8K4', 'G3V1M1', 'Q8TAS1', 'Q96C22']), # 4 items
+  127933 : set(['A0A0A6YYC2', 'A8K8K4', 'G3V1M1', 'Q8TAS1', 'Q96C22']), # 5 items
   10720 : set(['O75310', 'Q3KNV9']), # 2 items
   388523 : set(['P0DKX0']), # 1 items
   8817 : set(['D3DQL7', 'O76093', 'Q6UWF1']), # 3 items
@@ -9281,6 +9297,7 @@ GeneID2UniProtACs = {
   6016 : set(['B4DQE8', 'O00646', 'O00720', 'Q5VY89', 'Q5VY90', 'Q92963']), # 6 items
   6019 : set(['A0AVM0', 'P04090', 'Q99936', 'Q9UCX3', 'Q9UQJ2']), # 5 items
   6018 : set(['Q13129', 'Q14CQ1', 'Q9NU60']), # 3 items
+  9349 : set(['P23131', 'P24048', 'P62829', 'Q29246', 'Q3SWV7', 'Q6P5S1']), # 6 items
   8876 : set(['A8K310', 'O95497', 'Q4JFW6', 'Q4VAS7', 'Q4VAS8', 'Q4VAS9', 'Q9UF16', 'Q9UJF4']), # 8 items
   10605 : set(['A6NKV8', 'O60455', 'Q96B61', 'Q9BS63', 'Q9H074']), # 5 items
   387332 : set(['Q17RU8', 'Q6SJ96']), # 2 items
@@ -9412,6 +9429,7 @@ GeneID2UniProtACs = {
   59335 : set(['A3KFK9', 'Q9H4Q4']), # 2 items
   54165 : set(['B2RB37', 'Q7L3G9', 'Q8TEX7', 'Q96GG9', 'Q9H6M1', 'Q9HCT3']), # 6 items
   285141 : set(['A1L162', 'A7E2T7']), # 2 items
+  10765 : set(['O95811', 'Q15752', 'Q9UGL1', 'Q9Y3Q5']), # 4 items
   285148 : set(['B4DMV3', 'Q2TAA2']), # 2 items
   3178 : set(['A8K4Z8', 'P09651', 'Q3MIB7', 'Q6PJZ7']), # 4 items
   91010 : set(['B0JZA7', 'Q6ZRJ1', 'Q8IVF7']), # 3 items
@@ -9427,6 +9445,7 @@ GeneID2UniProtACs = {
   87178 : set(['Q53SU0', 'Q68CN1', 'Q7Z7D1', 'Q8IWX1', 'Q8TCS8', 'Q96T05', 'Q9BRU3', 'Q9BVX0']), # 8 items
   102724159 : set(['B2RAG8', 'Q15269', 'Q96A77']), # 3 items
   26108 : set(['A7Y2D6', 'Q9Y3Y4']), # 2 items
+  343071 : set(['O60809', 'Q2M1V2']), # 2 items
   726 : set(['O00263', 'O15484']), # 2 items
   727 : set(['P01031', 'Q14CJ0', 'Q27I61']), # 3 items
   725 : set(['A5JYP8', 'D3DT81', 'P20851', 'Q5VVR0', 'Q9BS25']), # 5 items
@@ -9460,7 +9479,7 @@ GeneID2UniProtACs = {
   390168 : set(['Q6IF60', 'Q8NGP8', 'Q96RB6']), # 3 items
   5994 : set(['B2R9T8', 'O00287', 'Q5VZM6', 'Q8TC40']), # 4 items
   64407 : set(['B2RD23', 'Q9NS28']), # 2 items
-  10528 : set(['O00567', 'Q2M3T6', 'Q9NQ05']), # 3 items
+  137492 : set(['Q336D5', 'Q6NW27', 'Q8N3D7', 'Q8NEZ2', 'Q8TBL7', 'Q96DL9']), # 6 items
   6276 : set(['P33763', 'Q52LE7', 'Q5RHS3']), # 3 items
   25840 : set(['Q9H7R3', 'Q9H8H3', 'Q9UHZ7', 'Q9Y422']), # 4 items
   25841 : set(['A8K6S9', 'E9PRW7', 'Q52LD6', 'Q6MZW4', 'Q8N961', 'Q8NB44']), # 6 items
@@ -9629,7 +9648,7 @@ GeneID2UniProtACs = {
   7881 : set(['A8K9H8', 'A8KAD4', 'B3KPZ4', 'Q13031', 'Q13302', 'Q14722', 'Q16547', 'Q6PI60', 'Q99869']), # 9 items
   63939 : set(['B3KWH1', 'Q9NTA3', 'Q9NTX9']), # 3 items
   51119 : set(['A8K0P4', 'Q96FX0', 'Q9NV53', 'Q9Y3A5']), # 4 items
-  7884 : set(['B3KRJ5', 'Q14493']), # 2 items
+  440400 : set(['G3V1Z9', 'Q502Z2', 'Q6P5S7']), # 3 items
   93323 : set(['B4DJA7', 'C9JBZ4', 'Q49AC4', 'Q86WF0', 'Q96FX3', 'Q9BT25']), # 6 items
   474170 : set(['A6NM11', 'B7ZMC3']), # 2 items
   122618 : set(['Q6UWD2', 'Q96BZ4']), # 2 items
@@ -9709,9 +9728,7 @@ GeneID2UniProtACs = {
   162605 : set(['Q6ZP84', 'Q7Z3Y7']), # 2 items
   283899 : set(['Q6Y2K3', 'Q8NBZ0']), # 2 items
   79751 : set(['A8K366', 'C9J1H6', 'E9PJD3', 'E9PKB2', 'E9PL68', 'E9PN26', 'E9PNQ3', 'E9PP01', 'E9PR97', 'Q8TBU8', 'Q9H936']), # 11 items
-  102723475 : set(['A8MWV9']), # 1 items
   84951 : set(['A6NMJ7', 'Q71RB7', 'Q8IZW8', 'Q8WV64', 'Q96JV4']), # 5 items
-  9512 : set(['O60416', 'O75439', 'Q96FV4']), # 3 items
   6809 : set(['B4DME0', 'O43750', 'O43751', 'Q13277', 'Q15360']), # 5 items
   54471 : set(['Q7L890', 'Q9BUI3', 'Q9NQG6']), # 3 items
   5092 : set(['P61457', 'P70519', 'P80095', 'Q9D930']), # 4 items
@@ -10012,8 +10029,7 @@ GeneID2UniProtACs = {
   26033 : set(['O60283', 'Q5JSE8', 'Q5T5Y9', 'Q5VV63', 'Q6T256', 'Q6ZSN4', 'Q86WX2']), # 7 items
   202559 : set(['A8K7M8', 'Q5VWX1', 'Q8N4I4', 'Q8TCZ4']), # 4 items
   29081 : set(['D3DPC9', 'Q9NRN9', 'Q9NVX1']), # 3 items
-  59353 : set(['Q53FP2', 'Q9H7Y3']), # 2 items
-  90668 : set(['Q8ND23', 'Q8TEF7', 'Q96HS9']), # 3 items
+  2769 : set(['E9KL40', 'E9KL47', 'O75247', 'P30679', 'Q53XK2']), # 5 items
   133686 : set(['B5MC93', 'Q4G0N4', 'Q6UTX5', 'Q96NM0']), # 4 items
   22801 : set(['J3KQM2', 'Q8WYI8', 'Q9UKQ1', 'Q9UKX5']), # 4 items
   22800 : set(['B2R9Z3', 'B7Z5Z2', 'B7Z6C4', 'B7Z7H6', 'P17082', 'P62070']), # 6 items
@@ -10218,7 +10234,7 @@ GeneID2UniProtACs = {
   150372 : set(['B0QYD0', 'Q20WL2', 'Q5JZ96', 'Q8IUY8', 'Q8NET5', 'Q8TEM8']), # 6 items
   55327 : set(['Q9NUP9']), # 1 items
   55324 : set(['A8K241', 'Q86UA2', 'Q8NAN1', 'Q96GS8', 'Q9H7A8', 'Q9NUQ8']), # 6 items
-  55325 : set(['Q6IA77', 'Q96FS3', 'Q9NUQ7']), # 3 items
+  27036 : set(['Q9NZQ1', 'Q9UJ86', 'Q9UJ87', 'Q9Y286', 'Q9Y502']), # 5 items
   2766 : set(['P36959', 'Q96HQ6']), # 2 items
   10509 : set(['Q6UXE3', 'Q8WVP9', 'Q96FK5', 'Q9C0B8', 'Q9H691', 'Q9NPM8', 'Q9NPN0', 'Q9NPR2']), # 8 items
   6875 : set(['Q29YA4', 'Q29YA5', 'Q92750']), # 3 items
@@ -10377,7 +10393,7 @@ GeneID2UniProtACs = {
   134145 : set(['B4DT41', 'B4DXK2', 'E9PBZ4', 'Q6P4H8']), # 4 items
   2738 : set(['P10075', 'Q96CK9']), # 2 items
   2739 : set(['B2R6P7', 'B4DDV0', 'P78375', 'Q04760', 'Q59EL0', 'Q5TZW3', 'Q96FC0', 'Q96J41']), # 8 items
-  94027 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 12 items
+  94027 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'P0DN87', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 13 items
   57096 : set(['Q7Z2W6', 'Q8IXV5', 'Q96KN7', 'Q96QA8', 'Q9HB94', 'Q9HB95', 'Q9HBK6', 'Q9NR40']), # 8 items
   9187 : set(['O43485', 'O60721', 'O75184', 'Q17RM9']), # 4 items
   57094 : set(['Q8N4T0', 'Q8NEX8', 'Q8TDE8', 'Q9NRI9']), # 4 items
@@ -10649,8 +10665,10 @@ GeneID2UniProtACs = {
   9978 : set(['B2RDY1', 'P62877', 'Q8N6Z8', 'Q9D1S2', 'Q9WUK9', 'Q9Y254']), # 6 items
   57799 : set(['A2IDE2', 'D3DU54', 'O60795', 'Q4TT41', 'Q5PXE8', 'Q6PIU5', 'Q96S21']), # 7 items
   57798 : set(['B2RE37', 'D6W5Q5', 'Q8N5Y5', 'Q8WUU5', 'Q99995', 'Q9H689']), # 6 items
+  64748 : set(['Q5CZ76', 'Q8N1U4', 'Q96GM1', 'Q9H929']), # 4 items
   57795 : set(['O95560', 'Q6ZWC1', 'Q7LCZ9', 'Q8N360', 'Q9C0B6']), # 5 items
   57794 : set(['O60378', 'Q6P3X9', 'Q8IWZ8', 'Q8TCQ4', 'Q8WWT4', 'Q8WWT5', 'Q9NTG3']), # 7 items
+  2971 : set(['B7ZBK5', 'Q12963', 'Q13097', 'Q92664']), # 4 items
   144448 : set(['P0C672']), # 1 items
   55869 : set(['A6ND12', 'A6ND61', 'A6NET3', 'A6NJR3', 'A8MQ62', 'B4DKN0', 'B4DV22', 'Q86VC8', 'Q9BY41', 'Q9NP76', 'Q9NYH4']), # 11 items
   100861437 : set(['P0DI83']), # 1 items
@@ -10852,7 +10870,7 @@ GeneID2UniProtACs = {
   401027 : set(['B2RNW3', 'Q6UXQ4']), # 2 items
   79501 : set(['Q5VT22', 'Q8NH21']), # 2 items
   8518 : set(['O95163', 'Q5JSV2', 'Q9H327', 'Q9UG87']), # 4 items
-  8519 : set(['P13164', 'Q15322', 'Q53XZ0']), # 3 items
+  401024 : set(['Q53TL3', 'Q53TN5', 'Q5CZC0', 'Q5HYH2', 'Q6ZTZ5', 'Q6ZU14', 'Q6ZU21']), # 7 items
   283629 : set(['Q2TA60', 'Q6SA08', 'Q6ZNM2']), # 3 items
   119016 : set(['Q96P64']), # 1 items
   26073 : set(['B2R846', 'Q96JE4', 'Q9Y2S7']), # 3 items
@@ -10995,7 +11013,6 @@ GeneID2UniProtACs = {
   4880 : set(['P23582', 'Q4ZG41']), # 2 items
   7424 : set(['B2R9Q8', 'P49767']), # 2 items
   159163 : set(['B2R916', 'Q15415']), # 2 items
-  105369259 : set(['Q8MH63']), # 1 items
   51151 : set(['Q6P2P0', 'Q9BTM3', 'Q9UMX9']), # 3 items
   51150 : set(['B1AME5', 'B1AME6', 'B2RDF1', 'B4DSM1', 'Q53G52', 'Q53HQ9', 'Q8NBQ3', 'Q96AA1', 'Q9BRK5', 'Q9NZP7', 'Q9UN53']), # 11 items
   287015 : set(['A1L4B4', 'Q8IWZ5', 'Q8N832', 'Q8NDL3']), # 4 items
@@ -11075,7 +11092,7 @@ GeneID2UniProtACs = {
   6248 : set(['B2RBP5', 'Q92681']), # 2 items
   6249 : set(['A0AVD3', 'P30622', 'Q17RS4', 'Q29RG0']), # 4 items
   114088 : set(['D3DSB7', 'D3DSB8', 'Q92557', 'Q96D24', 'Q96NI4', 'Q9C025', 'Q9C026', 'Q9C027']), # 8 items
-  284948 : set(['A6ND14', 'Q6R306', 'Q7Z4S9']), # 3 items
+  7419 : set(['Q9UIS0', 'Q9Y277']), # 2 items
   6240 : set(['P23921', 'Q9UNN2']), # 2 items
   6241 : set(['B2R9B5', 'J3KP43', 'P31350', 'Q5WRU7']), # 4 items
   6242 : set(['H7BXD4', 'Q8WVN1', 'Q96PT6', 'Q9BST9', 'Q9HB05']), # 5 items
@@ -11092,7 +11109,7 @@ GeneID2UniProtACs = {
   90135 : set(['Q8IVQ7', 'Q96KE9', 'Q9BR94']), # 3 items
   4642 : set(['A6H8V3', 'O94832', 'Q8NHP9']), # 3 items
   10529 : set(['B0YJ45', 'O76041', 'Q2TBD0', 'Q70I54', 'Q9UIC4']), # 5 items
-  56160 : set(['Q8IW16', 'Q8TEI6', 'Q96MG7', 'Q9H214']), # 4 items
+  10528 : set(['O00567', 'Q2M3T6', 'Q9NQ05']), # 3 items
   9708 : set(['A7MCZ4', 'O15039', 'Q9Y5G5']), # 3 items
   9709 : set(['E9PGD1', 'O60644', 'Q15011', 'Q6IAN8', 'Q96D92']), # 5 items
   9700 : set(['Q14674']), # 1 items
@@ -11270,7 +11287,7 @@ GeneID2UniProtACs = {
   27031 : set(['Q5JPE3', 'Q5JPE6', 'Q68D99', 'Q6NVH3', 'Q7Z492', 'Q7Z493', 'Q7Z494', 'Q8N9R2', 'Q8NCM5', 'Q96N70', 'Q96NK2']), # 11 items
   27030 : set(['P49751', 'Q56DK9', 'Q9P292', 'Q9UHC0', 'Q9UHC1']), # 5 items
   343521 : set(['Q5JR98']), # 1 items
-  27036 : set(['Q9NZQ1', 'Q9UJ86', 'Q9UJ87', 'Q9Y286', 'Q9Y502']), # 5 items
+  9719 : set(['B1B0D5', 'O60345', 'Q86TH1']), # 3 items
   27035 : set(['A8K836', 'O95691', 'Q2PP02', 'Q9Y5S8']), # 4 items
   27034 : set(['B7Z5W4', 'Q6ZWP6', 'Q9BUS8', 'Q9UKU7']), # 4 items
   7764 : set(['E1P5Y6', 'O75362', 'Q14DB8']), # 3 items
@@ -11437,7 +11454,7 @@ GeneID2UniProtACs = {
   101059918 : set(['F5GYM5', 'I6L899']), # 2 items
   7041 : set(['B2R8D5', 'O43294', 'Q9BPW3', 'Q9Y2V5']), # 4 items
   81099 : set(['B2RNE8', 'Q8NGA8']), # 2 items
-  119772 : set(['Q8NGK5']), # 1 items
+  4191 : set(['A8K414', 'B2RE78', 'B4DE44', 'E9PDB2', 'O43682', 'P40926']), # 6 items
   387755 : set(['A0PJX5', 'Q1MX18', 'Q1MX19', 'Q3C1V6', 'Q4AC95', 'Q4AC96', 'Q4AC97', 'Q4AC98']), # 8 items
   64207 : set(['Q8NDQ2', 'Q96JG2', 'Q9H1B7', 'Q9H3I7']), # 4 items
   440068 : set(['Q5XLA6']), # 1 items
@@ -11455,7 +11472,7 @@ GeneID2UniProtACs = {
   57484 : set(['Q3T1D0', 'Q6ZNW6', 'Q9ULK6']), # 3 items
   128178 : set(['A2VCK5', 'A8K7B5', 'B1AL54', 'B9ZVW5', 'Q5VYJ7', 'Q8WWZ3']), # 6 items
   84513 : set(['C9JKF5', 'Q3KQX6', 'Q8NEB5', 'Q9BY45']), # 4 items
-  84705 : set(['A6NFH1', 'A6NIG5', 'A6NKR4', 'A8K7B4', 'B7Z4V8', 'Q8TCY6', 'Q8WUW9', 'Q969G4', 'Q969Y2', 'Q9BX61']), # 10 items
+  58516 : set(['D3DUV8', 'Q9BSZ8', 'Q9NP50']), # 3 items
   84517 : set(['Q96IS0', 'Q96NJ0', 'Q9BYD9']), # 3 items
   84516 : set(['A8K9X8', 'H3BN51', 'H3BQA4', 'Q9BTE1']), # 4 items
   84515 : set(['B2RBG7', 'D3DW08', 'E7EQU7', 'Q495R4', 'Q495R6', 'Q495R7', 'Q86US4', 'Q969I5', 'Q9UJA3']), # 9 items
@@ -11641,7 +11658,7 @@ GeneID2UniProtACs = {
   79980 : set(['B4DWT2', 'E1P5U9', 'Q5JW55', 'Q5JW56', 'Q9H410', 'Q9H8P4']), # 6 items
   64789 : set(['D3DPV4', 'Q5SWM7', 'Q5SWM8', 'Q5SWM9', 'Q5SWN0', 'Q5SWN1', 'Q8WTW9', 'Q9H790']), # 8 items
   79982 : set(['Q6UXN1', 'Q7Z3P0', 'Q86TA7', 'Q86TM0', 'Q8TBM8', 'Q9GZU9']), # 6 items
-  79983 : set(['A8K2U5', 'Q5H9E9', 'Q5H9F0', 'Q8NG12', 'Q8WVV4', 'Q9H5Y2', 'Q9H738', 'Q9H744']), # 8 items
+  4036 : set(['O00711', 'P98164', 'Q16215']), # 3 items
   8128 : set(['Q4VAZ0', 'Q92186', 'Q92470', 'Q92746']), # 4 items
   79987 : set(['Q0P675', 'Q4LDE5', 'Q5D213', 'Q5T938', 'Q5VTE4', 'Q5VTE5', 'Q7Z387', 'Q7Z3G3', 'Q8NBT9', 'Q96JU7', 'Q9H284', 'Q9H8J9']), # 12 items
   51087 : set(['D3DTP1', 'Q8N4P0', 'Q9Y2T7']), # 3 items
@@ -11777,7 +11794,7 @@ GeneID2UniProtACs = {
   728229 : set(['A0A087WXW8', 'P0C7N4']), # 2 items
   146894 : set(['B4DNY5', 'F5H7P9', 'F8W9M3', 'Q6UXG3', 'Q8IX38', 'Q8IX39', 'Q8TA95']), # 7 items
   55247 : set(['Q2PPJ3', 'Q8NG51', 'Q8TAT5', 'Q9NV95']), # 4 items
-  94025 : set(['Q6ZQW5', 'Q8WXI7', 'Q96RK2']), # 3 items
+  94025 : set(['B5ME49', 'Q6ZQW5', 'Q8WXI7', 'Q96RK2']), # 4 items
   85413 : set(['O14567', 'Q5JXM1', 'Q86VW1', 'Q8IUG8', 'Q8IZD5', 'Q96M90', 'Q96RU0']), # 7 items
   51295 : set(['E9PAN9', 'K7EMM0', 'Q96HQ7', 'Q9BQ95', 'Q9NYI1']), # 5 items
   122651 : set(['Q8TAA1']), # 1 items
@@ -11912,7 +11929,7 @@ GeneID2UniProtACs = {
   50838 : set(['Q4G0I5', 'Q502V8', 'Q645X2', 'Q9NYV9']), # 4 items
   7748 : set(['A8K234', 'B3KTK2', 'B4DEL0', 'C9JLY9', 'L7MNK2', 'O14628', 'Q0VAJ6', 'Q658N8', 'Q6ZNA9']), # 9 items
   57381 : set(['Q96KC1', 'Q9H4E5']), # 2 items
-  84858 : set(['Q8NAC5', 'Q96E25', 'Q96F45', 'Q96IJ0']), # 4 items
+  100507462 : set(['A0A096LPI5']), # 1 items
   92170 : set(['Q5VWX8', 'Q6PIY9', 'Q8IYJ4', 'Q8NC48', 'Q9BT17', 'Q9BVU8']), # 6 items
   3920 : set(['A8K4X5', 'D3DTF0', 'P13473', 'Q16641', 'Q6Q3G8', 'Q96J30', 'Q99534', 'Q9UD93']), # 8 items
   3921 : set(['P08865', 'P11085', 'P12030', 'Q16471', 'Q6IPD1', 'Q6IPD2', 'Q6NSD1', 'Q6NXQ8', 'Q86VC0']), # 9 items
@@ -11988,7 +12005,6 @@ GeneID2UniProtACs = {
   3678 : set(['P08648', 'Q96HA5']), # 2 items
   3679 : set(['B4E3U0', 'C9JMD3', 'C9JMZ6', 'O43197', 'Q13683', 'Q86W93', 'Q9NY89', 'Q9UET0', 'Q9UEV2']), # 9 items
   653145 : set(['A6NDE6', 'A6NLM1', 'B4DKI1', 'B4DTC9', 'P13928', 'Q5T2P8', 'Q5VTM4', 'Q6GMY3', 'Q9BT34']), # 9 items
-  79658 : set(['A1A4S6', 'A1L0S5', 'Q2VPC4', 'Q2VPC5', 'Q96EV3', 'Q96S75']), # 6 items
   3672 : set(['B2RNU0', 'P56199']), # 2 items
   3673 : set(['P17301', 'Q14595']), # 2 items
   3670 : set(['P20663', 'P47894', 'P61371']), # 3 items
@@ -12032,6 +12048,7 @@ GeneID2UniProtACs = {
   55243 : set(['Q5W0F8', 'Q5XKC6', 'Q7Z696', 'Q7Z7N8', 'Q8TB15', 'Q96J84', 'Q9H9N1', 'Q9NVA5']), # 8 items
   346528 : set(['Q6IF44', 'Q8NGT9', 'Q96R46']), # 3 items
   153090 : set(['A6H8V2', 'A6NHI9', 'B0QZB1', 'G3XA90', 'Q5VWQ8', 'Q8TDL2', 'Q96SE1', 'Q9C0C0']), # 8 items
+  376940 : set(['A9JR71', 'P61129', 'Q6ZW96']), # 3 items
   902 : set(['P51946', 'Q53X72', 'Q8TBL9']), # 3 items
   51735 : set(['A3KN82', 'A5PLL6', 'B7ZML2', 'E9PDV7', 'Q8NI21', 'Q8TEU6', 'Q8TEU7', 'Q96PC1']), # 8 items
   900 : set(['B2R7B2', 'B4DLW7', 'D3DQK7', 'P51959', 'Q15757', 'Q96L32']), # 6 items
@@ -12075,7 +12092,7 @@ GeneID2UniProtACs = {
   134864 : set(['Q2M1W5', 'Q3MIH8', 'Q5VUQ1', 'Q96RJ0']), # 4 items
   148641 : set(['Q5TDD6', 'Q8IY50', 'Q8N9C9']), # 3 items
   83401 : set(['Q5VZL3', 'Q8N180', 'Q9HB03']), # 3 items
-  57540 : set(['Q5VTU9', 'Q9P2K9', 'Q9UJD6']), # 3 items
+  79658 : set(['A1A4S6', 'A1L0S5', 'Q2VPC4', 'Q2VPC5', 'Q96EV3', 'Q96S75']), # 6 items
   84309 : set(['Q8NAI2', 'Q9BRJ7']), # 2 items
   139741 : set(['Q6X7C1', 'Q8TDG2', 'Q96L10']), # 3 items
   254170 : set(['Q6PIR2', 'Q7Z6M2', 'Q86TR2', 'Q86YE0']), # 4 items
@@ -12145,6 +12162,7 @@ GeneID2UniProtACs = {
   1690 : set(['A8K9K9', 'D3DS84', 'O43405', 'Q96IU6']), # 4 items
   2919 : set(['P09341', 'Q9UCR7']), # 2 items
   89910 : set(['A5D8Z3', 'Q05BX9', 'Q659F7', 'Q7Z3V4', 'Q7Z7Q1', 'Q9BXZ4']), # 6 items
+  23225 : set(['A6NN56', 'O94980', 'Q6NXG6', 'Q8NBJ1', 'Q8TEM1', 'Q9H6C8', 'Q9UFP3']), # 7 items
   29851 : set(['Q8N6W8', 'Q9Y6W8']), # 2 items
   115560 : set(['B4DLY7', 'Q96CX3', 'Q96NU9']), # 3 items
   89122 : set(['A4D298', 'Q75MK1', 'Q96F06', 'Q9C036', 'Q9C037']), # 5 items
@@ -12210,6 +12228,7 @@ GeneID2UniProtACs = {
   79541 : set(['O95047', 'Q0VAR3', 'Q6IF18', 'Q9NQN0']), # 4 items
   100287441 : set(['D6RJB6']), # 1 items
   79544 : set(['B9EKV9', 'Q8NGD4', 'Q8NGD6', 'Q96R73']), # 4 items
+  6844 : set(['P19065', 'P63027', 'Q9BUC2']), # 3 items
   7903 : set(['A8KA07', 'G3V104', 'Q8N1F4', 'Q92187', 'Q92693']), # 5 items
   7773 : set(['O15322', 'Q504X7', 'Q86W84', 'Q9P1U6', 'Q9UIE0']), # 5 items
   223082 : set(['Q8NHG8']), # 1 items
@@ -12395,6 +12414,7 @@ GeneID2UniProtACs = {
   7988 : set(['B2RCF4', 'Q13396', 'Q8N664', 'Q9UDV6']), # 4 items
   147965 : set(['A6NMW3', 'Q17RN3', 'Q66K45']), # 3 items
   220074 : set(['B2R7X1', 'B6CZ35', 'B6CZ36', 'B6CZ37', 'B6CZ38', 'B6CZ39', 'B7Z5I4', 'B7Z816', 'Q8WZ04', 'Q96E66']), # 10 items
+  79983 : set(['A8K2U5', 'Q5H9E9', 'Q5H9F0', 'Q8NG12', 'Q8WVV4', 'Q9H5Y2', 'Q9H738', 'Q9H744']), # 8 items
   4327 : set(['B4E030', 'O15278', 'O95606', 'Q99542', 'Q99580']), # 5 items
   93166 : set(['B5MCJ4', 'Q9NQW9', 'Q9NQX0']), # 3 items
   388325 : set(['A6XGL4', 'B4DLK1', 'Q6UWF3', 'Q96MD0']), # 4 items
@@ -12583,6 +12603,7 @@ GeneID2UniProtACs = {
   6708 : set(['P02549', 'Q15514', 'Q5VYL1', 'Q5VYL2', 'Q6LDY5']), # 5 items
   8329 : set(['P02261', 'P0C0S8', 'Q2M1R2', 'Q76PA6']), # 4 items
   8328 : set(['O95270', 'Q5VTD8', 'Q5VTD9', 'Q6FHZ2', 'Q6T888']), # 5 items
+  389161 : set(['A6NFN9', 'B4E2N8']), # 2 items
   8325 : set(['Q9H461']), # 1 items
   8324 : set(['O75084', 'O94816', 'Q53S59', 'Q96B74']), # 4 items
   6703 : set(['A4QN03', 'A8K5K2', 'D3DV33', 'P22532', 'Q5T523', 'Q96RM3']), # 6 items
@@ -12659,7 +12680,7 @@ GeneID2UniProtACs = {
   23543 : set(['A4F5G8', 'A8K5Z5', 'B0QYY8', 'B0QYY9', 'O43251', 'Q0PRL5', 'Q0VH35', 'Q5TF71', 'Q6IC09', 'Q8TD00', 'Q8WYB1', 'Q96DZ6', 'Q96NL7', 'Q9UGW4', 'Q9UH33']), # 15 items
   3842 : set(['B4DVC6', 'Q92957', 'Q92973', 'Q92975']), # 4 items
   56288 : set(['F5H5T0', 'Q5T2U1', 'Q5VUA2', 'Q5VUA3', 'Q5VWV0', 'Q5VWV1', 'Q5VWV3', 'Q5VWV4', 'Q5VWV5', 'Q6IQ47', 'Q8TCZ9', 'Q8TEW0', 'Q8TEW1', 'Q8TEW2', 'Q8TEW3', 'Q96K28', 'Q96RM6', 'Q96RM7', 'Q9BY57', 'Q9BY58', 'Q9HC48', 'Q9NWL4', 'Q9NYE6']), # 23 items
-  646627 : set(['Q6UX82']), # 1 items
+  646627 : set(['A0A075B722', 'K7ELG6', 'Q6UX82']), # 3 items
   440435 : set(['Q6PRD1']), # 1 items
   116449 : set(['Q05C27', 'Q7Z7G1', 'Q9P2U9']), # 3 items
   116447 : set(['B7ZAR5', 'E7ES89', 'Q86ST4', 'Q86V82', 'Q969P6']), # 5 items
@@ -12723,7 +12744,6 @@ GeneID2UniProtACs = {
   969 : set(['Q07108']), # 1 items
   56674 : set(['Q7Z649', 'Q9NQ34']), # 2 items
   140823 : set(['A7M872', 'E1P5R9', 'E9KL28', 'P60602', 'Q3MHD5', 'Q5QP16', 'Q9CQ98', 'Q9H1N2']), # 8 items
-  5818 : set(['O75465', 'Q15223', 'Q2M3D3', 'Q9HBE6', 'Q9HBW2']), # 5 items
   23101 : set(['O94942', 'Q6P2B8', 'Q6ZVJ5', 'Q86YR7', 'Q8N318']), # 5 items
   93627 : set(['B9A6J1', 'Q4W5B3', 'Q4W5E1', 'Q6NUP4', 'Q8N7M8', 'Q8TEA7', 'Q8WW57', 'Q96GV6', 'Q9P080']), # 9 items
   128209 : set(['Q5JT82', 'Q86VQ7', 'Q8N805']), # 3 items
@@ -12778,7 +12798,7 @@ GeneID2UniProtACs = {
   10463 : set(['Q4W5B6', 'Q6PML9', 'Q7Z5I7', 'Q8TBB2', 'Q9Y6R2']), # 5 items
   10460 : set(['Q2NKK4', 'Q3KQS5', 'Q9UMQ1', 'Q9Y6A5']), # 4 items
   10461 : set(['Q12866', 'Q9HBB4']), # 2 items
-  1968 : set(['B5BTZ4', 'P41091']), # 2 items
+  1968 : set(['A0A024RBY4', 'A8K2Y2', 'B2R5N2', 'B5BTZ4', 'P41091', 'Q53HK3']), # 6 items
   83482 : set(['A8MX66', 'Q96C52', 'Q9BWW7']), # 3 items
   23145 : set(['A2VEC9', 'Q76B61']), # 2 items
   10468 : set(['B5BU94', 'P19883', 'Q9BTH0']), # 3 items
@@ -12813,7 +12833,7 @@ GeneID2UniProtACs = {
   84893 : set(['Q5JVB0', 'Q5JVB1', 'Q7Z4Q6', 'Q7Z4R0', 'Q8N1P5', 'Q8N586', 'Q8NFZ0', 'Q96E82', 'Q96K67', 'Q96SW7', 'Q9UFB2']), # 11 items
   1960 : set(['A8K8U9', 'B4DHJ5', 'E7EW38', 'Q06889', 'Q2M3W2']), # 5 items
   59084 : set(['Q5TFV2', 'Q6UX49', 'Q9UJA9']), # 3 items
-  284071 : set(['A2RUB1', 'B4DXJ2', 'B5MD93', 'B9EGQ6', 'C4AM97', 'Q4G0Y1', 'Q8IVZ7', 'Q8NA45']), # 8 items
+  115362 : set(['B2RCE1', 'Q86TM5', 'Q96PP8']), # 3 items
   59082 : set(['A2RRF8', 'P57730']), # 2 items
   1961 : set(['B2RAE3', 'G3V1T5', 'Q05215', 'Q2Z1P5']), # 4 items
   7113 : set(['A8K6Z8', 'B2R8E5', 'B7Z459', 'D3DSJ2', 'F8WES1', 'O15393', 'Q6GTK7', 'Q9BXX1']), # 8 items
@@ -12917,7 +12937,6 @@ GeneID2UniProtACs = {
   5563 : set(['P54646', 'Q9H1E8', 'Q9UD43']), # 3 items
   195828 : set(['Q6Q7C8', 'Q7RTV3']), # 2 items
   51604 : set(['B2RND5', 'B7Z3N1', 'B7Z7I8', 'E1P622', 'G8JLF5', 'Q2NL69', 'Q7Z3N7', 'Q969N2', 'Q9BQY7', 'Q9BQY8', 'Q9UJG6', 'Q9Y2Z5']), # 12 items
-  729264 : set(['B2R5K6', 'Q4KN31', 'Q9ULY9', 'Q9ULZ0']), # 4 items
   118429 : set(['P58335', 'Q4W5H6', 'Q59E98', 'Q5JPE9', 'Q86UI1', 'Q8N4J8', 'Q8NB13', 'Q96NC7']), # 8 items
   6198 : set(['B2R779', 'B4DLT4', 'B4DTG1', 'E7ESB8', 'F6UYM1', 'P23443', 'Q7Z721']), # 7 items
   91614 : set(['G5E941', 'Q8N602', 'Q8NCU9', 'Q96QD5', 'Q9UGK5']), # 5 items
@@ -13035,7 +13054,7 @@ GeneID2UniProtACs = {
   10678 : set(['Q54AC1', 'Q9NQQ9', 'Q9NQR0', 'Q9NUT9', 'Q9NY97']), # 5 items
   121273 : set(['Q6X4S9', 'Q6X4T0', 'Q8N5S2']), # 3 items
   9459 : set(['A6NMW9', 'A8K6S7', 'B1AL37', 'Q15052', 'Q15396', 'Q5JQ66', 'Q7Z3W1', 'Q86XH0']), # 8 items
-  57018 : set(['B3KMY3', 'Q6NVY9', 'Q6UWS7', 'Q8NI48', 'Q96QT0', 'Q9NZF3', 'Q9UK58']), # 7 items
+  57018 : set(['B3KMY3', 'C9JPL0', 'Q6NVY9', 'Q6UWS7', 'Q8NI48', 'Q96QT0', 'Q9NZF3', 'Q9UK58']), # 8 items
   7284 : set(['O15276', 'P49411']), # 2 items
   57016 : set(['A4D1P1', 'O60218', 'O75890', 'Q6FHF3', 'Q8IWZ1']), # 5 items
   57545 : set(['A6ND97', 'B3FW08', 'D6RB72', 'E7EP21', 'E9PEV5', 'Q3SYP3', 'Q9H8A7', 'Q9P2K1']), # 8 items
@@ -13063,7 +13082,7 @@ GeneID2UniProtACs = {
   26119 : set(['A2BHI5', 'Q5SW96', 'Q6TQS9', 'Q8N2Y0', 'Q9UFI9']), # 5 items
   9497 : set(['A6NIA8', 'B2CI53', 'B5M449', 'B5M451', 'B5M452', 'B5M453', 'B6DY52', 'B6DY53', 'C9JST9', 'D3K174', 'D3K175', 'O60350', 'Q6AHZ9', 'Q9HC88', 'Q9UIB9', 'Q9Y6M7']), # 16 items
   159119 : set(['Q17RC0', 'Q7Z4L8', 'Q96LI6', 'Q9BZA2', 'Q9BZA3']), # 5 items
-  81669 : set(['A8K8A3', 'B1B152', 'Q5T2N5', 'Q5T2N6', 'Q6IQ12', 'Q7Z4Z8', 'Q8N3C9', 'Q8N3D5', 'Q8NHE3', 'Q8TEL0', 'Q96B00', 'Q96S94']), # 12 items
+  81669 : set(['A0A024R072', 'A0A024R077', 'A0A0C4DGC4', 'A8K8A3', 'B1B152', 'F2Z3J5', 'Q5T2N5', 'Q5T2N6', 'Q6IQ12', 'Q7Z4Z8', 'Q8N3C9', 'Q8N3D5', 'Q8NHE3', 'Q8TEL0', 'Q96B00', 'Q96S94']), # 16 items
   121053 : set(['Q8N5I9']), # 1 items
   254528 : set(['B1AK39', 'C9J0S1', 'Q8N635', 'Q96RY0']), # 4 items
   55611 : set(['Q32Q78', 'Q96FW1', 'Q96II3', 'Q9NXQ4', 'Q9P0B8']), # 5 items
@@ -13100,7 +13119,7 @@ GeneID2UniProtACs = {
   2004 : set(['B2R6S6', 'P41970', 'Q6FG57', 'Q6GU29', 'Q9UD17']), # 5 items
   2005 : set(['P28323', 'P28324', 'Q6GSJ2']), # 3 items
   4585 : set(['O95938', 'Q99102', 'Q9GZM2', 'Q9GZV6', 'Q9H481', 'Q9H482', 'Q9H483', 'Q9H484', 'Q9H485', 'Q9H486', 'Q9H487', 'Q9H4D6', 'Q9H4D8', 'Q9NPJ0', 'Q9NY09', 'Q9NY75', 'Q9NY76', 'Q9NY77', 'Q9NY78', 'Q9NY79', 'Q9NY80', 'Q9NY81']), # 22 items
-  4856 : set(['B2R5X7', 'P48745', 'Q6I9S3', 'Q96BY5', 'Q9UDE4']), # 5 items
+  4584 : set(['A6NP22', 'O14650', 'O14651', 'O43418', 'O43421', 'Q02505', 'Q02506', 'Q6W763', 'Q9H3Q7', 'Q9UKW9', 'Q9UN93', 'Q9UN94', 'Q9UN95']), # 13 items
   4855 : set(['B0V183', 'B0V1X5', 'O00306', 'Q5SSY7', 'Q99458', 'Q99466', 'Q99940', 'Q9H3S8', 'Q9UII9', 'Q9UIJ0']), # 10 items
   2009 : set(['O00423', 'Q86U15', 'Q8N536', 'Q8N5C4', 'Q8WWL6']), # 5 items
   4853 : set(['Q04721', 'Q5T3X7', 'Q99734', 'Q9H240']), # 4 items
@@ -13114,7 +13133,7 @@ GeneID2UniProtACs = {
   54596 : set(['Q5T7N2', 'Q8NDA1', 'Q9NUV8', 'Q9NV78']), # 4 items
   100127983 : set(['P0DMB2']), # 1 items
   6618 : set(['B2RBZ6', 'D6W663', 'Q13486', 'Q13487']), # 4 items
-  102724594 : set(['Q01081', 'Q701P4', 'Q71RF1']), # 3 items
+  102724594 : set(['P0DN76', 'Q01081', 'Q701P4', 'Q71RF1']), # 4 items
   400673 : set(['B3KW55', 'Q2NL98']), # 2 items
   53347 : set(['G5E9E4', 'P57075', 'Q6HA34', 'Q6HA35', 'Q6ISI6', 'Q6ISK3', 'Q6ISS9']), # 7 items
   10581 : set(['Q01629', 'Q6FH82', 'Q96DA8']), # 3 items
@@ -13168,7 +13187,7 @@ GeneID2UniProtACs = {
   133418 : set(['B7Z6S3', 'B7Z902', 'Q6PCB8']), # 3 items
   1087 : set(['A8K848', 'O15148', 'O15149', 'Q0VAC1', 'Q13983', 'Q14002', 'Q9UPJ2']), # 7 items
   1084 : set(['G5E978', 'P40198', 'Q3KPH9']), # 3 items
-  1082 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 12 items
+  1082 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'P0DN86', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 13 items
   1081 : set(['P01215']), # 1 items
   1080 : set(['P13569', 'Q20BG8', 'Q20BH2', 'Q2I0A1', 'Q2I102']), # 5 items
   136647 : set(['Q8TAP9']), # 1 items
@@ -13366,6 +13385,7 @@ GeneID2UniProtACs = {
   55651 : set(['A6NKY8', 'Q9NX24', 'Q9P095']), # 3 items
   389813 : set(['C9J069']), # 1 items
   389812 : set(['Q6UWW0']), # 1 items
+  107080638 : set(['E7EV96', 'Q2TU37', 'Q53F44', 'Q5SZL7', 'Q86VM8', 'Q96MB8', 'Q9P0N9']), # 7 items
   90693 : set(['A8K1J6', 'Q6UWP1', 'Q75MQ6', 'Q96EE4']), # 4 items
   2346 : set(['A4UU12', 'A9CB79', 'B7Z312', 'B7Z343', 'D3DQS5', 'E9PDX8', 'O43748', 'Q04609', 'Q16305', 'Q541A4', 'Q8TAY3', 'Q9NP15', 'Q9NYE2', 'Q9P1P8']), # 14 items
   55751 : set(['D3DP04', 'Q86X84', 'Q969I7', 'Q9NVA4', 'Q9NXM2']), # 5 items
@@ -13563,7 +13583,6 @@ GeneID2UniProtACs = {
   5546 : set(['A8K1F7', 'O00665', 'O00724', 'Q5SZ06', 'Q92733']), # 5 items
   5547 : set(['A8MU24', 'B2R7B7', 'B3KRK5', 'B5BU34', 'P42785']), # 5 items
   254887 : set(['D3DN76', 'Q8IYP9']), # 2 items
-  5545 : set(['A1L439', 'O00600', 'P02813', 'P10161', 'P10162', 'P10163', 'P81489']), # 7 items
   30061 : set(['Q6FI62', 'Q7Z4F8', 'Q8IVB2', 'Q9NP59', 'Q9NRL0']), # 5 items
   30062 : set(['Q86V11', 'Q9Y2V3']), # 2 items
   3704 : set(['A2A2N2', 'A4UIM5', 'B2BCH7', 'O14878', 'Q5JWH4', 'Q9BY32', 'Q9BYN1', 'Q9BYX0', 'Q9H3H8']), # 9 items
@@ -13603,6 +13622,7 @@ GeneID2UniProtACs = {
   25913 : set(['O95018', 'Q5MJ36', 'Q9H662', 'Q9NUX5', 'Q9NW19', 'Q9UG95']), # 6 items
   25911 : set(['A8K289', 'Q6QNL3', 'Q8N5R1', 'Q9BVM2', 'Q9UFY6']), # 5 items
   8440 : set(['D3DVK1', 'O43639', 'Q9BWN9', 'Q9UIC3']), # 4 items
+  9524 : set(['B2RD55', 'O75350', 'Q6IBB2', 'Q9BWK3', 'Q9NZ01', 'Q9Y6P0']), # 6 items
   4914 : set(['B2R6T5', 'B7ZM34', 'P04629', 'P08119', 'Q15655', 'Q15656', 'Q5D056', 'Q5VZS2', 'Q7Z5C3', 'Q9UIU7']), # 10 items
   51259 : set(['A8MZ23', 'B7Z8N1', 'Q9P0N5']), # 3 items
   4863 : set(['A8K1V5', 'A8K6M2', 'Q13632', 'Q14207', 'Q14967', 'Q16580', 'Q86W55', 'Q8IWE9']), # 8 items
@@ -13693,7 +13713,7 @@ GeneID2UniProtACs = {
   283471 : set(['B9ZVX2', 'Q86WS5']), # 2 items
   51599 : set(['A6NDW3', 'B4DKL4', 'E9PHD4', 'O00112', 'O00426', 'Q6ZT80', 'Q86X29', 'Q8NBM0', 'Q9BT33', 'Q9UQL3']), # 10 items
   440574 : set(['Q5TGZ0', 'Q96G68']), # 2 items
-  91851 : set(['B1AKD0', 'B4DMP3', 'D3DUY6', 'E9PGS5', 'Q539E4', 'Q9BU40', 'Q9Y3H7']), # 7 items
+  55749 : set(['A0JLT7', 'A1L4P7', 'A8K9D4', 'B4DNP8', 'B4DRK8', 'Q32NE3', 'Q5EBM3', 'Q5VUP6', 'Q6PIZ0', 'Q6X935', 'Q8IX12', 'Q9H8N4', 'Q9NVA7', 'Q9NVQ0', 'Q9NWM6']), # 15 items
   653643 : set(['P0CG33']), # 1 items
   158521 : set(['D3DWT3', 'Q8N0W7']), # 2 items
   653641 : set(['A6NDK9']), # 1 items
@@ -13726,7 +13746,7 @@ GeneID2UniProtACs = {
   22926 : set(['O15139', 'P18850', 'Q5VW62', 'Q6IPB5', 'Q9UEC9']), # 5 items
   22927 : set(['O75804', 'Q5JVS0', 'Q8WV33', 'Q9NYJ2']), # 4 items
   22924 : set(['B7WPK5', 'O00265', 'Q6FHB0', 'Q6FI15', 'Q9BZP7', 'Q9BZP8', 'Q9UPY8']), # 7 items
-  367 : set(['A2RUN2', 'B1AKD7', 'P10275', 'Q9UD95']), # 4 items
+  367 : set(['A0A0B4J1T2', 'A2RUN2', 'B1AKD7', 'C0JKD3', 'C0JKD4', 'E7EVX6', 'P10275', 'Q9UD95']), # 8 items
   147923 : set(['B2RDY6', 'Q8TAQ5', 'Q96ML5']), # 3 items
   22928 : set(['Q99611', 'Q9BUQ2']), # 2 items
   147920 : set(['E9PAV1', 'Q6B9Z3', 'Q6UWQ7']), # 3 items
@@ -13736,6 +13756,7 @@ GeneID2UniProtACs = {
   64065 : set(['B2RB73', 'E1P590', 'Q8IWS3', 'Q8N1J6', 'Q8NC16', 'Q96FX8', 'Q9H1C5', 'Q9H230']), # 8 items
   55035 : set(['Q5TCC7', 'Q5TCC8', 'Q5TCD3', 'Q5TCD5', 'Q5TCD6', 'Q5TCD7', 'Q76D35', 'Q76FK4', 'Q7L3E2', 'Q9H586', 'Q9H795', 'Q9H7W7', 'Q9H9J6', 'Q9NWA4', 'Q9NWM4']), # 15 items
   79879 : set(['Q9H6E4']), # 1 items
+  400736 : set(['Q5VWM6']), # 1 items
   81894 : set(['Q4VBZ0', 'Q5T777', 'Q86VX5', 'Q969G8', 'Q96A46', 'Q9H2J3']), # 6 items
   79874 : set(['Q9H5N1']), # 1 items
   7531 : set(['B3KY71', 'D3DTH5', 'P29360', 'P42655', 'P62258', 'Q4VJB6', 'Q53XZ5', 'Q63631', 'Q7M4R4']), # 9 items
@@ -13911,14 +13932,14 @@ GeneID2UniProtACs = {
   10308 : set(['A0JNZ9', 'Q14586', 'Q8NE41', 'Q9NRJ0']), # 4 items
   199857 : set(['A8K030', 'Q96F25']), # 2 items
   145788 : set(['H3BRN8']), # 1 items
-  9066 : set(['F5GZU9', 'O43581', 'Q08AH6']), # 3 items
+  9066 : set(['F5GZC2', 'F5GZU9', 'F5H126', 'F5H1N2', 'F5H6C1', 'O43581', 'Q08AH6']), # 7 items
   80145 : set(['Q6I9Y2', 'Q6P1L3', 'Q8WUF2', 'Q9H5H0']), # 4 items
   57623 : set(['B7ZL15', 'E9PER3', 'Q3MIM5', 'Q6PJ01', 'Q75PJ6', 'Q75PJ7', 'Q75PJ9', 'Q86X64', 'Q9P243']), # 9 items
   3184 : set(['A8K9J2', 'P07029', 'Q01858', 'Q14100', 'Q14101', 'Q14102', 'Q14103', 'Q4W5A1', 'Q9UCE8', 'Q9UCE9']), # 10 items
   3185 : set(['B3KM84', 'P52597', 'Q5T0N2', 'Q96AU2']), # 4 items
   266722 : set(['Q5W0L0', 'Q68CW6', 'Q8IZP7']), # 3 items
   340980 : set(['Q6IFI7', 'Q8NGF0']), # 2 items
-  3181 : set(['A8K064', 'P22626', 'P22627', 'Q9UC98', 'Q9UDJ2']), # 5 items
+  3181 : set(['A0A024RA27', 'A0A024RA61', 'A8K064', 'P22626', 'P22627', 'Q9UC98', 'Q9UDJ2']), # 7 items
   353500 : set(['Q5T3A5', 'Q7Z5Y6']), # 2 items
   3183 : set(['D3DS19', 'D3DS22', 'P07910', 'P22628', 'Q53EX2', 'Q59FD3', 'Q5FWE8', 'Q86SF8', 'Q86U45', 'Q96HK7', 'Q96HM4', 'Q96IY5', 'Q9BTS3']), # 13 items
   219428 : set(['Q6IEV8', 'Q8NGL9']), # 2 items
@@ -14153,7 +14174,7 @@ GeneID2UniProtACs = {
   2812 : set(['P13224', 'Q14422', 'Q8NG40']), # 3 items
   29956 : set(['D3DV06', 'Q5SZE5', 'Q96G23', 'Q9HD96', 'Q9NW79']), # 5 items
   29957 : set(['B7ZAI9', 'Q5T331', 'Q5T485', 'Q6NUK1', 'Q6PJJ9', 'Q705K4', 'Q9P129']), # 7 items
-  728458 : set(['P04001']), # 1 items
+  728458 : set(['P04001', 'P0DN77', 'P0DN78']), # 3 items
   563 : set(['D6W5T8', 'O60386', 'P25311', 'Q5XKQ4', 'Q8N4N0']), # 5 items
   29952 : set(['A8K7U7', 'Q5VSF1', 'Q969X4', 'Q9UHL4']), # 4 items
   29953 : set(['A5PL19', 'Q6UWJ4', 'Q9UKU6']), # 3 items
@@ -14231,7 +14252,7 @@ GeneID2UniProtACs = {
   126272 : set(['Q8N8S0', 'Q96D98']), # 2 items
   100287478 : set(['D6R901']), # 1 items
   50836 : set(['Q4KN29', 'Q645Y2', 'Q9NYW2']), # 3 items
-  93659 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 12 items
+  93659 : set(['A1A5E0', 'B9ZVP5', 'P01233', 'P0DN86', 'Q13991', 'Q14000', 'Q3KPI3', 'Q3SY41', 'Q8WTT5', 'Q8WXL1', 'Q8WXL2', 'Q8WXL3', 'Q8WXL4']), # 13 items
   340351 : set(['B7Z827', 'Q8NEM8', 'Q9H965']), # 3 items
   23198 : set(['Q14997', 'Q1XBG4', 'Q1XBG5', 'Q1XBG6', 'Q2M1Z0', 'Q6IPR2', 'Q86XF8']), # 7 items
   23199 : set(['D3DUM4', 'Q14687', 'Q8IY61', 'Q96GA4', 'Q9BW09']), # 5 items
@@ -14401,7 +14422,7 @@ GeneID2UniProtACs = {
   22903 : set(['D3DW19', 'Q5JY73', 'Q9Y2F9']), # 3 items
   22904 : set(['A8K8P2', 'B3KWJ1', 'O75257', 'Q3KQX0', 'Q8TEM0', 'Q9Y2G9']), # 6 items
   22905 : set(['A8MTV8', 'B3KRX8', 'E9PBC2', 'O95207', 'O95208', 'Q52LD0', 'Q9H7Z2', 'Q9UPT7']), # 8 items
-  22906 : set(['E9PDS2', 'J3KNT7', 'Q63HR0', 'Q659B5', 'Q96B69', 'Q9UPV9']), # 6 items
+  391003 : set(['Q5VWM3']), # 1 items
   22907 : set(['A8K5F1', 'O94965', 'Q7L2E3', 'Q7Z753', 'Q96CH4', 'Q9NUQ0']), # 6 items
   2046 : set(['P29322', 'Q6IN80', 'Q8IUX6', 'Q9NUA9', 'Q9P269']), # 5 items
   2047 : set(['A8K593', 'B3KTB2', 'B5A969', 'O43569', 'O95142', 'O95143', 'P54762', 'Q0VG87']), # 8 items
@@ -14459,7 +14480,7 @@ GeneID2UniProtACs = {
   10168 : set(['B2RAH8', 'O14709', 'Q86VG0']), # 3 items
   3239 : set(['P35453']), # 1 items
   1811 : set(['P40879']), # 1 items
-  9349 : set(['P23131', 'P24048', 'P62829', 'Q29246', 'Q3SWV7', 'Q6P5S1']), # 6 items
+  5297 : set(['P42356', 'Q7Z625', 'Q9UPG2']), # 3 items
   148523 : set(['B2RD43', 'D3DV01', 'Q8N365', 'Q8N795', 'Q96MG6']), # 5 items
   118932 : set(['B2R9Y7', 'Q5VYY1', 'Q8WU06']), # 3 items
   90060 : set(['A8K5Q5', 'B4DF24', 'B4DFC1', 'B4DTU2', 'F5GZU4', 'Q96HB5']), # 6 items
@@ -14549,6 +14570,7 @@ GeneID2UniProtACs = {
   79626 : set(['Q6I9Y0', 'Q6P589', 'Q9H2H7', 'Q9H5G2']), # 4 items
   148823 : set(['B2R4Y5', 'B3KX46', 'Q5JQS6', 'Q5JQT3']), # 4 items
   64773 : set(['Q5JUA5', 'Q5JUA6', 'Q6PK19', 'Q86WF5', 'Q96CG7', 'Q9H1Q6', 'Q9H1Q7', 'Q9H6D1']), # 8 items
+  83878 : set(['A8K7L6', 'B2RCR9', 'Q8N6Y0', 'Q8NBX7', 'Q96KH3', 'Q9BYI8']), # 6 items
   1810 : set(['Q01658']), # 1 items
   146909 : set(['A6NJI2', 'B7ZM49', 'B9EGM8', 'D5L6I1', 'Q86Y91']), # 5 items
   84072 : set(['A6NMK2', 'B3KUK1', 'Q4G114', 'Q5T5I3', 'Q5T5I4', 'Q5T5I5', 'Q6FIC1', 'Q86X24', 'Q9H0K8']), # 9 items
@@ -14604,7 +14626,7 @@ GeneID2UniProtACs = {
   4035 : set(['Q07954', 'Q2PP12', 'Q86SW0', 'Q8IVG8']), # 4 items
   4034 : set(['A4D2D5', 'O75427', 'Q8WV85', 'Q96ID0']), # 4 items
   4037 : set(['B3KQD6', 'B4DKF2', 'O75074']), # 3 items
-  4036 : set(['O00711', 'P98164', 'Q16215']), # 3 items
+  254013 : set(['D3DUW3', 'Q8IXQ9']), # 2 items
   340069 : set(['A1A519', 'Q66LM8', 'Q7Z4V2', 'Q8IW94']), # 4 items
   100128569 : set(['A6NCJ1']), # 1 items
   124801 : set(['Q3MHD2', 'Q86YB1', 'Q96NL5']), # 3 items
@@ -14930,7 +14952,7 @@ GeneID2UniProtACs = {
   23468 : set(['B2R8T9', 'P45973']), # 2 items
   23469 : set(['A3KFI8', 'Q14CR5', 'Q5CZI1', 'Q5T1T6', 'Q92576', 'Q9NQ16', 'Q9UI45']), # 7 items
   112849 : set(['Q96EM0', 'Q96LJ5']), # 2 items
-  2769 : set(['E9KL40', 'E9KL47', 'O75247', 'P30679', 'Q53XK2']), # 5 items
+  57577 : set(['B4DYL1', 'Q8NCU4', 'Q9P2E0']), # 3 items
   102723655 : set(['B2R5K6', 'Q4KN31', 'Q9ULY9', 'Q9ULZ0']), # 4 items
   286148 : set(['Q6ZW32', 'Q6ZW42', 'Q7Z329', 'Q7Z388']), # 4 items
   8444 : set(['D3DT79', 'O43781', 'Q7Z752', 'Q9HBY6', 'Q9HBY7']), # 5 items
@@ -15034,6 +15056,7 @@ GeneID2UniProtACs = {
   201562 : set(['Q6Y1H2']), # 1 items
   201516 : set(['Q3MIQ2', 'Q8NAM6']), # 2 items
   285555 : set(['Q8N412']), # 1 items
+  147650 : set(['C0H5Y6', 'Q6UWG3', 'W5XKT8']), # 3 items
   100287171 : set(['A8K0Z3']), # 1 items
   100288287 : set(['Q3LI68']), # 1 items
   8225 : set(['O43824', 'Q53F77', 'Q5HYX8']), # 3 items
@@ -15207,7 +15230,6 @@ GeneID2UniProtACs = {
   6993 : set(['P63172', 'Q15763', 'Q5VTU4']), # 3 items
   26737 : set(['Q5T7Z3', 'Q6IFN2', 'Q8NH94']), # 3 items
   26735 : set(['B2RNF4', 'Q6IFN1', 'Q8NH93']), # 3 items
-  146923 : set(['Q6Y2K8', 'Q8IXT9', 'Q8N3W1', 'Q96C34']), # 4 items
   9088 : set(['B3KUN8', 'B4DXD4', 'D3DUA4', 'F8W164', 'I3L1V2', 'O14731', 'Q7LE24', 'Q8TCM9', 'Q99640']), # 9 items
   574016 : set(['Q5K130']), # 1 items
   9021 : set(['O14509', 'O14543']), # 2 items
@@ -15236,6 +15258,7 @@ GeneID2UniProtACs = {
   150223 : set(['A8MPS7', 'Q2YDT4', 'Q4V9R7']), # 3 items
   6416 : set(['B2R7N7', 'B3KYB2', 'D3DTS5', 'P45985', 'Q5U0B8', 'Q6FHX4', 'Q6P9H2', 'Q6PIE6']), # 8 items
   375307 : set(['Q7Z7H3']), # 1 items
+  144568 : set(['A8K2U0', 'B5MDD1', 'B7Z7V4', 'D3DUV3', 'F5H2Z2', 'Q2M224', 'Q6ZW52', 'Q6ZW53', 'Q8N1M4', 'Q96LQ8']), # 10 items
   2993 : set(['A8K3E6', 'B8Q182', 'B8Q185', 'P02724', 'Q9BS51']), # 5 items
   2994 : set(['B8Q174', 'E2QBW7', 'P06028', 'Q0VAF4', 'Q58HE9', 'Q58HF0', 'Q58HF1', 'Q9UCH7']), # 8 items
   131076 : set(['Q32LY6', 'Q4VC31']), # 2 items
@@ -15253,7 +15276,7 @@ GeneID2UniProtACs = {
   9994 : set(['A2RUB7', 'E1P553', 'Q6PH76', 'Q7LCQ7', 'Q86YD9', 'Q9NUQ4', 'Q9NZV9', 'Q9P2N1', 'Q9UKL3', 'Q9Y563']), # 10 items
   9997 : set(['O43819', 'Q3T1B5', 'Q9UK87']), # 3 items
   219464 : set(['B9EGX5', 'Q6IFC8', 'Q8NGG2']), # 3 items
-  11037 : set(['A8MXJ1', 'B5MCF5', 'B7ZL16', 'Q96JE3', 'Q9BYX3', 'Q9Y6Q2']), # 6 items
+  11037 : set(['A0A0A6YYH4', 'A8MXJ1', 'B5MCF5', 'B7ZL16', 'Q96JE3', 'Q9BYX3', 'Q9Y6Q2']), # 7 items
   11034 : set(['B2R6N2', 'B4DYA6', 'P18282', 'P60981', 'Q5W166', 'Q6IAW2']), # 6 items
   11035 : set(['B4DJL9', 'C4AM87', 'Q5J795', 'Q5J796', 'Q6P5Y1', 'Q9Y572']), # 6 items
   11033 : set(['A4D2Q2', 'B3KRZ4', 'B4DVA6', 'F6XZ68', 'H7C2Q4', 'O75689']), # 6 items
@@ -15586,7 +15609,7 @@ GeneID2UniProtACs = {
   6507 : set(['B2R5T3', 'P43003', 'Q4JCQ8']), # 3 items
   6506 : set(['B4DQE9', 'P43004', 'Q14417', 'Q541G6', 'U3KQQ4']), # 5 items
   6505 : set(['O75587', 'P43005', 'Q5VZ24', 'Q8N199', 'Q9UEW2']), # 5 items
-  6504 : set(['Q13291', 'Q5W172', 'Q9HBE8']), # 3 items
+  6504 : set(['Q13291', 'Q5W172', 'Q9HBE8', 'W0HKK7']), # 4 items
   1965 : set(['P05198']), # 1 items
   65991 : set(['B2R7W5', 'D3DWY5', 'Q8NHX8', 'Q9BWH2', 'Q9H2I6']), # 5 items
   388730 : set(['Q6P7N7', 'Q6UVZ4']), # 2 items
@@ -15608,7 +15631,6 @@ GeneID2UniProtACs = {
   8462 : set(['B4DZE7', 'O14901', 'Q9EPF4']), # 3 items
   8463 : set(['B4DTJ6', 'M0R1T9', 'Q15562', 'Q8NA25', 'Q96IG3']), # 5 items
   8460 : set(['A4D2M0', 'O60507', 'Q6FGM7']), # 3 items
-  137492 : set(['Q336D5', 'Q6NW27', 'Q8N3D7', 'Q8NEZ2', 'Q8TBL7', 'Q96DL9']), # 6 items
   4907 : set(['B3KQI8', 'O75520', 'P21589', 'Q5W116']), # 4 items
   8464 : set(['A6NKG9', 'B2R9Q5', 'O75486', 'O76066', 'Q5TAV9', 'Q86VN7']), # 6 items
   8468 : set(['B4DXT7', 'G3V0I2', 'O75344', 'Q7Z4T4', 'Q9UDS0']), # 5 items
@@ -15759,7 +15781,6 @@ GeneID2UniProtACs = {
   146722 : set(['B2RCL2', 'C9JDN3', 'Q3Y6P0', 'Q6UX24', 'Q7Z6A6', 'Q7Z7I4', 'Q7Z7I5', 'Q8N6D0', 'Q8NAF5', 'Q8TDQ1']), # 10 items
   146723 : set(['Q96MU5']), # 1 items
   85019 : set(['I0J130', 'Q24JQ0', 'Q6ZTS7', 'Q6ZW41']), # 4 items
-  80028 : set(['Q96ME1', 'Q9BR90', 'Q9BTC7', 'Q9HAK7']), # 4 items
   81888 : set(['D3DPX4', 'D3DPX5', 'Q5Q9A2', 'Q5T013', 'Q7Z778', 'Q96S83', 'Q9BZR3', 'Q9BZR4']), # 8 items
   494188 : set(['B2RTZ4', 'Q5MNV8']), # 2 items
   80023 : set(['A8K3B2', 'Q6FII5', 'Q9GZP1', 'Q9NUD3']), # 4 items
@@ -16039,7 +16060,6 @@ GeneID2UniProtACs = {
   5097 : set(['Q08174', 'Q8IUP2']), # 2 items
   121355 : set(['B3KQ60', 'Q0VGM4', 'Q8N778', 'Q8WW33']), # 4 items
   23205 : set(['B2RB61', 'O75126', 'Q76N27', 'Q96GR2', 'Q9HC26']), # 5 items
-  5439 : set(['A5D6V8', 'O43375', 'P52435']), # 3 items
   6996 : set(['Q13569', 'Q8IUZ6', 'Q8IZM3']), # 3 items
   245927 : set(['Q30KQ7']), # 1 items
   245928 : set(['Q30KQ6', 'Q8NES9']), # 2 items
@@ -16062,7 +16082,7 @@ GeneID2UniProtACs = {
   26278 : set(['O94835', 'Q5T9J5', 'Q5T9J7', 'Q5T9J8', 'Q68DF5', 'Q6MZR4', 'Q8NBF9', 'Q9NZJ4']), # 8 items
   26279 : set(['A8K2Z1', 'B1AEL9', 'Q9UK01', 'Q9UNK4']), # 4 items
   9379 : set(['A7E2C1', 'P58401', 'Q9P2S2', 'Q9Y2D6']), # 4 items
-  9378 : set(['A7KRL9', 'O60323', 'P58400', 'Q53TJ9', 'Q53TQ1', 'Q9C079', 'Q9C080', 'Q9C081', 'Q9H3M2', 'Q9UDM6', 'Q9ULB1']), # 11 items
+  9378 : set(['A7KRL9', 'O60323', 'P58400', 'Q53TJ9', 'Q53TQ1', 'Q5HYI0', 'Q9C079', 'Q9C080', 'Q9C081', 'Q9H3M2', 'Q9UDM6', 'Q9ULB1']), # 12 items
   27079 : set(['B4DDD1', 'Q7L989', 'Q8IZ73', 'Q92939', 'Q96IA7', 'Q96N50']), # 6 items
   23759 : set(['Q13356', 'Q13357', 'Q8TAH2', 'Q9BWR8']), # 4 items
   121130 : set(['B9EGY4', 'Q8NGE3']), # 2 items
@@ -16121,6 +16141,7 @@ GeneID2UniProtACs = {
   58157 : set(['Q9NPG2']), # 1 items
   8578 : set(['A8MQ05', 'O43701', 'Q14162', 'Q8NHD2', 'Q8NHD3', 'Q8NHD4', 'Q8NHD5']), # 7 items
   58155 : set(['Q8N0Z1', 'Q8N160', 'Q8NFB0', 'Q8NFB1', 'Q969N9', 'Q96Q76', 'Q9UKA9']), # 7 items
+  496 : set(['B1B0N8', 'P51164']), # 2 items
   58189 : set(['D3DUL7', 'Q8NC27', 'Q9HAU1', 'Q9HC57']), # 4 items
   84289 : set(['A8K1P3', 'Q53NU6', 'Q57Z54', 'Q8WYH8', 'Q9BS30']), # 5 items
   84288 : set(['B4DZE9', 'Q59G23', 'Q5VUJ9', 'Q9BS36']), # 4 items
@@ -16636,6 +16657,7 @@ GeneID2UniProtACs = {
   202018 : set(['Q6NXT6', 'Q8N2S3', 'Q9NZK9']), # 3 items
   403312 : set(['Q8IYB0']), # 1 items
   57190 : set(['A6NJG8', 'A8MQ64', 'Q6PI70', 'Q969F6', 'Q9NUI6', 'Q9NZV5']), # 6 items
+  84620 : set(['D3DVK3', 'Q53QP4', 'Q86Y44', 'Q8IUG7', 'Q96HE4', 'Q96JF0']), # 6 items
   402682 : set(['A4D2E4', 'A8K8V2', 'B6ZDG6', 'Q6NVU6', 'Q9BXP6']), # 5 items
   9866 : set(['O15016', 'Q9BQQ4']), # 2 items
   643382 : set(['P0C7T8']), # 1 items
@@ -16667,7 +16689,7 @@ GeneID2UniProtACs = {
   574414 : set(['Q5T870']), # 1 items
   154796 : set(['Q4VCS5', 'Q504X5', 'Q9HD27', 'Q9UPT1']), # 4 items
   83937 : set(['Q86WH5', 'Q86WH6', 'Q86WH7', 'Q8N5A9', 'Q8TCK6', 'Q9H2L5']), # 6 items
-  92002 : set(['Q2I380', 'Q330J9', 'Q8N1B3', 'Q96IU5', 'Q9BUU1']), # 5 items
+  154790 : set(['P0C7M8']), # 1 items
   154791 : set(['B7Z4Q3', 'Q75M90', 'Q96HJ9', 'Q9P0B3']), # 4 items
   10804 : set(['B3KQN2', 'O95452', 'Q5Q1H9', 'Q5Q1I0', 'Q5Q1I1', 'Q5T5U0', 'Q8IUP0']), # 7 items
   56241 : set(['Q9H5Y6', 'Q9UGT4']), # 2 items
@@ -16717,7 +16739,7 @@ GeneID2UniProtACs = {
   80184 : set(['O15078', 'Q1PSK5', 'Q66GS8', 'Q9H2G6', 'Q9H6Q7', 'Q9H8I0']), # 6 items
   80185 : set(['D3DSV7', 'Q6NXR4', 'Q96IM2', 'Q9H5N4']), # 4 items
   9015 : set(['B2RDZ8', 'D3DTB7', 'Q15573', 'Q9NWA1']), # 4 items
-  9353 : set(['B7ZLR5', 'O94813', 'O95710', 'Q17RU3', 'Q9Y5Q7']), # 5 items
+  9353 : set(['A0A0A6YYB8', 'B7ZLR5', 'O94813', 'O95710', 'Q17RU3', 'Q9Y5Q7']), # 6 items
   80183 : set(['A8KAG9', 'A8XR19', 'B3KS87', 'Q5W051', 'Q5W053', 'Q6PJ74', 'Q6PK94', 'Q86XH7', 'Q8N5J6', 'Q9H714']), # 10 items
   353345 : set(['A4D1X7', 'Q0VAR5', 'Q7Z602', 'Q86SP3']), # 4 items
   7301 : set(['O14953', 'Q06418', 'Q86VR3']), # 3 items
@@ -16927,7 +16949,7 @@ GeneID2UniProtACs = {
   9832 : set(['A4ZZA7', 'A8K5G5', 'B4DSG0', 'G5E9Y0', 'O60302', 'Q548S1', 'Q96AA8']), # 7 items
   9833 : set(['A6P3A7', 'A6P3A8', 'B1AMQ6', 'B7Z1E6', 'B7Z5M5', 'B7Z6Q7', 'B7Z6R8', 'B7Z6Y0', 'B7Z7Q1', 'D3DRP8', 'F5H0Y0', 'F5H2R4', 'F5H689', 'Q14680', 'Q7L3C3']), # 15 items
   221476 : set(['Q6UXB8', 'Q6ZVG9', 'Q8IYL8', 'Q8NBK0', 'Q8TCB8']), # 5 items
-  221477 : set(['B4DTT1', 'F4NAR0', 'F4NAR1', 'Q6UWU4', 'Q6ZMG5', 'Q7Z356', 'Q8IZ35']), # 7 items
+  221477 : set(['B4DTT1', 'B7Z9L9', 'F4NAR0', 'F4NAR1', 'Q5TDC5', 'Q6UWU4', 'Q6ZMG5', 'Q7Z356', 'Q8IZ35']), # 9 items
   7593 : set(['M0QXU0', 'P28698', 'Q7Z729', 'Q96I71', 'Q9NRY0', 'Q9UBW2']), # 6 items
   9837 : set(['Q14691', 'Q9NQE2', 'Q9NQI7']), # 3 items
   221472 : set(['Q5T8I1', 'Q6P6A8', 'Q6ZNL5', 'Q7Z6J4', 'Q8IZ32', 'Q8N868', 'Q9H7M2']), # 7 items
@@ -17140,7 +17162,7 @@ GeneID2UniProtACs = {
   63894 : set(['B4DPI6', 'O95434', 'Q9H7E1', 'Q9H9C1', 'Q9H9I9']), # 5 items
   51255 : set(['Q53H81', 'Q9P0P0']), # 2 items
   54808 : set(['A8K5I8', 'B2RCF9', 'B4DKI7', 'Q3ZTS8', 'Q6P2P5', 'Q7RTS9', 'Q8N2M0', 'Q9BVE9', 'Q9NPU7']), # 9 items
-  54809 : set(['A2RU68', 'Q5K649', 'Q5K651', 'Q6P080', 'Q75N21', 'Q8IVG6', 'Q9NXS8']), # 7 items
+  441871 : set(['A0A087X1I7', 'A0A0A6YYA1', 'B9EIP0', 'Q5VXH5']), # 4 items
   441873 : set(['A6NGN4']), # 1 items
   84181 : set(['Q5JYQ0', 'Q5TGZ9', 'Q5TH00', 'Q5TH01', 'Q8IZR2', 'Q8TD26', 'Q8WTY0', 'Q9H4H6', 'Q9H6D4', 'Q9NTT7', 'Q9P2L1']), # 11 items
   84182 : set(['Q4G0A6', 'Q71AZ7', 'Q9H6D2']), # 3 items
@@ -17207,7 +17229,7 @@ GeneID2UniProtACs = {
   71 : set(['A8K7C2', 'P02571', 'P14104', 'P63261', 'P99022', 'Q5U032', 'Q96E67']), # 7 items
   70 : set(['P04270', 'P68032']), # 2 items
   2972 : set(['B3KU36', 'B4DIG5', 'B7Z2N3', 'F5H5Z7', 'F8WA46', 'Q13223', 'Q3SYD9', 'Q5PR24', 'Q6IQ02', 'Q92994', 'Q96KX3', 'Q9HCW6', 'Q9HCW7', 'Q9HCW8']), # 14 items
-  2971 : set(['B7ZBK5', 'Q12963', 'Q13097', 'Q92664']), # 4 items
+  5438 : set(['B2R5J2', 'P36954', 'Q6NW05']), # 3 items
   2976 : set(['D6W557', 'Q16632', 'Q8WUA4', 'Q9BWI7']), # 4 items
   2977 : set(['A1L4C4', 'B7ZLT5', 'P33402']), # 3 items
   2975 : set(['B2RP21', 'Q12789', 'Q12838', 'Q6DKN9', 'Q9Y4W9']), # 5 items
@@ -17333,6 +17355,7 @@ GeneID2UniProtACs = {
   201626 : set(['B4DTU8', 'Q6L8Q7', 'Q8IYU3', 'Q8NDU2', 'Q8TE78']), # 5 items
   125488 : set(['B7WP63', 'J3QRR1', 'Q0VAJ2', 'Q8N284', 'Q8N584']), # 5 items
   9314 : set(['B2R8S4', 'B3KT79', 'L0R3I6', 'L0R4N5', 'O43474', 'P78338', 'Q5T3J8', 'Q5T3J9', 'Q8N717', 'Q9UNP3']), # 10 items
+  340390 : set(['A6NE52', 'Q96JF2']), # 2 items
   125958 : set(['A8CAH8', 'A8CAH9', 'A8CAI0', 'A8CAI1', 'B9EH79', 'Q8NG98']), # 6 items
   343413 : set(['A1KXW6', 'A2A4D6', 'Q6DN72', 'Q6DN73', 'Q6XRC3', 'Q6ZNI1']), # 6 items
   57590 : set(['Q53S17', 'Q8IWB7', 'Q9H9D5', 'Q9P2B3']), # 4 items
@@ -17377,7 +17400,7 @@ GeneID2UniProtACs = {
   131149 : set(['A6NHN0']), # 1 items
   4605 : set(['B2RBS5', 'B7Z8D9', 'F8W6N6', 'P10244', 'Q53F07']), # 5 items
   4700 : set(['B2RE54', 'O43675', 'P56556', 'Q6FGW0', 'Q6IBT8', 'Q6IC39']), # 6 items
-  84968 : set(['A8K1G4', 'D3DWT8', 'P0CW24', 'P0CW26', 'P0CZ20', 'Q96A40']), # 6 items
+  84968 : set(['A8K1G4', 'D3DWT8', 'P0CW24', 'P0CW26', 'Q96A40']), # 5 items
   84969 : set(['A8K1J1', 'E1P5X0', 'G3XAC7', 'Q5TE33', 'Q5TE34', 'Q5TE35', 'Q96IC9', 'Q96NM4', 'Q9BQN5']), # 9 items
   50615 : set(['A8K9E8', 'D3DWF7', 'Q96HZ1', 'Q9HB91', 'Q9HBE5']), # 5 items
   50614 : set(['Q52LR8', 'Q6NT54', 'Q8NFR1', 'Q9HCQ5']), # 4 items
@@ -17595,7 +17618,7 @@ GeneID2UniProtACs = {
   171024 : set(['B2RWP6', 'B2Y8J9', 'Q9UK89', 'Q9UMS6', 'S5XAM4']), # 5 items
   100293534 : set(['A2BHY4', 'P01028', 'P0C0L5', 'P78445', 'Q13160', 'Q13906', 'Q14033', 'Q14835', 'Q6U2E9', 'Q6U2G1', 'Q6U2I5', 'Q6U2L1', 'Q6U2L7', 'Q6U2L9', 'Q6U2M5', 'Q6VCV8', 'Q96SA7', 'Q9NPK5', 'Q9UIP5']), # 19 items
   100130742 : set(['Q6ZNQ3']), # 1 items
-  90835 : set(['A1A4V8', 'A1A4V9', 'F5GX13', 'Q569G2']), # 4 items
+  2491 : set(['Q5JWZ9', 'Q92674', 'Q96ED0']), # 3 items
   285676 : set(['Q2M1P2', 'Q2M323', 'Q8N9F8']), # 3 items
   285671 : set(['Q0JSU3', 'Q495A8', 'Q86T96', 'Q8NBD1']), # 4 items
   285672 : set(['Q32NC8', 'Q8N9Q2']), # 2 items
@@ -17625,7 +17648,7 @@ GeneID2UniProtACs = {
   162998 : set(['Q6IFJ7', 'Q8N133', 'Q96RA2']), # 3 items
   145864 : set(['A8K7P0', 'Q96S86']), # 2 items
   162993 : set(['A8K0H1', 'B3KUP1', 'Q147U1']), # 3 items
-  63923 : set(['B9EGP3', 'Q5R360', 'Q9UQP3']), # 3 items
+  63923 : set(['A0A0A6YY94', 'B9EGP3', 'Q5R360', 'Q9UQP3']), # 4 items
   133957 : set(['Q96BQ5']), # 1 items
   23172 : set(['B4DKR2', 'Q15018', 'Q96H11']), # 3 items
   1525 : set(['B2R8V8', 'B7WPI3', 'D3YHP0', 'O00694', 'P78310', 'Q8WWT6', 'Q8WWT7', 'Q8WWT8', 'Q9UKV4']), # 9 items
@@ -17674,7 +17697,6 @@ GeneID2UniProtACs = {
   54069 : set(['B2R562', 'Q542Z0', 'Q9NYP9']), # 3 items
   55437 : set(['Q5BKY7', 'Q9C0K7', 'Q9P1L0']), # 3 items
   55435 : set(['B2RCV7', 'Q63HQ0', 'Q96GG6', 'Q9H0V0', 'Q9P1L4']), # 5 items
-  23049 : set(['O43305', 'Q13284', 'Q8NFX2', 'Q96Q15', 'Q96QV0', 'Q96RW3']), # 6 items
   5706 : set(['B2R975', 'P49719', 'P62333', 'Q6IBU3', 'Q92524']), # 5 items
   3340 : set(['P52848', 'Q96E57']), # 2 items
   92906 : set(['Q53T80', 'Q5JB51', 'Q5JB52', 'Q659B9', 'Q8IVH5', 'Q8IVH6', 'Q8WVV9', 'Q96HR5']), # 8 items
@@ -17686,6 +17708,7 @@ GeneID2UniProtACs = {
   3059 : set(['B4DQ69', 'P14317', 'Q53Y93', 'Q6IBK9', 'Q9UDK0']), # 5 items
   57461 : set(['Q96IL2', 'Q9BT05', 'Q9ULR0']), # 3 items
   56163 : set(['Q5T2J9', 'Q6P1W3', 'Q9BXT7', 'Q9BXT8', 'Q9NUY9']), # 5 items
+  5701 : set(['A4D0Q1', 'B7Z5E2', 'P35998', 'Q3LIA5', 'Q9UDI3']), # 5 items
   81688 : set(['Q3LIB6', 'Q5JVZ2', 'Q5JVZ3', 'Q6IA63', 'Q9GZU0', 'Q9H1Z2']), # 6 items
   81689 : set(['B3KP34', 'B4DJI5', 'Q8ND75', 'Q9BUE6', 'Q9BZR2']), # 5 items
   9260 : set(['Q14250', 'Q5XG82', 'Q6NVZ5', 'Q96C91', 'Q9BXB8', 'Q9BXB9', 'Q9NR12']), # 7 items
@@ -17844,7 +17867,7 @@ GeneID2UniProtACs = {
   3551 : set(['B4DZ30', 'B4E0U4', 'O14920', 'O75327']), # 4 items
   255324 : set(['A1BMM3', 'A1BMM4', 'A1BMM5', 'A1BMM6', 'A1BMM7', 'A1BMM8', 'A8K090', 'Q6UW88']), # 8 items
   155061 : set(['A8K6Z9', 'Q6NUN9', 'Q6ZRF9']), # 3 items
-  2491 : set(['Q5JWZ9', 'Q92674', 'Q96ED0']), # 3 items
+  90835 : set(['A1A4V8', 'A1A4V9', 'F5GX13', 'Q569G2']), # 4 items
   387893 : set(['A8K9D0', 'Q86W83', 'Q8TD09', 'Q9NQR1']), # 4 items
   375387 : set(['Q86YC3']), # 1 items
   3559 : set(['P01589', 'Q5W007']), # 2 items
@@ -17931,7 +17954,6 @@ GeneID2UniProtACs = {
   9480 : set(['O95948']), # 1 items
   10752 : set(['B7ZL03', 'O00533', 'Q2M3G2', 'Q59FY0']), # 4 items
   114609 : set(['B3KW65', 'P58753', 'Q56UH9', 'Q56UI0', 'Q8N5E5']), # 5 items
-  29986 : set(['B2RC76', 'G3V5X2', 'Q4QQJ1', 'Q4V9S4', 'Q96JT6', 'Q9NP94', 'Q9UD20']), # 7 items
   83659 : set(['D3DTM7', 'Q969V4']), # 2 items
   83658 : set(['B1AKR5', 'Q5TC72', 'Q96IV3', 'Q9NP97', 'Q9NQM2']), # 5 items
   57045 : set(['B2RE08', 'D3DUH9', 'Q8NBI7', 'Q96K46', 'Q9GZX9']), # 5 items
@@ -17941,7 +17963,6 @@ GeneID2UniProtACs = {
   542767 : set(['Q58A44']), # 1 items
   10672 : set(['B2R977', 'B7Z7R0', 'F5H1G8', 'Q14344', 'Q8TD70']), # 5 items
   51503 : set(['B2RC17', 'Q05BV9', 'Q05DM1', 'Q9P013', 'Q9UI29']), # 5 items
-  23549 : set(['Q9BW44', 'Q9NUV5', 'Q9ULA0']), # 3 items
   51501 : set(['Q53FT3', 'Q8WVE8', 'Q9NVQ2', 'Q9NZZ1', 'Q9P022', 'Q9P0N1']), # 6 items
   51506 : set(['A8K9R1', 'D3DVF9', 'Q549X0', 'Q5VTX1', 'Q9BS96', 'Q9P009', 'Q9Y3C8']), # 7 items
   51507 : set(['E1P5Z9', 'Q9BY42', 'Q9BYL7', 'Q9HCV9', 'Q9NX29', 'Q9NZZ8', 'Q9P002', 'Q9UHW3']), # 8 items
@@ -17985,7 +18006,7 @@ GeneID2UniProtACs = {
   100287327 : set(['D6RBQ6']), # 1 items
   729262 : set(['A6NM73', 'A6NNL0']), # 2 items
   441525 : set(['Q0ZNK6', 'Q5MJ08', 'Q5W0S6']), # 3 items
-  441520 : set(['P0DMU6', 'P0DMU7', 'Q8N7B7']), # 3 items
+  729264 : set(['B2R5K6', 'Q4KN31', 'Q9ULY9', 'Q9ULZ0']), # 4 items
   441521 : set(['A8K842', 'B7ZMC5', 'P0DMU7', 'P0DMU8', 'P0DMV0', 'Q6NSH3', 'Q8N7B7']), # 7 items
   284827 : set(['A2RRL3', 'Q3LI77']), # 2 items
   282617 : set(['A2BDE1', 'Q6VN56', 'Q7Z4J3', 'Q8IWL6', 'Q8IZI9']), # 5 items
@@ -18296,7 +18317,6 @@ GeneID2UniProtACs = {
   11157 : set(['P62312', 'Q4W5J5', 'Q9Y4Y8']), # 3 items
   11156 : set(['O75365', 'Q8IVN5', 'Q99849', 'Q9BTW5']), # 4 items
   11151 : set(['B2RBL1', 'P31146', 'Q2YD73']), # 3 items
-  729648 : set(['P0C7V5']), # 1 items
   11153 : set(['O75406', 'Q9BVA6']), # 2 items
   11152 : set(['A6NGH5', 'B7WPI2', 'Q5MNZ5', 'Q6IBS7', 'Q6NT94', 'Q96H03', 'Q9Y484']), # 7 items
   7827 : set(['B1AM32', 'B1AM33', 'Q8N6Q5', 'Q9NP85']), # 4 items
@@ -18345,7 +18365,6 @@ GeneID2UniProtACs = {
   64759 : set(['B2RNV1', 'Q68CZ2', 'Q6IPQ2', 'Q8IZW7', 'Q8NAD0', 'Q96PE0', 'Q96S48']), # 7 items
   3889 : set(['A1A4S9', 'B2RC21', 'P78385', 'Q6NT21', 'Q9NSB3']), # 5 items
   3888 : set(['Q9NSB4']), # 1 items
-  11173 : set(['Q14F51', 'Q6P7J9', 'Q9UKP4']), # 3 items
   7125 : set(['P02585', 'Q6FH92']), # 2 items
   79473 : set(['Q6IFF6', 'Q8NH53']), # 2 items
   91252 : set(['D3DQR6', 'D3DQR7', 'E9PLY1', 'E9PQV3', 'Q659D9', 'Q8N7C9', 'Q8WV10', 'Q96H72']), # 8 items
@@ -18418,7 +18437,6 @@ GeneID2UniProtACs = {
   140767 : set(['B2RAV4', 'Q8IZ57', 'Q8N8R6', 'Q96P21']), # 4 items
   6035 : set(['B2R589', 'D3DS06', 'P07998', 'Q16830', 'Q16869', 'Q1KHR2', 'Q6ICS5', 'Q9UCB4', 'Q9UCB5']), # 9 items
   647589 : set(['E9PGG2', 'Q96MC1']), # 2 items
-  57602 : set(['Q05C98', 'Q05DD0', 'Q6IQ38', 'Q8NDM8', 'Q9NVC8', 'Q9P275']), # 6 items
   128817 : set(['Q17RA8', 'Q64FF7', 'Q9H114']), # 3 items
   219988 : set(['B3KXT9', 'Q2TA86', 'Q6P166', 'Q86TB9', 'Q8N9M6', 'Q8NI63']), # 6 items
   440335 : set(['K7EIG5', 'K7EIH2', 'K7EJ46']), # 3 items
@@ -18798,7 +18816,7 @@ GeneID2UniProtACs = {
   90527 : set(['Q1HG43', 'Q8N6K9', 'Q96MI4']), # 3 items
   4643 : set(['Q12965', 'Q14778']), # 2 items
   4640 : set(['Q9UBC5', 'Q9UQD7']), # 2 items
-  2492 : set(['A8K947', 'G5CBS7', 'G5E967', 'J3KQ00', 'P23945', 'Q05AH0', 'Q16225', 'Q4QRJ3', 'Q4ZFZ2', 'Q53RW2']), # 10 items
+  2492 : set(['A0A0A0MSC5', 'A8K947', 'G5CBS7', 'G5E967', 'J3KQ00', 'P23945', 'Q05AH0', 'Q16225', 'Q4QRJ3', 'Q4ZFZ2', 'Q53RW2']), # 11 items
   2495 : set(['B3KNR5', 'P02794', 'Q3KRA8', 'Q3SWW1']), # 4 items
   55957 : set(['A8KAQ1', 'O14557', 'Q7Z2T9', 'Q96GY3']), # 4 items
   4644 : set(['A8MZC5', 'O60653', 'Q07902', 'Q16249', 'Q9UE30', 'Q9UE31', 'Q9Y4I1']), # 7 items
@@ -18925,7 +18943,7 @@ GeneID2UniProtACs = {
   8820 : set(['Q52LC5', 'Q99667', 'Q9UBX0']), # 3 items
   8821 : set(['O15327', 'Q2TAI2', 'Q5XLE7', 'Q6IN59', 'Q6PJB4']), # 5 items
   8826 : set(['A7MBM3', 'P46940']), # 2 items
-  102724560 : set(['B2R993', 'D3DSK4', 'P35520', 'Q99425', 'Q9BWC5']), # 5 items
+  102724560 : set(['B2R993', 'D3DSK4', 'P0DN79', 'P35520', 'Q99425', 'Q9BWC5']), # 6 items
   8824 : set(['A8K367', 'O00748', 'Q16859', 'Q5MAB8', 'Q7Z366', 'Q8IUP4', 'Q8TCP8']), # 7 items
   8825 : set(['A4FTY3', 'O14910', 'Q147W1', 'Q6LES3', 'Q7LDS4']), # 5 items
   54386 : set(['B4DQN4', 'Q4W4Y2', 'Q8WYZ3', 'Q9NWR2', 'Q9NYB0']), # 5 items
@@ -18995,7 +19013,7 @@ GeneID2UniProtACs = {
   3304 : set(['B4E3B6', 'P08107', 'P0DMV8', 'P0DMV9', 'P19790', 'Q5JQI4', 'Q5SP17', 'Q9UQL9', 'Q9UQM0']), # 9 items
   102723532 : set(['Q6IEY3', 'Q6IF56', 'Q8N0Y3']), # 3 items
   7923 : set(['A6NLX7', 'Q5STP7', 'Q92506', 'Q9UIQ1']), # 4 items
-  58516 : set(['D3DUV8', 'Q9BSZ8', 'Q9NP50']), # 3 items
+  11173 : set(['Q14F51', 'Q6P7J9', 'Q9UKP4']), # 3 items
   11172 : set(['A0AVS0', 'Q9NS16', 'Q9Y581']), # 3 items
   219541 : set(['A0JLT2', 'Q8IV02', 'Q8IZD1']), # 3 items
   11170 : set(['B3KNQ4', 'B7ZAY5', 'J3KR61', 'O95990', 'Q96NH4']), # 5 items

@@ -3,9 +3,9 @@
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
-downloaded = "2016_06_14" # UniProt source files were downloaded on this date
+downloaded = "2016_07_05" # UniProt source files were downloaded on this date
 
-# Contains 5910 items for Saccharomyces cerevisiae (strain ATCC 204508 / S288c) (Baker's yeast)
+# Contains 5910 items for "Saccharomyces cerevisiae ("
 
 #   5,910 keys found
 #  13,394 values found

@@ -5,7 +5,7 @@
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete/uniprot_sprot.dat.gz
 downloaded = "2016_06_14" # UniProt source files were downloaded on this date
 
-# Contains 19063 items for Homo sapiens (Human)
+# Contains 19063 items for "Homo sapiens (Human)"
 
 #  19,063 keys found
 #  86,642 values found

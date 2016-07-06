@@ -36,7 +36,7 @@ class ChrAB(object):
       return stop_bp
 
   def _init_ichr(self, **kws):
-    """Initialize ichr if ichr or orgn is provided."""
+    """Initialize ichr if ichr or orgn is provided, otherwise ichr=None."""
     ichr = kws['ichr'] if 'ichr' in kws else None
     if 'orgn' in kws:
       orgn_ichr = kws['orgn'].get_iChr(self.schr)
@@ -121,7 +121,7 @@ class ChrAB(object):
 
   def get_dist(self, rhs_chrab):
     """Return intergenic distance between two genes. Return 0 if overlapping or 'kissing'."""
-    if rhs_chrab is not None and self.schr == rhs_chrab.schr:
+    if self.has_same_chr(rhs_chrab):
       # Put gene coords in list and sort genes by smallest coord. eg [[0, 5], [6, 10]]
       if self.has_abs() and rhs_chrab.has_abs():
         genes_ab = sorted([self.get_plotXs(), rhs_chrab.get_plotXs()], key=lambda t: t[0])
@@ -132,7 +132,7 @@ class ChrAB(object):
 
   def get_overlap_cab(self, rhs_chrab):
     """Return cab representing overlap of chr_a and chr_b. None if no overlap."""
-    if rhs_chrab is not None and self.schr == rhs_chrab.schr:
+    if self.has_same_chr(rhs_chrab):
       # If start_bp and stop_bp exist for both input cabs
       if self.has_abs() and rhs_chrab.has_abs():
         # Put gene coords in list and sort genes by smallest coord. eg [[0, 5], [4, 10]]
@@ -143,6 +143,30 @@ class ChrAB(object):
           assert start_bp <= stop_bp, "START({}) STOP({})".format(start_bp, stop_bp)
           return ChrAB(self.schr, start_bp, stop_bp)
     return None # genes are on separate chromosomes or lack bp values
+
+  def overlaps_cab(self, rhs_chrab):
+    """Return True if rhs_chrab overlaps self. None if no overlap."""
+    if self.has_same_chr(rhs_chrab):
+      # If start_bp and stop_bp exist for both input cabs
+      if self.has_abs() and rhs_chrab.has_abs():
+        # Put gene coords in list and sort genes by smallest coord. eg [[0, 5], [4, 10]]
+        genes_ab = sorted([self.get_plotXs(), rhs_chrab.get_plotXs()], key=lambda t: t[0])
+        return genes_ab[0][1] >= genes_ab[1][0] # True if there is an overlap
+    return False # genes are on separate chromosomes or lack bp values
+
+  def overlaps_cabs(self, cabs):
+    for cab in cabs:
+      if self.overlaps_cab(cab):
+        return True
+    return False
+
+  def has_same_chr(self, rhs_chrab):
+    """Return True if rhs_chrab is on the same chr as self."""
+    if self.ichr is not None and rhs_chrab.ichr is not None:
+      return self.ichr == rhs_chrab.ichr
+    if rhs_chrab is not None: 
+      return self.schr == rhs_chrab.schr
+    return False
 
   def get_rand_loc(self, rng_len):
     """Returns a random start location for a range length within this ChrAB."""
@@ -210,7 +234,7 @@ class ChrAB(object):
     """Create ChrAB w/expanded range: Expand orignal from left, right, or both."""
     # return e.g.: ChrAB("6", 31425567, 31728336)
     x0, xN = self.get_rng(margin_lhs, margin_rhs)
-    return ChrAB(self.schr, x0, xN)
+    return ChrAB(self.schr, x0, xN, ichr=self.ichr)
 
   def get_min_bp(self):
     """Returns the smallest base pair value."""

@@ -20,6 +20,7 @@
   * [**Named Colors**](http://matplotlib.org/examples/color/named_colors.html)
   * [**xkcd color picker**](http://xkcdcp.martinblech.com/)
   * [**Map Colors**](http://colorbrewer2.org/)
+  * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
 
 ## Links
 

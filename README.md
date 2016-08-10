@@ -37,6 +37,10 @@
 * [Kegg] (http://www.genome.jp/kegg/kegg2.html)
 * [HGNC] (http://www.genenames.org/) HUGO Gene Nomenclature Committee
 
+## Style Guides
+* [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html)
+* [Google Style Examples](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+
 ## Electrical Engineering
 In a previous life...
   * Dennis Feruson's answer for [**"How do capacitors go bad?**](./doc/bad_capacitors.md)

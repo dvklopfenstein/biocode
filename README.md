@@ -22,6 +22,10 @@
   * [**Map Colors**](http://colorbrewer2.org/)
   * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
 
+### Advice on Color Picking
+  * [**J\*FLY**](http://jfly.iam.u-tokyo.ac.jp/color/index.html)
+  * [**Mapbox**](https://www.mapbox.com/tilemill/docs/guides/tips-for-color/)
+
 ## Links
 
 * [GOATOOLS] (https://github.com/tanghaibao/goatools/blob/master/README.rst) for

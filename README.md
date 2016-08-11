@@ -11,7 +11,7 @@
     by [Yasha Berchenko-Kogan](http://math.mit.edu/~yashabk/)
 
 ### Bio Downloads
-  * Selected [downloads] (https://github.com/dklopfenstein/biocode/tree/master/biodownloads/README.md) from Biological databases
+  * Selected [downloads] (biodownloads/README.md) from Biological databases
   * [Biosketch, CV, resume](./doc/resume/biosketch_dvklopfenstein2015.pdf)
 
 ### Color Picking

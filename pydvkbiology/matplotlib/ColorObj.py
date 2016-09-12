@@ -31,7 +31,7 @@ from matplotlib import cm
 
 class MplColorHelper:
 
-  def __init__(self, cmap_name, start_val, stop_val):
+  def __init__(self, cmap_name, start_val=0, stop_val=5):
     self.cmap_name = cmap_name
     self.cmap = plt.get_cmap(cmap_name)
     self.start_val = start_val
@@ -53,13 +53,19 @@ class MplColorHelper:
 
   def max_hexstr(self): return self.get_hexstr(self.stop_val)
 
+  def get_color_desc(self):
+    """Get list of [(color0, description0), (color1, description1), ..."""
+    color_desc = []
+    for color_num in range(self.start_val, self.stop_val+1):
+        col_hexstr = self.get_hexstr(color_num)
+        color_desc.append((col_hexstr, col_hexstr))
+    return color_desc
 
-def example1_MplColorHelper():
+
+def example1():
   import numpy as np
-  # setup the plot
   fig, ax = plt.subplots(1,1, figsize=(6,6))
 
-  # define the data between 0 and 20
   NUM_VALS = 20
   x = np.random.uniform(0, NUM_VALS, size=3*NUM_VALS)
   y = np.random.uniform(0, NUM_VALS, size=3*NUM_VALS)
@@ -75,7 +81,7 @@ def example1_MplColorHelper():
   plt.show()
 
 
-def example2_mpl_namedcolors():
+def example2():
   """ Plots all the named colors in matplotlib.
 
       From: http://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
@@ -108,8 +114,24 @@ def example2_mpl_namedcolors():
   
   plt.show()
 
+def example3(palette='Set1', num_vals=10):
+  import numpy as np
+  fig, ax = plt.subplots(1,1, figsize=(6,6))
+  xs = [10]*num_vals
+  ys = range(num_vals)
+  colobj = MplColorHelper(palette, 0, num_vals-1)
+  colors = [colobj.get_hexstr(y) for y in ys]
+  plts = []
+  for x, y, color in zip(xs, ys, colors):
+      plts.append(plt.scatter(x, y, s=1000, color=color))
+  plt.legend(plts, colors, scatterpoints=1, loc='best', ncol=1, fontsize=12)
+  ax.set_title('Well defined discrete colors')
+  plt.show()
 
 if __name__ == '__main__':
-  #example1_MplColorHelper()
-  example2_named_colors()
+  #example1()
+  #example2()
+  #example3()
+  pass
+  
  

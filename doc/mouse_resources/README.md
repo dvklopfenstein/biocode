@@ -20,3 +20,5 @@
 
   * [International Mouse Phenotyping Consortium (IMPC)](http://www.mousephenotype.org/)
     * [Tutorial](Preview the documentView in a new window)
+
+  * [International Mouse Strain Resource (IMSR)](http://findmice.org/)

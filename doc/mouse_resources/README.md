@@ -1,19 +1,21 @@
 # Mouse Resources
-
-  * Addiction Web Resources Workshop
+Addiction Web Resources Workshop
+[Berghout_AddictionWebResourcesWorkshop.pdf](Berghout_AddictionWebResourcesWorkshop.pdf)    
+[Addiction_worksheet.pdf](Addiction_worksheet.pdf)
 
   * [Mouse Genome Informatics](http://www.informatics.jax.org/)
-    * Introduction to mouse genetics
-    * How to use MGI
+    * [Introduction to mouse genetics](http://www.informatics.jax.org/mgihome/other/homepage_IntroMouse.shtml)
+    * [How to use MGI](http://www.informatics.jax.org/mgihome/other/homepage_usingMGI.shtml)
 
   * [Rat Genome Database](http://rgd.mcw.edu/)
-    * Step by Step TutorialPreview the documentView in a new window
+    * Step by Step Tutorial
+      [RGD_Tutorial_for_Addiction_Data_proofed.pdf](RGD_Tutorial_for_Addiction_Data_proofed.pdf)
 
   * [Allen Brain Atlas](http://www.brain-map.org/)
-    * Web Tutorial (Links to an external site.)
+    * [Web Tutorial](http://www.brain-map.org/tutorials/index.html)
 
-  * [Neuroscience Information Framework](Links to an external site.)
-    * [Web Tutorial] (Links to an external site.)
+  * [Neuroscience Information Framework](https://neuinfo.org/)
+    * [Web Tutorial](
 
   * [Mouse Phenome Database](http://phenome.jax.org/)
     * [Self Guided Tutorial](.) and [answers]

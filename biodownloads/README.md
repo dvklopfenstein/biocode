@@ -19,17 +19,17 @@
     [Aug 2014 (dm6, BDGP Release 6 + ISO1 MT)](http://hgdownload.soe.ucsc.edu/goldenPath/dm6/database/cytoBandIdeo.txt.gz)
     * [cytoBandIdeo.txt](./UCSC/dm6/cytoBandIdeo.txt),
       [dm6.2bit](http://hgdownload.cse.ucsc.edu/goldenPath/dm6/bigZips/)
-* [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **February 22, 2016**
+* [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **Setpember 29, 2016**
   * **Homo sapiens (human)**: Taxonomy ID [9606]
     (http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_hsa_All.tsv](./NCBI/genes_NCBI_hsa_All.tsv) using this
       [**Search for All Human DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (59901 items) 
+      (60137 items)
     * [genes_NCBI_hsa_ProteinCoding.tsv](./NCBI/genes_NCBI_hsa_ProteinCoding.tsv) using this
       [**Search for Human Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (20913 items) 
+      (20703 items) 
     * [genes_NCBI_hsa_microRNA.tsv](./NCBI/genes_NCBI_hsa_microRNA.tsv) using this
       [**Search for All Human microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=9606%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
@@ -39,11 +39,11 @@
     * [genes_NCBI_mus_All.tsv](./NCBI/genes_NCBI_mus_All.tsv) using this
       [**Search for All Mouse DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (69393 items) 
+      (68603 items) 
     * [genes_NCBI_mus_ProteinCoding.tsv](./NCBI/genes_NCBI_mus_ProteinCoding.tsv) using this
       [**Search for Mouse Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (28212 items) 
+      (27884 items) 
     * [genes_NCBI_mus_microRNA.tsv](./NCBI/genes_NCBI_mus_microRNA.tsv) using this
       [**Search for Mouse microRNA**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
@@ -53,7 +53,7 @@
     * [genes_NCBI_dme_All.tsv](./NCBI/genes_NCBI_dme_All.tsv) using this
       [**Search for All Fruit fly DNA Items**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (25074 items) 
+      (25030 items) 
     * [genes_NCBI_dme_ProteinCoding.tsv](./NCBI/genes_NCBI_dme_ProteinCoding.tsv) using this
       [**Search for Fruit fly Protein-Coding Genes**]
       (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)

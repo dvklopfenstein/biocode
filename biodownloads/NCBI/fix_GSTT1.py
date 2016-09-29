@@ -15,38 +15,39 @@ import os
 # Col 16 Q Hdr(OMIM)
 
 def main():
-  fins = ["genes_NCBI_hsa_All.tsv", "genes_NCBI_hsa_ProteinCoding.tsv"]
-  for fin in fins:
-    with open(fin) as ifstrm:
-      fout = 'tmp_{}'.format(fin)
-      FOUT = open(fout, 'w')
-      for line in ifstrm:
-        if 'GSTT1' in line:
-          F = line.split('\t')
-          if int(F[2]) == 2952:
-            print F
-            print fin, 'GeneID      ', F[2]
-            print fin, 'Symbol      ', F[5]
-            print fin, 'map_location', F[9]
-            print fin, 'chromosome  ', F[10]
-            print fin, 'b0          ', F[12]
-            print fin, 'bN          ', F[13]
-            print fin, '+/-         ', F[14]
-            print fin, 'exon_count  ', F[15]
-            print fin, 'OMIM        ', F[16]
-            F[12] = '270308'  # b0
-            F[13] = '278486'  # bN
-            F[14] = 'minus' # +/-
-            F[15] = '6'       # b0
-            F[16] = ''.join([F[16], '\t\r\n'])
-            line = '\t'.join(F[:-1])
-        FOUT.write(line)
-      FOUT.close()
-      sys.stdout.write("  READ:  {}\n".format(fin))
-      sys.stdout.write("  WROTE: {}\n".format(fout))
-      cmd = "mv {} {}".format(fout, fin)
-      print cmd
-      os.system(cmd)
+    """Add missing coordinates to a disease gene."""
+    fins = ["genes_NCBI_hsa_All.tsv", "genes_NCBI_hsa_ProteinCoding.tsv"]
+    for fin in fins:
+        with open(fin) as ifstrm:
+            fout_file = 'tmp_{}'.format(fin)
+            fout_strm = open(fout_file, 'w')
+            for line in ifstrm:
+                if 'GSTT1' in line:
+                    flds = line.split('\t')
+                    if int(flds[2]) == 2952:
+                        print flds
+                        print fin, 'GeneID      ', flds[2]
+                        print fin, 'Symbol      ', flds[5]
+                        print fin, 'map_location', flds[9]
+                        print fin, 'chromosome  ', flds[10]
+                        print fin, 'b0          ', flds[12]
+                        print fin, 'bN          ', flds[13]
+                        print fin, '+/-         ', flds[14]
+                        print fin, 'exon_count  ', flds[15]
+                        print fin, 'OMIM        ', flds[16]
+                        flds[12] = '270308'  # b0
+                        flds[13] = '278486'  # bN
+                        flds[14] = 'minus' # +/-
+                        flds[15] = '6'       # b0
+                        flds[16] = ''.join([flds[16], '\t\r\n'])
+                        line = '\t'.join(flds[:-1])
+                fout_strm.write(line)
+            fout_strm.close()
+            sys.stdout.write("  READ:  {}\n".format(fin))
+            sys.stdout.write("  WROTE: {}\n".format(fout_file))
+            cmd = "mv {} {}".format(fout_file, fin)
+            print cmd
+            os.system(cmd)
 
 if __name__ == '__main__':
-  main()
+    main()

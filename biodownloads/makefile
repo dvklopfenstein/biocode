@@ -1,6 +1,10 @@
 
 DL = ../../../../Downloads
 
+rpt:
+	@echo "This is the download makefile"
+
+
 # Download all current DNA items for Homo sapiens
 NCBI_Gene_hsa_all:
 	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_hsa_All.tsv
@@ -40,6 +44,7 @@ NCBI_Gene_dme_pc:
 # Download all noncoding items for Drosophila melanogaster (fruit fly)
 NCBI_Gene_dme_noncoding:
 	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_dme_noncoding.tsv
+
 
 
 # Download SNPs

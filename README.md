@@ -45,6 +45,7 @@
 ## Style Guides
 * [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html)
 * [Google Style Examples](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+* [PyPI release checklist](https://github.com/YeoLab/outrigger/blob/master/docs/releases/checklist.md)
 
 ## Electrical Engineering
 In a previous life...

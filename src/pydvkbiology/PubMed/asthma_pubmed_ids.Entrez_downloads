@@ -1,0 +1,486 @@
+
+PMID- 26143396
+OWN - NLM
+STAT- MEDLINE
+DA  - 20150706
+DCOM- 20151008
+IS  - 1534-6315 (Electronic)
+IS  - 1529-7322 (Linking)
+VI  - 15
+IP  - 7
+DP  - 2015 Jul
+TI  - Asthma Pharmacogenomics: 2015 Update.
+PG  - 42
+LID - 10.1007/s11882-015-0544-y [doi]
+AB  - There is evidence that genetic factors are implicated in the observed differences
+      in therapeutic responses to the common classes of asthma therapy such as
+      beta2-agonists, corticosteroids, and leukotriene modifiers. Pharmacogenomics
+      explores the roles of genetic variation in drug response and continues to be a
+      field of great interest in asthma therapy. Prior studies have focused on
+      candidate genes and recently emphasized genome-wide association analyses. Newer
+      integrative omics and system-level approaches have recently revealed novel
+      understanding of drug response pathways. However, the current known genetic loci 
+      only account for a fraction of variability in drug response and ongoing research 
+      is needed. While the field of asthma pharmacogenomics is not yet fully
+      translatable to clinical practice, ongoing research should hopefully achieve this
+      goal in the near future buttressed by the recent precision medicine efforts in
+      the USA and worldwide.
+FAU - Davis, Joshua S
+AU  - Davis JS
+AD  - Channing Division of Network Medicine, Brigham and Women's Hospital and Harvard
+      Medical School, 181 Longwood Avenue, Boston, MA, 02115, USA,
+      rejda@channing.harvard.edu.
+FAU - Weiss, Scott T
+AU  - Weiss ST
+FAU - Tantisira, Kelan G
+AU  - Tantisira KG
+LA  - eng
+GR  - R01 HL092197/HL/NHLBI NIH HHS/United States
+GR  - R01 NR013391/NR/NINR NIH HHS/United States
+GR  - U01 HL65899/HL/NHLBI NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Review
+PL  - United States
+TA  - Curr Allergy Asthma Rep
+JT  - Current allergy and asthma reports
+JID - 101096440
+RN  - 0 (Leukotriene Antagonists)
+RN  - 0 (Leukotrienes)
+SB  - IM
+MH  - Asthma/*drug therapy
+MH  - Genetic Variation
+MH  - Genome-Wide Association Study
+MH  - Humans
+MH  - Leukotriene Antagonists/therapeutic use
+MH  - Leukotrienes/immunology
+MH  - *Pharmacogenetics/methods
+EDAT- 2015/07/06 06:00
+MHDA- 2015/10/09 06:00
+CRDT- 2015/07/06 06:00
+AID - 10.1007/s11882-015-0544-y [doi]
+PST - ppublish
+SO  - Curr Allergy Asthma Rep. 2015 Jul;15(7):42. doi: 10.1007/s11882-015-0544-y.
+
+PMID- 26051947
+OWN - NLM
+STAT- MEDLINE
+DA  - 20150608
+DCOM- 20150812
+LR  - 20150907
+IS  - 1097-6825 (Electronic)
+IS  - 0091-6749 (Linking)
+VI  - 135
+IP  - 6
+DP  - 2015 Jun
+TI  - Platelets in patients with aspirin-exacerbated respiratory disease.
+PG  - 1407-14; quiz 1415
+LID - 10.1016/j.jaci.2015.02.005 [doi]
+LID - S0091-6749(15)00225-0 [pii]
+AB  - Aspirin-exacerbated respiratory disease (AERD) is a chronic inflammatory disease 
+      characterized clinically by the triad of asthma, nasal polyposis, and
+      pathognomonic respiratory reactions after ingestion of aspirin. It is a distinct 
+      syndrome associated with eosinophilic infiltration of respiratory tissues and
+      excessive production of cysteinyl leukotrienes. Despite the consistent clinical
+      phenotype of the respiratory disease, the underlying pathogenesis of the disease 
+      remains unclear. In addition to their role in hemostasis, platelets have the
+      capacity to influence the activation state and function of other immune cells
+      during inflammation and to facilitate granulocyte recruitment into the tissues.
+      Platelets also possess a repertoire of potent preformed mediators of inflammation
+      that are released on activation and are a rich source of newly synthesized lipid 
+      mediators that alter vascular permeability and smooth muscle tone. Accordingly,
+      platelet activity has been linked to diverse inflammatory diseases, including
+      asthma. Both human and animal studies strongly suggest that platelet activity is 
+      uniquely associated with the pathophysiology of AERD. This article summarizes the
+      evidence supporting an effector role for platelets in asthmatic patients in
+      general and in patients with AERD in particular and considers the potential
+      therapeutic implications.
+CI  - Copyright (c) 2015 American Academy of Allergy, Asthma & Immunology. Published by
+      Elsevier Inc. All rights reserved.
+FAU - Laidlaw, Tanya M
+AU  - Laidlaw TM
+AD  - Department of Medicine, Harvard Medical School, Boston, Mass; Division of
+      Rheumatology, Immunology, and Allergy, Brigham and Women's Hospital, Boston,
+      Mass. Electronic address: tlaidlaw@partners.org.
+FAU - Boyce, Joshua A
+AU  - Boyce JA
+AD  - Department of Medicine, Harvard Medical School, Boston, Mass; Department of
+      Pediatrics, Harvard Medical School, Boston, Mass; Division of Rheumatology,
+      Immunology, and Allergy, Brigham and Women's Hospital, Boston, Mass.
+LA  - eng
+GR  - K23 HL111113/HL/NHLBI NIH HHS/United States
+PT  - Journal Article
+PT  - Review
+PL  - United States
+TA  - J Allergy Clin Immunol
+JT  - The Journal of allergy and clinical immunology
+JID - 1275002
+RN  - 0 (Bicyclo Compounds, Heterocyclic)
+RN  - 0 (Leukotrienes)
+RN  - 0 (Oxazoles)
+RN  - 0 (Piperazines)
+RN  - 0 (Platelet Activating Factor)
+RN  - 0 (Receptors, Leukotriene)
+RN  - 0 (Thiophenes)
+RN  - 34K66TBT99 (prasugrel)
+RN  - 57576-52-0 (Thromboxane A2)
+RN  - E833KT807K (ifetroban)
+RN  - R16CO5Y76E (Aspirin)
+SB  - AIM
+SB  - IM
+MH  - Animals
+MH  - Aspirin/immunology
+MH  - Asthma, Aspirin-Induced/*drug therapy/immunology/pathology
+MH  - Bicyclo Compounds, Heterocyclic/*therapeutic use
+MH  - Blood Platelets/*drug effects/immunology/pathology
+MH  - Cell Movement
+MH  - Clinical Trials as Topic
+MH  - Eosinophils/*drug effects/immunology/pathology
+MH  - Gene Expression
+MH  - Humans
+MH  - Leukotrienes/biosynthesis
+MH  - Oxazoles/*therapeutic use
+MH  - Piperazines/*therapeutic use
+MH  - Platelet Activating Factor/genetics/immunology
+MH  - Platelet Activation
+MH  - Receptors, Leukotriene/genetics/immunology
+MH  - Thiophenes/*therapeutic use
+MH  - Thromboxane A2/antagonists & inhibitors/biosynthesis
+PMC - PMC4559084
+MID - NIHMS664456
+OID - NLM: NIHMS664456 [Available on 06/01/16]
+OID - NLM: PMC4559084 [Available on 06/01/16]
+OTO - NOTNLM
+OT  - Platelet
+OT  - aspirin-exacerbated respiratory disease
+OT  - asthma
+OT  - eosinophil
+OT  - leukotriene
+OT  - nasal polyp
+OT  - prostaglandin
+OT  - samter triad
+OT  - thromboxane
+EDAT- 2015/06/09 06:00
+MHDA- 2015/08/13 06:00
+CRDT- 2015/06/09 06:00
+PMCR- 2016/06/01 00:00
+PHST- 2014/12/19 [received]
+PHST- 2015/01/26 [revised]
+PHST- 2015/02/04 [accepted]
+AID - S0091-6749(15)00225-0 [pii]
+AID - 10.1016/j.jaci.2015.02.005 [doi]
+PST - ppublish
+SO  - J Allergy Clin Immunol. 2015 Jun;135(6):1407-14; quiz 1415. doi:
+      10.1016/j.jaci.2015.02.005.
+
+PMID- 26032638
+OWN - NLM
+STAT- MEDLINE
+DA  - 20150708
+DCOM- 20151006
+LR  - 20151031
+IS  - 1873-2968 (Electronic)
+IS  - 0006-2952 (Linking)
+VI  - 96
+IP  - 3
+DP  - 2015 Aug 1
+TI  - Biosynthesis and actions of 5-oxoeicosatetraenoic acid (5-oxo-ETE) on feline
+      granulocytes.
+PG  - 247-55
+LID - 10.1016/j.bcp.2015.05.009 [doi]
+LID - S0006-2952(15)00274-9 [pii]
+AB  - The 5-lipoxygenase product 5-oxo-6,8,11,14-eicosatetraenoic acid (5-oxo-ETE) is
+      the most powerful human eosinophil chemoattractant among lipid mediators and
+      could play a major pathophysiological role in eosinophilic diseases such as
+      asthma. Its actions are mediated by the OXE receptor, orthologs of which are
+      found in many species from humans to fish, but not rodents. The unavailability of
+      rodent models to examine the pathophysiological roles of 5-oxo-ETE and the OXE
+      receptor has substantially hampered progress in this area. As an alternative, we 
+      have explored the possibility that the cat could serve as an appropriate animal
+      model to investigate the role of 5-oxo-ETE. We found that feline peripheral blood
+      leukocytes synthesize 5-oxo-ETE and that physiologically relevant levels of
+      5-oxo-ETE are present in bronchoalveolar lavage fluid from cats with
+      experimentally induced asthma. 5-Oxo-ETE (EC50, 0.7nM) is a much more potent
+      activator of actin polymerization in feline eosinophils than various other
+      eicosanoids, including leukotriene (LT) B4 and prostaglandin D2. 5-Oxo-ETE and
+      LTB4 induce feline leukocyte migration to similar extents at low concentrations
+      (1nM), but at higher concentrations the response to 5-oxo-ETE is much greater.
+      Although high concentrations of selective human OXE receptor antagonists blocked 
+      5-oxo-ETE-induced actin polymerization in feline granulocytes, their potencies
+      were about 200 times lower than for human granulocytes. We conclude that feline
+      leukocytes synthesize and respond to 5-oxo-ETE, which could potentially play an
+      important role in feline asthma, a common condition in this species. The cat
+      could serve as a useful animal model to investigate the pathophysiological role
+      of 5-oxo-ETE.
+CI  - Copyright (c) 2015 Elsevier Inc. All rights reserved.
+FAU - Cossette, Chantal
+AU  - Cossette C
+AD  - Meakins-Christie Laboratories, Centre for Translational Biology, McGill
+      University Health Centre, 1001 Decarie Blvd, Montreal, QC H4A 3J1, Canada.
+      Electronic address: chantal.cossette@mcgill.ca.
+FAU - Gravel, Sylvie
+AU  - Gravel S
+AD  - Meakins-Christie Laboratories, Centre for Translational Biology, McGill
+      University Health Centre, 1001 Decarie Blvd, Montreal, QC H4A 3J1, Canada.
+      Electronic address: sylvie.gravel@mcgill.ca.
+FAU - Reddy, Chintam Nagendra
+AU  - Reddy CN
+AD  - Claude Pepper Institute and Department of Chemistry, Florida Institute of
+      Technology, Melbourne, FL 32901-6982, USA. Electronic address: nchintam@fit.edu.
+FAU - Gore, Vivek
+AU  - Gore V
+AD  - Claude Pepper Institute and Department of Chemistry, Florida Institute of
+      Technology, Melbourne, FL 32901-6982, USA. Electronic address:
+      vivek.gore@navinta.com.
+FAU - Chourey, Shishir
+AU  - Chourey S
+AD  - Claude Pepper Institute and Department of Chemistry, Florida Institute of
+      Technology, Melbourne, FL 32901-6982, USA. Electronic address:
+      schourey2012@my.fit.edu.
+FAU - Ye, Qiuji
+AU  - Ye Q
+AD  - Claude Pepper Institute and Department of Chemistry, Florida Institute of
+      Technology, Melbourne, FL 32901-6982, USA. Electronic address:
+      qye2012@my.fit.edu.
+FAU - Snyder, Nathaniel W
+AU  - Snyder NW
+AD  - Center for Cancer Pharmacology, University of Pennsylvania, 854 BRB II/III, 421
+      Curie Blvd., Philadelphia, PA 19104-6160, USA. Electronic address:
+      natewsnyder@gmail.com.
+FAU - Mesaros, Clementina A
+AU  - Mesaros CA
+AD  - Center for Cancer Pharmacology, University of Pennsylvania, 854 BRB II/III, 421
+      Curie Blvd., Philadelphia, PA 19104-6160, USA. Electronic address:
+      mesaros@upenn.edu.
+FAU - Blair, Ian A
+AU  - Blair IA
+AD  - Center for Cancer Pharmacology, University of Pennsylvania, 854 BRB II/III, 421
+      Curie Blvd., Philadelphia, PA 19104-6160, USA. Electronic address:
+      ianblair@exchange.upenn.edu.
+FAU - Lavoie, Jean-Pierre
+AU  - Lavoie JP
+AD  - Dept. of Clinical Sciences, Faculty of Veterinary Medicine, Universite de
+      Montreal, 3200 rue Sicotte, St-Hyacinthe J2S 6C7, QC, Canada. Electronic address:
+      jean-pierre.lavoie@umontreal.ca.
+FAU - Reinero, Carol R
+AU  - Reinero CR
+AD  - Department of Veterinary Medicine and Surgery, University of Missouri, 900 E
+      Campus Drive, Columbia, MO 65211, USA. Electronic address: reineroc@missouri.edu.
+FAU - Rokach, Joshua
+AU  - Rokach J
+AD  - Claude Pepper Institute and Department of Chemistry, Florida Institute of
+      Technology, Melbourne, FL 32901-6982, USA. Electronic address: jrokach@fit.edu.
+FAU - Powell, William S
+AU  - Powell WS
+AD  - Meakins-Christie Laboratories, Centre for Translational Biology, McGill
+      University Health Centre, 1001 Decarie Blvd, Montreal, QC H4A 3J1, Canada.
+      Electronic address: william.powell@mcgill.ca.
+LA  - eng
+GR  - MOP-6254/Canadian Institutes of Health Research/Canada
+GR  - P30 ES013508/ES/NIEHS NIH HHS/United States
+GR  - PPP-99490/Canadian Institutes of Health Research/Canada
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20150529
+PL  - England
+TA  - Biochem Pharmacol
+JT  - Biochemical pharmacology
+JID - 0101032
+RN  - 0 (Actins)
+RN  - 0 (Allergens)
+RN  - 0 (Arachidonic Acids)
+RN  - 0 (Benzeneacetamides)
+RN  - 0 (Benzothiazoles)
+RN  - 0 (Gue1654)
+RN  - 0 (Receptors, Eicosanoid)
+RN  - 126432-17-5 (5-oxo-6,8,11,14-eicosatetraenoic acid)
+RN  - 1HGW4DR56D (Leukotriene B4)
+RN  - EC 1.13.11.34 (Arachidonate 5-Lipoxygenase)
+RN  - RXY07S6CZ2 (Prostaglandin D2)
+SB  - IM
+MH  - Actins/genetics/metabolism
+MH  - Allergens/immunology
+MH  - Animals
+MH  - Arachidonate 5-Lipoxygenase/genetics/metabolism
+MH  - Arachidonic Acids/biosynthesis/*pharmacology
+MH  - Asthma/chemically induced/genetics/immunology/*metabolism
+MH  - Benzeneacetamides/pharmacology
+MH  - Benzothiazoles/pharmacology
+MH  - Bronchoalveolar Lavage Fluid/cytology
+MH  - Cats
+MH  - Chemotaxis/drug effects/immunology
+MH  - Cynodon/chemistry/immunology
+MH  - Disease Models, Animal
+MH  - Eosinophils/*drug effects/metabolism/pathology
+MH  - Female
+MH  - Gene Expression
+MH  - Humans
+MH  - Leukotriene B4/pharmacology
+MH  - Male
+MH  - Neutrophils/*drug effects/metabolism/pathology
+MH  - Polymerization
+MH  - Primary Cell Culture
+MH  - Prostaglandin D2/pharmacology
+MH  - Receptors, Eicosanoid/antagonists & inhibitors/genetics/metabolism
+OTO - NOTNLM
+OT  - 5-Lipoxygenase
+OT  - Eicosanoids
+OT  - Eosinophils
+OT  - Inflammation
+OT  - Neutrophils
+OT  - OXE receptor
+EDAT- 2015/06/03 06:00
+MHDA- 2015/10/07 06:00
+CRDT- 2015/06/03 06:00
+PHST- 2015/03/17 [received]
+PHST- 2015/05/18 [accepted]
+PHST- 2015/05/29 [aheadofprint]
+AID - S0006-2952(15)00274-9 [pii]
+AID - 10.1016/j.bcp.2015.05.009 [doi]
+PST - ppublish
+SO  - Biochem Pharmacol. 2015 Aug 1;96(3):247-55. doi: 10.1016/j.bcp.2015.05.009. Epub 
+      2015 May 29.
+
+PMID- 25904552
+OWN - NLM
+STAT- MEDLINE
+DA  - 20150518
+DCOM- 20150817
+LR  - 20150518
+IS  - 1550-6606 (Electronic)
+IS  - 0022-1767 (Linking)
+VI  - 194
+IP  - 11
+DP  - 2015 Jun 1
+TI  - Platelet-driven leukotriene C4-mediated airway inflammation in mice is
+      aspirin-sensitive and depends on T prostanoid receptors.
+PG  - 5061-8
+LID - 10.4049/jimmunol.1402959 [doi]
+AB  - Cysteinyl leukotrienes (cysLTs) are bronchoconstricting lipid mediators that
+      amplify eosinophilic airway inflammation by incompletely understood mechanisms.
+      We recently found that LTC4, the parent cysLT, potently activates platelets in
+      vitro and induces airway eosinophilia in allergen-sensitized and -challenged mice
+      by a platelet- and type 2 cysLT receptor-dependent pathway. We now demonstrate
+      that this pathway requires production of thromboxane A2 and signaling through
+      both hematopoietic and lung tissue-associated T prostanoid (TP) receptors.
+      Intranasal administration of LTC4 to OVA-sensitized C57BL/6 mice markedly
+      increased the numbers of eosinophils in the bronchoalveolar lavage fluid, while
+      simultaneously decreasing the percentages of eosinophils in the blood by a TP
+      receptor-dependent mechanism. LTC4 upregulated the expressions of ICAM-1 and
+      VCAM-1 in an aspirin-sensitive and TP receptor-dependent manner. Both
+      hematopoietic and nonhematopoietic TP receptors were essential for LTC4 to induce
+      eosinophil recruitment. Thus, the autocrine and paracrine functions of
+      thromboxane A2 act downstream of LTC4/type 2 cysLT receptor signaling on
+      platelets to markedly amplify eosinophil recruitment through pulmonary vascular
+      adhesion pathways. The findings suggest applications for TP receptor antagonists 
+      in cases of asthma with high levels of cysLT production.
+CI  - Copyright (c) 2015 by The American Association of Immunologists, Inc.
+FAU - Liu, Tao
+AU  - Liu T
+AD  - Department of Medicine, Harvard Medical School, Boston, MA 02115; Department of
+      Pediatrics, Harvard Medical School, Boston, MA 02115; Division of Rheumatology,
+      Immunology and Allergy, Brigham and Women's Hospital, Boston, MA 02115; and.
+FAU - Garofalo, Denise
+AU  - Garofalo D
+AD  - Division of Rheumatology, Immunology and Allergy, Brigham and Women's Hospital,
+      Boston, MA 02115; and.
+FAU - Feng, Chunli
+AU  - Feng C
+AD  - Division of Rheumatology, Immunology and Allergy, Brigham and Women's Hospital,
+      Boston, MA 02115; and.
+FAU - Lai, Juying
+AU  - Lai J
+AD  - Division of Rheumatology, Immunology and Allergy, Brigham and Women's Hospital,
+      Boston, MA 02115; and.
+FAU - Katz, Howard
+AU  - Katz H
+AD  - Department of Medicine, Harvard Medical School, Boston, MA 02115; Division of
+      Rheumatology, Immunology and Allergy, Brigham and Women's Hospital, Boston, MA
+      02115; and.
+FAU - Laidlaw, Tanya M
+AU  - Laidlaw TM
+AD  - Department of Medicine, Harvard Medical School, Boston, MA 02115; Division of
+      Rheumatology, Immunology and Allergy, Brigham and Women's Hospital, Boston, MA
+      02115; and Jeff and Penny Vinik Center for Allergic Disease Research, Boston, MA 
+      02115.
+FAU - Boyce, Joshua A
+AU  - Boyce JA
+AD  - Department of Medicine, Harvard Medical School, Boston, MA 02115; Department of
+      Pediatrics, Harvard Medical School, Boston, MA 02115; Division of Rheumatology,
+      Immunology and Allergy, Brigham and Women's Hospital, Boston, MA 02115; and Jeff 
+      and Penny Vinik Center for Allergic Disease Research, Boston, MA 02115
+      jboyce@rics.bwh.harvard.edu.
+LA  - eng
+GR  - AI078908/AI/NIAID NIH HHS/United States
+GR  - AI082369/AI/NIAID NIH HHS/United States
+GR  - AI095219/AI/NIAID NIH HHS/United States
+GR  - AT002782/AT/NCCIH NIH HHS/United States
+GR  - HL111113/HL/NHLBI NIH HHS/United States
+GR  - HL117945/HL/NHLBI NIH HHS/United States
+GR  - HL36110/HL/NHLBI NIH HHS/United States
+GR  - R01 AI052353/AI/NIAID NIH HHS/United States
+GR  - R01 AI078908/AI/NIAID NIH HHS/United States
+GR  - R01 HL117945/HL/NHLBI NIH HHS/United States
+GR  - R21 AI115137/AI/NIAID NIH HHS/United States
+GR  - R37 AI052353/AI/NIAID NIH HHS/United States
+GR  - U19 AI095219/AI/NIAID NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20150422
+PL  - United States
+TA  - J Immunol
+JT  - Journal of immunology (Baltimore, Md. : 1950)
+JID - 2985117R
+RN  - 0 (Allergens)
+RN  - 0 (Leukotriene Antagonists)
+RN  - 0 (Leukotrienes)
+RN  - 0 (Receptors, Prostaglandin)
+RN  - 0 (Vascular Cell Adhesion Molecule-1)
+RN  - 0 (cysteinyl-leukotriene)
+RN  - 126547-89-5 (Intercellular Adhesion Molecule-1)
+RN  - 2CU6TT9V48 (Leukotriene C4)
+RN  - 57576-52-0 (Thromboxane A2)
+RN  - 9006-59-1 (Ovalbumin)
+RN  - K848JZ4886 (Cysteine)
+RN  - R16CO5Y76E (Aspirin)
+SB  - AIM
+SB  - IM
+MH  - Allergens/immunology
+MH  - Animals
+MH  - Aspirin/*pharmacology
+MH  - Asthma/drug therapy/immunology
+MH  - Blood Platelets/*immunology
+MH  - Bone Marrow Transplantation
+MH  - Bronchoalveolar Lavage Fluid/cytology/immunology
+MH  - Cysteine/*immunology
+MH  - Eosinophilia/blood/immunology
+MH  - Inflammation/immunology
+MH  - Intercellular Adhesion Molecule-1/biosynthesis
+MH  - Leukotriene Antagonists/pharmacology
+MH  - Leukotriene C4/*immunology/pharmacology
+MH  - Leukotrienes/*immunology
+MH  - Lung/immunology
+MH  - Mice
+MH  - Mice, Inbred C57BL
+MH  - Mice, Knockout
+MH  - Ovalbumin
+MH  - Platelet Activation/*immunology
+MH  - Receptors, Prostaglandin/genetics/metabolism
+MH  - Thromboxane A2/biosynthesis/immunology
+MH  - Vascular Cell Adhesion Molecule-1/biosynthesis
+PMC - PMC4433852
+MID - NIHMS674654
+OID - NLM: NIHMS674654 [Available on 06/01/16]
+OID - NLM: PMC4433852 [Available on 06/01/16]
+EDAT- 2015/04/24 06:00
+MHDA- 2015/08/19 06:00
+CRDT- 2015/04/24 06:00
+PMCR- 2016/06/01 00:00
+PHST- 2014/11/24 [received]
+PHST- 2015/03/18 [accepted]
+PHST- 2015/04/22 [aheadofprint]
+AID - jimmunol.1402959 [pii]
+AID - 10.4049/jimmunol.1402959 [doi]
+PST - ppublish
+SO  - J Immunol. 2015 Jun 1;194(11):5061-8. doi: 10.4049/jimmunol.1402959. Epub 2015
+      Apr 22.

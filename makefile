@@ -10,11 +10,13 @@ upload_PyPI:
 install_pydvkbiology:
 	pip install --ignore-installed --upgrade pydvkbiology
 
-
 upload_PyPI_test:
 	python setup.py register -r pypitest
 	python setup.py sdist upload -r pypitest
 
-FILE := pydvkbiology/util/chr_ab.py
-p:
-	pylint --rcfile=.pylintrc $(FILE)
+pylint_all:
+	find src -name \*.py | grep -v __init__ | xargs pylint --reports=n
+
+clean_pyc:
+	find . -name \*.pyc | xargs rm -f
+

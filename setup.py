@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 setup(
-    version='0.44',
+    version='0.45',
     name="pydvkbiology",
     packages=find_packages(),
     description='Python scripts used in my biology/bioinformatics research',
     author='DV Klopfenstein',
     author_email='music_pupil@yahoo.com',
-    scripts=['./pydvkbiology/NCBI/cols.py'],
+    scripts=['./src/pydvkbiology/NCBI/cols.py'],
     license='BSD',
     url='http://github.com/dvklopfenstein/biocode',
     download_url='http://github.com/dvklopfenstein/biocode/tarball/0.1',

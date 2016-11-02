@@ -37,9 +37,9 @@ class ChrAB(object):
 
   def _init_ichr(self, **kws):
     """Initialize ichr if ichr or orgn is provided, otherwise ichr=None."""
-    ichr = kws['ichr'] if 'ichr' in kws else None
+    ichr = kws.get('ichr', None)
     if 'orgn' in kws:
-      orgn_ichr = kws['orgn'].get_iChr(self.schr)
+      orgn_ichr = kws.get('orgn').get_iChr(self.schr)
       if ichr is not None: 
         assert ichr == orgn_ichr
       ichr = orgn_ichr
@@ -112,6 +112,7 @@ class ChrAB(object):
     if self.valid_start_stop():
       return sorted([self.start_bp, self.stop_bp])
     return None
+  # Note: get_rng returns expanded plotXs
 
   def get_len(self):
     return abs(self.stop_bp - self.start_bp) + 1
@@ -223,7 +224,7 @@ class ChrAB(object):
     # return e.g.: [31425567, 31728336]
     x0, xN = self.get_plotXs()
     if margin_lhs == 0 and margin_rhs is None:
-      return x0, xN
+        return x0, xN
     rng0 = x0 - margin_lhs
     if rng0 < 0: # rng0 minimum value is 0
       rng0 = 0

@@ -354,6 +354,8 @@ class ChrAB(object):
       ret.append(', {stop_bp}'.format(stop_bp=self.stop_bp))
     if self.name is not None:
       ret.append(", name={NAME}".format(NAME=self.name))
+    if self.ichr is not None:
+      ret.append(", ichr={ICHR}".format(ICHR=self.ichr))
     ret.append(")")
     return ''.join(ret)
     #, orientation=None, orgn=None, name=None):

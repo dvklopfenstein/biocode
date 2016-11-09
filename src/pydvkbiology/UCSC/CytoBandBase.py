@@ -19,10 +19,6 @@
 #
 #   https://www.gnu.org/licenses/gpl-2.0.txt
 #
-#
-# Aydin Tozeren, Distinguished Professor
-# August 2014
-
 
 # To cite this script, please use: 
 #
@@ -207,7 +203,7 @@ class CytoBandBase:
       if schr in self.chr_s2i: return self.chr_s2i[schr]
       return None
     else:
-      raise Exception("UNEXPECTED sChr({}) VALUE in get_iChr".format(sChr))
+      raise Exception("STRING NOT FOUND IN sChr({}) ARG in get_iChr".format(sChr))
 
   def get_iChr_from_maploc(self, maploc):
     """Given the commonly known chromosome name, return the chr list index used by this class."""

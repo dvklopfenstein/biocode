@@ -34,6 +34,7 @@
 * [NCBI] (http://www.ncbi.nlm.nih.gov/)
   * [NCBI Insights](https://ncbiinsights.ncbi.nlm.nih.gov/)
   * [RefSeq release 79 now available](https://www.ncbi.nlm.nih.gov/news/11-07-2016-refseq-79/)
+  * [Genome Workbench](https://www.ncbi.nlm.nih.gov/tools/gbench/releasenotes/)
 * [GENCODE] (http://www.gencodegenes.org/)
 * [DrugBank] (http://www.drugbank.ca/)
 * [UniProt] (http://www.uniprot.org/)

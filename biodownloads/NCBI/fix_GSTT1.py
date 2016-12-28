@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 """One of the disease genes downloads with no coordinates, but they are actually in the record."""
 
+#pylint: disable=invalid-name
+
+__copyright__ = "Copyright (C) 2016-2017, DV Klopfenstein. All rights reserved."
+__author__ = "DV Klopfenstein"
+
 import sys
 import os
 
@@ -17,6 +22,10 @@ import os
 def main():
     """Add missing coordinates to a disease gene."""
     fins = ["genes_NCBI_hsa_All.tsv", "genes_NCBI_hsa_ProteinCoding.tsv"]
+    _adjust_gstt1(fins)
+
+def _adjust_gstt1(fins):
+    """Read tsv files downloaded from NSBI gene. Add NCBI coordinates to GSST1."""
     for fin in fins:
         with open(fin) as ifstrm:
             fout_file = 'tmp_{}'.format(fin)
@@ -25,16 +34,7 @@ def main():
                 if 'GSTT1' in line:
                     flds = line.split('\t')
                     if int(flds[2]) == 2952:
-                        print flds
-                        print fin, 'GeneID      ', flds[2]
-                        print fin, 'Symbol      ', flds[5]
-                        print fin, 'map_location', flds[9]
-                        print fin, 'chromosome  ', flds[10]
-                        print fin, 'b0          ', flds[12]
-                        print fin, 'bN          ', flds[13]
-                        print fin, '+/-         ', flds[14]
-                        print fin, 'exon_count  ', flds[15]
-                        print fin, 'OMIM        ', flds[16]
+                        _prt_fields(flds, fin)
                         flds[12] = '270308'  # b0
                         flds[13] = '278486'  # bN
                         flds[14] = 'minus' # +/-
@@ -46,8 +46,23 @@ def main():
             sys.stdout.write("  READ:  {}\n".format(fin))
             sys.stdout.write("  WROTE: {}\n".format(fout_file))
             cmd = "mv {} {}".format(fout_file, fin)
-            print cmd
+            sys.stdout.write("{CMD}\n".format(CMD=cmd))
             os.system(cmd)
+
+def _prt_fields(flds, fin):
+    """Print fields in an NCBI line."""
+    sys.stdout.write("{FLDS}\n".format(FLDS=" ".join(flds)))
+    sys.stdout.write("{FIN} GeneID       {VAL}\n".format(FIN=fin, VAL=flds[2]))
+    sys.stdout.write("{FIN} Symbol       {VAL}\n".format(FIN=fin, VAL=flds[5]))
+    sys.stdout.write("{FIN} map_location {VAL}\n".format(FIN=fin, VAL=flds[9]))
+    sys.stdout.write("{FIN} chromosome   {VAL}\n".format(FIN=fin, VAL=flds[10]))
+    sys.stdout.write("{FIN} b0           {VAL}\n".format(FIN=fin, VAL=flds[12]))
+    sys.stdout.write("{FIN} bN           {VAL}\n".format(FIN=fin, VAL=flds[13]))
+    sys.stdout.write("{FIN} +/-          {VAL}\n".format(FIN=fin, VAL=flds[14]))
+    sys.stdout.write("{FIN} exon_count   {VAL}\n".format(FIN=fin, VAL=flds[15]))
+    sys.stdout.write("{FIN} OMIM         {VAL}\n".format(FIN=fin, VAL=flds[16]))
 
 if __name__ == '__main__':
     main()
+
+# Copyright (C) 2016-2017, DV Klopfenstein. All rights reserved.

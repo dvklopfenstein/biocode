@@ -29,6 +29,7 @@ import sys
 import re
 import collections as cx
 import numpy as np
+from pydvkbiology.util.chr_ab import ChrAB
 
 __author__  = 'DV Klopfenstein'
 __version__ = '2.0'
@@ -203,12 +204,35 @@ class CytoBandBase:
       if schr in self.chr_s2i: return self.chr_s2i[schr]
       return None
     else:
-      raise Exception("STRING NOT FOUND IN sChr({}) ARG in get_iChr".format(sChr))
+      raise Exception("STRING NOT FOUND IN sChr({}) ARG in get_iChr: {}".format(
+        sChr, self.chr_s2i))
+
+  def get_cab_from_maploc(self, maploc):
+    """Given the commonly known chromosome name, return the chr list index used by this class."""
+    locinfo = self._get_maploc_ichr_strs(maploc)
+    #print "LLLLLLL", locinfo
+    if locinfo is None:
+      return None 
+    ichr, pqloc, pq, bploc = locinfo
+    # Example: [ 125100000, 143200000, 'gvar', 'q1' ]
+    pqloc = self.map2info[ichr].get(pqloc, None)
+    if pqloc is not None:
+      return ChrAB(self.get_sChr(ichr), pqloc[0], pqloc[1], ichr=ichr)
+    return None
 
   def get_iChr_from_maploc(self, maploc):
     """Given the commonly known chromosome name, return the chr list index used by this class."""
-    M = re.search(r'(\S+)(p|q)', maploc)
-    return self.get_iChr(M.group(1) if M else maploc)
+    ichr_pqloc_pq_bploc = self._get_maploc_ichr_strs(maploc)
+    return ichr_pqloc_pq_bploc[0] if ichr_pqloc_pq_bploc is not None else maploc
+
+  def _get_maploc_ichr_strs(self, maploc_str):
+    """Given 15qD3, return (14, 'qD3', 'q', 'D3')."""
+    mtch = re.search(r'(\S+)((p|q)(\S+))', maploc_str)
+    if not mtch or len(mtch.groups()) != 4:
+      return None
+    ichr = self.get_iChr(mtch.group(1))
+    assert ichr is not None, "UNRECOGNIZED CHROMSOME({C}) IN {L}".format(C=mtch.group(1), L=maploc_str)
+    return ichr, mtch.group(2), mtch.group(3), mtch.group(4)
 
   def get_max_bp(self, chr_idx):
     """Returns the largest base pair in the UCSC file for a given chromosome.""" 

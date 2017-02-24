@@ -222,6 +222,8 @@ class ChrAB(object):
   def get_rng(self, margin_lhs=0, margin_rhs=None):
     """Return an expanded range: Expand orignal from left, right, or both."""
     # return e.g.: [31425567, 31728336]
+    if margin_lhs is None:
+      margin_lhs = 0
     x0, xN = self.get_plotXs()
     if margin_lhs == 0 and margin_rhs is None:
         return x0, xN

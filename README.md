@@ -19,7 +19,7 @@
   * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and
     [**more colormaps**](http://matplotlib.org/examples/color/colormaps_reference.html)
   * [**Named Colors**](http://matplotlib.org/examples/color/named_colors.html)
-  * [**xkcd color picker**](http://xkcdcp.martinblech.com/)
+  * **xkcd color picker**: [**Martin Blech**](http://xkcdcp.martinblech.com/) or [**klaash**](http://klaash.github.io/xkcdcolorpicker/#ff0000)
   * [**Map Colors**](http://colorbrewer2.org/)
   * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
 

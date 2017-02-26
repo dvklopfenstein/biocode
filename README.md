@@ -27,6 +27,9 @@
   * [**J\*FLY**](http://jfly.iam.u-tokyo.ac.jp/color/index.html)
   * [**Mapbox**](https://www.mapbox.com/tilemill/docs/guides/tips-for-color/)
 
+### Statistics
+  * [Simply Statistics](http://simplystatistics.org/)
+
 ## Links
 
 * [How do project owners use pull requests on Github?](

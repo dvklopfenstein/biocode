@@ -245,6 +245,12 @@ class ChrAB(object):
       return min(self.start_bp, self.stop_bp)
     return None
 
+  def get_max_bp(self):
+    """Returns the smallest base pair value."""
+    if self.valid_start_stop():
+      return max(self.start_bp, self.stop_bp)
+    return None
+
   def get_ichr(self, orgn=None):
     """Gets chromosome index if it is available. If not, sets it in this object, then returns it."""
     if self.ichr is not None:

@@ -210,14 +210,21 @@ class CytoBandBase:
   def get_cab_from_maploc(self, maploc):
     """Given the commonly known chromosome name, return the chr list index used by this class."""
     locinfo = self._get_maploc_ichr_strs(maploc)
-    #print "LLLLLLL", locinfo
+    #print "CytoBandBase::get_cab_from_maploc MAPLOC({}) OUTPUT({})".format(maploc, locinfo)
     if locinfo is None:
       return None 
-    ichr, pqloc, pq, bploc = locinfo
-    # Example: [ 125100000, 143200000, 'gvar', 'q1' ]
-    pqloc = self.map2info[ichr].get(pqloc, None)
-    if pqloc is not None:
-      return ChrAB(self.get_sChr(ichr), pqloc[0], pqloc[1], ichr=ichr)
+    # 11q13.12 ---> ichr=10, pqloc='q13.12', pq='q', bploc='13.12'
+    ichr, pqloc, pq, bploc = locinfo # 
+    bp0_bp1 = self.map2info[ichr].get(pqloc, None)
+    #print "CytoBandBase::get_cab_from_maploc bp0_bp1({})".format(bp0_bp1)
+    if bp0_bp1 is not None:
+      return ChrAB(self.get_sChr(ichr), bp0_bp1[0], bp0_bp1[1], ichr=ichr)
+    #if True:
+    #  from PyBiocode.Utils.StringUtils import mtch_string_list
+    #  for info in self.map2info[ichr]: 
+    #    ordstr = mtch_string_list([pqloc, info], ' ')
+    #    sys.stdout.write("{} MAPLOC({}) PQLOC({}) OR({}) VALUE({})\n".format(
+    #      self.species, maploc, pqloc, ordstr, info))
     return None
 
   def get_iChr_from_maploc(self, maploc):

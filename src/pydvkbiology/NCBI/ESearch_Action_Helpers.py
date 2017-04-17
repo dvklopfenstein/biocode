@@ -184,6 +184,7 @@ def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, record, WE, QK, N, batch_s
         if M:
           sys.stdout.write(M.group(1))
         FOUT.write(downloaded_data)
+        FOUT.flush()
       except Exception, e:
         sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n".format(str(e)))
     else:

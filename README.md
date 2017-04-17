@@ -29,6 +29,7 @@
 
 ### Statistics
   * [Simply Statistics](http://simplystatistics.org/)
+  * [A biologist's guide to statistical thinking and analysis](http://www.wormbook.org/chapters/www_statisticalanalysis/statisticalanalysis.html)
 
 ## Links
 

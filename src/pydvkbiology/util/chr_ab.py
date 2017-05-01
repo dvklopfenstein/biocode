@@ -16,24 +16,18 @@ class ChrAB(object):
   rev = ['-', 'minus']
   typ = cx.namedtuple("ChrAB", "chr start_bp stop_bp fwd_strand ichr")
 
-  def __init__(self, schr, start_bp, stop_bp=None, **kws):
+  def __init__(self, schr, start_bp, stop_bp=False, **kws):
     """Initialize data members."""
     # Data members
     self.schr = schr
     self.start_bp = start_bp if isinstance(start_bp, int) else None
     self.stop_bp = self._init_stop_bp(stop_bp)
+    assert not (self.start_bp is None and self.stop_bp is None)
     # Key-word args(4): name, ichr, orgn, orientation, N-based
     self._init_ichr(**kws) # kws: Either of: ichr orgn
     self.name = kws['name'] if 'name' in kws else None
     if 'orientation' in kws:
       self._init_orientation(kws['orientation'])
-
-  def _init_stop_bp(self, stop_bp):
-    """Initialize stop_bp."""
-    if stop_bp is None: # Length of 1
-      return self.start_bp
-    if isinstance(stop_bp, int):
-      return stop_bp
 
   def _init_ichr(self, **kws):
     """Initialize ichr if ichr or orgn is provided, otherwise ichr=None."""
@@ -44,6 +38,12 @@ class ChrAB(object):
         assert ichr == orgn_ichr
       ichr = orgn_ichr
     self.ichr = ichr
+
+  def _init_stop_bp(self, stop_bp):
+    """Initialize stop_bp."""
+    if stop_bp is False: # Length of 1, unspecified orientation
+      return self.start_bp
+    return stop_bp if isinstance(stop_bp, int) else None
  
   def _init_orientation(self, orientation):
     """Use orientation to set start and stop."""
@@ -51,12 +51,22 @@ class ChrAB(object):
     # Use orientation if available (Forward/Reverse) strand.
     if orientation in ChrAB.rev:
       # biocode uses convention that rev. strand start_bp > stop_bp
-      if self.start_bp < self.stop_bp:
-        self.start_bp, self.stop_bp = self.stop_bp, self.start_bp
+      if self.both_start_stop():
+        if self.start_bp < self.stop_bp:
+          self.start_bp, self.stop_bp = self.stop_bp, self.start_bp
+        elif self.start_bp == self.stop_bp:
+          self.start_bp = None
+      else:
+        assert self.start_bp is None
     elif orientation in ChrAB.fwd:
-      pass
-    # An expected orientation is only relevant if there are both start_bp and stop_bp
-    elif self.start_bp is not None and self.stop_bp is not None:
+      if self.both_start_stop():
+        if self.start_bp > self.stop_bp:
+          self.start_bp, self.stop_bp = self.stop_bp, self.start_bp
+        elif self.start_bp == self.stop_bp:
+          self.stop_bp = None
+      else:
+        assert self.stop_bp is None
+    else: # elif self.start_bp is not None and self.stop_bp is not None:
       raise Exception("UNKNOWN ORIENTATION({})".format(orientation))
 
   # 1-based:     1 2 3 4 5 6 7 8 9    CAGC => 2-5  len = 4 = 5 - 2 + 1
@@ -68,13 +78,15 @@ class ChrAB(object):
     """Return coordinates in 0-based format."""
     if self.is_fwd(): 
       return self.start_bp, self.stop_bp+1
+    bp_a, bp_b = sorted([self.start_bp, self.stop_bp])
+    return bp_a, bp_b+1
     raise Exception("TIME TO IMPLEMENT FOR REV: get_start_stop_0based()")
     
   def is_fwd(self):
     """Return True if this is forward-stranded data."""
-    if self.valid_start_stop():
-      return self.start_bp < self.stop_bp
-    return None
+    if self.both_start_stop():
+      return self.start_bp < self.stop_bp if self.start_bp != self.stop_bp else None
+    return self.start_bp is not None
 
   def in_range(self, rng_start_bp, rng_stop_bp):
     """Determine if gene is in the range(start_rng, stop_rng)."""
@@ -104,18 +116,20 @@ class ChrAB(object):
     else:
       return None
 
-  def valid_start_stop(self):
+  def both_start_stop(self):
     return self.start_bp is not None and self.stop_bp is not None
 
   def get_plotXs(self):
     """Returns start_bp and stop_bp such that startbp < stop_bp, no matter the gene orientation."""
-    if self.valid_start_stop():
+    if self.both_start_stop():
       return sorted([self.start_bp, self.stop_bp])
     return None
   # Note: get_rng returns expanded plotXs
 
   def get_len(self):
-    return abs(self.stop_bp - self.start_bp) + 1
+    if self.start_bp is not None and self.stop_bp is not None:
+      return abs(self.stop_bp - self.start_bp) + 1
+    return 1
 
   def has_abs(self):
     return self.start_bp is not None and self.stop_bp is not None
@@ -241,13 +255,13 @@ class ChrAB(object):
 
   def get_min_bp(self):
     """Returns the smallest base pair value."""
-    if self.valid_start_stop():
+    if self.both_start_stop():
       return min(self.start_bp, self.stop_bp)
     return None
 
   def get_max_bp(self):
     """Returns the smallest base pair value."""
-    if self.valid_start_stop():
+    if self.both_start_stop():
       return max(self.start_bp, self.stop_bp)
     return None
 
@@ -347,7 +361,7 @@ class ChrAB(object):
     txt = []
     bp1 = self.start_bp == self.stop_bp
     if not bp1:
-      txt.append("({})".format("+" if self.stop_bp > self.start_bp else "-"))
+      txt.append("({})".format("+" if self.is_fwd() else "-"))
     if 'chr' not in self.schr.lower():
       txt.append("chr")
     txt.append("{SCHR:<2} {START:>9}".format(SCHR=self.schr, START=self.start_bp))

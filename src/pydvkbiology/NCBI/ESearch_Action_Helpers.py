@@ -139,7 +139,7 @@ def EFetch_and_write_N(desc, db, fout, typemode, record, N, batch_size=100, PRT=
   return downloaded_data
 
 
-def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, record, WE, QK, N, batch_size=100, PRT=sys.stdout):
+def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, WE, QK, N, batch_size=100, PRT=sys.stdout):
   downloaded_data = None 
   # EFetch records found for IDs returned in ESearch...
   # Search for IDs returned using ID of the above Web Search
@@ -190,6 +190,65 @@ def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, record, WE, QK, N, batch_s
     else:
       sys.stdout.write("*FATAL: NO SOCKET HANDLE TO READ FROM\n")
   return downloaded_data
+      
+
+def ELink_webenvQK_num(desc, webenv, querykey, linkname, num, batch_size=100, PRT=sys.stdout):
+  """https://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.ELink"""
+  ids = []
+  dbfrom = 'pubmed'
+  # EFetch records found for IDs returned in ESearch...
+  # Search for IDs returned using ID of the above Web Search
+  #print "AAAA", N, batch_size
+  for start in range(0, num, batch_size):
+    #print "BBBB", start
+    socket_handle = None
+    msg = '  QueryKey({:>6}) ELinking(db={}) up to {:5} records, starting at {}; {}\n'.format(
+      querykey, linkname, batch_size, start, desc)
+    #PRT.write(msg); PRT.flush()
+    #sys.stdout.write(msg)
+    try:
+      socket_handle = Entrez.elink(
+        dbfrom    = dbfrom,
+        retstart  = start,       # dflt: 1
+        retmax    = batch_size,  # max: 10,000
+        linkname  = linkname,
+        webenv    = webenv,
+        query_key = querykey)
+    except IOError, e:
+      msg = "\n*FATAL: EFetching FAILED: {}".format(e)
+      PRT.write(msg)
+      sys.stdout.write(msg)
+      sys.stdout.write("  dbfrom: {}\n".format(dbfrom))
+      sys.stdout.write("  retstart: {}\n".format(start))
+      sys.stdout.write("  retmax: {}\n".format(batch_size))
+      sys.stdout.write("  linkname: {}\n".format(linkname))
+      sys.stdout.write("  WebEnv: {}\n".format(webenv))
+      sys.stdout.write("  QueryKey: {}\n".format(querykey))
+      if socket_handle is not None:
+        socket_handle.close()
+        socket_handle = None
+
+    if socket_handle is not None:
+      try:
+        # Read the downloaded data from the socket handle
+        # [{u'LinkSetDb': [{u'DbTo': 'pubmed', u'Link': [{u'Id': '5668'}, {u'Id': '4442'}, ...
+        #print "ddddd", socket_handle
+        record = Entrez.read(socket_handle)
+        #print "DDDDD", record
+        socket_handle.close()
+        if record:
+          if not record[0]["ERROR"]:
+            # keys: DbTo Link LinkName.    Link list:[{'Id':'NNNNN'}, {'Id':'NNNNN'}, ....
+            # keys: LinkSetDb DbFrom IdList LinkSetDbHistory ERROR
+            if record[0][u'LinkSetDb']:
+              ids.extend([int(id2val[u'Id']) for id2val in record[0][u'LinkSetDb'][0][u'Link']])
+            #print "EEEEE", " ".join(record[0].keys())
+            #sys.stdout.write(record[0].keys())
+      except Exception, e:
+        sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n".format(str(e)))
+    else:
+      sys.stdout.write("*FATAL: NO SOCKET HANDLE TO READ FROM\n")
+  return ids
       
 
 

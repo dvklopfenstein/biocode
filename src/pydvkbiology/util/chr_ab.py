@@ -12,8 +12,8 @@ class ChrAB(object):
   # Uses convention that rev. strand start_bp > stop_bp
   # so that this class may be used without an orientation arg.
 
-  fwd = ['+', 'plus']
-  rev = ['-', 'minus']
+  fwd = ['+', 'plus', True]
+  rev = ['-', 'minus', False]
   typ = cx.namedtuple("ChrAB", "chr start_bp stop_bp fwd_strand ichr")
 
   def __init__(self, schr, start_bp, stop_bp=False, **kws):

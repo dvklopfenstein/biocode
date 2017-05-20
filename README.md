@@ -22,6 +22,7 @@
   * **xkcd color picker**: [**Martin Blech**](http://xkcdcp.martinblech.com/) or [**klaash**](http://klaash.github.io/xkcdcolorpicker/#ff0000)
   * [**Map Colors**](http://colorbrewer2.org/)
   * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
+  * [**AI generated paint colors**](http://lewisandquark.tumblr.com/post/160776374467/new-paint-colors-invented-by-neural-network)
 
 ### Advice on Color Picking
   * [**J\*FLY**](http://jfly.iam.u-tokyo.ac.jp/color/index.html)

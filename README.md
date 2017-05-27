@@ -48,6 +48,7 @@
 * [Kegg] (http://www.genome.jp/kegg/kegg2.html)
 * [HGNC] (http://www.genenames.org/) HUGO Gene Nomenclature Committee
 * [HGDP population Allele Frequencies](http://hgdp.uchicago.edu/data/Alfreqs/)
+* [Matplotlib](http://www.aosabook.org/en/matplotlib.html)
 
 ## Style Guides
 * [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html)

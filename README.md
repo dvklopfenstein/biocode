@@ -64,5 +64,7 @@ In a previous life...
     (http://www.aopa.org/aopa-live?watch=lldXB1MjrCR2n2wMlJsc_lpw9C2mbcdf)
   * [Memorize the 20 Amino Acids in 9 Minutes](https://youtu.be/m130s94pMjE)
 
+_Education is not the filling of a pail, but the lighting of a fire._    
+-William Butler Yeats
 
 Copyright (C) 2015-2016, DV Klopfenstein. All rights reserved.

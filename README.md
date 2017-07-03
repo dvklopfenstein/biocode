@@ -50,6 +50,12 @@
 * [HGDP population Allele Frequencies](http://hgdp.uchicago.edu/data/Alfreqs/)
 * [Matplotlib](http://www.aosabook.org/en/matplotlib.html)
 
+## Github
+
+* [Explore](https://github.com/explore)
+* [Trending](https://github.com/trending?since=monthly)
+* [Most stars](https://github.com/search?l=Go&o=desc&q=go&ref=advsearch&s=stars&type=Repositories)
+
 ## Style Guides
 * [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html)
 * [Google Style Examples](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)

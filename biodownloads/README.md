@@ -34,29 +34,23 @@
       (1883 items) 
   * **Mus musculus (house mouse)**: Taxonomy ID [10090](http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_mus_All.tsv](./NCBI/genes_NCBI_mus_All.tsv) using this
-      [**Search for All Mouse DNA Items**]
-      (http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
+      [**Search for All Mouse DNA Items**](http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (68592 items) 
     * [genes_NCBI_mus_ProteinCoding.tsv](./NCBI/genes_NCBI_mus_ProteinCoding.tsv) using this
-      [**Search for Mouse Protein-Coding Genes**]
-      (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
+      [**Search for Mouse Protein-Coding Genes**](http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (27857 items) 
     * [genes_NCBI_mus_microRNA.tsv](./NCBI/genes_NCBI_mus_microRNA.tsv) using this
-      [**Search for Mouse microRNA**]
-      (http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
+      [**Search for Mouse microRNA**](http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
       (1202 items) 
   * **Drosophila melanogaster (fruit fly)**: Taxonomy ID [7227](http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_dme_All.tsv](./NCBI/genes_NCBI_dme_All.tsv) using this
-      [**Search for All Fruit fly DNA Items**]
-      (http://www.ncbi.nlm.nih.gov/gene/?term=%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
+      [**Search for All Fruit fly DNA Items**](http://www.ncbi.nlm.nih.gov/gene/?term=%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (25061 items) 
     * [genes_NCBI_dme_ProteinCoding.tsv](./NCBI/genes_NCBI_dme_ProteinCoding.tsv) using this
-      [**Search for Fruit fly Protein-Coding Genes**]
-      (http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
+      [**Search for Fruit fly Protein-Coding Genes**](http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
       (13929 items) 
     * [genes_NCBI_dme_noncoding.tsv](./NCBI/genes_NCBI_dme_noncoding.tsv) using this
-      [**Search for Fruit fly Non-coding DNA items**]
-      (http://www.ncbi.nlm.nih.gov/gene/?term=7227%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+((%22genetype+miscrna%22%5BProperties%5D+OR+%22genetype+ncrna%22%5BProperties%5D+OR+%22genetype+rrna%22%5BProperties%5D+OR+%22genetype+trna%22%5BProperties%5D+OR+%22genetype+scrna%22%5BProperties%5D+OR+%22genetype+snrna%22%5BProperties%5D+OR+%22genetype+snorna%22%5BProperties%5D)+NOT+%22genetype+protein+coding%22%5BProperties%5D))
+      [**Search for Fruit fly Non-coding DNA items**](http://www.ncbi.nlm.nih.gov/gene/?term=7227%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+((%22genetype+miscrna%22%5BProperties%5D+OR+%22genetype+ncrna%22%5BProperties%5D+OR+%22genetype+rrna%22%5BProperties%5D+OR+%22genetype+trna%22%5BProperties%5D+OR+%22genetype+scrna%22%5BProperties%5D+OR+%22genetype+snrna%22%5BProperties%5D+OR+%22genetype+snorna%22%5BProperties%5D)+NOT+%22genetype+protein+coding%22%5BProperties%5D))
       (3533 items) 
 
 * **GENCODE lncRNA** [v23 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_23/) Oct 26, 2015

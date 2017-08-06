@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+"""From colormaps, get discrete colors."""
 
 # Copyright (C) 2014-2015 DV Klopfenstein.  All rights reserved.
 #
@@ -17,121 +17,56 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 __author__ = 'DV Klopfenstein'
-__copyright__ = "Copyright (C) 2014-2016 DV Klopfenstein. All rights reserved."
+__copyright__ = "Copyright (C) 2014-2017 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
 # Helpful pages:
 #   http://stackoverflow.com/questions/14777066/matplotlib-discrete-colorbar
 #   http://stackoverflow.com/questions/16834861/create-own-colormap-using-matplotlib-and-plot-color-scale
 
-import collections as cx
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
-class MplColorHelper:
+class MplColorHelper(object):
+    """From colormaps, get discrete colors."""
 
-  def __init__(self, cmap_name, start_val=0, stop_val=5):
-    self.cmap_name = cmap_name
-    self.cmap = plt.get_cmap(cmap_name)
-    self.start_val = start_val
-    self.stop_val  =  stop_val
-    self.norm = mpl.colors.Normalize(vmin=start_val, vmax=stop_val)
-    self.scalarMap = cm.ScalarMappable(norm=self.norm, cmap=self.cmap)
+    def __init__(self, cmap_name, start_val=0, stop_val=5):
+        self.cmap_name = cmap_name
+        self.cmap = plt.get_cmap(cmap_name)
+        self.start_val = start_val
+        self.stop_val = stop_val
+        self.norm = mpl.colors.Normalize(vmin=start_val, vmax=stop_val)
+        self.scalarmap = cm.ScalarMappable(norm=self.norm, cmap=self.cmap)
 
-  def get_rgb(self, val):
-    return self.scalarMap.to_rgba(val)
-   
-  def get_hexstr(self, val):
-    r, g, b, a  = self.get_rgb(val)
-    return '#{:02x}{:02x}{:02x}'.format(int(r*255), int(g*255), int(b*255))
+    def get_rgb(self, val):
+        """Return RGB tuple."""
+        return self.scalarmap.to_rgba(val)
 
-  def get_color_list(self):
-    return [self.get_hexstr(i) for i in range(self.start_val, self.stop_val+1)]
+    def get_hexstr(self, val):
+        """Given a value, return a hex string representing the color."""
+        red, grn, blu, _ = self.get_rgb(val)
+        return '#{:02x}{:02x}{:02x}'.format(int(red*255), int(grn*255), int(blu*255))
 
-  def min_hexstr(self): return self.get_hexstr(self.start_val)
+    def get_color_list(self):
+        """Return colors as a list of hex strings."""
+        return [self.get_hexstr(i) for i in range(self.start_val, self.stop_val+1)]
 
-  def max_hexstr(self): return self.get_hexstr(self.stop_val)
+    def min_hexstr(self):
+        """Return smallest hex string."""
+        return self.get_hexstr(self.start_val)
 
-  def get_color_desc(self):
-    """Get list of [(color0, description0), (color1, description1), ..."""
-    color_desc = []
-    for color_num in range(self.start_val, self.stop_val+1):
-        col_hexstr = self.get_hexstr(color_num)
-        color_desc.append((col_hexstr, col_hexstr))
-    return color_desc
+    def max_hexstr(self):
+        """Return largest hex string."""
+        return self.get_hexstr(self.stop_val)
 
-
-def example1():
-  import numpy as np
-  fig, ax = plt.subplots(1,1, figsize=(6,6))
-
-  NUM_VALS = 20
-  x = np.random.uniform(0, NUM_VALS, size=3*NUM_VALS)
-  y = np.random.uniform(0, NUM_VALS, size=3*NUM_VALS)
-
-  # define the color chart between 2 and 10 using the 'autumn_r' colormap, so
-  #   y <= 2  is yellow
-  #   y >= 10 is red
-  #   2 < y < 10 is between from yellow to red, according to its value
-  COL = MplColorHelper('autumn_r', 5, 15)
-
-  scat = ax.scatter(x,y,s=200, c=COL.get_rgb(y))
-  ax.set_title('Well defined discrete colors')
-  plt.show()
+    def get_color_desc(self):
+        """Get list of [(color0, description0), (color1, description1), ..."""
+        color_desc = []
+        for color_num in range(self.start_val, self.stop_val+1):
+            col_hexstr = self.get_hexstr(color_num)
+            color_desc.append((col_hexstr, col_hexstr))
+        return color_desc
 
 
-def example2():
-  """ Plots all the named colors in matplotlib.
-
-      From: http://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
-  """
-  import math
-  import matplotlib.patches as patches
-  import matplotlib.colors as colors
-
-  fig = plt.figure()
-  ax = fig.add_subplot(111)
-  
-  ratio = 1.0 / 3.0
-  count = math.ceil(math.sqrt(len(colors.cnames)))
-  x_count = count * ratio
-  y_count = count / ratio
-  x = 0
-  y = 0
-  w = 1 / x_count
-  h = 1 / y_count
-  
-  for c in colors.cnames:
-      pos = (x / x_count, y / y_count)
-      ax.add_patch(patches.Rectangle(pos, w, h, color=c))
-      ax.annotate(c, xy=pos)
-      if y >= y_count-1:
-          x += 1
-          y = 0
-      else:
-          y += 1
-  
-  plt.show()
-
-def example3(palette='Set1', num_vals=10):
-  import numpy as np
-  fig, ax = plt.subplots(1,1, figsize=(6,6))
-  xs = [10]*num_vals
-  ys = range(num_vals)
-  colobj = MplColorHelper(palette, 0, num_vals-1)
-  colors = [colobj.get_hexstr(y) for y in ys]
-  plts = []
-  for x, y, color in zip(xs, ys, colors):
-      plts.append(plt.scatter(x, y, s=1000, color=color))
-  plt.legend(plts, colors, scatterpoints=1, loc='best', ncol=1, fontsize=12)
-  ax.set_title('Well defined discrete colors')
-  plt.show()
-
-if __name__ == '__main__':
-  #example1()
-  #example2()
-  #example3()
-  pass
-  
- 
+# Copyright (C) 2014-2017 DV Klopfenstein. All rights reserved.

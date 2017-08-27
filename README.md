@@ -33,6 +33,13 @@
   * [Simply Statistics](http://simplystatistics.org/)
   * [A biologist's guide to statistical thinking and analysis](http://www.wormbook.org/chapters/www_statisticalanalysis/statisticalanalysis.html)
 
+### Machine Learning
+## Specific Articles
+- **2017-01** | Dermatologist-level classification of skin cancer with deep neural networks | *Andre Esteva, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Helen M. Blau & Sebastian Thrun* | [Nature](https://doi.org/10.1038/nature21056)
+## Information
+  * [Deep Learning Applications in Biology](https://github.com/gokceneraslan/awesome-deepbio/blob/master/README.md)
+
+
 ## Links
 
 * [How do project owners use pull requests on Github?](
@@ -70,6 +77,7 @@ In a previous life...
   * [Learn to land an airplane if the pilot becomes incapacitated]
     (http://www.aopa.org/aopa-live?watch=lldXB1MjrCR2n2wMlJsc_lpw9C2mbcdf)
   * [Memorize the 20 Amino Acids in 9 Minutes](https://youtu.be/m130s94pMjE)
+  * [Anatomy & Physiology](http://highered.mheducation.com/sites/0073378232/student_view0/index.html)
 
 _Education is not the filling of a pail, but the lighting of a fire._    
 -William Butler Yeats

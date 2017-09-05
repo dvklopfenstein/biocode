@@ -29,14 +29,20 @@
   * [**J\*FLY**](http://jfly.iam.u-tokyo.ac.jp/color/index.html)
   * [**Mapbox**](https://www.mapbox.com/tilemill/docs/guides/tips-for-color/)
 
+### Code Quality
+  * [Best Practices](https://gist.github.com/sloria/7001839)
+  * [pylint](https://www.pylint.org/)
+  * [pydocstyle](http://www.pydocstyle.org/en/latest/)
+  * [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+
 ### Statistics
   * [Simply Statistics](http://simplystatistics.org/)
   * [A biologist's guide to statistical thinking and analysis](http://www.wormbook.org/chapters/www_statisticalanalysis/statisticalanalysis.html)
 
 ### Machine Learning
-## Specific Articles
+#### Specific Articles
 - **2017-01** | Dermatologist-level classification of skin cancer with deep neural networks | *Andre Esteva, Brett Kuprel, Roberto A. Novoa, Justin Ko, Susan M. Swetter, Helen M. Blau & Sebastian Thrun* | [Nature](https://doi.org/10.1038/nature21056)
-## Information
+#### Information
   * [Deep Learning Applications in Biology](https://github.com/gokceneraslan/awesome-deepbio/blob/master/README.md)
 
 

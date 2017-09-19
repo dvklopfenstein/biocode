@@ -35,6 +35,9 @@ Contains various links
   * [pylint](https://www.pylint.org/)
   * [pydocstyle](http://www.pydocstyle.org/en/latest/)
   * [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html)
+  * [Google Style Examples](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
+  * [PyPI release checklist](https://github.com/YeoLab/outrigger/blob/master/docs/releases/checklist.md)
+  * [What every programmer should know](https://github.com/mr-mig/every-programmer-should-know)
 
 ### Statistics
   * [Simply Statistics](http://simplystatistics.org/)
@@ -46,22 +49,28 @@ Contains various links
 #### Information
   * [Deep Learning Applications in Biology](https://github.com/gokceneraslan/awesome-deepbio/blob/master/README.md)
 
+### RNA-seq
+  * **2015-07** | [How data analysis affects power, reproducibility and biological insight of RNA-seq studies in complex datasets ](
+    https://academic.oup.com/nar/article/43/16/7664/1076142/How-data-analysis-affects-power-reproducibility?searchresult=1) |
+*Lucia Peixoto, Davide Risso, Shane G. Poplawski, Mathieu E. Wimmer, Terence P. Speed, Marcelo A. Wood, Ted Abel*
+ 
+
 
 ## Links
 
 * [How do project owners use pull requests on Github?](
   http://www.gousios.gr/blog/How-do-project-owners-use-pull-requests-on-Github/)
-* [NCBI] (http://www.ncbi.nlm.nih.gov/)
+* [NCBI](http://www.ncbi.nlm.nih.gov/)
   * [NCBI Insights](https://ncbiinsights.ncbi.nlm.nih.gov/)
   * [RefSeq release 79 now available](https://www.ncbi.nlm.nih.gov/news/11-07-2016-refseq-79/)
   * [Genome Workbench](https://www.ncbi.nlm.nih.gov/tools/gbench/releasenotes/)
-* [GENCODE] (http://www.gencodegenes.org/)
-* [DrugBank] (http://www.drugbank.ca/)
-* [UniProt] (http://www.uniprot.org/)
-* [OMIM] (http://www.omim.org/) Online Mendelian Inheritance in Man(R)
-* [UCSC] (https://genome.ucsc.edu/)
-* [Kegg] (http://www.genome.jp/kegg/kegg2.html)
-* [HGNC] (http://www.genenames.org/) HUGO Gene Nomenclature Committee
+* [GENCODE](http://www.gencodegenes.org/)
+* [DrugBank](http://www.drugbank.ca/)
+* [UniProt](http://www.uniprot.org/)
+* [OMIM](http://www.omim.org/) Online Mendelian Inheritance in Man(R)
+* [UCSC](https://genome.ucsc.edu/)
+* [Kegg](http://www.genome.jp/kegg/kegg2.html)
+* [HGNC](http://www.genenames.org/) HUGO Gene Nomenclature Committee
 * [HGDP population Allele Frequencies](http://hgdp.uchicago.edu/data/Alfreqs/)
 * [Matplotlib](http://www.aosabook.org/en/matplotlib.html)
 
@@ -71,18 +80,13 @@ Contains various links
 * [Trending](https://github.com/trending?since=monthly)
 * [Most stars](https://github.com/search?l=Go&o=desc&q=go&ref=advsearch&s=stars&type=Repositories)
 
-## Style Guides
-* [Google Python Style Guide](http://google.github.io/styleguide/pyguide.html)
-* [Google Style Examples](http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)
-* [PyPI release checklist](https://github.com/YeoLab/outrigger/blob/master/docs/releases/checklist.md)
-
 ## Electrical Engineering
 In a previous life...
   * Dennis Feruson's answer for [**"How do capacitors go bad?**](./doc/bad_capacitors.md)
 
 ## Misc.
-  * [Learn to land an airplane if the pilot becomes incapacitated]
-    (http://www.aopa.org/aopa-live?watch=lldXB1MjrCR2n2wMlJsc_lpw9C2mbcdf)
+  * [Learn to land an airplane if the pilot becomes incapacitated](
+     http://www.aopa.org/aopa-live?watch=lldXB1MjrCR2n2wMlJsc_lpw9C2mbcdf)
   * [Memorize the 20 Amino Acids in 9 Minutes](https://youtu.be/m130s94pMjE)
   * [Anatomy & Physiology](http://highered.mheducation.com/sites/0073378232/student_view0/index.html)
 

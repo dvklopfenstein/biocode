@@ -22,7 +22,9 @@ __license__ = "GPL"
 
 # Helpful pages:
 #   http://stackoverflow.com/questions/14777066/matplotlib-discrete-colorbar
-#   http://stackoverflow.com/questions/16834861/create-own-colormap-using-matplotlib-and-plot-color-scale
+#
+#   Create own colormap using matplotlig and plot color scale
+#     http://stackoverflow.com/questions/16834861/
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt

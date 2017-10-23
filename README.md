@@ -79,6 +79,9 @@ Contains various links
 * [Explore](https://github.com/explore)
 * [Trending](https://github.com/trending?since=monthly)
 * [Most stars](https://github.com/search?l=Go&o=desc&q=go&ref=advsearch&s=stars&type=Repositories)
+* **Max File Size:**
+  * [100MB Max]([https://stackoverflow.com/questions/17382375/github-file-size-limit-changed-6-18-13-cant-push-now)
+
 
 ## Electrical Engineering
 In a previous life...

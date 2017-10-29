@@ -21,7 +21,7 @@ Contains various links
     [**more colormaps**](http://matplotlib.org/examples/color/colormaps_reference.html) and
     [matplotlib colors](http://matplotlib.org/api/colors_api.html)
   * [**Named Colors**](http://matplotlib.org/examples/color/named_colors.html)
-  * **xkcd color picker**: [**Martin Blech**](http://xkcdcp.martinblech.com/) or [**klaash**](http://klaash.github.io/xkcdcolorpicker/#ff0000)
+  * [**xkcd color picker**](http://klaash.github.io/xkcdcolorpicker/#ff0000)
   * [**Map Colors**](http://colorbrewer2.org/)
   * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
   * [**AI generated paint colors**](http://lewisandquark.tumblr.com/post/160776374467/new-paint-colors-invented-by-neural-network)

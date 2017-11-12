@@ -53,8 +53,45 @@ Contains various links
   * **2015-07** | [How data analysis affects power, reproducibility and biological insight of RNA-seq studies in complex datasets ](
     https://academic.oup.com/nar/article/43/16/7664/1076142/How-data-analysis-affects-power-reproducibility?searchresult=1) |
 *Lucia Peixoto, Davide Risso, Shane G. Poplawski, Mathieu E. Wimmer, Terence P. Speed, Marcelo A. Wood, Ted Abel*
- 
 
+### R and Python
+  * [Data Analysis in Python](http://www.data-analysis-in-python.org/)    
+  * 2016 Dec [Domino’s Chief Data Scientist, Eduardo Ariño de la Rubia](https://blog.dominodatalab.com/video-huge-debate-r-vs-python-data-science/)
+    * **Python**    
+      * **Collecting Data:**
+        * **Feather** Fast binary file format    
+        * **IBIS** Unlock your data    
+        * **PARATEXT** fast sane defaults    
+        * **BCOLZ** When you have more data than RAM
+      * **Visualization:**    
+        * **Altair**    
+        * **Bokeh** interactive visualizations    
+        * **Geoplotlib** geographical data    
+      * **Cleaning Data:**    
+        * **Blaze** numpy->ANY backend (DB, Cluster, etc...)   
+        * **xarray** highly dimensional data (like Pandas)
+        * ** Dask** parallel computing    
+      * **Modeling:**    
+        * **Keras** high-level neural networks (skip tensorflow)
+        * **PyMC3** Bayesian
+    * **R** Hadley Wickham,     
+      * **Collecting Data:**A
+        * **Feather**
+        * **Haven** SAS, SPSS, or Stata data -> R tibbles     
+        * **readr** (NO:read.csv) For floats/ints/NA
+        * **JsonLight** 
+      * **Visualization:**    
+        * **ggplot2** ground-breaking updates    
+        * **htmlwidgets** D3 brought to R via Javascript insert     
+        * **Leaflet** 
+        * **tilegramR** Scales to population    
+      * **Cleaning Data:**    
+        * **dplyr**
+        * **broom** (tidy|augment|glance)
+        * **tidytext** for nlp    
+      * **Modeling:**    
+        * **MXNet**
+        * **TensorFlow** Google's deep learning
 
 ## Links
 

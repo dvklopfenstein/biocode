@@ -42,6 +42,9 @@ Contains various links
 ### Statistics
   * [Simply Statistics](http://simplystatistics.org/)
   * [A biologist's guide to statistical thinking and analysis](http://www.wormbook.org/chapters/www_statisticalanalysis/statisticalanalysis.html)
+  * Johns Hopkins John McGready:
+    * [Statistical Reasoning I](
+       http://ocw.jhsph.edu/index.cfm/go/viewCourse/course/StatisticalReasoning1/coursePage/lectureNotes/)
 
 ### Machine Learning
 #### Specific Articles

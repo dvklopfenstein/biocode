@@ -41,6 +41,10 @@ Contains various links
   * [PyPI release checklist](https://github.com/YeoLab/outrigger/blob/master/docs/releases/checklist.md)
   * [What every programmer should know](https://github.com/mr-mig/every-programmer-should-know)
 
+### LaTex
+  * [https://www.sharelatex.com/learn](https://www.sharelatex.com/learn)
+  * [Equations with LaTeX](https://www.authorea.com/users/77723/articles/110898-how-to-write-mathematical-equations-expressions-and-symbols-with-latex-a-cheatsheet)
+
 ### Statistics
   * [Simply Statistics](http://simplystatistics.org/)
   * [A biologist's guide to statistical thinking and analysis](http://www.wormbook.org/chapters/www_statisticalanalysis/statisticalanalysis.html)

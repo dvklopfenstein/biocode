@@ -122,24 +122,29 @@ def EFetch_and_write(desc, db, fout, typemode, record, batch_size=100, PRT=sys.s
   # Write the list of UIDs in the record
   tsv = get_tsv_filename(fout)
   wr_IDs(tsv, record)
-  EFetch_and_write_N(desc, db, fout, typemode, record, N, batch_size, PRT)
+  EFetch_and_write_N(desc, db, fout, typemode, record, N, batch_size)
 
 
-def EFetch_and_write_N(desc, db, fout, typemode, record, N, batch_size=100, PRT=sys.stdout):
-  FOUT = open(fout, 'w')
-  downloaded_data = EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, record, 
-    record['WebEnv'], record['QueryKey'], N, batch_size=100, PRT=sys.stdout)
-  FOUT.close(); PRT.write("  WROTE: {}\n".format(fout))
+def download_records(desc, db, fout_dl, typemode, record, bnum, batch_size=100):
+  """Download records and write to a text file."""
+  with open(fout_dl, 'wb') as ostrm:
+      downloaded_data = EFetch_and_write_WEQK_N(desc, db, ostrm, typemode,
+        record['WebEnv'], record['QueryKey'], bnum, batch_size)
+      sys.stdout.write("  WROTE: {}\n".format(fout_dl))
+      return downloaded_data
+
  
+def EFetch_and_write_N(desc, db, fout_dl, typemode, record, bnum, batch_size=100):
+  downloaded_data = download_records(desc, db, fout_dl, typemode, record, bnum, batch_size)
   sys.stdout.write("""
     Need to revisit reading XML reading another way. 
     Biopython XML no longer working for XML files from NCBI Gene.\n""")
-  if N > batch_size and typemode[1] == "xml": # DVK Biopython XML not working
+  if bnum > batch_size and typemode[1] == "xml": # DVK Biopython XML not working
     Entrez_strip_extra_eSummaryResult(fout)   # DVK Biopython XML not working
   return downloaded_data
 
 
-def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, WE, QK, N, batch_size=100, PRT=sys.stdout):
+def EFetch_and_write_WEQK_N(desc, db, ostrm, typemode, WE, QK, N, batch_size=100):
   downloaded_data = None 
   # EFetch records found for IDs returned in ESearch...
   # Search for IDs returned using ID of the above Web Search
@@ -149,7 +154,6 @@ def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, WE, QK, N, batch_size=100,
     socket_handle = None
     msg = '  QueryKey({:>6}) EFetching(db={}) up to {:5} records, starting at {}; {}\n'.format(
       QK, db, batch_size, start, desc)
-    #PRT.write(msg); PRT.flush()
     #sys.stdout.write(msg)
     try:
       socket_handle = Entrez.efetch(
@@ -162,7 +166,6 @@ def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, WE, QK, N, batch_size=100,
         query_key = QK)
     except IOError, e:
       msg = "\n*FATAL: EFetching FAILED: {}".format(e)
-      PRT.write(msg)
       sys.stdout.write(msg)
       sys.stdout.write("  db: {}\n".format(db))
       sys.stdout.write("  retstart: {}\n".format(start))
@@ -183,8 +186,8 @@ def EFetch_and_write_WEQK_N(desc, db, FOUT, typemode, WE, QK, N, batch_size=100,
         M = re.search(r'(ERROR.*\n)', downloaded_data)
         if M:
           sys.stdout.write(M.group(1))
-        FOUT.write(downloaded_data)
-        FOUT.flush()
+        ostrm.write(downloaded_data)
+        ostrm.flush()
       except Exception, e:
         sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n".format(str(e)))
     else:

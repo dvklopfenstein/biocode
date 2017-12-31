@@ -5,7 +5,7 @@
 """
 
 __author__ = 'DV Klopfenstein'
-__copyright__ = "Copyright (C) 2014-2015 DV Klopfenstein. All rights reserved."
+__copyright__ = "Copyright (C) 2014-2018 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
 import sys
@@ -14,7 +14,6 @@ import shutil
 import re
 
 from Bio import Entrez
-import requests
 
 # -------------------------------------------------------
 def find_IDs_with_ESearch(db, retmax, email, query, log=sys.stdout):
@@ -331,10 +330,4 @@ def get_fetch_fout(filename):
   """Create a output file name where EFetch data will be stored."""
   return ''.join([os.path.basename(os.path.splitext(filename)[0]), '.Entrez_downloads'])
 
-# -------------------------------------------------------
-def get_args():
-  email = "music_pupil@yahoo.com"
-  query = "asthma[mesh] AND leukotrienes[mesh] AND 2009[pdat]"
-  max_records = 500
-  return email, query, max_records
-
+# Copyright (C) 2014-2018 DV Klopfenstein. All rights reserved.

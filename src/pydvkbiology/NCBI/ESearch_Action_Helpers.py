@@ -117,11 +117,12 @@ def EFetch_and_write(desc, db, fout, typemode, record, batch_size=100, PRT=sys.s
   For NCBI's online documentation of efetch:
     http://www.ncbi.nlm.nih.gov/books/NBK25499/#chapter4.EFetch 
   """
-  N  = len(record['IdList'])
-  # Write the list of UIDs in the record
-  tsv = get_tsv_filename(fout)
-  wr_IDs(tsv, record)
-  EFetch_and_write_N(desc, db, fout, typemode, record, N, batch_size)
+  if record is not None:
+      num_ids  = len(record['IdList'])
+      # Write the list of UIDs in the record
+      tsv = get_tsv_filename(fout)
+      wr_IDs(tsv, record)
+      EFetch_and_write_N(desc, db, fout, typemode, record, num_ids, batch_size)
 
 
 def download_records(desc, db, fout_dl, typemode, record, bnum, batch_size=100):
@@ -135,9 +136,9 @@ def download_records(desc, db, fout_dl, typemode, record, bnum, batch_size=100):
  
 def EFetch_and_write_N(desc, db, fout_dl, typemode, record, bnum, batch_size=100):
   downloaded_data = download_records(desc, db, fout_dl, typemode, record, bnum, batch_size)
-  sys.stdout.write("""
-    Need to revisit reading XML reading another way. 
-    Biopython XML no longer working for XML files from NCBI Gene.\n""")
+  # sys.stdout.write("""
+  #   Need to revisit reading XML reading another way. 
+  #   Biopython XML no longer working for XML files from NCBI Gene.\n""")
   if bnum > batch_size and typemode[1] == "xml": # DVK Biopython XML not working
     Entrez_strip_extra_eSummaryResult(fout)   # DVK Biopython XML not working
   return downloaded_data

@@ -125,6 +125,7 @@ Contains various links
 
 ## Github
 
+* [Popular topics](https://www.gitlogs.com/awesome-topics)
 * [Explore](https://github.com/explore)
 * [Trending](https://github.com/trending?since=monthly)
 * [Most stars](https://github.com/search?l=Go&o=desc&q=go&ref=advsearch&s=stars&type=Repositories)

@@ -125,6 +125,8 @@ Contains various links
 
 ## Github
 
+* [Manage GitHub labels](https://github.com/elastic/beats/wiki/How-to-manage-the-GitHub-labels)
+* [GitHub label colors](https://codepen.io/Z1MM32M4N/pen/YXxvRq)
 * [Popular topics](https://www.gitlogs.com/awesome-topics)
 * [Explore](https://github.com/explore)
 * [Trending](https://github.com/trending?since=monthly)

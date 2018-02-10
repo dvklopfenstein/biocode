@@ -47,6 +47,7 @@ Contains various links
   * [Adding references from an external file](https://texblog.org/2016/08/23/adding-references-from-an-external-file/)
   * [Referring to labels in other documents](http://www.tex.ac.uk/FAQ-extref.html)
   * [Greek letters](https://www.sharelatex.com/learn/List_of_Greek_letters_and_math_symbols)
+  * [Cover letter tips](https://stuartcantrill.com/2013/11/02/10-quick-cover-letter-tips-for-submitting-scientific-papers/)
 
 ### Statistics
   * [Simply Statistics](http://simplystatistics.org/)

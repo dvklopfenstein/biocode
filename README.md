@@ -56,6 +56,7 @@ Contains various links
   * [Cover letter tips](https://stuartcantrill.com/2013/11/02/10-quick-cover-letter-tips-for-submitting-scientific-papers/)
 
 ### Statistics
+  * [Allen Downey's ThinkStats2](https://github.com/AllenDowney/ThinkStats2)
   * [Simply Statistics](http://simplystatistics.org/)
   * [A biologist's guide to statistical thinking and analysis](http://www.wormbook.org/chapters/www_statisticalanalysis/statisticalanalysis.html)
   * Johns Hopkins John McGready:

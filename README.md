@@ -131,7 +131,7 @@ Contains various links
 * [HGDP population Allele Frequencies](http://hgdp.uchicago.edu/data/Alfreqs/)
 * [Matplotlib](http://www.aosabook.org/en/matplotlib.html)
 
-## Github
+## GitHub
 
 * [Manage GitHub labels](https://github.com/elastic/beats/wiki/How-to-manage-the-GitHub-labels)
 * [GitHub label colors](https://codepen.io/Z1MM32M4N/pen/YXxvRq)
@@ -151,7 +151,9 @@ In a previous life...
   * [Learn to land an airplane if the pilot becomes incapacitated](
      http://www.aopa.org/aopa-live?watch=lldXB1MjrCR2n2wMlJsc_lpw9C2mbcdf)
   * [Memorize the 20 Amino Acids in 9 Minutes](https://youtu.be/m130s94pMjE)
-  * [Anatomy & Physiology](http://highered.mheducation.com/sites/0073378232/student_view0/index.html)
+  * [Anatomy & Physiology](http://highered.mheducation.com/sites/73378233/student_view0/index.html)
+  * What do you call an acid with a bad attitude? A meano acid
+  * Did you hear that oxygen and potassium went on a date? I was OK.
 
 _Education is not the filling of a pail, but the lighting of a fire._    
 -William Butler Yeats

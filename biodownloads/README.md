@@ -20,28 +20,28 @@
     * [cytoBandIdeo.txt](./UCSC/dm6/cytoBandIdeo.txt),
       [dm6.2bit](http://hgdownload.cse.ucsc.edu/goldenPath/dm6/bigZips/)
 
-* [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **Feb 12, 2018**
+* [**NCBI Gene**](http://www.ncbi.nlm.nih.gov/gene/) Downloaded **Mar 25, 2018**
   * **Homo sapiens (human)**: Taxonomy ID [9606](
     http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_hsa_All.tsv](./NCBI/genes_NCBI_hsa_All.tsv) using this
       [**Search for All Human DNA Items**](http://www.ncbi.nlm.nih.gov/gene/?term=%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (60521 items)
+      (60723 items)
     * [genes_NCBI_hsa_ProteinCoding.tsv](./NCBI/genes_NCBI_hsa_ProteinCoding.tsv) using this
       [**Search for Human Protein-Coding Genes**](http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%229606%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (20452 items) 
+      (20453 items) 
     * [genes_NCBI_hsa_microRNA.tsv](./NCBI/genes_NCBI_hsa_microRNA.tsv) using this
       [**Search for All Human microRNA**](http://www.ncbi.nlm.nih.gov/gene/?term=9606%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
-      (1884 items) 
+      (1859 items) 
   * **Mus musculus (house mouse)**: Taxonomy ID [10090](http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_mus_All.tsv](./NCBI/genes_NCBI_mus_All.tsv) using this
       [**Search for All Mouse DNA Items**](http://www.ncbi.nlm.nih.gov/gene/?term=%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (68968 items) 
+      (68819 items) 
     * [genes_NCBI_mus_ProteinCoding.tsv](./NCBI/genes_NCBI_mus_ProteinCoding.tsv) using this
       [**Search for Mouse Protein-Coding Genes**](http://www.ncbi.nlm.nih.gov/gene/?term=genetype+protein+coding%5BProperties%5D+AND+%2210090%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)
-      (27666 items) 
+      (27584 items) 
     * [genes_NCBI_mus_microRNA.tsv](./NCBI/genes_NCBI_mus_microRNA.tsv) using this
       [**Search for Mouse microRNA**](http://www.ncbi.nlm.nih.gov/gene/?term=10090%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
-      (1202 items) 
+      (1199 items) 
   * **Drosophila melanogaster (fruit fly)**: Taxonomy ID [7227](http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&lin=f&keep=1&srchmode=1&unlock)
     * [genes_NCBI_dme_All.tsv](./NCBI/genes_NCBI_dme_All.tsv) using this
       [**Search for All Fruit fly DNA Items**](http://www.ncbi.nlm.nih.gov/gene/?term=%227227%22%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D)

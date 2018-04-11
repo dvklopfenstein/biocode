@@ -148,6 +148,7 @@ In a previous life...
   * Dennis Feruson's answer for [**"How do capacitors go bad?**](./doc/bad_capacitors.md)
 
 ## Misc.
+  * [Amazon product search](https://docs.aws.amazon.com/AWSECommerceService/latest/DG/ItemSearch.html)
   * [Learn to land an airplane if the pilot becomes incapacitated](
      http://www.aopa.org/aopa-live?watch=lldXB1MjrCR2n2wMlJsc_lpw9C2mbcdf)
   * [Memorize the 20 Amino Acids in 9 Minutes](https://youtu.be/m130s94pMjE)

@@ -141,6 +141,7 @@ Contains various links
 * [Most stars](https://github.com/search?l=Go&o=desc&q=go&ref=advsearch&s=stars&type=Repositories)
 * **Max File Size:**
   * [100MB Max]([https://stackoverflow.com/questions/17382375/github-file-size-limit-changed-6-18-13-cant-push-now)
+* [Use your bash history in Linux](https://www.howtogeek.com/howto/44997/how-to-use-bash-history-to-improve-your-command-line-productivity/)
 
 
 ## Electrical Engineering

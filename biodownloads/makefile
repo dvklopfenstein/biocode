@@ -2,7 +2,8 @@
 DL = ../../../../Downloads
 
 rpt:
-	@echo "This is the download makefile"
+	wc -l NCBI/genes_NCBI_*.tsv
+	grep ":" makefile
 
 
 # Download all current DNA items for Homo sapiens

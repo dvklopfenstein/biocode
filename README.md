@@ -48,6 +48,7 @@ Contains various links
   * [What every programmer should know](https://github.com/mr-mig/every-programmer-should-know)
 
 ### LaTex
+  * [Overleaf keyboard shortcuts](https://www.overleaf.com/articles/overleaf-keyboard-shortcuts/qykqfvmxdnjf)
   * [https://www.sharelatex.com/learn](https://www.sharelatex.com/learn)
   * [Equations with LaTeX](https://www.authorea.com/users/77723/articles/110898-how-to-write-mathematical-equations-expressions-and-symbols-with-latex-a-cheatsheet)
   * [Adding references from an external file](https://texblog.org/2016/08/23/adding-references-from-an-external-file/)

@@ -55,6 +55,7 @@ Contains various links
   * [Referring to labels in other documents](http://www.tex.ac.uk/FAQ-extref.html)
   * [Greek letters](https://www.sharelatex.com/learn/List_of_Greek_letters_and_math_symbols)
   * [Cover letter tips](https://stuartcantrill.com/2013/11/02/10-quick-cover-letter-tips-for-submitting-scientific-papers/)
+  * [Awesome CV](https://github.com/posquit0/Awesome-CV)
 
 ### Statistics
   * [Allen Downey's ThinkStats2](https://github.com/AllenDowney/ThinkStats2)

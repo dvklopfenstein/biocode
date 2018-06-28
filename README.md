@@ -1,11 +1,3 @@
-# [SAVE NET NEUTRALITY](https://github.com/save-net-neutrality)
-[**Feb 22, 2018: The FEC overturned net neutrality, effective June 11.**](
-https://techcrunch.com/2018/02/22/the-fccs-order-gutting-net-neutrality-is-now-official-but-the-fight-is-just-getting-started/)    
-Call your state attorney general; Ask that they work to block the order from taking effect.
-
-**Jun 11, 2018: Is the deadline for Congress to vote to overturn the decision**    
-Call your Senators and Rep: Ask them to vote to overturn the demise of net neutrality.    
-
 # biocode repository
 Contains various links
 
@@ -56,6 +48,9 @@ Contains various links
   * [Greek letters](https://www.sharelatex.com/learn/List_of_Greek_letters_and_math_symbols)
   * [Cover letter tips](https://stuartcantrill.com/2013/11/02/10-quick-cover-letter-tips-for-submitting-scientific-papers/)
   * [Awesome CV](https://github.com/posquit0/Awesome-CV)
+  * **Editing Services**    
+    * [Nature Research Editing Service]()
+    * [ American Journal Experts]()
 
 ### Statistics
   * [Allen Downey's ThinkStats2](https://github.com/AllenDowney/ThinkStats2)

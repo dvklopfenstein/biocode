@@ -1,7 +1,7 @@
 # biocode repository
 Contains various links
 
-## [GOATOOLS](https://github.com/tanghaibao/goatools/blob/master/README.md) A Python library for Gene Ontology analyses
+## [GOATOOLS](https://github.com/tanghaibao/goatools/blob/master/README.md): A Python library for Gene Ontology analyses
 
 With [GOATOOLS](https://github.com/tanghaibao/goatools/blob/master/README.md), you can:
   * **Run Gene Ontology Enrichment Analyses (GOEAs)**

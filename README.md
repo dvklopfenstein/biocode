@@ -1,6 +1,9 @@
 # biocode repository
 Contains various links
 
+  * [GOATOOLS: A Python library for Gene Ontology analyses](#goatools-a-python-library-for-gene-ontology-analyses)
+  * [Various Links](#for-reference)
+
 ## [GOATOOLS](https://github.com/tanghaibao/goatools/blob/master/README.md): A Python library for Gene Ontology analyses
 
 With [GOATOOLS](https://github.com/tanghaibao/goatools/blob/master/README.md), you can:

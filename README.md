@@ -92,6 +92,7 @@ _Scientific reports_ | (2018) 8:10872 | DOI:10.1038/s41598-018-28948-z
   * [Data Analysis in Python](http://www.data-analysis-in-python.org/)    
   * 2016 Dec [Domino’s Chief Data Scientist, Eduardo Ariño de la Rubia](https://blog.dominodatalab.com/video-huge-debate-r-vs-python-data-science/)
     * **Python**    
+      * [**Awesome Python**](https://github.com/vinta/awesome-python/blob/master/README.md)
       * **Collecting Data:**
         * **Feather** Fast binary file format    
         * **IBIS** Unlock your data    

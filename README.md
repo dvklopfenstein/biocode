@@ -1,6 +1,20 @@
 # biocode repository
 Contains various links
 
+## [GOATOOLS](https://github.com/tanghaibao/goatools/blob/master/README.md)
+
+With [GOATOOLS](https://github.com/tanghaibao/goatools/blob/master/README.md), you can:
+  * **Run Gene Ontology Enrichment Analyses (GOEAs)**
+  * **Read GO DAGs**
+  * **Read GO association files**: GAF files and NCBI's gene2go
+  * **Plot GO hierarchies**
+  * **Write GO hierarchy reports**
+  * **Group GO terms for easier viewing**
+
+Klopfenstein, D.V. et al. [GOATOOLS: A Python library for Gene Ontology analyses](https://www.nature.com/articles/s41598-018-28948-z)    
+_Scientific reports_ | (2018) 8:10872 | DOI:10.1038/s41598-018-28948-z
+
+
 ## For Reference:
 
 ### Biology

@@ -62,9 +62,6 @@
     * [genes_NCBI_ath_noncoding.tsv](./NCBI/genes_NCBI_ath_noncoding.tsv) using this
       [**Search for thale cress Non-coding DNA items**](http://www.ncbi.nlm.nih.gov/gene/?term=3702%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+((%22genetype+miscrna%22%5BProperties%5D+OR+%22genetype+ncrna%22%5BProperties%5D+OR+%22genetype+rrna%22%5BProperties%5D+OR+%22genetype+trna%22%5BProperties%5D+OR+%22genetype+scrna%22%5BProperties%5D+OR+%22genetype+snrna%22%5BProperties%5D+OR+%22genetype+snorna%22%5BProperties%5D)+NOT+%22genetype+protein+coding%22%5BProperties%5D))
       (6607 items) 
-    * [genes_NCBI_ath_microRNA.tsv](./NCBI/genes_NCBI_ath_microRNA.tsv) using this
-      [**Search for thale cress microRNA**](http://www.ncbi.nlm.nih.gov/gene/?term=3702%5BTaxonomy+ID%5D+AND+alive%5Bproperty%5D+AND+genetype+ncRNA%5BProperties%5D+AND+microRNA%5BTI%5D)
-      (1199 items) 
 
 * **GENCODE lncRNA** [v23 Downloaded](ftp://ftp.sanger.ac.uk/pub/gencode/Gencode_human/release_23/) Oct 26, 2015
   * extracted for all lines where feature=gene from gencode.v23.long_noncoding_RNAs.gtf 

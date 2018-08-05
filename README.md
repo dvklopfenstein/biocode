@@ -68,6 +68,7 @@ _Scientific reports_ | (2018) 8:10872 | DOI:10.1038/s41598-018-28948-z
   * **Editing Services**    
     * [Nature Research Editing Service]()
     * [ American Journal Experts]()
+  * [vim](https://www.cs.oberlin.edu/~kuperman/help/vim/home.html)
 
 ### Statistics
   * [Allen Downey's ThinkStats2](https://github.com/AllenDowney/ThinkStats2)

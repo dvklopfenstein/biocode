@@ -1,0 +1,1 @@
+# Data downloaded from UniProt

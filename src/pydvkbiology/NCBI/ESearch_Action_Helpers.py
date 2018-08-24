@@ -12,6 +12,8 @@ import sys
 import os
 import shutil
 import re
+import traceback
+import urllib2
 
 from Bio import Entrez
 
@@ -24,15 +26,29 @@ def find_IDs_with_ESearch(database, retmax, email, query):
     Entrez.email = email
 
     # ESearch for NCBI IDs related to User Search...
-    socket_handle = Entrez.esearch(
-        db=database,
-        retmax=retmax,
-        term=query,
-        usehistory="y") # NCBI prefers we use history(QueryKey, WebEnv) for next acess
-    record = Entrez.read(socket_handle)
-    socket_handle.close()
+    record = None
+    try:
+        socket_handle = Entrez.esearch(
+            db=database,
+            retmax=retmax,
+            term=query,
+            usehistory="y") # NCBI prefers we use history(QueryKey, WebEnv) for next acess
+        record = Entrez.read(socket_handle)
+        socket_handle.close()
+    except urllib2.HTTPError, errobj:
+      print('HTTPError = {ERR}'.format(ERR=str(errobj.code)))
+      traceback.print_exc()
+    except urllib2.URLError, errobj:
+      print('URLError = {ERR}'.format(ERR=str(errobj.reason)))
+      traceback.print_exc()
+    except urllib2.HTTPException, errobj:
+      print('urllib2.HTTPException')
+      traceback.print_exc()
+    except Exception, errobj:
+      print(errobj)
+      traceback.print_exc()
 
-    if 'IdList' in record and record['IdList']:
+    if record is not None and 'IdList' in record and record['IdList']:
         return record
 
 # -------------------------------------------------------

@@ -146,6 +146,7 @@ _Scientific reports_ | (2018) 8:10872 | DOI:10.1038/s41598-018-28948-z
 * [HGNC](http://www.genenames.org/) HUGO Gene Nomenclature Committee
 * [HGDP population Allele Frequencies](http://hgdp.uchicago.edu/data/Alfreqs/)
 * [Matplotlib](http://www.aosabook.org/en/matplotlib.html)
+  * [seaborn vs starborn](https://github.com/PythonCharmers/starborn/blob/master/doc/starborn_examples.ipynb)
 
 ## GitHub
 

@@ -4,12 +4,13 @@
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete
-DOWNLOADED = "2018_08_20" # UniProt source files were downloaded on this date
+DOWNLOADED = "2018_11_18" # UniProt source files were downloaded on this date
 
 # Contains 5913 items for "Saccharomyces cerevisiae ("
 
 #   5,913 keys found
-#   5,916 values found
+#   6,075 values found
+#   5,916 values found (unique)
 
 # pylint: disable=too-many-lines
 GENEID2UNIPROTS = {

@@ -4,12 +4,13 @@
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete
-DOWNLOADED = "2018_08_20" # UniProt source files were downloaded on this date
+DOWNLOADED = "2018_11_18" # UniProt source files were downloaded on this date
 
-# Contains 3561 items for "Drosophila melanogaster (Fruit fly)"
+# Contains 3570 items for "Drosophila melanogaster (Fruit fly)"
 
-#   3,561 keys found
-#   3,489 values found
+#   3,570 keys found
+#   3,636 values found
+#   3,498 values found (unique)
 
 # pylint: disable=too-many-lines
 GENEID2UNIPROTS = {
@@ -218,6 +219,7 @@ GENEID2UNIPROTS = {
   31792 : set(['P20241']),
   31793 : set(['Q9W3E1']),
   31795 : set(['Q7KVS9']),
+  31800 : set(['Q9W3D3']),
   31802 : set(['P22810']),
   31805 : set(['Q9W3C7']),
   31806 : set(['Q9V3I8']),
@@ -358,6 +360,7 @@ GENEID2UNIPROTS = {
   32490 : set(['Q9VXT5']),
   32493 : set(['Q9VXT2']),
   32498 : set(['Q24025']),
+  32506 : set(['Q8SX37']),
   32513 : set(['Q8T3X9']),
   32514 : set(['P45890']),
   32529 : set(['Q9VXP4']),
@@ -672,6 +675,7 @@ GENEID2UNIPROTS = {
   33858 : set(['Q9VMH7']),
   33859 : set(['Q9V447']),
   33861 : set(['P08155']),
+  33865 : set(['Q6NL34']),
   33866 : set(['Q9VMH0']),
   33883 : set(['Q27597']),
   33896 : set(['Q9VMD9']),
@@ -1115,6 +1119,7 @@ GENEID2UNIPROTS = {
   35886 : set(['P52029']),
   35893 : set(['A1Z7K9']),
   35897 : set(['Q7KNA0']),
+  35902 : set(['B7YZU2']),
   35910 : set(['Q9V521']),
   35913 : set(['Q26307']),
   35917 : set(['Q07886']),
@@ -1175,6 +1180,7 @@ GENEID2UNIPROTS = {
   36142 : set(['Q7KR04']),
   36143 : set(['Q9V5Q4']),
   36146 : set(['Q7KN79']),
+  36150 : set(['A1Z8D0']),
   36161 : set(['Q4V5R4']),
   36167 : set(['A1Z8E9']),
   36187 : set(['P81921']),
@@ -1606,6 +1612,7 @@ GENEID2UNIPROTS = {
   38033 : set(['Q8IRJ8']),
   38037 : set(['Q9W0T5']),
   38044 : set(['Q9W0S8']),
+  38045 : set(['Q9W0S7']),
   38049 : set(['Q9W0S3']),
   38056 : set(['Q9W0R6']),
   38057 : set(['Q9W0R5']),
@@ -1868,6 +1875,7 @@ GENEID2UNIPROTS = {
   39254 : set(['Q9VTF9']),
   39259 : set(['Q95ST2']),
   39262 : set(['Q9VTG7']),
+  39265 : set(['Q9VTH0']),
   39270 : set(['Q9VTH4']),
   39284 : set(['Q9VTI8']),
   39285 : set(['P02842']),
@@ -3123,6 +3131,8 @@ GENEID2UNIPROTS = {
   48340 : set(['Q9VG93']),
   48343 : set(['C0HKA2', 'C0HKA3', 'C0HKA4']),
   48373 : set(['Q9V574']),
+  48381 : set(['C0HL62', 'C0HL63']),
+  48382 : set(['C0HL62', 'C0HL63']),
   48421 : set(['Q9VQK0']),
   48440 : set(['F0JAI6']),
   48448 : set(['P08181']),

@@ -4,12 +4,13 @@
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete
-DOWNLOADED = "2018_08_20" # UniProt source files were downloaded on this date
+DOWNLOADED = "2018_11_18" # UniProt source files were downloaded on this date
 
-# Contains 19106 items for "Homo sapiens (Human)"
+# Contains 19109 items for "Homo sapiens (Human)"
 
-#  19,106 keys found
-#  18,941 values found
+#  19,109 keys found
+#  19,290 values found
+#  18,949 values found (unique)
 
 # pylint: disable=too-many-lines
 GENEID2UNIPROTS = {
@@ -591,6 +592,7 @@ GENEID2UNIPROTS = {
   825 : set(['P20807']),
   826 : set(['P04632']),
   827 : set(['Q9Y6Q1']),
+  828 : set(['Q13938']),
   829 : set(['P52907']),
   830 : set(['P47755']),
   831 : set(['P20810']),
@@ -4970,6 +4972,7 @@ GENEID2UNIPROTS = {
   7275 : set(['P50607']),
   7276 : set(['P02766']),
   7277 : set(['P68366']),
+  7278 : set(['P0DPH7', 'P0DPH8']),
   7280 : set(['Q13885']),
   7283 : set(['P23258']),
   7284 : set(['P49411']),
@@ -5393,6 +5396,7 @@ GENEID2UNIPROTS = {
   8202 : set(['Q9Y6Q9']),
   8204 : set(['P48552']),
   8208 : set(['Q13112']),
+  8209 : set(['A0A0B4J2D5', 'P0DPI2']),
   8214 : set(['Q14129']),
   8216 : set(['Q8N653']),
   8218 : set(['P53675']),
@@ -14310,6 +14314,7 @@ GENEID2UNIPROTS = {
   113444 : set(['Q96EX1']),
   113451 : set(['Q96A70']),
   113452 : set(['Q969K7']),
+  113457 : set(['P0DPH7', 'P0DPH8']),
   113510 : set(['Q8TDG4']),
   113540 : set(['Q8IZ96']),
   113612 : set(['Q7Z449']),
@@ -17734,6 +17739,7 @@ GENEID2UNIPROTS = {
   387695 : set(['Q6UWK7']),
   387700 : set(['Q6ZSM3']),
   387707 : set(['Q6DHV5']),
+  387712 : set(['A6NNW6']),
   387715 : set(['P0C7Q2']),
   387718 : set(['Q5VZQ5']),
   387733 : set(['A6NNB3']),
@@ -18797,7 +18803,7 @@ GENEID2UNIPROTS = {
   100128927 : set(['B2RXF5']),
   100129128 : set(['Q5JSQ8']),
   100129216 : set(['A0A096LNP1']),
-  100129239 : set(['A0A1B0GTR3']),
+  100129239 : set(['A0A1B0GTR3', 'P0DPH9']),
   100129271 : set(['Q5T750']),
   100129278 : set(['B5MCY1']),
   100129361 : set(['P0DMW3']),
@@ -18822,6 +18828,7 @@ GENEID2UNIPROTS = {
   100130519 : set(['A6NGB7']),
   100130539 : set(['B7Z368']),
   100130613 : set(['B1ATL7']),
+  100130705 : set(['A0A1B0GUX0']),
   100130733 : set(['Q7Z2Q7']),
   100130742 : set(['Q6ZNQ3']),
   100130827 : set(['P0C264']),
@@ -18856,7 +18863,7 @@ GENEID2UNIPROTS = {
   100132916 : set(['A6NKW6']),
   100132963 : set(['A6NGZ8']),
   100132994 : set(['A8MYA2']),
-  100133053 : set(['A0A1B0GTR3']),
+  100133053 : set(['A0A1B0GTR3', 'P0DPH9']),
   100133093 : set(['B3EWG3', 'B3EWG5', 'B3EWG6']),
   100133251 : set(['E9PI22', 'P0DMB1']),
   100133267 : set(['P0DP73', 'P0DP74']),
@@ -18910,6 +18917,7 @@ GENEID2UNIPROTS = {
   100288797 : set(['Q8WW34']),
   100288801 : set(['A6NGY1']),
   100288814 : set(['H7C241']),
+  100288960 : set(['Q6ZR98']),
   100288966 : set(['Q86YR6']),
   100289087 : set(['P0CV98', 'P0CW01', 'Q01534']),
   100289187 : set(['P0DP42']),
@@ -19110,10 +19118,6 @@ GENEID2UNIPROTS = {
   107987485 : set(['Q9UBX2']),
   107987486 : set(['Q9UBX2']),
   107987487 : set(['Q9UBX2']),
-  107987488 : set(['Q9UBX2']),
-  107987489 : set(['Q9UBX2']),
-  107987490 : set(['Q9UBX2']),
-  107987491 : set(['Q9UBX2']),
   109504726 : set(['Q03924']),
   109703458 : set(['P86397']),
   110599564 : set(['P0DPD7']),

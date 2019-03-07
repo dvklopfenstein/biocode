@@ -13,14 +13,14 @@ import os
 import shutil
 import re
 import traceback
-import urllib2
+import urllib
 
 from Bio import Entrez
 
 # -------------------------------------------------------
-def find_IDs_with_ESearch(database, retmax, email, query):
+def find_IDs_with_ESearch(database, retmax, email, query, **esearch):
     """Searches an NCBI database for a user search term, returns NCBI records."""
-
+    fcgi = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
     # Provide your email to the NCBI so they may contact you prior
     # to shutting down server access in the case of inadvertant over-use.
     Entrez.email = email
@@ -30,21 +30,22 @@ def find_IDs_with_ESearch(database, retmax, email, query):
     try:
         socket_handle = Entrez.esearch(
             db=database,
-            retmax=retmax,
             term=query,
-            usehistory="y") # NCBI prefers we use history(QueryKey, WebEnv) for next acess
+            retmax=retmax,
+            usehistory="y", # NCBI prefers we use history(QueryKey, WebEnv) for next acess
+            **esearch)
         record = Entrez.read(socket_handle)
         socket_handle.close()
-    except urllib2.HTTPError, errobj:
+    except urllib.error.HTTPError as errobj:
       print('HTTPError = {ERR}'.format(ERR=str(errobj.code)))
       traceback.print_exc()
-    except urllib2.URLError, errobj:
+    except urllib.error.URLError as errobj:
       print('URLError = {ERR}'.format(ERR=str(errobj.reason)))
       traceback.print_exc()
-    except urllib2.HTTPException, errobj:
-      print('urllib2.HTTPException')
-      traceback.print_exc()
-    except Exception, errobj:
+    #### except urllib.error.HTTPException as errobj:
+    ####   print('urllib.error.HTTPException')
+    ####   traceback.print_exc()
+    except Exception as errobj:
       print(errobj)
       traceback.print_exc()
 
@@ -183,7 +184,7 @@ def EFetch_and_write_WEQK_N(desc, database, ostrm, typemode, WE, QK, N, batch_si
                 retmode   = typemode[1], # Ex: text
                 webenv    = WE,
                 query_key = QK)
-        except IOError, err:
+        except IOError as err:
             msg = "\n*FATAL: EFetching FAILED: {}".format(err)
             sys.stdout.write(msg)
             sys.stdout.write("  database: {}\n".format(database))
@@ -207,7 +208,7 @@ def EFetch_and_write_WEQK_N(desc, database, ostrm, typemode, WE, QK, N, batch_si
                     sys.stdout.write(mtch.group(1))
                 ostrm.write(downloaded_data)
                 ostrm.flush()
-            except Exception, err:
+            except Exception as err:
                 sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n".format(str(err)))
         else:
             sys.stdout.write("*FATAL: NO SOCKET HANDLE TO READ FROM\n")
@@ -237,7 +238,7 @@ def ELink_webenvQK_num(desc, webenv, querykey, linkname, num, batch_size=100, lo
                 linkname  = linkname,
                 webenv    = webenv,
                 query_key = querykey)
-        except IOError, err:
+        except IOError as err:
             msg = "\n*FATAL: EFetching FAILED: {}".format(err)
             log.write(msg)
             sys.stdout.write(msg)
@@ -267,7 +268,7 @@ def ELink_webenvQK_num(desc, webenv, querykey, linkname, num, batch_size=100, lo
                             ids.extend([int(k2v[u'Id']) for k2v in record[0][u'LinkSetDb'][0][u'Link']])
                         #print "EEEEE", " ".join(record[0].keys())
                         #sys.stdout.write(record[0].keys())
-            except Exception, err:
+            except Exception as err:
                 sys.stdout.write("*FATAL: PROBLEM READING FROM SOCKET HANDLE: {}\n".format(str(err)))
         else:
             sys.stdout.write("*FATAL: NO SOCKET HANDLE TO READ FROM\n")
@@ -304,7 +305,7 @@ def Entrez_strip_extra_eSummaryResult(entrez_datafile):
                             ofstrm.write(line) # Write line once, the first time it is seen
                             doctype = mtch.group(1)
                         else:
-                            print "*FATAL: ERROR STRIPPING XML({})".format(entrez_datafile)
+                            print("*FATAL: ERROR STRIPPING XML({})".format(entrez_datafile))
                 elif doctype is not None and re.search(r'^</?{}>\s*$'.format(doctype), line):
                     if eresult is None:
                         ofstrm.write(line) # Write line once, the first time it is seen

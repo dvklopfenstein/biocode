@@ -1,19 +1,19 @@
 """Selected UniProt data saved in Python."""
 
-# Copyright (C) 2014-2018 DV Klopfenstein. All rights reserved
+# Copyright (C) 2014-2019 DV Klopfenstein. All rights reserved
 #
 # ADAPTED TO PYTHON from the UniProt file:
 # ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/complete
-DOWNLOADED = "2018_11_18" # UniProt source files were downloaded on this date
+DOWNLOADED = "2019_03_07" # UniProt source files were downloaded on this date
 
-# Contains 5916 items for "Saccharomyces cerevisiae ("
+# Contains 5915 items for "Saccharomyces cerevisiae ("
 
 
 from collections import namedtuple
 
 ntuniprot = namedtuple('ntuniprot', 'RecName_Full')
 # pylint: disable=too-many-lines
-UNIPROT2NT = { # 5,916 items
+UNIPROT2NT = { # 5,915 items
   'A0A023PXF5' : ntuniprot(RecName_Full='Putative uncharacterized helicase-like protein YHR218W-A {ECO:0000305}'),
   'A0A023PZB3' : ntuniprot(RecName_Full='Protein FMP49, mitochondrial {ECO:0000305|PubMed:14576278}'),
   'A0A0B7P221' : ntuniprot(RecName_Full='Uncharacterized protein RDT1 {ECO:0000303|PubMed:21948395}'),
@@ -1190,7 +1190,7 @@ UNIPROT2NT = { # 5,916 items
   'P28273' : ntuniprot(RecName_Full='5-oxoprolinase'),
   'P28274' : ntuniprot(RecName_Full='CTP synthase 1'),
   'P28319' : ntuniprot(RecName_Full='Cell wall protein CWP1'),
-  'P28320' : ntuniprot(RecName_Full='Protein CWC16'),
+  'P28320' : ntuniprot(RecName_Full='Splicing factor YJU2 {ECO:0000255|HAMAP-Rule:MF_03226}'),
   'P28321' : ntuniprot(RecName_Full='Monoglyceride lipase {ECO:0000305}'),
   'P28495' : ntuniprot(RecName_Full='F-actin-capping protein subunit alpha'),
   'P28496' : ntuniprot(RecName_Full='Sphingosine N-acyltransferase LAC1'),
@@ -1486,7 +1486,7 @@ UNIPROT2NT = { # 5,916 items
   'P32791' : ntuniprot(RecName_Full='Ferric/cupric reductase transmembrane component 1 {ECO:0000305}'),
   'P32792' : ntuniprot(RecName_Full='UPF0744 protein YSC83'),
   'P32793' : ntuniprot(RecName_Full='Protein YSC84'),
-  'P32794' : ntuniprot(RecName_Full='ATPase family gene 2 protein'),
+  'P32794' : ntuniprot(RecName_Full='ATPase family gene 2 protein {ECO:0000303|PubMed:8109176}'),
   'P32795' : ntuniprot(RecName_Full='Mitochondrial inner membrane i-AAA protease supercomplex subunit YME1'),
   'P32796' : ntuniprot(RecName_Full='Carnitine O-acetyltransferase, mitochondrial'),
   'P32797' : ntuniprot(RecName_Full='Cell division control protein 13'),
@@ -1756,7 +1756,7 @@ UNIPROT2NT = { # 5,916 items
   'P36007' : ntuniprot(RecName_Full='L-threo-3-hydroxyaspartate ammonia-lyase {ECO:0000305|PubMed:12951240}'),
   'P36008' : ntuniprot(RecName_Full='Elongation factor 1-gamma 2'),
   'P36009' : ntuniprot(RecName_Full='Probable ATP-dependent RNA helicase DHR2'),
-  'P36010' : ntuniprot(RecName_Full='Nucleoside diphosphate kinase'),
+  'P36010' : ntuniprot(RecName_Full='Nucleoside diphosphate kinase {ECO:0000303|PubMed:5793714}'),
   'P36012' : ntuniprot(RecName_Full='Histone H3-like centromeric protein CSE4'),
   'P36013' : ntuniprot(RecName_Full='NAD-dependent malic enzyme, mitochondrial'),
   'P36014' : ntuniprot(RecName_Full='Glutathione peroxidase-like peroxiredoxin 1 {ECO:0000305}'),
@@ -1777,7 +1777,7 @@ UNIPROT2NT = { # 5,916 items
   'P36034' : ntuniprot(RecName_Full='Protein COS9'),
   'P36035' : ntuniprot(RecName_Full='Carboxylic acid transporter protein homolog'),
   'P36036' : ntuniprot(RecName_Full='RNA annealing protein YRA2'),
-  'P36037' : ntuniprot(RecName_Full='Protein DOA1'),
+  'P36037' : ntuniprot(RecName_Full='Protein DOA1 {ECO:0000303|PubMed:2111732}'),
   'P36038' : ntuniprot(RecName_Full='Cytochrome b termination protein 1'),
   'P36039' : ntuniprot(RecName_Full='ER membrane protein complex subunit 3'),
   'P36040' : ntuniprot(RecName_Full='Proteasome assembly chaperone 2'),
@@ -2390,7 +2390,7 @@ UNIPROT2NT = { # 5,916 items
   'P38892' : ntuniprot(RecName_Full='Probable S-adenosylmethionine-dependent methyltransferase CRG1'),
   'P38893' : ntuniprot(RecName_Full='Uncharacterized isomerase YHR210C'),
   'P38894' : ntuniprot(RecName_Full='Flocculation protein FLO5'),
-  'P38899' : ntuniprot(RecName_Full='Putative uncharacterized protein YHR218W'),
+  'P38899' : ntuniprot(RecName_Full='Uncharacterized protein YHR218W'),
   'P38900' : ntuniprot(RecName_Full='Putative uncharacterized protein YHR219W'),
   'P38902' : ntuniprot(RecName_Full='DNA-directed RNA polymerase II subunit RPB11'),
   'P38903' : ntuniprot(RecName_Full='Serine/threonine-protein phosphatase 2A 56 kDa regulatory subunit delta isoform'),
@@ -3311,7 +3311,7 @@ UNIPROT2NT = { # 5,916 items
   'P47115' : ntuniprot(RecName_Full='Uncharacterized protein YJR056C'),
   'P47116' : ntuniprot(RecName_Full='Serine/threonine-protein kinase PTK2/STK2'),
   'P47117' : ntuniprot(RecName_Full='Actin-related protein 3'),
-  'P47118' : ntuniprot(RecName_Full='Uncharacterized protein YAE1'),
+  'P47118' : ntuniprot(RecName_Full='Protein YAE1'),
   'P47119' : ntuniprot(RecName_Full='Inosine triphosphate pyrophosphatase {ECO:0000255|HAMAP-Rule:MF_03148}'),
   'P47120' : ntuniprot(RecName_Full='Deoxyhypusine hydroxylase {ECO:0000255|HAMAP-Rule:MF_03101}'),
   'P47122' : ntuniprot(RecName_Full='GPN-loop GTPase 1 {ECO:0000303|PubMed:21532343}'),
@@ -3681,7 +3681,7 @@ UNIPROT2NT = { # 5,916 items
   'P53204' : ntuniprot(RecName_Full='Nicotinamide/nicotinic acid mononucleotide adenylyltransferase 2 {ECO:0000305}'),
   'P53206' : ntuniprot(RecName_Full='Putative cysteine synthase {ECO:0000305|PubMed:9409150}'),
   'P53207' : ntuniprot(RecName_Full='U1 small nuclear ribonucleoprotein component SNU71'),
-  'P53208' : ntuniprot(RecName_Full='Uncharacterized abhydrolase domain-containing protein YGR015C'),
+  'P53208' : ntuniprot(RecName_Full='Ethanol acetyltransferase 1'),
   'P53209' : ntuniprot(RecName_Full='Uncharacterized membrane protein YGR016W'),
   'P53210' : ntuniprot(RecName_Full='Uncharacterized protein YGR017W'),
   'P53211' : ntuniprot(RecName_Full='Uncharacterized protein YGR018C'),
@@ -3690,7 +3690,7 @@ UNIPROT2NT = { # 5,916 items
   'P53215' : ntuniprot(RecName_Full='tRNA(His) guanylyltransferase'),
   'P53217' : ntuniprot(RecName_Full='Uncharacterized membrane protein YGR026W'),
   'P53218' : ntuniprot(RecName_Full='Ribonucleases P/MRP protein subunit POP6'),
-  'P53219' : ntuniprot(RecName_Full='Abhydrolase domain-containing protein IMO32'),
+  'P53219' : ntuniprot(RecName_Full='Probable alcohol acetyltransferase'),
   'P53220' : ntuniprot(RecName_Full='Mitochondrial import inner membrane translocase subunit TIM21'),
   'P53221' : ntuniprot(RecName_Full='60S ribosomal protein L26-B {ECO:0000303|PubMed:9559554}'),
   'P53222' : ntuniprot(RecName_Full='Uncharacterized protein YGR035C'),
@@ -3889,7 +3889,7 @@ UNIPROT2NT = { # 5,916 items
   'P53843' : ntuniprot(RecName_Full='Vacuolar protein sorting-associated protein IST1'),
   'P53844' : ntuniprot(RecName_Full='Phosphatidylinositol transfer protein PDR17'),
   'P53845' : ntuniprot(RecName_Full='Protein transport protein YIF1'),
-  'P53846' : ntuniprot(RecName_Full='Uncharacterized ORAOV1 family protein YNL260C'),
+  'P53846' : ntuniprot(RecName_Full='Protein LTO1 {ECO:0000303|PubMed:23318452, ECO:0000305}'),
   'P53847' : ntuniprot(RecName_Full='Protein transport protein DSL1'),
   'P53848' : ntuniprot(RecName_Full='Folic acid synthesis protein FOL1'),
   'P53849' : ntuniprot(RecName_Full='Zinc finger protein GIS2'),
@@ -4131,7 +4131,7 @@ UNIPROT2NT = { # 5,916 items
   'Q02100' : ntuniprot(RecName_Full='CRE-binding bZIP protein SKO1'),
   'Q02159' : ntuniprot(RecName_Full='Ubiquitin-conjugating enzyme E2 7'),
   'Q02196' : ntuniprot(RecName_Full='Adenylyl-sulfate kinase'),
-  'Q02197' : ntuniprot(RecName_Full='N-alpha-acetyltransferase, 35 NatC auxiliary subunit'),
+  'Q02197' : ntuniprot(RecName_Full='N-alpha-acetyltransferase 35, NatC auxiliary subunit'),
   'Q02199' : ntuniprot(RecName_Full='Nucleoporin NUP49/NSP49'),
   'Q02201' : ntuniprot(RecName_Full='Oxysterol-binding protein homolog 6'),
   'Q02202' : ntuniprot(RecName_Full='Protein ECM9'),
@@ -4330,7 +4330,7 @@ UNIPROT2NT = { # 5,916 items
   'Q03508' : ntuniprot(RecName_Full='Uncharacterized protein YMR265C'),
   'Q03516' : ntuniprot(RecName_Full='Uncharacterized protein RSN1'),
   'Q03525' : ntuniprot(RecName_Full='Protein TMA23'),
-  'Q03529' : ntuniprot(RecName_Full='Ceramide very long chain fatty acid hydroxylase SCS7'),
+  'Q03529' : ntuniprot(RecName_Full='Ceramide very long chain fatty acid hydroxylase SCS7 {ECO:0000305|PubMed:9368039}'),
   'Q03530' : ntuniprot(RecName_Full='CAAX prenyl protease 2'),
   'Q03532' : ntuniprot(RecName_Full='ATP-dependent RNA helicase HAS1'),
   'Q03533' : ntuniprot(RecName_Full='Serine/threonine-protein kinase TDA1'),
@@ -5209,7 +5209,7 @@ UNIPROT2NT = { # 5,916 items
   'Q08965' : ntuniprot(RecName_Full='Ribosome biogenesis protein BMS1'),
   'Q08966' : ntuniprot(RecName_Full='PHO85 cyclin-8'),
   'Q08967' : ntuniprot(RecName_Full='Flavin carrier protein 1'),
-  'Q08968' : ntuniprot(RecName_Full='UPF0061 protein FMP40'),
+  'Q08968' : ntuniprot(RecName_Full='Protein adenylyltransferase SelO, mitochondrial {ECO:0000305}'),
   'Q08969' : ntuniprot(RecName_Full='Protein GRE1'),
   'Q08970' : ntuniprot(RecName_Full='Mitochondrial metal transporter 2'),
   'Q08971' : ntuniprot(RecName_Full='Protein PBDC1 homolog'),
@@ -5253,7 +5253,7 @@ UNIPROT2NT = { # 5,916 items
   'Q12026' : ntuniprot(RecName_Full='Putative uncharacterized protein YLR053C'),
   'Q12027' : ntuniprot(RecName_Full='Uncharacterized protein YDL176W'),
   'Q12028' : ntuniprot(RecName_Full='AP-1 complex subunit gamma-1'),
-  'Q12029' : ntuniprot(RecName_Full='Probable mitochondrial transport protein FSF1'),
+  'Q12029' : ntuniprot(RecName_Full='Sideroflexin FSF1 {ECO:0000305}'),
   'Q12030' : ntuniprot(RecName_Full='Transcription initiation factor TFIID subunit 10'),
   'Q12031' : ntuniprot(RecName_Full='Mitochondrial 2-methylisocitrate lyase'),
   'Q12032' : ntuniprot(RecName_Full='Altered inheritance of mitochondria protein 41, mitochondrial'),
@@ -5605,7 +5605,7 @@ UNIPROT2NT = { # 5,916 items
   'Q12482' : ntuniprot(RecName_Full='Mitochondrial aspartate-glutamate transporter AGC1'),
   'Q12483' : ntuniprot(RecName_Full='Vacuolar-sorting protein SNF8'),
   'Q12485' : ntuniprot(RecName_Full='Transposon Ty1-GR2 Gag polyprotein'),
-  'Q12486' : ntuniprot(RecName_Full='Putative uncharacterized hydrolase YOR131C'),
+  'Q12486' : ntuniprot(RecName_Full='Uncharacterized hydrolase YOR131C'),
   'Q12487' : ntuniprot(RecName_Full='54S ribosomal protein L23, mitochondrial'),
   'Q12488' : ntuniprot(RecName_Full='DNA replication complex GINS protein PSF1'),
   'Q12489' : ntuniprot(RecName_Full='Cysteine-rich and transmembrane domain-containing protein YDL012C'),
@@ -5619,7 +5619,6 @@ UNIPROT2NT = { # 5,916 items
   'Q12498' : ntuniprot(RecName_Full='Pheromone-regulated membrane protein 4'),
   'Q12499' : ntuniprot(RecName_Full='Nucleolar protein 58'),
   'Q12500' : ntuniprot(RecName_Full='Late secretory pathway protein AVL9'),
-  'Q12501' : ntuniprot(RecName_Full='Transposon Ty2-OR2 Gag-Pol polyprotein'),
   'Q12502' : ntuniprot(RecName_Full='Protein LDB19'),
   'Q12504' : ntuniprot(RecName_Full='Ribosomal lysine N-methyltransferase 4 {ECO:0000303|PubMed:18957409}'),
   'Q12505' : ntuniprot(RecName_Full='Serine/threonine-protein kinase SKS1'),
@@ -5820,7 +5819,7 @@ UNIPROT2NT = { # 5,916 items
   'Q6WNK7' : ntuniprot(RecName_Full='Transcription and mRNA export factor SUS1 {ECO:0000255|HAMAP-Rule:MF_03046}'),
   'Q7LHG5' : ntuniprot(RecName_Full='Transposon Ty3-I Gag-Pol polyprotein'),
   'Q7M4S9' : ntuniprot(RecName_Full='Uncharacterized protein YBL113C'),
-  'Q86ZR7' : ntuniprot(RecName_Full='Putative uncharacterized hydrolase YKL033W-A'),
+  'Q86ZR7' : ntuniprot(RecName_Full='Uncharacterized hydrolase YKL033W-A'),
   'Q8J0M4' : ntuniprot(RecName_Full='UPF0357 protein YCL012C'),
   'Q8TGJ0' : ntuniprot(RecName_Full='Uncharacterized protein YOR394C-A'),
   'Q8TGJ1' : ntuniprot(RecName_Full='UPF0320 protein YOL166W-A'),
@@ -5884,7 +5883,7 @@ UNIPROT2NT = { # 5,916 items
   'Q99190' : ntuniprot(RecName_Full='Very-long-chain enoyl-CoA reductase {ECO:0000305}'),
   'Q99207' : ntuniprot(RecName_Full='Nucleolar complex protein 14'),
   'Q99208' : ntuniprot(RecName_Full="Y' element ATP-dependent helicase YLL066C"),
-  'Q99210' : ntuniprot(RecName_Full='Maf-like protein YOR111W'),
+  'Q99210' : ntuniprot(RecName_Full='dTTP/UTP pyrophosphatase {ECO:0000305}'),
   'Q99216' : ntuniprot(RecName_Full='Pre-rRNA-processing protein PNO1'),
   'Q99220' : ntuniprot(RecName_Full='Protein OS-9 homolog'),
   'Q99222' : ntuniprot(RecName_Full='ARF3-interacting protein 1'),
@@ -5932,4 +5931,4 @@ UNIPROT2NT = { # 5,916 items
   'Q9ZZX1' : ntuniprot(RecName_Full='Intron-encoded DNA endonuclease aI5 alpha'),
 }
 
-# Copyright (C) 2014-2018 DV Klopfenstein. All rights reserved
+# Copyright (C) 2014-2019 DV Klopfenstein. All rights reserved

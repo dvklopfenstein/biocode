@@ -21,16 +21,16 @@ NCBI_Gene_hsa_uRNA:
 
 
 # Download all current DNA items for Mus musculus (house mouse)
-NCBI_Gene_mus_all:
-	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_mus_All.tsv
+NCBI_Gene_mmu_all:
+	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_mmu_All.tsv
 
 # Download all protein-coding genes for Mus musculus (house mouse)
-NCBI_Gene_mus_pc:
-	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_mus_ProteinCoding.tsv
+NCBI_Gene_mmu_pc:
+	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_mmu_ProteinCoding.tsv
 
 # Download all microRNA for Mus musculus (house mouse)
-NCBI_Gene_mus_uRNA:
-	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_mus_microRNA.tsv
+NCBI_Gene_mmu_uRNA:
+	mv $(DL)/gene_result.txt ./NCBI/genes_NCBI_mmu_microRNA.tsv
 
 
 

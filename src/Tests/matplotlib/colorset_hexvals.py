@@ -8,6 +8,8 @@ __copyright__ = "Copyright (C) 2014-2017 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
 import sys
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from pydvkbiology.matplotlib.ColorObj import MplColorHelper
 import numpy as np
@@ -15,6 +17,7 @@ import numpy as np
 
 def run(palette='Set1', num_vals=10):
     """Creating hexvalues for discrete colors using a colormap."""
+    fout_png = 'colors_{P}.png'.format(P=palette)
     _, axis = plt.subplots(1, 1, figsize=(6, 6))
     xvals = [10]*num_vals
     yvals = range(num_vals)
@@ -25,6 +28,7 @@ def run(palette='Set1', num_vals=10):
         plt.text(xval+.004, yval, color, fontsize=20, va='center')
     axis.set_title('{N} Discrete Colors from {MAP}'.format(N=num_vals, MAP=palette))
     plt.show()
+    plt.savefig(fout_png)
 
 
 def cli():

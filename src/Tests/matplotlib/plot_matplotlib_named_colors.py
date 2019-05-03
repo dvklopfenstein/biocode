@@ -2,6 +2,8 @@
 
 # http://stackoverflow.com/questions/22408237/named-colors-in-matplotlib
 
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import matplotlib.colors as colors
@@ -31,3 +33,4 @@ for c in colors.cnames:
         y += 1
 
 plt.show()
+plt.savefig('color_names.png')

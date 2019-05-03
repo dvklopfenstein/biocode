@@ -26,6 +26,8 @@ __license__ = "GPL"
 #   Create own colormap using matplotlig and plot color scale
 #     http://stackoverflow.com/questions/16834861/
 
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 from matplotlib import cm

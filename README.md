@@ -43,6 +43,11 @@ _Scientific reports_ | (2018) 8:10872 | DOI:10.1038/s41598-018-28948-z
   * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
   * [**AI generated paint colors**](http://lewisandquark.tumblr.com/post/160776374467/new-paint-colors-invented-by-neural-network)
 
+### Linestyles and Markers 
+  * [Matplotlib custom marker/symbol](https://stackoverflow.com/questions/14324270/matplotlib-custom-marker-symbol)    
+  * [linestyles](https://matplotlib.org/1.5.3/api/pyplot_api.html#matplotlib.pyplot.plot)    
+  * [LaTeX Equation simulator](https://www.codecogs.com/latex/eqneditor.php)
+
 ### Advice on Color Picking
   * [**J\*FLY**](http://jfly.iam.u-tokyo.ac.jp/color/index.html)
   * [**Mapbox**](https://www.mapbox.com/tilemill/docs/guides/tips-for-color/)

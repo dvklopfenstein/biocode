@@ -7,6 +7,10 @@
 | #ffffff | White
 | #e2231b | Cherry Red
 
+## Coat of Arms/Seal Colors
+
+! [RPI Coat of Arms](/doc/images/rensselaer-polytechnic-institute.svg)
+
 | rgb     | Color
 |---------|-------------
 | #006699 | Sea-blue
@@ -16,4 +20,3 @@
 | #ed1c2e | Cherry Red (Bright)
 | #000000 | Black
 
-## Coat of Arms/Seal Colors

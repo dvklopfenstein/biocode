@@ -22,8 +22,8 @@ _Scientific reports_ | (2018) 8:10872 | DOI:10.1038/s41598-018-28948-z
 
 ### Biology
 
-  * [**Sequence Variants**](doc/seq_variants.md)
   * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
+  * [**Sequence Variants**](doc/seq_variants.md)
   * [**Mouse Resources**](./doc/mouse_resources/README.md)
   * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
   * A good description of the [**PhD student experience**](./doc/How_PhD_thesis_topic.md)

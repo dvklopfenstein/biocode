@@ -25,6 +25,7 @@ Contains various links
   * [**Map Colors**](http://colorbrewer2.org/)
   * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
   * [**AI generated paint colors**](http://lewisandquark.tumblr.com/post/160776374467/new-paint-colors-invented-by-neural-network)
+  * [**Fishualize**](https://github.com/nschiett/fishualize) and [palettes](https://nschiett.github.io/fishualize/articles/overview_colors.html)     
 
 ### Linestyles and Markers 
   * [Matplotlib custom marker/symbol](https://stackoverflow.com/questions/14324270/matplotlib-custom-marker-symbol)    

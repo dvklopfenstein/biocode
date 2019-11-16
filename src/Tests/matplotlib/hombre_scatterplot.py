@@ -7,6 +7,8 @@ __author__ = 'DV Klopfenstein'
 __copyright__ = "Copyright (C) 2014-2017 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from pydvkbiology.matplotlib.ColorObj import MplColorHelper
 import numpy as np
@@ -30,6 +32,7 @@ def main():
     axis.scatter(xval, yval, s=200, c=objcol.get_rgb(yval))
     axis.set_title('Well defined discrete colors')
     plt.show()
+    plt.savefig('hombre_scatterplot.png')
 
 
 if __name__ == '__main__':

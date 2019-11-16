@@ -24,7 +24,7 @@ def run(palette='Set1', num_vals=10):
     colobj = MplColorHelper(palette, 0, num_vals-1)
     colors = [colobj.get_hexstr(yval) for yval in yvals]
     for xval, yval, color in zip(xvals, yvals, colors):
-        plt.scatter(xval, yval, s=1000, color=color)
+        plt.scatter(xval, yval, s=1000, marker='s', color=color)
         plt.text(xval+.004, yval, color, fontsize=20, va='center')
     axis.set_title('{N} Discrete Colors from {MAP}'.format(N=num_vals, MAP=palette))
     plt.show()

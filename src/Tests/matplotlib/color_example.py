@@ -7,6 +7,8 @@ __author__ = 'DV Klopfenstein'
 __copyright__ = "Copyright (C) 2014-2017 DV Klopfenstein. All rights reserved."
 __license__ = "GPL"
 
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from pydvkbiology.matplotlib.ColorObj import MplColorHelper
 import numpy as np
@@ -44,6 +46,7 @@ def main():
             yval += 1
 
     plt.show()
+    plt.savefig('color_example.png')
 
 
 if __name__ == '__main__':

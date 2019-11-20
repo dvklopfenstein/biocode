@@ -26,7 +26,9 @@ Contains various links
   * [**Color Hex Color Palettes**](http://www.color-hex.com/color-palettes/popular.php)
   * [**AI generated paint colors**](http://lewisandquark.tumblr.com/post/160776374467/new-paint-colors-invented-by-neural-network)
   * [**Fishualize**](https://github.com/nschiett/fishualize) and [palettes](https://nschiett.github.io/fishualize/articles/overview_colors.html)     
-  * [**Seaborn color palette tutorial**](https://seaborn.pydata.org/tutorial/color_palettes.html)    
+  * **Seaborn**
+    * [**Color palette tutorial**](https://seaborn.pydata.org/tutorial/color_palettes.html)    
+    * [**Get a set of evenly spaced colors in HUSL hue space**](https://seaborn.pydata.org/generated/seaborn.husl_palette.html)    
 
 ### Linestyles and Markers 
   * [Matplotlib custom marker/symbol](https://stackoverflow.com/questions/14324270/matplotlib-custom-marker-symbol)    

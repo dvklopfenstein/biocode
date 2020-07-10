@@ -3,19 +3,6 @@ Contains various links
 
 ## For Reference:
 
-### Biology
-
-  * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
-  * [**Sequence Variants**](doc/seq_variants.md)
-  * [**Mouse Resources**](./doc/mouse_resources/README.md)
-  * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
-  * A good description of the [**PhD student experience**](./doc/How_PhD_thesis_topic.md)
-    by [Yasha Berchenko-Kogan](http://math.mit.edu/~yashabk/)
-
-### Bio Downloads
-  * Selected [downloads](biodownloads/README.md) from Biological databases
-  * [Biosketch, CV, resume](./doc/resume/biosketch_dvklopfenstein2015.pdf)
-
 ### Color Picking
   * [**colormaps**](https://scipy-lectures.github.io/_images/plot_colormaps_1.png) and
     [**more colormaps**](http://matplotlib.org/examples/color/colormaps_reference.html) and
@@ -29,6 +16,19 @@ Contains various links
   * **Seaborn**
     * [**Color palette tutorial**](https://seaborn.pydata.org/tutorial/color_palettes.html)    
     * [**Get a set of evenly spaced colors in HUSL hue space**](https://seaborn.pydata.org/generated/seaborn.husl_palette.html)    
+
+### Biology
+
+  * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
+  * [**Sequence Variants**](doc/seq_variants.md)
+  * [**Mouse Resources**](./doc/mouse_resources/README.md)
+  * An Excellent [**Explanation of the Multiple Comparisons Issue**](./doc/multiple_comparisons.md) by Geoffrey Brent
+  * A good description of the [**PhD student experience**](./doc/How_PhD_thesis_topic.md)
+    by [Yasha Berchenko-Kogan](http://math.mit.edu/~yashabk/)
+
+### Bio Downloads
+  * Selected [downloads](biodownloads/README.md) from Biological databases
+  * [Biosketch, CV, resume](./doc/resume/biosketch_dvklopfenstein2015.pdf)
 
 ### Linestyles and Markers 
   * [Matplotlib custom marker/symbol](https://stackoverflow.com/questions/14324270/matplotlib-custom-marker-symbol)    
@@ -169,4 +169,4 @@ In a previous life...
 _Education is not the filling of a pail, but the lighting of a fire._    
 -William Butler Yeats
 
-Copyright (C) 2015-2016, DV Klopfenstein. All rights reserved.
+Copyright (C) 2015-present, DV Klopfenstein. All rights reserved.

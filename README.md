@@ -19,6 +19,7 @@ Contains various links
 
 ### Biology
 
+  * [**JKX Science comics**](https://www.jkxcomics.com/)
   * [**Pedigree Reference**](./doc/pedigree_reference.png) and [**Punnett Squares for Blood Type**](./doc/ABO_punnett_square.png)
   * [**Sequence Variants**](doc/seq_variants.md)
   * [**Mouse Resources**](./doc/mouse_resources/README.md)

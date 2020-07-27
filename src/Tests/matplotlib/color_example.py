@@ -47,6 +47,7 @@ def main():
 
     plt.show()
     plt.savefig('color_example.png')
+    print('  WROTE: {IMG}'.format(IMG='color_example.png'))
 
 
 if __name__ == '__main__':

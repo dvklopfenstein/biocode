@@ -29,7 +29,6 @@ Contains various links
 
 ### Bio Downloads
   * Selected [downloads](biodownloads/README.md) from Biological databases
-  * [Biosketch, CV, resume](./doc/resume/biosketch_dvklopfenstein2015.pdf)
 
 ### Linestyles and Markers 
   * [Matplotlib custom marker/symbol](https://stackoverflow.com/questions/14324270/matplotlib-custom-marker-symbol)    
